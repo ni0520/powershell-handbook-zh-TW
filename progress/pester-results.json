@@ -1,13 +1,13 @@
 {
-  "run_at_utc": "2026-10-23T22:41:40.6483691Z",
+  "run_at_utc": "2026-10-23T23:14:56.3507566Z",
   "powershell": "7.6.8",
   "os": "Debian GNU/Linux 13 (trixie)",
   "pester": "5.7.1",
   "result": "Passed",
-  "total": 37,
-  "passed": 37,
+  "total": 52,
+  "passed": 47,
   "failed": 0,
-  "skipped": 0,
+  "skipped": 5,
   "tests": [
     {
       "name": "第22章：限定暫存範圍的檔案操作.UTF-8無BOM保留繁中與中括號檔名",
@@ -192,6 +192,81 @@
     {
       "name": "第21章：訂單總額與邊界.拒絕負數單價",
       "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第26至30章：Linux可驗證的有限行為.查詢目前程序而非所有程序",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第26至30章：Linux可驗證的有限行為.工作集是非負位元組觀察值",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第26至30章：Linux可驗證的有限行為.只終止自己啟動的子程序且WhatIf不終止",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第26至30章：Linux可驗證的有限行為.相同事件Id不同提供者必須分組",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第26至30章：Linux可驗證的有限行為.固定UTC時間保留時區標示",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第26至30章：Linux可驗證的有限行為.IPv4格式解析與回送辨識不產生網路查詢",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第26至30章：Linux可驗證的有限行為.IPv6回送辨識",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第26至30章：Linux可驗證的有限行為.無效位址不當成可用目標",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第26至30章：Linux可驗證的有限行為.合成CIM形狀資料只驗證欄位整理",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第26至30章：Linux可驗證的有限行為.目前PID組成整數WQL條件而非執行查詢",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "需要平台能力的實際查詢；本Linux不以模擬替代.Windows服務唯讀查詢",
+      "result": "Skipped",
+      "error": ""
+    },
+    {
+      "name": "需要平台能力的實際查詢；本Linux不以模擬替代.Windows Registry唯讀查詢",
+      "result": "Skipped",
+      "error": ""
+    },
+    {
+      "name": "需要平台能力的實際查詢；本Linux不以模擬替代.Windows事件記錄中繼資料唯讀查詢",
+      "result": "Skipped",
+      "error": ""
+    },
+    {
+      "name": "需要平台能力的實際查詢；本Linux不以模擬替代.Windows本機CIM唯讀查詢",
+      "result": "Skipped",
+      "error": ""
+    },
+    {
+      "name": "需要平台能力的實際查詢；本Linux不以模擬替代.回送ICMP需要系統ping能力",
+      "result": "Skipped",
       "error": ""
     }
   ]

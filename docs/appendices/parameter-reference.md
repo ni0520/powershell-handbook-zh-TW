@@ -261,3 +261,67 @@
 類型：命令專屬參數。Get-FileHash預設SHA256；不要把雜湊當成加密或來源簽章。
 
 適用：Get-FileHash。版本：7.6基準；版本差異見描述與章節。[對應章節](../../docs/chapters/25-archives-backup.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-FileHash.md)，查閱 2026-10-24。
+
+<a id="parameter-id"></a>
+
+## -Id（識別碼）
+
+類型：命令專屬參數。Get-Process為PID；事件Id屬於事件查詢條件，不能跨命令混同。
+
+適用：Get-Process。版本：本版7.6文件；依命令參數組。[對應章節](../../docs/chapters/26-processes-services.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Process.md)，查閱 2026-10-24。
+
+<a id="parameter-passthru"></a>
+
+## -PassThru（回傳處理結果）
+
+類型：命令專屬參數。Start-Process回傳程序物件；其他命令的回傳型別各自定義。
+
+適用：Start-Process。版本：本版7.6文件；依命令參數組。[對應章節](../../docs/chapters/26-processes-services.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Start-Process.md)，查閱 2026-10-24。
+
+<a id="parameter-propertytype"></a>
+
+## -PropertyType（屬性型別）
+
+類型：命令專屬參數。Registry建立值時指定String、DWord等，不能只比對顯示文字。
+
+適用：New-ItemProperty。版本：本版7.6文件；依命令參數組。[對應章節](../../docs/chapters/27-windows-registry.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/New-ItemProperty.md)，查閱 2026-10-24。
+
+<a id="parameter-filterhashtable"></a>
+
+## -FilterHashtable（雜湊表查詢條件）
+
+類型：命令專屬參數。Get-WinEvent支援LogName、Level、StartTime等指定鍵；非任意欄位。
+
+適用：Get-WinEvent。版本：本版7.6文件；依命令參數組。[對應章節](../../docs/chapters/28-events-system-info.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Diagnostics/Get-WinEvent.md)，查閱 2026-10-24。
+
+<a id="parameter-maxevents"></a>
+
+## -MaxEvents（事件筆數上限）
+
+類型：命令專屬參數。限制取得數量，結果不可冒稱完整時間區間總量。
+
+適用：Get-WinEvent。版本：本版7.6文件；依命令參數組。[對應章節](../../docs/chapters/28-events-system-info.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Diagnostics/Get-WinEvent.md)，查閱 2026-10-24。
+
+<a id="parameter-targetname"></a>
+
+## -TargetName（目標名稱）
+
+類型：命令專屬參數。Test-Connection的必要目標，版本與舊ComputerName寫法需區分。
+
+適用：Test-Connection。版本：本版7.6文件；依命令參數組。[對應章節](../../docs/chapters/29-network-diagnostics.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Test-Connection.md)，查閱 2026-10-24。
+
+<a id="parameter-cimsession"></a>
+
+## -CimSession（CIM工作階段）
+
+類型：命令專屬參數。指定已建立的CIM連線物件，查詢後須負責清理。
+
+適用：Get-CimInstance。版本：本版7.6文件；依命令參數組。[對應章節](../../docs/chapters/30-cim-remote-management.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimInstance.md)，查閱 2026-10-24。
+
+<a id="parameter-classname"></a>
+
+## -ClassName（類別名稱）
+
+類型：命令專屬參數。例如Win32_OperatingSystem；類別與命名空間依目標提供者。
+
+適用：Get-CimInstance。版本：本版7.6文件；依命令參數組。[對應章節](../../docs/chapters/30-cim-remote-management.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimInstance.md)，查閱 2026-10-24。

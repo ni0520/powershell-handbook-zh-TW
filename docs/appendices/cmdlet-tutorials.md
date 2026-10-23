@@ -4,7 +4,7 @@
 
 [返回目錄](../README.md)
 
-本附錄十五個主要命令採十四項教學結構。語法以本機 7.6.8 為基準；參數段是教學摘要，完整參數組與必要性另存 `data/runtime-command-metadata.json`。範例中的錯誤案例是刻意示範；不代表要修正後再當成正常輸入。
+本附錄二十個主要命令採十四項教學結構。跨平台命令語法以本機 7.6.8 為基準；Windows命令另依固定官方文件，未執行者明確標示；參數段是教學摘要，完整參數組與必要性另存 `data/runtime-command-metadata.json`。範例中的錯誤案例是刻意示範；不代表要修正後再當成正常輸入。
 
 <a id="get-command"></a>
 
@@ -1378,3 +1378,486 @@ Compress＝壓縮；Archive＝封存。將明確範圍裝進ZIP，之後仍要�
 ### 14. 官方參考資料
 
 [Compress-Archive](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Archive/Compress-Archive.md) — Microsoft；PowerShell 7.6 文件；查閱 2026-10-24。語法與行為檢查範圍另見驗證紀錄，不以代表性測試推定所有參數組皆已測過。
+
+<a id="get-process"></a>
+
+## Get-Process（取得處理程序）
+
+### 1. 指令名稱
+
+Get-Process，取得處理程序；模組Microsoft.PowerShell.Management。
+
+### 2. 學習重要程度
+
+★★★★★：系統管理核心，星級為教材學習順序。
+
+### 3. 功能介紹
+
+查目前程序或指定PID，CPU是累計秒數，不是即時百分比。
+
+### 4. 使用情境
+
+見[第26章](../chapters/26-processes-services.md)。Windows範例及遠端範本不得在缺少平台／授權時照貼執行。
+
+### 5. 英文拆解
+
+Get＝取得；Process＝正在執行的程序。
+
+### 6. 指令語法
+
+以下為教學摘要，完整參數組查官方來源；data/runtime-command-metadata.json將本機可用與缺少命令分開記錄，存在命令不等於該提供者操作已測。
+
+```text
+Get-Process -Id <Int32[]> [<CommonParameters>]
+```
+
+### 7. 參數說明
+
+Id：精確PID；Name：另一參數組，可接受名稱模式；InputObject：已取得程序物件。Module與FileVersionInfo改變回傳資料種類；IncludeUserName有平台與權限限制。 通用參數見[參數索引](parameter-reference.md)。
+
+### 8. 五類實際範例
+
+下列是獨立教學片段，含刻意錯誤；變數的建立條件如註解所述。除Get-Process本機查詢外，平台與連線未執行限制見第11節。
+
+**基礎**
+
+```powershell
+Get-Process -Id $PID
+```
+
+**進階**
+
+```powershell
+Get-Process -Id $PID | Select-Object Id,ProcessName,WorkingSet64,CPU
+```
+
+**實務**
+
+```powershell
+Get-Process -Id $PID | Select-Object Id,@{Name='MemoryMB';Expression={[math]::Round($_.WorkingSet64 / 1MB,2)}}
+```
+
+**常見錯誤**
+
+```powershell
+# 故意查不存在的識別碼，不停止任何程序
+Get-Process -Id 2147483647 -ErrorAction Stop
+```
+
+**錯誤修正**
+
+```powershell
+# 回到已確認屬於目前工作階段的PID
+Get-Process -Id $PID -ErrorAction Stop
+```
+
+### 9. 輸出結果
+
+Process物件的Id、ProcessName、WorkingSet64及CPU；CPU是累計秒數。
+
+### 10. 常見錯誤
+
+程序可能在查詢間退出；找不到PID不等於權限不足。Name可匹配多筆，避免直接接到廣泛Stop-Process。
+
+### 11. 安全注意事項
+
+只查必要欄位；Module、完整路徑與帳戶資訊可能敏感。Linux僅對目前程序與自建子程序實測。
+
+### 12. 相關 Cmdlet
+
+Start-Process、Stop-Process、Wait-Process；入口見[總索引](master-index.md)。
+
+### 13. 記憶技巧
+
+Get＝取得；Process＝正在執行的程序。
+
+### 14. 官方參考資料
+
+[Get-Process](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Process.md) — Microsoft；查閱2026-10-24。文件查證、語法與平台實測分開記錄。
+
+<a id="get-itemproperty"></a>
+
+## Get-ItemProperty（取得項目屬性）
+
+### 1. 指令名稱
+
+Get-ItemProperty，取得項目屬性；模組Microsoft.PowerShell.Management。
+
+### 2. 學習重要程度
+
+★★★★★：系統管理核心，星級為教材學習順序。
+
+### 3. 功能介紹
+
+在Registry情境讀機碼的值；與列出子機碼不同。
+
+### 4. 使用情境
+
+見[第27章](../chapters/27-windows-registry.md)。Windows範例及遠端範本不得在缺少平台／授權時照貼執行。
+
+### 5. 英文拆解
+
+Get＝取得；Item＝項目；Property＝屬性。Registry值是機碼的屬性。
+
+### 6. 指令語法
+
+以下為教學摘要，完整參數組查官方來源；data/runtime-command-metadata.json將本機可用與缺少命令分開記錄，存在命令不等於該提供者操作已測。
+
+```text
+Get-ItemProperty -LiteralPath <String[]> [-Name <String[]>] [<CommonParameters>]
+```
+
+### 7. 參數說明
+
+LiteralPath：精確項目路徑，與Path參數組擇一；Name：要取得的屬性名稱；ErrorAction Stop用於區分失敗。不同提供者支援的屬性不同，Credential不能被理解為任意提供者都可替換身分。 通用參數見[參數索引](parameter-reference.md)。
+
+### 8. 五類實際範例
+
+下列是獨立教學片段，含刻意錯誤；變數的建立條件如註解所述。除Get-Process本機查詢外，平台與連線未執行限制見第11節。
+
+**基礎**
+
+```powershell
+# 僅Windows；讀目前帳戶Software機碼的屬性
+Get-ItemProperty -LiteralPath 'HKCU:\Software'
+```
+
+**進階**
+
+```powershell
+# labKey須由第27章練習建立且尚未清理
+Get-ItemProperty -LiteralPath $labKey -Name RetryCount
+```
+
+**實務**
+
+```powershell
+Get-ItemProperty -LiteralPath $labKey -Name RetryCount | Select-Object RetryCount
+```
+
+**常見錯誤**
+
+```powershell
+# 值不是子路徑，此寫法無法取代屬性查詢
+Get-Item -LiteralPath ($labKey + '\RetryCount') -ErrorAction Stop
+```
+
+**錯誤修正**
+
+```powershell
+Get-ItemPropertyValue -LiteralPath $labKey -Name RetryCount -ErrorAction Stop
+```
+
+### 9. 輸出結果
+
+Registry情境回傳包含值及PSPath等提供者欄位的物件；不是子機碼清單。
+
+### 10. 常見錯誤
+
+機碼不存在、值不存在、提供者缺少與拒絕存取應分開診斷；不要一律當預設值。
+
+### 11. 安全注意事項
+
+本段Registry情境僅Windows且未實測；不要匯出整個使用者設定樹。命令本身在其他提供者可用不代表Registry也可用。
+
+### 12. 相關 Cmdlet
+
+Get-ItemPropertyValue、New-ItemProperty、Set-ItemProperty、Remove-ItemProperty；入口見[總索引](master-index.md)。
+
+### 13. 記憶技巧
+
+Get＝取得；Item＝項目；Property＝屬性。Registry值是機碼的屬性。
+
+### 14. 官方參考資料
+
+[Get-ItemProperty](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ItemProperty.md) — Microsoft；查閱2026-10-24。文件查證、語法與平台實測分開記錄。
+
+<a id="get-winevent"></a>
+
+## Get-WinEvent（讀取Windows事件）
+
+### 1. 指令名稱
+
+Get-WinEvent，讀取Windows事件；模組Microsoft.PowerShell.Diagnostics。
+
+### 2. 學習重要程度
+
+★★★★★：系統管理核心，星級為教材學習順序。
+
+### 3. 功能介紹
+
+按來源、時間與層級讀事件；查詢失敗不能當零事件。
+
+### 4. 使用情境
+
+見[第28章](../chapters/28-events-system-info.md)。Windows範例及遠端範本不得在缺少平台／授權時照貼執行。
+
+### 5. 英文拆解
+
+Get＝取得；Win＝Windows；Event＝事件。先選記錄來源，再讀事件。
+
+### 6. 指令語法
+
+以下為教學摘要，完整參數組查官方來源；data/runtime-command-metadata.json將本機可用與缺少命令分開記錄，存在命令不等於該提供者操作已測。
+
+```text
+Get-WinEvent -FilterHashtable <Hashtable[]> [-MaxEvents <Int64>] [<CommonParameters>]
+```
+
+### 7. 參數說明
+
+FilterHashtable：此參數組的必要查詢條件，可含LogName、ProviderName、Id、Level、StartTime、EndTime等支援鍵；MaxEvents：上限；ListLog：不同參數組，用於記錄中繼資料；Oldest：反向時間順序。 通用參數見[參數索引](parameter-reference.md)。
+
+### 8. 五類實際範例
+
+下列是獨立教學片段，含刻意錯誤；變數的建立條件如註解所述。除Get-Process本機查詢外，平台與連線未執行限制見第11節。
+
+**基礎**
+
+```powershell
+Get-WinEvent -ListLog Application | Select-Object LogName,RecordCount
+```
+
+**進階**
+
+```powershell
+Get-WinEvent -FilterHashtable @{LogName='Application';Level=2} -MaxEvents 10
+```
+
+**實務**
+
+```powershell
+$filter = @{LogName='Application';StartTime=(Get-Date).AddHours(-1)}
+Get-WinEvent -FilterHashtable $filter -MaxEvents 50 | Select-Object TimeCreated,ProviderName,Id
+```
+
+**常見錯誤**
+
+```powershell
+# 只依Id分組會混淆不同提供者
+$events | Group-Object Id
+```
+
+**錯誤修正**
+
+```powershell
+# events由先前成功的查詢提供，仍受MaxEvents上限限制
+$events | Group-Object ProviderName,Id
+```
+
+### 9. 輸出結果
+
+事件物件可含TimeCreated、ProviderName、Id、Level、RecordId；ListLog回傳記錄設定，兩者不是同一型別。
+
+### 10. 常見錯誤
+
+NoMatchingEventsFound、記錄不存在與Access denied需分開。MaxEvents限制後不能宣稱完整事件總數。
+
+### 11. 安全注意事項
+
+Windows專用，本輪未執行。Message可能有帳戶、路徑或產品資料；本章不清除記錄、不修改ACL。
+
+### 12. 相關 Cmdlet
+
+Get-ComputerInfo、Group-Object、Select-Object；入口見[總索引](master-index.md)。
+
+### 13. 記憶技巧
+
+Get＝取得；Win＝Windows；Event＝事件。先選記錄來源，再讀事件。
+
+### 14. 官方參考資料
+
+[Get-WinEvent](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Diagnostics/Get-WinEvent.md) — Microsoft；查閱2026-10-24。文件查證、語法與平台實測分開記錄。
+
+<a id="test-connection"></a>
+
+## Test-Connection（測試連線）
+
+### 1. 指令名稱
+
+Test-Connection，測試連線；模組Microsoft.PowerShell.Management。
+
+### 2. 學習重要程度
+
+★★★★★：系統管理核心，星級為教材學習順序。
+
+### 3. 功能介紹
+
+以ICMP或支援版本的TCP參數測明確目標；失敗不等於主機關機。
+
+### 4. 使用情境
+
+見[第29章](../chapters/29-network-diagnostics.md)。Windows範例及遠端範本不得在缺少平台／授權時照貼執行。
+
+### 5. 英文拆解
+
+Test＝測試；Connection＝連線。一次測試只回答指定協定及目標的問題。
+
+### 6. 指令語法
+
+以下為教學摘要，完整參數組查官方來源；data/runtime-command-metadata.json將本機可用與缺少命令分開記錄，存在命令不等於該提供者操作已測。
+
+```text
+Test-Connection -TargetName <String[]> [-Count <Int32>] [-Quiet] [-TimeoutSeconds <Int32>] [<CommonParameters>]
+```
+
+### 7. 參數說明
+
+TargetName：必要目標；Count：次數；Quiet：布林結果；TimeoutSeconds：等待上限；TcpPort：另一參數組測TCP；Detailed：TCP詳細物件，需查版本。5.1與7語法不同。 通用參數見[參數索引](parameter-reference.md)。
+
+### 8. 五類實際範例
+
+下列是獨立教學片段，含刻意錯誤；變數的建立條件如註解所述。除Get-Process本機查詢外，平台與連線未執行限制見第11節。
+
+**基礎**
+
+```powershell
+Test-Connection -TargetName 127.0.0.1 -Count 1 -TimeoutSeconds 1
+```
+
+**進階**
+
+```powershell
+Test-Connection -TargetName 127.0.0.1 -Count 1 -TimeoutSeconds 1 -Quiet
+```
+
+**實務**
+
+```powershell
+# approvedHost必須是已授權的單一目標，本輪未執行
+Test-Connection -TargetName $approvedHost -TcpPort 443 -Count 1 -TimeoutSeconds 3
+```
+
+**常見錯誤**
+
+```powershell
+# 邏輯錯誤：不能用ICMP成功直接證明HTTPS登入正常
+$icmpOk = Test-Connection -TargetName 127.0.0.1 -Count 1 -Quiet
+```
+
+**錯誤修正**
+
+```powershell
+# 分開記錄各層結果；未測欄位保持null
+[pscustomobject]@{Icmp=$icmpOk;Tcp=$null;Tls=$null;Application=$null}
+```
+
+### 9. 輸出結果
+
+預設PingStatus；Quiet為布林值。TCP物件與ICMP物件不同；錯誤或工具缺少不能一律化成False。
+
+### 10. 常見錯誤
+
+ICMP失敗不等於關機；TCP成功也不代表TLS或應用程式成功。雲端缺少ping工具的實際錯誤已記錄，未宣稱連線通過。
+
+### 11. 安全注意事項
+
+只測明確核准目標，不以迴圈掃描網段。保留代理、TLS與網路政策；不能為消除錯誤而關閉驗證。
+
+### 12. 相關 Cmdlet
+
+Resolve-DnsName、Test-NetConnection；入口見[總索引](master-index.md)。
+
+### 13. 記憶技巧
+
+Test＝測試；Connection＝連線。一次測試只回答指定協定及目標的問題。
+
+### 14. 官方參考資料
+
+[Test-Connection](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Test-Connection.md) — Microsoft；查閱2026-10-24。文件查證、語法與平台實測分開記錄。
+
+<a id="get-ciminstance"></a>
+
+## Get-CimInstance（取得CIM實例）
+
+### 1. 指令名稱
+
+Get-CimInstance，取得CIM實例；模組CimCmdlets。
+
+### 2. 學習重要程度
+
+★★★★★：系統管理核心，星級為教材學習順序。
+
+### 3. 功能介紹
+
+唯讀取得管理實例快照；本版命令Windows專用。
+
+### 4. 使用情境
+
+見[第30章](../chapters/30-cim-remote-management.md)。Windows範例及遠端範本不得在缺少平台／授權時照貼執行。
+
+### 5. 英文拆解
+
+Get＝取得；CIM＝通用資訊模型；Instance＝類別的實例。
+
+### 6. 指令語法
+
+以下為教學摘要，完整參數組查官方來源；data/runtime-command-metadata.json將本機可用與缺少命令分開記錄，存在命令不等於該提供者操作已測。
+
+```text
+Get-CimInstance -ClassName <String> [-Filter <String>] [-Property <String[]>] [-CimSession <CimSession[]>] [<CommonParameters>]
+```
+
+### 7. 參數說明
+
+ClassName：必要類別名稱之一，Query是另一查詢形式；Filter：WQL條件；Property：選屬性；Namespace：命名空間；CimSession或ComputerName：目標連線。不要把PowerShell區塊當WQL。 通用參數見[參數索引](parameter-reference.md)。
+
+### 8. 五類實際範例
+
+下列是獨立教學片段，含刻意錯誤；變數的建立條件如註解所述。除Get-Process本機查詢外，平台與連線未執行限制見第11節。
+
+**基礎**
+
+```powershell
+Get-CimInstance -ClassName Win32_OperatingSystem -Property Caption,Version
+```
+
+**進階**
+
+```powershell
+Get-CimInstance -ClassName Win32_Process -Filter ('ProcessId = {0}' -f $PID) -Property ProcessId,Name
+```
+
+**實務**
+
+```powershell
+# session由第30章的核准遠端範本建立
+Get-CimInstance -CimSession $session -ClassName Win32_OperatingSystem -Property Caption,Version | Select-Object Caption,Version
+```
+
+**常見錯誤**
+
+```powershell
+# 故意錯誤的WQL：-eq是PowerShell運算子，不是這裡的WQL比較
+Get-CimInstance -ClassName Win32_Process -Filter 'ProcessId -eq 1' -ErrorAction Stop
+```
+
+**錯誤修正**
+
+```powershell
+Get-CimInstance -ClassName Win32_Process -Filter ('ProcessId = {0}' -f $PID) -Property ProcessId,Name
+```
+
+### 9. 輸出結果
+
+CimInstance快照，不是持續更新的監視器。Win32_OperatingSystem的Caption、Version等依目標實機而異。
+
+### 10. 常見錯誤
+
+查無實例、類別缺少、命名空間錯誤與連線授權失敗應分開記錄。Get-WmiObject舊腳本不能只改名而不查回傳型別。
+
+### 11. 安全注意事項
+
+本版CimCmdlets僅Windows，遠端範例未執行；不把合成PSCustomObject當整合測試，不執行修改或重新開機方法。
+
+### 12. 相關 Cmdlet
+
+New-CimSession、New-CimSessionOption、Remove-CimSession；入口見[總索引](master-index.md)。
+
+### 13. 記憶技巧
+
+Get＝取得；CIM＝通用資訊模型；Instance＝類別的實例。
+
+### 14. 官方參考資料
+
+[Get-CimInstance](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimInstance.md) — Microsoft；查閱2026-10-24。文件查證、語法與平台實測分開記錄。

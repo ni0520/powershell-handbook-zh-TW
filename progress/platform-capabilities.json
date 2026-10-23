@@ -1,0 +1,39 @@
+{
+  "run_at_utc": "2026-10-23T23:14:54.3272851Z",
+  "os": "Debian GNU/Linux 13 (trixie)",
+  "powershell": "7.6.8",
+  "windows": false,
+  "registry_provider": false,
+  "ping_application": false,
+  "commands": [
+    {
+      "Name": "Get-Process",
+      "Available": true
+    },
+    {
+      "Name": "Get-Service",
+      "Available": false
+    },
+    {
+      "Name": "Get-WinEvent",
+      "Available": false
+    },
+    {
+      "Name": "Get-CimInstance",
+      "Available": false
+    },
+    {
+      "Name": "Resolve-DnsName",
+      "Available": false
+    },
+    {
+      "Name": "Test-NetConnection",
+      "Available": false
+    }
+  ],
+  "loopback_icmp": {
+    "status": "unavailable",
+    "error": "The system's ping utility could not be found."
+  },
+  "remote_targets_tested": []
+}

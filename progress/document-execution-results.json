@@ -1,7 +1,7 @@
 {
-  "run_at_utc": "2026-10-23T22:43:16.201016+00:00",
+  "run_at_utc": "2026-10-23T23:19:01.060792+00:00",
   "kind": "execution smoke; value assertions recorded separately in Pester",
-  "passed": 19,
+  "passed": 28,
   "failed": 0,
   "cases": [
     {
@@ -96,6 +96,51 @@
     },
     {
       "name": "compress-archive",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "26-processes-services.md:block-1",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "26-processes-services.md:block-2",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "28-events-system-info.md:block-3",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "29-network-diagnostics.md:block-1",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "30-cim-remote-management.md:block-5",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "get-process:block-1",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "get-process:block-2",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "get-process:block-3",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "get-process:block-5",
       "status": "passed",
       "exit_code": 0
     }

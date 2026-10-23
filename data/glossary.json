@@ -733,5 +733,155 @@
     "version": "7.6／Pester5基準；差異見章節",
     "platform": "跨平台概念；實測僅Linux",
     "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-process",
+    "english": "Process",
+    "chinese": "處理程序",
+    "description": "執行中的程式實例，同一程式可有多個程序。",
+    "usage": "第26章系統管理",
+    "related_commands": [
+      "Get-Process"
+    ],
+    "chapter": "docs/chapters/26-processes-services.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Process.md",
+    "version": "7.6或Windows Server2025文件；差異見章節",
+    "platform": "依命令及提供者；Windows功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-pid",
+    "english": "PID",
+    "chinese": "處理程序識別碼",
+    "description": "識別目前程序；長時間後可能被系統重複使用。",
+    "usage": "第26章系統管理",
+    "related_commands": [
+      "Get-Process"
+    ],
+    "chapter": "docs/chapters/26-processes-services.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Process.md",
+    "version": "7.6或Windows Server2025文件；差異見章節",
+    "platform": "依命令及提供者；Windows功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-service",
+    "english": "Service",
+    "chinese": "服務",
+    "description": "由Windows服務控制管理員管理的工作，與程序並非必然一對一。",
+    "usage": "第26章系統管理",
+    "related_commands": [
+      "Get-Service"
+    ],
+    "chapter": "docs/chapters/26-processes-services.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Service.md",
+    "version": "7.6或Windows Server2025文件；差異見章節",
+    "platform": "依命令及提供者；Windows功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-registry",
+    "english": "Registry",
+    "chinese": "登錄",
+    "description": "Windows階層式設定資料；機碼形成路徑，值為機碼屬性。",
+    "usage": "第27章系統管理",
+    "related_commands": [
+      "Get-ItemProperty"
+    ],
+    "chapter": "docs/chapters/27-windows-registry.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Registry_Provider.md",
+    "version": "7.6或Windows Server2025文件；差異見章節",
+    "platform": "依命令及提供者；Windows功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-event-log",
+    "english": "Event Log",
+    "chinese": "事件記錄",
+    "description": "具有來源、時間與識別碼的記錄，查詢失敗不等於零事件。",
+    "usage": "第28章系統管理",
+    "related_commands": [
+      "Get-WinEvent"
+    ],
+    "chapter": "docs/chapters/28-events-system-info.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Diagnostics/Get-WinEvent.md",
+    "version": "7.6或Windows Server2025文件；差異見章節",
+    "platform": "依命令及提供者；Windows功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-dns",
+    "english": "DNS",
+    "chinese": "網域名稱系統",
+    "description": "解析名稱紀錄；成功不代表TCP或應用程式可用。",
+    "usage": "第29章系統管理",
+    "related_commands": [
+      "Resolve-DnsName"
+    ],
+    "chapter": "docs/chapters/29-network-diagnostics.md",
+    "official_source": "https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/DnsClient/Resolve-DnsName.md",
+    "version": "7.6或Windows Server2025文件；差異見章節",
+    "platform": "依命令及提供者；Windows功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-icmp",
+    "english": "ICMP",
+    "chinese": "網際網路控制訊息協定",
+    "description": "回應測試使用的協定；被阻擋不代表主機關機。",
+    "usage": "第29章系統管理",
+    "related_commands": [
+      "Test-Connection"
+    ],
+    "chapter": "docs/chapters/29-network-diagnostics.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Test-Connection.md",
+    "version": "7.6或Windows Server2025文件；差異見章節",
+    "platform": "依命令及提供者；Windows功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-cim",
+    "english": "CIM",
+    "chinese": "通用資訊模型",
+    "description": "管理資料類別與實例的模型；CimSession不是PSSession。",
+    "usage": "第30章系統管理",
+    "related_commands": [
+      "Get-CimInstance"
+    ],
+    "chapter": "docs/chapters/30-cim-remote-management.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimInstance.md",
+    "version": "7.6或Windows Server2025文件；差異見章節",
+    "platform": "依命令及提供者；Windows功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-wmi",
+    "english": "WMI",
+    "chinese": "Windows管理規範",
+    "description": "Windows管理基礎設施，提供類別與實例查詢。",
+    "usage": "第30章系統管理",
+    "related_commands": [
+      "Get-CimInstance"
+    ],
+    "chapter": "docs/chapters/30-cim-remote-management.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_WMI.md",
+    "version": "7.6或Windows Server2025文件；差異見章節",
+    "platform": "依命令及提供者；Windows功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-wsman",
+    "english": "WSMan",
+    "chinese": "Web服務管理協定",
+    "description": "指定遠端ComputerName時CIM工作階段預設使用的協定。",
+    "usage": "第30章系統管理",
+    "related_commands": [
+      "New-CimSession"
+    ],
+    "chapter": "docs/chapters/30-cim-remote-management.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/New-CimSession.md",
+    "version": "7.6或Windows Server2025文件；差異見章節",
+    "platform": "依命令及提供者；Windows功能未實測",
+    "verified_at": "2026-10-24"
   }
 ]

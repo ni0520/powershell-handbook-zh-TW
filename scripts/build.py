@@ -61,6 +61,12 @@ def combine(files):
     chunks = []
     for p in files:
         text = p.read_text()
+        # Protect literal code before transforming Markdown links and headings.
+        code_blocks = []
+        def protect_code(match):
+            code_blocks.append(match[0])
+            return f'\x00CODE_BLOCK_{len(code_blocks)-1}\x00'
+        text = re.sub(r'^```[^\n]*\n.*?^```[ \t]*$', protect_code, text, flags=re.M|re.S)
         # GitHub-readable source anchors become Pandoc anchors for all export formats.
         text = re.sub(r'<a id="([^"]+)"></a>\s*\n(#{1,6} [^\n]+)',
                       lambda m: m[2]+' {#'+m[1]+'}', text)
@@ -85,6 +91,8 @@ def combine(files):
                 return match[0]
             return match[0] + f' {{#{p.stem}-s{section_number}}}'
         text = re.sub(r'^#{1,6} .+$', heading_id, text, flags=re.M)
+        text = re.sub(r'\x00CODE_BLOCK_(\d+)\x00', lambda match: code_blocks[int(match[1])], text)
+        assert re.findall(r'^```[^\n]*\n.*?^```[ \t]*$', text, re.M|re.S) == code_blocks, p
         chunks.append(text)
     chunks.append('''# 交付範圍與驗證說明 {#delivery-status}
 

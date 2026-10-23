@@ -22,6 +22,15 @@ for anchor in ('get-content', 'select-string', 'export-csv', 'convertfrom-json',
     blocks = re.findall(r'```powershell\s*\n(.*?)```', section, re.S)
     assert len(blocks) == 1, anchor
     cases.append((anchor, blocks[0]))
+for number, selected in ((26, (1,2)), (28, (3,)), (29, (1,)), (30, (5,))):
+    path = next((ROOT/'docs/chapters').glob(f'{number}-*.md'))
+    blocks = re.findall(r'```powershell\s*\n(.*?)```', path.read_text(), re.S)
+    for index in selected:
+        cases.append((f'{path.name}:block-{index}', blocks[index-1]))
+section = appendix.split('<a id="get-process"></a>',1)[1].split('<a id=',1)[0]
+blocks = re.findall(r'```powershell\s*\n(.*?)```', section, re.S)
+for index in (1,2,3,5):
+    cases.append((f'get-process:block-{index}', blocks[index-1]))
 results = []
 for name, code in cases:
     with tempfile.TemporaryDirectory(prefix='handbook-doc-example-') as temporary:

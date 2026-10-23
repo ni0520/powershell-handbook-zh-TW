@@ -1258,5 +1258,365 @@
     "sha256": "a9c0e4ff9dfd59860ce3b645014f7f8ffcd518b51e705371bafb1d94d664a501",
     "local_reference": "api-excerpts/regex-practices.txt",
     "review_status": "已擷取；使用段落查讀"
+  },
+  {
+    "id": "get-process",
+    "title": "Get-Process",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Process.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      26
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "fd5fa40af926b53bd1661dd715875856f8386cea2169c690fa9ee91f228632f6",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Get-Process.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "stop-process",
+    "title": "Stop-Process",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Stop-Process.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      26
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "e06f022c1f86c59314dda0148d46cd62d917ff41f73689a30896678444d87c7b",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Stop-Process.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "start-process",
+    "title": "Start-Process",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Start-Process.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      26
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "a29b37673cc1db0071ea571cdf0e63488a71119eb7094301eba98eb3aa6ac79d",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Start-Process.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "wait-process",
+    "title": "Wait-Process",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Wait-Process.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      26
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "c7c4054da3a0975fdb27efb5356e09905d6c7c985b26bf47083ad2a77d969404",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Wait-Process.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "get-service",
+    "title": "Get-Service",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Service.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      26
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "898f0d4581c1d59a273a9ff140d2948781f297edc0cbda07cc906bd7711205c4",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Get-Service.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "restart-service",
+    "title": "Restart-Service",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Restart-Service.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      26
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "5ff8ac3b947510f2796b04fc2602b5e7691048e58921937509c7c655ac92488b",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Restart-Service.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "get-itemproperty",
+    "title": "Get-ItemProperty",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ItemProperty.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      27
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "690341e6b2db8d9ef8e9304bd22f192fcb57e8d609bd353cfc7c7b407df81d11",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Get-ItemProperty.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "get-itempropertyvalue",
+    "title": "Get-ItemPropertyValue",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ItemPropertyValue.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      27
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "20cb93e3986dd70fbfffa8699347745df88ddf0b4c682acb68dcfbf8149ed7cd",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Get-ItemPropertyValue.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "new-itemproperty",
+    "title": "New-ItemProperty",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/New-ItemProperty.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      27
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "432ccf335de260cf624b15db68a108772a85a5ac1c047cb6f7f8bd35fdfa406b",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/New-ItemProperty.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "set-itemproperty",
+    "title": "Set-ItemProperty",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Set-ItemProperty.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      27
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "cc4b054037dc61f7b08f499b3758c27be678c20b565b439d7c47c7b2a847c2cc",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Set-ItemProperty.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "remove-itemproperty",
+    "title": "Remove-ItemProperty",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Remove-ItemProperty.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      27
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "acbcc612ae87c0c8174849b388cb74cdf87c1a94542d9e629eddd05175b39699",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Remove-ItemProperty.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "about-registry-provider",
+    "title": "about_Registry_Provider",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Registry_Provider.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      27
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "0d04d0d18f0c6ebf1a5b5faf7ab291c81d29026cbc9601dbcb2f27ef7c9b1cd5",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Registry_Provider.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "get-winevent",
+    "title": "Get-WinEvent",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Diagnostics/Get-WinEvent.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      28
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "1301f229d47bb5287e692a2af35c6a0c5a023469669f56b400c65af6e2e32d93",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Diagnostics/Get-WinEvent.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "get-computerinfo",
+    "title": "Get-ComputerInfo",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ComputerInfo.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      28
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "3f9a989dfcab9ec4d10100dc7bb86d0ee6f391b2a29877e97a6bed772ea7b4f2",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Get-ComputerInfo.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "test-connection",
+    "title": "Test-Connection",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Test-Connection.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      29
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "3c72cd736d1e462bea29d438bc46402967e9f4f9dc3d593408dac9765fee333a",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Test-Connection.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "get-ciminstance",
+    "title": "Get-CimInstance",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimInstance.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      30
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "27886ac5873707f4ce22c0b0e3a71c5468e0af67bcd891cb483d10e190ed8523",
+    "local_reference": "reference/7.6/CimCmdlets/Get-CimInstance.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "new-cimsession",
+    "title": "New-CimSession",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/New-CimSession.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      30
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "3dfcc384f8095a1ce2cb8686f5d71aed6264e04e8346d78f2f3e8bed83bace5c",
+    "local_reference": "reference/7.6/CimCmdlets/New-CimSession.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "new-cimsessionoption",
+    "title": "New-CimSessionOption",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/New-CimSessionOption.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      30
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "27cd87b874c802dfb3415536b5ee64ca5af5f4e39b604ffd5eef25bc2376290b",
+    "local_reference": "reference/7.6/CimCmdlets/New-CimSessionOption.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "remove-cimsession",
+    "title": "Remove-CimSession",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Remove-CimSession.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      30
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "9ac83157f7d8448fdaf34ea4a2f9b14906826f69d87b795cd3b589b9c84f0cd6",
+    "local_reference": "reference/7.6/CimCmdlets/Remove-CimSession.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "about-wmi",
+    "title": "about_WMI",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_WMI.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      30
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "ccb8f733f4e205d7a9146ee21311334cbc67656cac4c61123b20df7e82d1e500",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_WMI.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "about-remote-requirements",
+    "title": "about_Remote_Requirements",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Remote_Requirements.md",
+    "version": "PowerShell 7.6；Windows專用性見命令文件",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      30
+    ],
+    "purpose": "系統管理章節的參數、平台與限制查證",
+    "sha256": "807d796f1f72089da08b6a4be4925d18adbefbd5e90d04f9bdd0d547835e0481",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Remote_Requirements.md",
+    "review_status": "章節使用段落查讀；Windows實測未執行"
+  },
+  {
+    "id": "resolve-dnsname",
+    "title": "Resolve-DnsName",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/DnsClient/Resolve-DnsName.md",
+    "version": "Windows Server 2025 模組文件；用戶端與PowerShell相容性需查本機",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      29
+    ],
+    "purpose": "DNS、TCP與介面診斷參數；不假設為跨平台內建",
+    "sha256": "201648ee4fb69019a21c7d7cb3c929687b3cf977defc8ff80ffd46b4d7b1790e",
+    "local_reference": "windows-powershell-docs/docset/winserver2025-ps/DnsClient/Resolve-DnsName.md",
+    "review_status": "使用段落查讀；命令在本Linux不可用"
+  },
+  {
+    "id": "test-netconnection",
+    "title": "Test-NetConnection",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/NetTCPIP/Test-NetConnection.md",
+    "version": "Windows Server 2025 模組文件；用戶端與PowerShell相容性需查本機",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      29
+    ],
+    "purpose": "DNS、TCP與介面診斷參數；不假設為跨平台內建",
+    "sha256": "ef81ced62a74abd569e25f708a8c558ee186ce189a704e34c7e98105afaed339",
+    "local_reference": "windows-powershell-docs/docset/winserver2025-ps/NetTCPIP/Test-NetConnection.md",
+    "review_status": "使用段落查讀；命令在本Linux不可用"
+  },
+  {
+    "id": "get-netipconfiguration",
+    "title": "Get-NetIPConfiguration",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/NetTCPIP/Get-NetIPConfiguration.md",
+    "version": "Windows Server 2025 模組文件；用戶端與PowerShell相容性需查本機",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      29
+    ],
+    "purpose": "DNS、TCP與介面診斷參數；不假設為跨平台內建",
+    "sha256": "b99311ce8f49fe83dfc1cf511afc5ed836c2cc59e65efb0e3dd524ff1c06fc90",
+    "local_reference": "windows-powershell-docs/docset/winserver2025-ps/NetTCPIP/Get-NetIPConfiguration.md",
+    "review_status": "使用段落查讀；命令在本Linux不可用"
   }
 ]

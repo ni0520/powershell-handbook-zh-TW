@@ -2,11 +2,11 @@
 
 # 閱讀目錄
 
-**2026 版 v0.2：前 25 章初稿，並非完整 40 章教材。**
+**2026 版 v0.3：前 30 章初稿，並非完整 40 章教材。**
 
 建立及更新：2026-10-24（Asia/Taipei）。實測基準：PowerShell 7.6.8 / Debian 13 x64。
 
-原創繁體中文教學、500 題練習與解答、30 個命令索引（15 個詳解、15 個速查）、52 個術語、32 個參數。未完成範圍見進度紀錄；500+ 指令索引仍是目標。
+原創繁體中文教學、600 題練習與解答、50 個命令索引（20 個詳解、30 個速查）、62 個術語、40 個參數。未完成範圍見進度紀錄；500+ 指令索引仍是目標。
 
 ## 章節
 
@@ -37,6 +37,12 @@
 - [第 24 章：CSV、JSON、XML 與資料交換](chapters/24-csv-json-xml.md)
 - [第 25 章：壓縮、備份與批次處理](chapters/25-archives-backup.md)
 
+- [第 26 章：處理程序與 Windows 服務](chapters/26-processes-services.md)
+- [第 27 章：Windows Registry：機碼與值](chapters/27-windows-registry.md)
+- [第 28 章：事件記錄與系統資訊](chapters/28-events-system-info.md)
+- [第 29 章：網路、DNS 與連線診斷](chapters/29-network-diagnostics.md)
+- [第 30 章：WMI、CIM 與遠端管理](chapters/30-cim-remote-management.md)
+
 ## 附錄與查詢
 
 - [核心命令詳解](appendices/cmdlet-tutorials.md)
@@ -49,4 +55,4 @@
 
 ## 修訂紀錄
 
-v0.1 建立前二十章；v0.2 新增第 21–25 章、Pester 實測與來源驗證流程，完成範圍以 [製作進度](../progress/STATUS.md) 與 [驗證紀錄](../progress/VALIDATION.md) 為準。Windows 5.1、桌面介面與企業模組尚未實測。
+v0.1 建立前二十章；v0.2 新增第21–25章；v0.3新增第26–30章，Windows管理功能明確標示未實測，完成範圍以 [製作進度](../progress/STATUS.md) 與 [驗證紀錄](../progress/VALIDATION.md) 為準。Windows 5.1、桌面介面與企業模組尚未實測。

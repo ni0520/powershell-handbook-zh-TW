@@ -11,6 +11,8 @@
 
 Invoke-Checks.ps1 另用 PSScriptAnalyzer 1.25.0 對 examples 套用預設 Warning／Error 規則。工具來源、簽章警告與重建方法見 scripts/README.md；不把靜態分析範圍擴稱為全書。
 
-verify_runner.py 實際啟動子程序檢查正常／故意失敗／零測試的退出碼，並比較僅探索與真正執行的 BeforeAll 副作用。verify_document_examples.py 執行 19 個已檢視、可獨立運行的教材區塊；這是執行檢查，預期值斷言另在 Pester 記錄。
+verify_runner.py 實際啟動子程序檢查正常／故意失敗／零測試的退出碼，並比較僅探索與真正執行的 BeforeAll 副作用。verify_document_examples.py 執行 28 個已檢視、可獨立運行的教材區塊；這是執行檢查，預期值斷言另在 Pester 記錄。
 
 全部證據保存於 progress/*.json。Windows 5.1、Windows／macOS、企業模組及壓力測試未執行。
+
+SystemManagement.Tests.ps1新增10個本機／合成資料通過案例，4個Windows唯讀查詢與1個ICMP案例因能力缺少跳過。整體Pester為47通過、0失敗、5跳過，跳過不當通過。第27章Registry變更與第30章遠端連線沒有執行。test_build.py另防止匯出時把程式碼註解轉成章節錨點。

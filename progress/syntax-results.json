@@ -1,7 +1,7 @@
 {
-  "run_at_utc": "2026-10-23T22:44:11.3470463Z",
+  "run_at_utc": "2026-10-23T23:20:45.2305158Z",
   "powershell": "7.6.8",
-  "passed": 163,
+  "passed": 210,
   "failed": 0,
   "cases": [
     {
@@ -276,6 +276,131 @@
     },
     {
       "name": "docs/appendices/cmdlet-tutorials.md:block-55",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-56",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-57",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-58",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-59",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-60",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-61",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-62",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-63",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-64",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-65",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-66",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-67",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-68",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-69",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-70",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-71",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-72",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-73",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-74",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-75",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-76",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-77",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-78",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-79",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-80",
       "status": "passed",
       "errors": []
     },
@@ -620,6 +745,46 @@
       "errors": []
     },
     {
+      "name": "docs/chapters/21-testing-pester.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/21-testing-pester.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/21-testing-pester.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/21-testing-pester.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/21-testing-pester.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/21-testing-pester.md:block-6",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/22-files-folders.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/22-files-folders.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
       "name": "docs/chapters/23-text-regex.md:block-1",
       "status": "passed",
       "errors": []
@@ -655,21 +820,6 @@
       "errors": []
     },
     {
-      "name": "docs/chapters/25-archives-backup.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/25-archives-backup.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/25-archives-backup.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
       "name": "docs/chapters/24-csv-json-xml.md:block-1",
       "status": "passed",
       "errors": []
@@ -695,42 +845,117 @@
       "errors": []
     },
     {
-      "name": "docs/chapters/22-files-folders.md:block-1",
+      "name": "docs/chapters/25-archives-backup.md:block-1",
       "status": "passed",
       "errors": []
     },
     {
-      "name": "docs/chapters/22-files-folders.md:block-2",
+      "name": "docs/chapters/25-archives-backup.md:block-2",
       "status": "passed",
       "errors": []
     },
     {
-      "name": "docs/chapters/21-testing-pester.md:block-1",
+      "name": "docs/chapters/25-archives-backup.md:block-3",
       "status": "passed",
       "errors": []
     },
     {
-      "name": "docs/chapters/21-testing-pester.md:block-2",
+      "name": "docs/chapters/27-windows-registry.md:block-1",
       "status": "passed",
       "errors": []
     },
     {
-      "name": "docs/chapters/21-testing-pester.md:block-3",
+      "name": "docs/chapters/27-windows-registry.md:block-2",
       "status": "passed",
       "errors": []
     },
     {
-      "name": "docs/chapters/21-testing-pester.md:block-4",
+      "name": "docs/chapters/27-windows-registry.md:block-3",
       "status": "passed",
       "errors": []
     },
     {
-      "name": "docs/chapters/21-testing-pester.md:block-5",
+      "name": "docs/chapters/26-processes-services.md:block-1",
       "status": "passed",
       "errors": []
     },
     {
-      "name": "docs/chapters/21-testing-pester.md:block-6",
+      "name": "docs/chapters/26-processes-services.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/26-processes-services.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/29-network-diagnostics.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/29-network-diagnostics.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/29-network-diagnostics.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/29-network-diagnostics.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/29-network-diagnostics.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/30-cim-remote-management.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/30-cim-remote-management.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/30-cim-remote-management.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/30-cim-remote-management.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/30-cim-remote-management.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/28-events-system-info.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/28-events-system-info.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/28-events-system-info.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/28-events-system-info.md:block-4",
       "status": "passed",
       "errors": []
     },
@@ -790,7 +1015,7 @@
       "errors": []
     },
     {
-      "name": "tests/Test-Examples.ps1",
+      "name": "tests/DataFiles.Tests.ps1",
       "status": "passed",
       "errors": []
     },
@@ -800,12 +1025,12 @@
       "errors": []
     },
     {
-      "name": "tests/DataFiles.Tests.ps1",
+      "name": "tests/Test-Examples.ps1",
       "status": "passed",
       "errors": []
     },
     {
-      "name": "scripts/Test-Syntax.ps1",
+      "name": "tests/SystemManagement.Tests.ps1",
       "status": "passed",
       "errors": []
     },
@@ -816,6 +1041,16 @@
     },
     {
       "name": "scripts/Invoke-Checks.ps1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "scripts/Test-Syntax.ps1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "scripts/Test-PlatformCapabilities.ps1",
       "status": "passed",
       "errors": []
     }

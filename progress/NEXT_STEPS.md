@@ -1,23 +1,24 @@
 # 接續工作
 
-## v0.2 收尾（2026-10-24，臺灣）
+## v0.3 交付紀錄（2026-10-24，臺灣）
 
-使用者已要求恢復工作。前25章交付ZIP已建立，13個檔案的ZIP完整性及SHA-256核對通過；本輪提交與遠端保存以Git歷史及推送後核對為準。接續第26–30章。
+v0.2 已提交合併至 GitHub main，核對提交為 1d07caeac21c6a5a857ffde5b7d3975debc5cbc6。本輪接續完成第 26–30 章初稿與整合檢查；v0.3 遠端提交結果以 Git 歷史與推送後核對為準。
 
-1. 先讀 PROJECT_SPEC.md、AGENTS.md、STATUS.md、VALIDATION.md 與現有原稿；目前 v0.2 已到第 25 章，保留已保存內容與使用者變更。
-2. 下一個具體工作：研究並編寫第 26–30 章（處理程序／服務、Registry、事件記錄、網路診斷、WMI／CIM）。逐章保存來源與實測範圍，每批整合。Linux 可先做本程序唯讀查詢；Windows 專用命令必須標示平台，不可用 Linux 結果替代。
-3. 優先準備 Windows 5.1 與 Windows PowerShell 7 的隔離驗證環境，再測服務、Registry、事件記錄與 CIM。若未取得環境，只能記錄文件查證／語法，不宣稱功能通過。不要修改真實服務或企業系統。
-4. Pester 5.7.1 已從固定官方原始碼建置；PSScriptAnalyzer 1.25.0 已載入並分析 examples。來源與雜湊見 data/test-tool-sources.json，重建用 scripts/setup_test_tools.py。NuGet 作者簽章及時間戳驗證成功，但撤銷伺服器無法連線；完整線上撤銷驗證仍待可用環境補做，不能稱此限制已解除。
-5. 第 21–25 章代表性功能已測，仍需深度審閱與其他平台驗證。尚未測 Pester 覆蓋率／Mock整合、Regex壓力、外來XML／ZIP、大檔案、Windows ACL／ADS、網路磁碟與生產備份。
-6. 持續擴充 cmdlet-index：目前 30 筆（15 個十四項詳解、15 個速查），目標 500+。不得把官方文件檔名數量當作已翻譯查證的索引。
-7. 新增章節時更新 data/book.json、目錄、索引、README、STATUS 與報告。scripts/book_config.py 共用封面與檔名；validate.py 會比對實際章數。附錄 JSON 變更後執行 render_reference_data.py，再驗證與重建文件。
-8. 維持分層測試：語法、42 項原有斷言、37 項 Pester、19 個教材區塊執行、執行器退出碼／探索階段、靜態分析、文件產出各自記錄。不要把重疊案例加總稱為獨立功能覆蓋。
-9. 使用者已授權完成後提交合併 GitHub；授權在對話中持續有效。不強推、不刪分支或歷史，不自行建立 Release 或公開部署。遠端結果必須在推送後核對。
+1. 先讀 PROJECT_SPEC.md、AGENTS.md、STATUS.md、VALIDATION.md 與現有原稿；目前 v0.3 到第 30 章，保留已保存內容與使用者變更。
+2. 下一批研究並編寫第 31–35 章：背景工作／平行／排程、安全性、REST API、Active Directory／Microsoft 365、Azure／Exchange。每章保存官方來源與實測範圍，每批至少五章整合；企業帳戶與服務未提供時，明確記錄未執行，不杜撰連線結果。
+3. 第 26–30 章缺 Windows 5.1／Windows PowerShell 7 隔離驗證環境。服務、Registry、事件與 CIM 的 4 項唯讀測試跳過；Registry 自建實驗機碼範例及遠端工作階段也未執行。不要修改真實服務或企業系統。
+4. Linux 缺系統 ping，實際回送 Test-Connection 回報缺少工具；ICMP 測試跳過。補齊能力後再測，不能把 IP 格式解析當成連線成功。命令存在也不代表平台支援，例如 Wait-Process 不支援 Linux／macOS。
+5. Pester 5.7.1 固定官方原始碼建置；PSScriptAnalyzer 1.25.0 作者簽章與時間戳驗證成功，但線上撤銷查詢仍受限。來源見 data/test-tool-sources.json，重建用 scripts/setup_test_tools.py，保留完整信任限制。
+6. 擴充命令索引：目前 50 筆（20 個十四項詳解、30 個速查），目標 500+；術語 62、參數 40、技術來源 109。不得把文件檔名數量當作已翻譯查證的索引。
+7. 新章節同步更新 data/book.json、目錄、索引、README、STATUS 與報告；附錄 JSON 變更後執行 render_reference_data.py。建置共用 book_config.py 的版本／章數，validate.py 比對實際章數。
+8. 分層驗證紀錄：本輪語法 210 通過、Pester 47 通過／5 跳過、教材區塊 28 通過、examples 靜態分析及建置程式碼保留回歸通過。原有 42 項斷言與執行器驗證沿用 v0.2 證據；不把重疊案例加總為獨立功能覆蓋。
+9. 文件檢查已通過：30 章 DOCX、273 頁 A4／502 頁手機／6 頁速查 PDF、HTML 搜尋與錨點。重新產生輸出後先跑 verify_artifacts.py，再以 package_delivery.py 打包並驗證 ZIP／SHA-256。
+10. 使用者已授權完成後提交合併 GitHub，授權持續有效。不強推、不刪分支或歷史，不自行建立 Release 或公開部署；推送後核對遠端 SHA。
 
-版本基準：PowerShell 7.6.8 / Debian 13 x64。Microsoft PowerShell 文件快照 a3de8f22552170e70852470d46cd52cd9ca471ec；新增 Pester／.NET 文件固定 commit 詳見 data/sources.json。
+尚需深度審閱、Pester 覆蓋率／Mock 整合、Regex 壓力、外來 XML／ZIP、大檔案、Windows ACL／ADS、網路磁碟與生產備份驗證。Word 桌面逐頁視覺驗收尚未執行。
 
-術語：Cmdlet＝PowerShell 命令、Pipeline＝管線、Object＝物件、Parameter＝參數、Argument＝引數、Hashtable＝雜湊表、Regex＝正規表示式。Pester 探索與執行、CSV 字串與數字、雜湊與來源簽章須清楚區分。
+版本基準：PowerShell 7.6.8 / Debian 13 x64。PowerShell 文件快照 a3de8f22552170e70852470d46cd52cd9ca471ec；Windows PowerShell 文件快照 b7645dd8c687139b28e845119da30ec670526507；其他固定來源見 data/sources.json。
 
-工具快取位於 /workspace/handbook-tools，快取不是 GitHub 原稿保存的替代。使用現有 checkout，不建立工作樹。保留代理、CA 信任與憑證設定，不修改 HOME。
+工具快取位於 /workspace/handbook-tools，快取不能替代 GitHub 原稿保存。使用現有 checkout，不建立工作樹；保留代理、CA 信任與憑證設定，不修改 HOME。
 
 任務停止後不會自動在背景繼續；下次依此紀錄與實際 Git 狀態接續。

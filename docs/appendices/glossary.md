@@ -86,6 +86,14 @@
 
 情境：第 9 章的觀念與案例。相關命令：Select-Object。[對應章節](../../docs/chapters/09-pipeline.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Pipelines.md)。
 
+<a id="term-cim"></a>
+
+## CIM（通用資訊模型）
+
+管理資料類別與實例的模型；CimSession不是PSSession。
+
+情境：第30章系統管理。相關命令：Get-CimInstance。[對應章節](../../docs/chapters/30-cim-remote-management.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimInstance.md)。
+
 <a id="term-csv"></a>
 
 ## CSV（逗號分隔值）
@@ -109,6 +117,14 @@
 參與 PowerShell 管線與參數機制的命令；不要把所有外部程式都叫 Cmdlet。
 
 情境：第 7 章的觀念與案例。相關命令：Get-Command, Get-Alias。[對應章節](../../docs/chapters/07-commands-aliases.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Command_Precedence.md)。
+
+<a id="term-dns"></a>
+
+## DNS（網域名稱系統）
+
+解析名稱紀錄；成功不代表TCP或應用程式可用。
+
+情境：第29章系統管理。相關命令：Resolve-DnsName。[對應章節](../../docs/chapters/29-network-diagnostics.md)；[官方來源](https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/DnsClient/Resolve-DnsName.md)。
 
 <a id="term-dtd"></a>
 
@@ -150,6 +166,14 @@ Pester先建立測試樹的階段；直接放在Describe內的命令可能此時
 
 情境：第 19 章的觀念與案例。相關命令：。[對應章節](../../docs/chapters/19-error-handling.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Try_Catch_Finally.md)。
 
+<a id="term-event-log"></a>
+
+## Event Log（事件記錄）
+
+具有來源、時間與識別碼的記錄，查詢失敗不等於零事件。
+
+情境：第28章系統管理。相關命令：Get-WinEvent。[對應章節](../../docs/chapters/28-events-system-info.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Diagnostics/Get-WinEvent.md)。
+
 <a id="term-exception"></a>
 
 ## Exception（例外）
@@ -189,6 +213,14 @@ Pester先建立測試樹的階段；直接放在Describe內的命令可能此時
 以鍵值對查找資料，一般不保證列舉順序。
 
 情境：第 12 章的觀念與案例。相關命令：。[對應章節](../../docs/chapters/12-collections.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Arrays.md)。
+
+<a id="term-icmp"></a>
+
+## ICMP（網際網路控制訊息協定）
+
+回應測試使用的協定；被阻擋不代表主機關機。
+
+情境：第29章系統管理。相關命令：Test-Connection。[對應章節](../../docs/chapters/29-network-diagnostics.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Test-Connection.md)。
 
 <a id="term-json"></a>
 
@@ -246,6 +278,14 @@ XML以URI區分元素名稱範圍；XPath查詢須設定前綴對應。
 
 情境：第 8 章的觀念與案例。相關命令：Get-Member。[對應章節](../../docs/chapters/08-objects.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Objects.md)。
 
+<a id="term-pid"></a>
+
+## PID（處理程序識別碼）
+
+識別目前程序；長時間後可能被系統重複使用。
+
+情境：第26章系統管理。相關命令：Get-Process。[對應章節](../../docs/chapters/26-processes-services.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Process.md)。
+
 <a id="term-parameter"></a>
 
 ## Parameter（參數）
@@ -278,6 +318,14 @@ XML以URI區分元素名稱範圍；XPath查詢須設定前綴對應。
 
 情境：第 9 章的觀念與案例。相關命令：Select-Object。[對應章節](../../docs/chapters/09-pipeline.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Pipelines.md)。
 
+<a id="term-process"></a>
+
+## Process（處理程序）
+
+執行中的程式實例，同一程式可有多個程序。
+
+情境：第26章系統管理。相關命令：Get-Process。[對應章節](../../docs/chapters/26-processes-services.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Process.md)。
+
 <a id="term-profile"></a>
 
 ## Profile（設定檔）
@@ -302,6 +350,14 @@ XML以URI區分元素名稱範圍；XPath查詢須設定前綴對應。
 
 情境：第 5 章的觀念與案例。相關命令：Get-Location, Set-Location, Get-ChildItem。[對應章節](../../docs/chapters/05-basic-navigation.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/learn/ps101/01-getting-started.md)。
 
+<a id="term-registry"></a>
+
+## Registry（登錄）
+
+Windows階層式設定資料；機碼形成路徑，值為機碼屬性。
+
+情境：第27章系統管理。相關命令：Get-ItemProperty。[對應章節](../../docs/chapters/27-windows-registry.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Registry_Provider.md)。
+
 <a id="term-regular-expression"></a>
 
 ## Regular Expression（正規表示式）
@@ -325,6 +381,14 @@ XML以URI區分元素名稱範圍；XPath查詢須設定前綴對應。
 保存一或多個命令的文字檔，可重複執行與版本管理。
 
 情境：第 15 章的觀念與案例。相關命令：。[對應章節](../../docs/chapters/15-scripts.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Scripts.md)。
+
+<a id="term-service"></a>
+
+## Service（服務）
+
+由Windows服務控制管理員管理的工作，與程序並非必然一對一。
+
+情境：第26章系統管理。相關命令：Get-Service。[對應章節](../../docs/chapters/26-processes-services.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Service.md)。
 
 <a id="term-session"></a>
 
@@ -413,6 +477,22 @@ Pester提供的暫存檔案範圍，不是網路或權限沙箱。
 保存值的具名位置，以美元符號開頭。
 
 情境：第 11 章的觀念與案例。相關命令：。[對應章節](../../docs/chapters/11-variables-types.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Variables.md)。
+
+<a id="term-wmi"></a>
+
+## WMI（Windows管理規範）
+
+Windows管理基礎設施，提供類別與實例查詢。
+
+情境：第30章系統管理。相關命令：Get-CimInstance。[對應章節](../../docs/chapters/30-cim-remote-management.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_WMI.md)。
+
+<a id="term-wsman"></a>
+
+## WSMan（Web服務管理協定）
+
+指定遠端ComputerName時CIM工作階段預設使用的協定。
+
+情境：第30章系統管理。相關命令：New-CimSession。[對應章節](../../docs/chapters/30-cim-remote-management.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/New-CimSession.md)。
 
 <a id="term-xml"></a>
 

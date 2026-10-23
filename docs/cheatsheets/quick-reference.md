@@ -111,3 +111,19 @@ try {
 | XML命名空間 | Select-Xml -Namespace | XPath前綴對應URI |
 | ZIP往返 | Compress-Archive／Expand-Archive | 隱藏檔略過，先還原到新位置 |
 | 完整性 | Get-FileHash -Algorithm SHA256 | 雜湊不是來源簽章或加密 |
+
+## 第26–30章：系統管理與平台邊界
+
+| 需求 | 方法 | 限制 |
+|---|---|---|
+| 查自己程序 | Get-Process -Id $PID | CPU是累計秒數 |
+| 子程序身分 | Start-Process -PassThru | 只停止自己建立的程序 |
+| Windows服務 | Get-Service | 相依方向與權限須分開 |
+| Registry值 | Get-ItemProperty／Get-ItemPropertyValue | Windows；值不是子路徑 |
+| 事件查詢 | Get-WinEvent -FilterHashtable | 查詢失敗不等於零事件 |
+| DNS與TCP | Resolve-DnsName／Test-NetConnection | Windows；明確指定核准目標 |
+| ICMP | Test-Connection -Count 1 | 本雲端缺ping工具，未完成 |
+| CIM唯讀查詢 | Get-CimInstance | Windows；WQL不是PowerShell條件區塊 |
+| CIM清理 | Remove-CimSession | 用finally移除已建立連線 |
+
+本版Windows命令僅完成文件與語法查證；不宣稱功能實測通過。

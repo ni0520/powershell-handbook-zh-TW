@@ -940,3 +940,267 @@
 - 查閱日期：2026-10-24
 - 使用章節：23
 - 用途：靜態分析規則／XML安全設定／Regex逾時查證
+
+<a id="source-get-process"></a>
+
+## Get-Process
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Process.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：26
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-stop-process"></a>
+
+## Stop-Process
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Stop-Process.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：26
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-start-process"></a>
+
+## Start-Process
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Start-Process.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：26
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-wait-process"></a>
+
+## Wait-Process
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Wait-Process.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：26
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-get-service"></a>
+
+## Get-Service
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Service.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：26
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-restart-service"></a>
+
+## Restart-Service
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Restart-Service.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：26
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-get-itemproperty"></a>
+
+## Get-ItemProperty
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ItemProperty.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：27
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-get-itempropertyvalue"></a>
+
+## Get-ItemPropertyValue
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ItemPropertyValue.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：27
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-new-itemproperty"></a>
+
+## New-ItemProperty
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/New-ItemProperty.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：27
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-set-itemproperty"></a>
+
+## Set-ItemProperty
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Set-ItemProperty.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：27
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-remove-itemproperty"></a>
+
+## Remove-ItemProperty
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Remove-ItemProperty.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：27
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-about-registry-provider"></a>
+
+## about_Registry_Provider
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Registry_Provider.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：27
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-get-winevent"></a>
+
+## Get-WinEvent
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Diagnostics/Get-WinEvent.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：28
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-get-computerinfo"></a>
+
+## Get-ComputerInfo
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ComputerInfo.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：28
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-test-connection"></a>
+
+## Test-Connection
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Test-Connection.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：29
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-get-ciminstance"></a>
+
+## Get-CimInstance
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimInstance.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：30
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-new-cimsession"></a>
+
+## New-CimSession
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/New-CimSession.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：30
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-new-cimsessionoption"></a>
+
+## New-CimSessionOption
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/New-CimSessionOption.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：30
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-remove-cimsession"></a>
+
+## Remove-CimSession
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Remove-CimSession.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：30
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-about-wmi"></a>
+
+## about_WMI
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_WMI.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：30
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-about-remote-requirements"></a>
+
+## about_Remote_Requirements
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Remote_Requirements.md)
+- 適用版本：PowerShell 7.6；Windows專用性見命令文件
+- 查閱日期：2026-10-24
+- 使用章節：30
+- 用途：系統管理章節的參數、平台與限制查證
+
+<a id="source-resolve-dnsname"></a>
+
+## Resolve-DnsName
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/DnsClient/Resolve-DnsName.md)
+- 適用版本：Windows Server 2025 模組文件；用戶端與PowerShell相容性需查本機
+- 查閱日期：2026-10-24
+- 使用章節：29
+- 用途：DNS、TCP與介面診斷參數；不假設為跨平台內建
+
+<a id="source-test-netconnection"></a>
+
+## Test-NetConnection
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/NetTCPIP/Test-NetConnection.md)
+- 適用版本：Windows Server 2025 模組文件；用戶端與PowerShell相容性需查本機
+- 查閱日期：2026-10-24
+- 使用章節：29
+- 用途：DNS、TCP與介面診斷參數；不假設為跨平台內建
+
+<a id="source-get-netipconfiguration"></a>
+
+## Get-NetIPConfiguration
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/NetTCPIP/Get-NetIPConfiguration.md)
+- 適用版本：Windows Server 2025 模組文件；用戶端與PowerShell相容性需查本機
+- 查閱日期：2026-10-24
+- 使用章節：29
+- 用途：DNS、TCP與介面診斷參數；不假設為跨平台內建

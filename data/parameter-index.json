@@ -490,5 +490,125 @@
     "version": "7.6基準；版本差異見描述與章節",
     "platform": "依命令／提供者；Linux代表性驗證",
     "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-id",
+    "name": "-Id",
+    "chinese": "識別碼",
+    "description": "Get-Process為PID；事件Id屬於事件查詢條件，不能跨命令混同。",
+    "kind": "specific",
+    "commands": [
+      "Get-Process"
+    ],
+    "chapter": "docs/chapters/26-processes-services.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Process.md",
+    "version": "本版7.6文件；依命令參數組",
+    "platform": "依命令；Windows專用功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-passthru",
+    "name": "-PassThru",
+    "chinese": "回傳處理結果",
+    "description": "Start-Process回傳程序物件；其他命令的回傳型別各自定義。",
+    "kind": "specific",
+    "commands": [
+      "Start-Process"
+    ],
+    "chapter": "docs/chapters/26-processes-services.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Start-Process.md",
+    "version": "本版7.6文件；依命令參數組",
+    "platform": "依命令；Windows專用功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-propertytype",
+    "name": "-PropertyType",
+    "chinese": "屬性型別",
+    "description": "Registry建立值時指定String、DWord等，不能只比對顯示文字。",
+    "kind": "specific",
+    "commands": [
+      "New-ItemProperty"
+    ],
+    "chapter": "docs/chapters/27-windows-registry.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/New-ItemProperty.md",
+    "version": "本版7.6文件；依命令參數組",
+    "platform": "依命令；Windows專用功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-filterhashtable",
+    "name": "-FilterHashtable",
+    "chinese": "雜湊表查詢條件",
+    "description": "Get-WinEvent支援LogName、Level、StartTime等指定鍵；非任意欄位。",
+    "kind": "specific",
+    "commands": [
+      "Get-WinEvent"
+    ],
+    "chapter": "docs/chapters/28-events-system-info.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Diagnostics/Get-WinEvent.md",
+    "version": "本版7.6文件；依命令參數組",
+    "platform": "依命令；Windows專用功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-maxevents",
+    "name": "-MaxEvents",
+    "chinese": "事件筆數上限",
+    "description": "限制取得數量，結果不可冒稱完整時間區間總量。",
+    "kind": "specific",
+    "commands": [
+      "Get-WinEvent"
+    ],
+    "chapter": "docs/chapters/28-events-system-info.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Diagnostics/Get-WinEvent.md",
+    "version": "本版7.6文件；依命令參數組",
+    "platform": "依命令；Windows專用功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-targetname",
+    "name": "-TargetName",
+    "chinese": "目標名稱",
+    "description": "Test-Connection的必要目標，版本與舊ComputerName寫法需區分。",
+    "kind": "specific",
+    "commands": [
+      "Test-Connection"
+    ],
+    "chapter": "docs/chapters/29-network-diagnostics.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Test-Connection.md",
+    "version": "本版7.6文件；依命令參數組",
+    "platform": "依命令；Windows專用功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-cimsession",
+    "name": "-CimSession",
+    "chinese": "CIM工作階段",
+    "description": "指定已建立的CIM連線物件，查詢後須負責清理。",
+    "kind": "specific",
+    "commands": [
+      "Get-CimInstance"
+    ],
+    "chapter": "docs/chapters/30-cim-remote-management.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimInstance.md",
+    "version": "本版7.6文件；依命令參數組",
+    "platform": "依命令；Windows專用功能未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-classname",
+    "name": "-ClassName",
+    "chinese": "類別名稱",
+    "description": "例如Win32_OperatingSystem；類別與命名空間依目標提供者。",
+    "kind": "specific",
+    "commands": [
+      "Get-CimInstance"
+    ],
+    "chapter": "docs/chapters/30-cim-remote-management.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimInstance.md",
+    "version": "本版7.6文件；依命令參數組",
+    "platform": "依命令；Windows專用功能未實測",
+    "verified_at": "2026-10-24"
   }
 ]
