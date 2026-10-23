@@ -4,7 +4,7 @@
 
 [返回目錄](../README.md)
 
-查閱日期：2026-10-24（臺灣）。Git 快照固定在引用的 commit，避免之後文件更新使結論無法重現。來源是研究依據；教材文字與範例重新撰寫，沒有搬入完整官方文章。官方原稿中的特定敘述仍需與 API、版本與實測交叉確認。
+查閱日期：2026-10-24（臺灣）。來源固定於引用的 Git commit；只查讀教材使用段落，未宣稱全文或所有平台驗證。教材為重新編寫，未大量轉載原文。Pester 的發布者為專案維護者，與 Microsoft 來源分開標示。工具取得與簽章紀錄另見 data/test-tool-sources.json。
 
 <a id="source-overview"></a>
 
@@ -16,7 +16,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：1
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-getting-started"></a>
 
@@ -28,7 +27,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：1, 4, 5
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-lifecycle"></a>
 
@@ -40,7 +38,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：2, 3
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-differences"></a>
 
@@ -52,7 +49,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：2
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-new-72"></a>
 
@@ -64,7 +60,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：2
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-new-73"></a>
 
@@ -76,7 +71,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：2
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-new-74"></a>
 
@@ -88,7 +82,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：2
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-new-75"></a>
 
@@ -100,7 +93,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：2
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-new-76"></a>
 
@@ -112,7 +104,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：2
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-install-windows"></a>
 
@@ -124,7 +115,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：3
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-install-debian"></a>
 
@@ -136,7 +126,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：3
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-install-macos"></a>
 
@@ -148,7 +137,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：3
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-debian-support"></a>
 
@@ -160,7 +148,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：2, 3
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-vscode"></a>
 
@@ -172,7 +159,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：4
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-about-profiles"></a>
 
@@ -184,7 +170,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：4
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-about-character_encoding"></a>
 
@@ -196,7 +181,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：3
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-about-command_precedence"></a>
 
@@ -208,7 +192,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：7
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-about-aliases"></a>
 
@@ -220,7 +203,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：7
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-about-objects"></a>
 
@@ -232,7 +214,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：8
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-about-properties"></a>
 
@@ -244,7 +225,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：8
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-about-methods"></a>
 
@@ -256,7 +236,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：8
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-about-pipelines"></a>
 
@@ -268,7 +247,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：9
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-about-parameter_binding"></a>
 
@@ -280,7 +258,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：9
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-about-comparison_operators"></a>
 
@@ -292,7 +269,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：10
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-about-commonparameters"></a>
 
@@ -304,7 +280,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：6
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-about-execution_policies"></a>
 
@@ -316,7 +291,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：3
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-get-command"></a>
 
@@ -328,7 +302,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：7
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-get-help"></a>
 
@@ -340,7 +313,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：6
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-get-member"></a>
 
@@ -352,7 +324,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：8
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-get-location"></a>
 
@@ -364,7 +335,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：5
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-set-location"></a>
 
@@ -376,7 +346,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：5
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-get-childitem"></a>
 
@@ -388,7 +357,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：5
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-where-object"></a>
 
@@ -400,7 +368,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：10
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-sort-object"></a>
 
@@ -412,7 +379,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：10
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-select-object"></a>
 
@@ -424,7 +390,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：9
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-get-alias"></a>
 
@@ -436,7 +401,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：7
 - 用途：技術事實、平台與版本查證
-- 狀態：已擷取；章節使用部分人工查讀
 
 <a id="source-release-768"></a>
 
@@ -448,7 +412,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：2, 3
 - 用途：最新正式發行及安裝檔核對
-- 狀態：已查讀並下載核對 SHA-256
 
 <a id="source-about-variables"></a>
 
@@ -460,7 +423,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：11
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-type_conversion"></a>
 
@@ -472,7 +434,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：11
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-arrays"></a>
 
@@ -484,7 +445,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：12
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-hash_tables"></a>
 
@@ -496,7 +456,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：12
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-operators"></a>
 
@@ -508,7 +467,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：13
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-if"></a>
 
@@ -520,7 +478,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：14
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-for"></a>
 
@@ -532,7 +489,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：14
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-foreach"></a>
 
@@ -544,7 +500,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：14
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-scripts"></a>
 
@@ -556,7 +511,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：15
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-functions"></a>
 
@@ -568,7 +522,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：16
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-functions_advanced"></a>
 
@@ -580,7 +533,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：17
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-functions_advanced_parameters"></a>
 
@@ -592,7 +544,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：17
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-functions_cmdletbindingattribute"></a>
 
@@ -604,7 +555,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：17
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-modules"></a>
 
@@ -616,7 +566,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：18
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-try_catch_finally"></a>
 
@@ -628,7 +577,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：19
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-throw"></a>
 
@@ -640,7 +588,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：19
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-debuggers"></a>
 
@@ -652,7 +599,6 @@
 - 查閱日期：2026-10-24
 - 使用章節：20
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
 
 <a id="source-about-output_streams"></a>
 
@@ -664,4 +610,333 @@
 - 查閱日期：2026-10-24
 - 使用章節：20
 - 用途：語言規則與原創範例設計
-- 狀態：已查讀使用段落
+
+<a id="source-new-item"></a>
+
+## New-Item
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/New-Item.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：22
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-get-item"></a>
+
+## Get-Item
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Item.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：22
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-test-path"></a>
+
+## Test-Path
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Test-Path.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：22
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-join-path"></a>
+
+## Join-Path
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Join-Path.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：22
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-copy-item"></a>
+
+## Copy-Item
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Copy-Item.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：22
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-move-item"></a>
+
+## Move-Item
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Move-Item.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：22
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-rename-item"></a>
+
+## Rename-Item
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Rename-Item.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：22
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-remove-item"></a>
+
+## Remove-Item
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Remove-Item.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：22
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-get-content"></a>
+
+## Get-Content
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Content.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：22
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-set-content"></a>
+
+## Set-Content
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Set-Content.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：22
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-add-content"></a>
+
+## Add-Content
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Add-Content.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：22
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-select-string"></a>
+
+## Select-String
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Select-String.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：23
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-export-csv"></a>
+
+## Export-Csv
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Export-Csv.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：24
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-import-csv"></a>
+
+## Import-Csv
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Import-Csv.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：24
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-convertto-json"></a>
+
+## ConvertTo-Json
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertTo-Json.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：24
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-convertfrom-json"></a>
+
+## ConvertFrom-Json
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-Json.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：24
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-select-xml"></a>
+
+## Select-Xml
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Select-Xml.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：24
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-compress-archive"></a>
+
+## Compress-Archive
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Archive/Compress-Archive.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：25
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-expand-archive"></a>
+
+## Expand-Archive
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Archive/Expand-Archive.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：25
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-get-filehash"></a>
+
+## Get-FileHash
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-FileHash.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：25
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-about-regular-expressions"></a>
+
+## about_Regular_Expressions
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Regular_Expressions.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：23
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-about-character-encoding"></a>
+
+## about_Character_Encoding
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Character_Encoding.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：22
+- 用途：第21–25章的參數、版本限制與原創範例查證
+
+<a id="source-pester-quick-start"></a>
+
+## Pester v5 quick-start
+
+- 發布者：Pester 專案維護者
+- [原始網址](https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/quick-start.mdx)
+- 適用版本：Pester 5 文件；本版實測固定 5.7.1
+- 查閱日期：2026-10-24
+- 使用章節：21
+- 用途：Discovery/Run、TestDrive、設定與退出碼查證
+
+<a id="source-pester-discovery-and-run"></a>
+
+## Pester v5 usage/discovery-and-run
+
+- 發布者：Pester 專案維護者
+- [原始網址](https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/usage/discovery-and-run.mdx)
+- 適用版本：Pester 5 文件；本版實測固定 5.7.1
+- 查閱日期：2026-10-24
+- 使用章節：21
+- 用途：Discovery/Run、TestDrive、設定與退出碼查證
+
+<a id="source-pester-testdrive"></a>
+
+## Pester v5 usage/testdrive
+
+- 發布者：Pester 專案維護者
+- [原始網址](https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/usage/testdrive.mdx)
+- 適用版本：Pester 5 文件；本版實測固定 5.7.1
+- 查閱日期：2026-10-24
+- 使用章節：21
+- 用途：Discovery/Run、TestDrive、設定與退出碼查證
+
+<a id="source-pester-configuration"></a>
+
+## Pester v5 usage/configuration
+
+- 發布者：Pester 專案維護者
+- [原始網址](https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/usage/configuration.mdx)
+- 適用版本：Pester 5 文件；本版實測固定 5.7.1
+- 查閱日期：2026-10-24
+- 使用章節：21
+- 用途：Discovery/Run、TestDrive、設定與退出碼查證
+
+<a id="source-pester-Invoke-Pester"></a>
+
+## Pester v5 commands/Invoke-Pester
+
+- 發布者：Pester 專案維護者
+- [原始網址](https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/commands/Invoke-Pester.mdx)
+- 適用版本：Pester 5 文件；本版實測固定 5.7.1
+- 查閱日期：2026-10-24
+- 使用章節：21
+- 用途：Discovery/Run、TestDrive、設定與退出碼查證
+
+<a id="source-psscriptanalyzer"></a>
+
+## PSScriptAnalyzer README
+
+- 發布者：Microsoft / .NET
+- [原始網址](https://github.com/PowerShell/PSScriptAnalyzer/blob/f05704df81b2aca17dc027ee39b3fce106d418fc/README.md)
+- 適用版本：PSScriptAnalyzer 1.25.0
+- 查閱日期：2026-10-24
+- 使用章節：21
+- 用途：靜態分析規則／XML安全設定／Regex逾時查證
+
+<a id="source-xml-reader-settings"></a>
+
+## XmlReaderSettings
+
+- 發布者：Microsoft / .NET
+- [原始網址](https://github.com/dotnet/dotnet-api-docs/blob/4f16f542b89a2759c5fb8e569f91d010cc671a6f/xml/System.Xml/XmlReaderSettings.xml)
+- 適用版本：.NET API／概念文件；本機 PowerShell 7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：24
+- 用途：靜態分析規則／XML安全設定／Regex逾時查證
+
+<a id="source-regex-practices"></a>
+
+## Best practices for regular expressions
+
+- 發布者：Microsoft / .NET
+- [原始網址](https://github.com/dotnet/docs/blob/22dffe78e3542278c89cf2c2724be8f8272001dd/docs/standard/base-types/best-practices-regex.md)
+- 適用版本：.NET API／概念文件；本機 PowerShell 7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：23
+- 用途：靜態分析規則／XML安全設定／Regex逾時查證

@@ -1960,6 +1960,373 @@
     ]
   },
   {
+    "Name": "Select-Object",
+    "Module": "Microsoft.PowerShell.Utility",
+    "Syntax": "Select-Object [[-Property] <Object[]>] [-InputObject <psobject>] [-ExcludeProperty <string[]>] [-ExpandProperty <string>] [-Unique] [-CaseInsensitive] [-Last <int>] [-First <int>] [-Skip <int>] [-Wait] [<CommonParameters>]\n\nSelect-Object [[-Property] <Object[]>] [-InputObject <psobject>] [-ExcludeProperty <string[]>] [-ExpandProperty <string>] [-Unique] [-CaseInsensitive] [-Skip <int>] [-SkipLast <int>] [<CommonParameters>]\n\nSelect-Object [-InputObject <psobject>] [-Unique] [-CaseInsensitive] [-Wait] [-Index <int[]>] [<CommonParameters>]\n\nSelect-Object [-InputObject <psobject>] [-Unique] [-CaseInsensitive] [-SkipIndex <int[]>] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "InputObject",
+        "Type": "System.Management.Automation.PSObject",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": true,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Property",
+        "Type": "System.Object[]",
+        "Sets": [
+          {
+            "Name": "DefaultParameter",
+            "Mandatory": false,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "SkipLastParameter",
+            "Mandatory": false,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ExcludeProperty",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "DefaultParameter",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "SkipLastParameter",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ExpandProperty",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "DefaultParameter",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "SkipLastParameter",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Unique",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "CaseInsensitive",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Last",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "DefaultParameter",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "First",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "DefaultParameter",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Skip",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "DefaultParameter",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "SkipLastParameter",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "SkipLast",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "SkipLastParameter",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Wait",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "DefaultParameter",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "IndexParameter",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Index",
+        "Type": "System.Int32[]",
+        "Sets": [
+          {
+            "Name": "IndexParameter",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "SkipIndex",
+        "Type": "System.Int32[]",
+        "Sets": [
+          {
+            "Name": "SkipIndexParameter",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Name": "Where-Object",
     "Module": "Microsoft.PowerShell.Core",
     "Syntax": "Where-Object [-Property] <string> [[-Value] <Object>] [-InputObject <psobject>] [-EQ] [<CommonParameters>]\n\nWhere-Object [-FilterScript] <scriptblock> [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -CEQ [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -NE [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -CNE [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -GT [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -CGT [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -LT [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -CLT [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -GE [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -CGE [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -LE [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -CLE [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -Like [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -CLike [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -NotLike [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -CNotLike [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -Match [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -CMatch [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -NotMatch [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -CNotMatch [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -Contains [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -CContains [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -NotContains [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -CNotContains [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -In [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -CIn [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -NotIn [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -CNotIn [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -Is [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> [[-Value] <Object>] -IsNot [-InputObject <psobject>] [<CommonParameters>]\n\nWhere-Object [-Property] <string> -Not [-InputObject <psobject>] [<CommonParameters>]",
@@ -3271,56 +3638,75 @@
     ]
   },
   {
-    "Name": "Select-Object",
-    "Module": "Microsoft.PowerShell.Utility",
-    "Syntax": "Select-Object [[-Property] <Object[]>] [-InputObject <psobject>] [-ExcludeProperty <string[]>] [-ExpandProperty <string>] [-Unique] [-CaseInsensitive] [-Last <int>] [-First <int>] [-Skip <int>] [-Wait] [<CommonParameters>]\n\nSelect-Object [[-Property] <Object[]>] [-InputObject <psobject>] [-ExcludeProperty <string[]>] [-ExpandProperty <string>] [-Unique] [-CaseInsensitive] [-Skip <int>] [-SkipLast <int>] [<CommonParameters>]\n\nSelect-Object [-InputObject <psobject>] [-Unique] [-CaseInsensitive] [-Wait] [-Index <int[]>] [<CommonParameters>]\n\nSelect-Object [-InputObject <psobject>] [-Unique] [-CaseInsensitive] [-SkipIndex <int[]>] [<CommonParameters>]",
+    "Name": "New-Item",
+    "Module": "Microsoft.PowerShell.Management",
+    "Syntax": "New-Item [-Path] <string[]> [-ItemType <string>] [-Value <Object>] [-Force] [-Credential <pscredential>] [-WhatIf] [-Confirm] [<CommonParameters>]\n\nNew-Item [[-Path] <string[]>] -Name <string> [-ItemType <string>] [-Value <Object>] [-Force] [-Credential <pscredential>] [-WhatIf] [-Confirm] [<CommonParameters>]",
     "Parameters": [
       {
-        "Name": "InputObject",
-        "Type": "System.Management.Automation.PSObject",
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "pathSet",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": true
+          },
+          {
+            "Name": "nameSet",
+            "Mandatory": false,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "nameSet",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "ItemType",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Value",
+        "Type": "System.Object",
         "Sets": [
           {
             "Name": "__AllParameterSets",
             "Mandatory": false,
             "Position": -2147483648,
             "ByValue": true,
-            "ByProperty": false
+            "ByProperty": true
           }
         ]
       },
       {
-        "Name": "Property",
-        "Type": "System.Object[]",
+        "Name": "Force",
+        "Type": "System.Management.Automation.SwitchParameter",
         "Sets": [
           {
-            "Name": "DefaultParameter",
-            "Mandatory": false,
-            "Position": 0,
-            "ByValue": false,
-            "ByProperty": false
-          },
-          {
-            "Name": "SkipLastParameter",
-            "Mandatory": false,
-            "Position": 0,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      },
-      {
-        "Name": "ExcludeProperty",
-        "Type": "System.String[]",
-        "Sets": [
-          {
-            "Name": "DefaultParameter",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          },
-          {
-            "Name": "SkipLastParameter",
+            "Name": "__AllParameterSets",
             "Mandatory": false,
             "Position": -2147483648,
             "ByValue": false,
@@ -3329,18 +3715,102 @@
         ]
       },
       {
-        "Name": "ExpandProperty",
+        "Name": "Credential",
+        "Type": "System.Management.Automation.PSCredential",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
         "Type": "System.String",
         "Sets": [
           {
-            "Name": "DefaultParameter",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          },
-          {
-            "Name": "SkipLastParameter",
+            "Name": "__AllParameterSets",
             "Mandatory": false,
             "Position": -2147483648,
             "ByValue": false,
@@ -3349,7 +3819,72 @@
         ]
       },
       {
-        "Name": "Unique",
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WhatIf",
         "Type": "System.Management.Automation.SwitchParameter",
         "Sets": [
           {
@@ -3362,7 +3897,92 @@
         ]
       },
       {
-        "Name": "CaseInsensitive",
+        "Name": "Confirm",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Get-Item",
+    "Module": "Microsoft.PowerShell.Management",
+    "Syntax": "Get-Item [-Path] <string[]> [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Credential <pscredential>] [<CommonParameters>]\n\nGet-Item -LiteralPath <string[]> [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Credential <pscredential>] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "Path",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "LiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Include",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Exclude",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Force",
         "Type": "System.Management.Automation.SwitchParameter",
         "Sets": [
           {
@@ -3375,11 +3995,24 @@
         ]
       },
       {
-        "Name": "Last",
-        "Type": "System.Int32",
+        "Name": "Credential",
+        "Type": "System.Management.Automation.PSCredential",
         "Sets": [
           {
-            "Name": "DefaultParameter",
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
             "Mandatory": false,
             "Position": -2147483648,
             "ByValue": false,
@@ -3388,11 +4021,11 @@
         ]
       },
       {
-        "Name": "First",
-        "Type": "System.Int32",
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
         "Sets": [
           {
-            "Name": "DefaultParameter",
+            "Name": "__AllParameterSets",
             "Mandatory": false,
             "Position": -2147483648,
             "ByValue": false,
@@ -3401,18 +4034,11 @@
         ]
       },
       {
-        "Name": "Skip",
-        "Type": "System.Int32",
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
         "Sets": [
           {
-            "Name": "DefaultParameter",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          },
-          {
-            "Name": "SkipLastParameter",
+            "Name": "__AllParameterSets",
             "Mandatory": false,
             "Position": -2147483648,
             "ByValue": false,
@@ -3421,11 +4047,2166 @@
         ]
       },
       {
-        "Name": "SkipLast",
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
         "Type": "System.Int32",
         "Sets": [
           {
-            "Name": "SkipLastParameter",
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Test-Path",
+    "Module": "Microsoft.PowerShell.Management",
+    "Syntax": "Test-Path [-Path] <string[]> [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-PathType <TestPathType>] [-IsValid] [-Credential <pscredential>] [-OlderThan <datetime>] [-NewerThan <datetime>] [<CommonParameters>]\n\nTest-Path -LiteralPath <string[]> [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-PathType <TestPathType>] [-IsValid] [-Credential <pscredential>] [-OlderThan <datetime>] [-NewerThan <datetime>] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "Path",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "LiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Include",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Exclude",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PathType",
+        "Type": "Microsoft.PowerShell.Commands.TestPathType",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "IsValid",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Credential",
+        "Type": "System.Management.Automation.PSCredential",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OlderThan",
+        "Type": "System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "NewerThan",
+        "Type": "System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Join-Path",
+    "Module": "Microsoft.PowerShell.Management",
+    "Syntax": "Join-Path [-Path] <string[]> [-ChildPath] <string[]> [[-AdditionalChildPath] <string[]>] [-Resolve] [-Credential <pscredential>] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "ChildPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": true,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "AdditionalChildPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": 2,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Resolve",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Credential",
+        "Type": "System.Management.Automation.PSCredential",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Copy-Item",
+    "Module": "Microsoft.PowerShell.Management",
+    "Syntax": "Copy-Item [-Path] <string[]> [[-Destination] <string>] [-Container] [-Force] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Recurse] [-PassThru] [-Credential <pscredential>] [-WhatIf] [-Confirm] [-FromSession <PSSession>] [-ToSession <PSSession>] [<CommonParameters>]\n\nCopy-Item [[-Destination] <string>] -LiteralPath <string[]> [-Container] [-Force] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Recurse] [-PassThru] [-Credential <pscredential>] [-WhatIf] [-Confirm] [-FromSession <PSSession>] [-ToSession <PSSession>] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "Path",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "LiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Destination",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Container",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Force",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Include",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Exclude",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Recurse",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PassThru",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Credential",
+        "Type": "System.Management.Automation.PSCredential",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WhatIf",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Confirm",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "FromSession",
+        "Type": "System.Management.Automation.Runspaces.PSSession",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ToSession",
+        "Type": "System.Management.Automation.Runspaces.PSSession",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Move-Item",
+    "Module": "Microsoft.PowerShell.Management",
+    "Syntax": "Move-Item [-Path] <string[]> [[-Destination] <string>] [-Force] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-PassThru] [-Credential <pscredential>] [-WhatIf] [-Confirm] [<CommonParameters>]\n\nMove-Item [[-Destination] <string>] -LiteralPath <string[]> [-Force] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-PassThru] [-Credential <pscredential>] [-WhatIf] [-Confirm] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "Path",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "LiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Destination",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Force",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Include",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Exclude",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PassThru",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Credential",
+        "Type": "System.Management.Automation.PSCredential",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WhatIf",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Confirm",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Rename-Item",
+    "Module": "Microsoft.PowerShell.Management",
+    "Syntax": "Rename-Item [-Path] <string> [-NewName] <string> [-Force] [-PassThru] [-Credential <pscredential>] [-WhatIf] [-Confirm] [<CommonParameters>]\n\nRename-Item [-NewName] <string> -LiteralPath <string> [-Force] [-PassThru] [-Credential <pscredential>] [-WhatIf] [-Confirm] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Path",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "ByPath",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "ByLiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "NewName",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": true,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Force",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PassThru",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Credential",
+        "Type": "System.Management.Automation.PSCredential",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WhatIf",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Confirm",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Remove-Item",
+    "Module": "Microsoft.PowerShell.Management",
+    "Syntax": "Remove-Item [-Path] <string[]> [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Recurse] [-Force] [-Credential <pscredential>] [-WhatIf] [-Confirm] [<CommonParameters>]\n\nRemove-Item -LiteralPath <string[]> [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Recurse] [-Force] [-Credential <pscredential>] [-WhatIf] [-Confirm] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "Path",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "LiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Include",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Exclude",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Recurse",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Force",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Credential",
+        "Type": "System.Management.Automation.PSCredential",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WhatIf",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Confirm",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Get-Content",
+    "Module": "Microsoft.PowerShell.Management",
+    "Syntax": "Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Credential <pscredential>] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding <Encoding>] [-AsByteStream] [<CommonParameters>]\n\nGet-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Credential <pscredential>] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding <Encoding>] [-AsByteStream] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "ReadCount",
+        "Type": "System.Int64",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "TotalCount",
+        "Type": "System.Int64",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Tail",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "Path",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "LiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Include",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Exclude",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Force",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Credential",
+        "Type": "System.Management.Automation.PSCredential",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Delimiter",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
             "Mandatory": false,
             "Position": -2147483648,
             "ByValue": false,
@@ -3438,14 +6219,909 @@
         "Type": "System.Management.Automation.SwitchParameter",
         "Sets": [
           {
-            "Name": "DefaultParameter",
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Raw",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Encoding",
+        "Type": "System.Text.Encoding",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "AsByteStream",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Set-Content",
+    "Module": "Microsoft.PowerShell.Management",
+    "Syntax": "Set-Content [-Path] <string[]> [-Value] <Object[]> [-PassThru] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Credential <pscredential>] [-WhatIf] [-Confirm] [-NoNewline] [-Encoding <Encoding>] [-AsByteStream] [<CommonParameters>]\n\nSet-Content [-Value] <Object[]> -LiteralPath <string[]> [-PassThru] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Credential <pscredential>] [-WhatIf] [-Confirm] [-NoNewline] [-Encoding <Encoding>] [-AsByteStream] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Value",
+        "Type": "System.Object[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": true,
+            "Position": 1,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "PassThru",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "Path",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "LiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Include",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Exclude",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Force",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Credential",
+        "Type": "System.Management.Automation.PSCredential",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WhatIf",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Confirm",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "NoNewline",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Encoding",
+        "Type": "System.Text.Encoding",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "AsByteStream",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Add-Content",
+    "Module": "Microsoft.PowerShell.Management",
+    "Syntax": "Add-Content [-Path] <string[]> [-Value] <Object[]> [-PassThru] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Credential <pscredential>] [-WhatIf] [-Confirm] [-NoNewline] [-Encoding <Encoding>] [-AsByteStream] [<CommonParameters>]\n\nAdd-Content [-Value] <Object[]> -LiteralPath <string[]> [-PassThru] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Credential <pscredential>] [-WhatIf] [-Confirm] [-NoNewline] [-Encoding <Encoding>] [-AsByteStream] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Value",
+        "Type": "System.Object[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": true,
+            "Position": 1,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "PassThru",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "Path",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "LiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Filter",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Include",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Exclude",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Force",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Credential",
+        "Type": "System.Management.Automation.PSCredential",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WhatIf",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Confirm",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "NoNewline",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Encoding",
+        "Type": "System.Text.Encoding",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "AsByteStream",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Select-String",
+    "Module": "Microsoft.PowerShell.Utility",
+    "Syntax": "Select-String [-Pattern] <string[]> [-Path] <string[]> [-Culture <string>] [-SimpleMatch] [-CaseSensitive] [-Quiet] [-List] [-NoEmphasis] [-Include <string[]>] [-Exclude <string[]>] [-NotMatch] [-AllMatches] [-Encoding <Encoding>] [-Context <int[]>] [<CommonParameters>]\n\nSelect-String [-Pattern] <string[]> -InputObject <psobject> [-Culture <string>] [-SimpleMatch] [-CaseSensitive] [-Quiet] [-List] [-NoEmphasis] [-Include <string[]>] [-Exclude <string[]>] [-NotMatch] [-AllMatches] [-Encoding <Encoding>] [-Context <int[]>] [<CommonParameters>]\n\nSelect-String [-Pattern] <string[]> -InputObject <psobject> -Raw [-Culture <string>] [-SimpleMatch] [-CaseSensitive] [-List] [-NoEmphasis] [-Include <string[]>] [-Exclude <string[]>] [-NotMatch] [-AllMatches] [-Encoding <Encoding>] [-Context <int[]>] [<CommonParameters>]\n\nSelect-String [-Pattern] <string[]> [-Path] <string[]> -Raw [-Culture <string>] [-SimpleMatch] [-CaseSensitive] [-List] [-NoEmphasis] [-Include <string[]>] [-Exclude <string[]>] [-NotMatch] [-AllMatches] [-Encoding <Encoding>] [-Context <int[]>] [<CommonParameters>]\n\nSelect-String [-Pattern] <string[]> -LiteralPath <string[]> [-Culture <string>] [-SimpleMatch] [-CaseSensitive] [-Quiet] [-List] [-NoEmphasis] [-Include <string[]>] [-Exclude <string[]>] [-NotMatch] [-AllMatches] [-Encoding <Encoding>] [-Context <int[]>] [<CommonParameters>]\n\nSelect-String [-Pattern] <string[]> -LiteralPath <string[]> -Raw [-Culture <string>] [-SimpleMatch] [-CaseSensitive] [-List] [-NoEmphasis] [-Include <string[]>] [-Exclude <string[]>] [-NotMatch] [-AllMatches] [-Encoding <Encoding>] [-Context <int[]>] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Culture",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InputObject",
+        "Type": "System.Management.Automation.PSObject",
+        "Sets": [
+          {
+            "Name": "Object",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": true,
+            "ByProperty": false
+          },
+          {
+            "Name": "ObjectRaw",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": true,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Pattern",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "File",
+            "Mandatory": true,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": true
+          },
+          {
+            "Name": "FileRaw",
+            "Mandatory": true,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "LiteralFile",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          },
+          {
+            "Name": "LiteralFileRaw",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Raw",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "ObjectRaw",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "FileRaw",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "LiteralFileRaw",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "SimpleMatch",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "CaseSensitive",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Quiet",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "Object",
             "Mandatory": false,
             "Position": -2147483648,
             "ByValue": false,
             "ByProperty": false
           },
           {
-            "Name": "IndexParameter",
+            "Name": "File",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "LiteralFile",
             "Mandatory": false,
             "Position": -2147483648,
             "ByValue": false,
@@ -3454,11 +7130,11 @@
         ]
       },
       {
-        "Name": "Index",
-        "Type": "System.Int32[]",
+        "Name": "List",
+        "Type": "System.Management.Automation.SwitchParameter",
         "Sets": [
           {
-            "Name": "IndexParameter",
+            "Name": "__AllParameterSets",
             "Mandatory": false,
             "Position": -2147483648,
             "ByValue": false,
@@ -3467,13 +7143,2232 @@
         ]
       },
       {
-        "Name": "SkipIndex",
+        "Name": "NoEmphasis",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Include",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Exclude",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "NotMatch",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "AllMatches",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Encoding",
+        "Type": "System.Text.Encoding",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Context",
         "Type": "System.Int32[]",
         "Sets": [
           {
-            "Name": "SkipIndexParameter",
+            "Name": "__AllParameterSets",
             "Mandatory": false,
             "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Export-Csv",
+    "Module": "Microsoft.PowerShell.Utility",
+    "Syntax": "Export-Csv [[-Path] <string>] [[-Delimiter] <char>] -InputObject <psobject> [-LiteralPath <string>] [-Force] [-NoClobber] [-Encoding <Encoding>] [-Append] [-IncludeTypeInformation] [-NoTypeInformation] [-QuoteFields <string[]>] [-UseQuotes <BaseCsvWritingCommand+QuoteKind>] [-NoHeader] [-WhatIf] [-Confirm] [<CommonParameters>]\n\nExport-Csv [[-Path] <string>] -InputObject <psobject> [-LiteralPath <string>] [-Force] [-NoClobber] [-Encoding <Encoding>] [-Append] [-UseCulture] [-IncludeTypeInformation] [-NoTypeInformation] [-QuoteFields <string[]>] [-UseQuotes <BaseCsvWritingCommand+QuoteKind>] [-NoHeader] [-WhatIf] [-Confirm] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "InputObject",
+        "Type": "System.Management.Automation.PSObject",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Path",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Force",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "NoClobber",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Encoding",
+        "Type": "System.Text.Encoding",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Append",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Delimiter",
+        "Type": "System.Char",
+        "Sets": [
+          {
+            "Name": "Delimiter",
+            "Mandatory": false,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "UseCulture",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "UseCulture",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "IncludeTypeInformation",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "NoTypeInformation",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "QuoteFields",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "UseQuotes",
+        "Type": "Microsoft.PowerShell.Commands.BaseCsvWritingCommand+QuoteKind",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "NoHeader",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WhatIf",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Confirm",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Import-Csv",
+    "Module": "Microsoft.PowerShell.Utility",
+    "Syntax": "Import-Csv [-Path] <string[]> [[-Delimiter] <char>] [-Header <string[]>] [-Encoding <Encoding>] [<CommonParameters>]\n\nImport-Csv [[-Delimiter] <char>] -LiteralPath <string[]> [-Header <string[]>] [-Encoding <Encoding>] [<CommonParameters>]\n\nImport-Csv [-Path] <string[]> -UseCulture [-Header <string[]>] [-Encoding <Encoding>] [<CommonParameters>]\n\nImport-Csv -LiteralPath <string[]> -UseCulture [-Header <string[]>] [-Encoding <Encoding>] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Delimiter",
+        "Type": "System.Char",
+        "Sets": [
+          {
+            "Name": "DelimiterPath",
+            "Mandatory": false,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "DelimiterLiteralPath",
+            "Mandatory": false,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "DelimiterPath",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          },
+          {
+            "Name": "CulturePath",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "DelimiterLiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          },
+          {
+            "Name": "CultureLiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "UseCulture",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "CulturePath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "CultureLiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Header",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Encoding",
+        "Type": "System.Text.Encoding",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "ConvertTo-Json",
+    "Module": "Microsoft.PowerShell.Utility",
+    "Syntax": "ConvertTo-Json [-InputObject] <Object> [-Depth <int>] [-Compress] [-EnumsAsStrings] [-AsArray] [-EscapeHandling <StringEscapeHandling>] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "InputObject",
+        "Type": "System.Object",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Depth",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Compress",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "EnumsAsStrings",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "AsArray",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "EscapeHandling",
+        "Type": "Newtonsoft.Json.StringEscapeHandling",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "ConvertFrom-Json",
+    "Module": "Microsoft.PowerShell.Utility",
+    "Syntax": "ConvertFrom-Json [-InputObject] <string> [-AsHashtable] [-Depth <int>] [-NoEnumerate] [-DateKind <JsonDateKind>] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "InputObject",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "AsHashtable",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Depth",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "NoEnumerate",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "DateKind",
+        "Type": "Microsoft.PowerShell.Commands.JsonDateKind",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Select-Xml",
+    "Module": "Microsoft.PowerShell.Utility",
+    "Syntax": "Select-Xml [-XPath] <string> [-Xml] <XmlNode[]> [-Namespace <hashtable>] [<CommonParameters>]\n\nSelect-Xml [-XPath] <string> [-Path] <string[]> [-Namespace <hashtable>] [<CommonParameters>]\n\nSelect-Xml [-XPath] <string> -LiteralPath <string[]> [-Namespace <hashtable>] [<CommonParameters>]\n\nSelect-Xml [-XPath] <string> -Content <string[]> [-Namespace <hashtable>] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "Path",
+            "Mandatory": true,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "LiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Xml",
+        "Type": "System.Xml.XmlNode[]",
+        "Sets": [
+          {
+            "Name": "Xml",
+            "Mandatory": true,
+            "Position": 1,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "Content",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "Content",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": true,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "XPath",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Namespace",
+        "Type": "System.Collections.Hashtable",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Compress-Archive",
+    "Module": "Microsoft.PowerShell.Archive",
+    "Syntax": "Compress-Archive [-Path] <string[]> [-DestinationPath] <string> [-CompressionLevel <string>] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]\n\nCompress-Archive [-Path] <string[]> [-DestinationPath] <string> -Update [-CompressionLevel <string>] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]\n\nCompress-Archive [-Path] <string[]> [-DestinationPath] <string> -Force [-CompressionLevel <string>] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]\n\nCompress-Archive [-DestinationPath] <string> -LiteralPath <string[]> -Update [-CompressionLevel <string>] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]\n\nCompress-Archive [-DestinationPath] <string> -LiteralPath <string[]> -Force [-CompressionLevel <string>] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]\n\nCompress-Archive [-DestinationPath] <string> -LiteralPath <string[]> [-CompressionLevel <string>] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "PathWithUpdate",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          },
+          {
+            "Name": "PathWithForce",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          },
+          {
+            "Name": "Path",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "LiteralPathWithUpdate",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          },
+          {
+            "Name": "LiteralPathWithForce",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          },
+          {
+            "Name": "LiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "DestinationPath",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": true,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "CompressionLevel",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Update",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "LiteralPathWithUpdate",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "PathWithUpdate",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Force",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "LiteralPathWithForce",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "PathWithForce",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PassThru",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WhatIf",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Confirm",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Expand-Archive",
+    "Module": "Microsoft.PowerShell.Archive",
+    "Syntax": "Expand-Archive [-Path] <string> [[-DestinationPath] <string>] [-Force] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]\n\nExpand-Archive [[-DestinationPath] <string>] -LiteralPath <string> [-Force] [-PassThru] [-WhatIf] [-Confirm] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Path",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "Path",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "LiteralPath",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "DestinationPath",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Force",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PassThru",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WhatIf",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Confirm",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Get-FileHash",
+    "Module": "Microsoft.PowerShell.Utility",
+    "Syntax": "Get-FileHash [-Path] <string[]> [[-Algorithm] <string>] [<CommonParameters>]\n\nGet-FileHash [-LiteralPath] <string[]> [[-Algorithm] <string>] [<CommonParameters>]\n\nGet-FileHash [-InputStream] <Stream> [[-Algorithm] <string>] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "Path",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "LiteralPath",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "InputStream",
+        "Type": "System.IO.Stream",
+        "Sets": [
+          {
+            "Name": "StreamParameterSet",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Algorithm",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": 1,
             "ByValue": false,
             "ByProperty": false
           }

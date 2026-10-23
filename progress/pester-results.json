@@ -1,0 +1,198 @@
+{
+  "run_at_utc": "2026-10-23T22:41:40.6483691Z",
+  "powershell": "7.6.8",
+  "os": "Debian GNU/Linux 13 (trixie)",
+  "pester": "5.7.1",
+  "result": "Passed",
+  "total": 37,
+  "passed": 37,
+  "failed": 0,
+  "skipped": 0,
+  "tests": [
+    {
+      "name": "第22章：限定暫存範圍的檔案操作.UTF-8無BOM保留繁中與中括號檔名",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第22章：限定暫存範圍的檔案操作.逐行與Raw維持各自的資料形狀",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第22章：限定暫存範圍的檔案操作.空檔與單行不被誤當多筆資料",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第22章：限定暫存範圍的檔案操作.複製保留來源而移動移除原位置",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第22章：限定暫存範圍的檔案操作.WhatIf不刪除資料且正常刪除僅影響指定檔案",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第22章：限定暫存範圍的檔案操作.錯誤路徑可由Stop轉為可捕捉錯誤",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第23章：文字比對與正規表示式.預設忽略大小寫而cmatch區分大小寫",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第23章：文字比對與正規表示式.使用具名群組解析日誌與數值",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第23章：文字比對與正規表示式.失敗後不可把舊Matches當成新結果",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第23章：文字比對與正規表示式.集合的match回傳符合的元素",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第23章：文字比對與正規表示式.SimpleMatch把點號當普通字元",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第23章：文字比對與正規表示式.AllMatches把同一行所有命中放在Matches",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第23章：文字比對與正規表示式.替換群組使用單引號避免PowerShell先展開",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第23章：文字比對與正規表示式.Escape與split分別處理字面內容與模式",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第24章：CSV、JSON、XML資料往返.CSV保留逗號引號換行與繁中但數字讀回為字串",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第24章：CSV、JSON、XML資料往返.CSV使用明確分隔符號",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第24章：CSV、JSON、XML資料往返.JSON足夠Depth保留巢狀資料",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第24章：CSV、JSON、XML資料往返.深度不足時警告可使流程失敗",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第24章：CSV、JSON、XML資料往返.單元素JSON陣列可往返保持陣列",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第24章：CSV、JSON、XML資料往返.空JSON陣列與空物件是不同形狀",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第24章：CSV、JSON、XML資料往返.AsHashtable保留大小寫不同鍵",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第24章：CSV、JSON、XML資料往返.相同JSON鍵只保留最後值",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第24章：CSV、JSON、XML資料往返.無效JSON會失敗而不是得到空的成功結果",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第24章：CSV、JSON、XML資料往返.DateKind String保留時間欄位原字串",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第24章：CSV、JSON、XML資料往返.XML預設命名空間需要XPath前綴",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第24章：CSV、JSON、XML資料往返.禁止DTD的XmlReader拒絕外部實體宣告",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第25章：壓縮與還原驗收.完整範例核對兩個檔案並清理自己的暫存目錄",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第25章：壓縮與還原驗收.ZIP還原後的SHA256與來源一致",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第25章：壓縮與還原驗收.WhatIf不建立ZIP",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第25章：壓縮與還原驗收.目錄壓縮不應被誤認為包含Linux點號檔案",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第25章：壓縮與還原驗收.被修改的還原檔不會通過雜湊核對",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第21章：訂單總額與邊界.數量 0 的總額是 0",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第21章：訂單總額與邊界.數量 1 的總額是 30",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第21章：訂單總額與邊界.數量 4 的總額是 120",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第21章：訂單總額與邊界.拒絕負數數量",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第21章：訂單總額與邊界.拒絕超出範圍的數量",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第21章：訂單總額與邊界.拒絕負數單價",
+      "result": "Passed",
+      "error": ""
+    }
+  ]
+}

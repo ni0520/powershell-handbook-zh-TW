@@ -1,7 +1,7 @@
 {
-  "run_at_utc": "2026-10-23T22:11:07.5397624Z",
+  "run_at_utc": "2026-10-23T22:44:11.3470463Z",
   "powershell": "7.6.8",
-  "passed": 130,
+  "passed": 163,
   "failed": 0,
   "cases": [
     {
@@ -255,6 +255,486 @@
       "errors": []
     },
     {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-51",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-52",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-53",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-54",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-55",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/01-introduction.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/01-introduction.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/01-introduction.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/02-powershell-versions.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/02-powershell-versions.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/03-installation.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/03-installation.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/03-installation.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/03-installation.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/04-terminal-editor.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/04-terminal-editor.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/05-basic-navigation.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/05-basic-navigation.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/05-basic-navigation.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/05-basic-navigation.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/06-help-system.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/06-help-system.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/06-help-system.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/07-commands-aliases.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/07-commands-aliases.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/07-commands-aliases.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/07-commands-aliases.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/08-objects.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/08-objects.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/08-objects.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/08-objects.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/09-pipeline.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/09-pipeline.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/09-pipeline.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/10-filter-sort.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/10-filter-sort.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/10-filter-sort.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/10-filter-sort.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/10-filter-sort.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/10-filter-sort.md:block-6",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/11-variables-types.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/11-variables-types.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/11-variables-types.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/11-variables-types.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/12-collections.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/12-collections.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/12-collections.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/12-collections.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/12-collections.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/13-operators.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/13-operators.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/13-operators.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/13-operators.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/14-control-flow.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/14-control-flow.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/14-control-flow.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/14-control-flow.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/14-control-flow.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/15-scripts.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/15-scripts.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/16-functions.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/16-functions.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/16-functions.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/17-advanced-functions.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/17-advanced-functions.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/18-modules.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/18-modules.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/18-modules.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/19-error-handling.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/19-error-handling.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/19-error-handling.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/20-debugging-logging.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/20-debugging-logging.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/23-text-regex.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/23-text-regex.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/23-text-regex.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/23-text-regex.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/23-text-regex.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/23-text-regex.md:block-6",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/23-text-regex.md:block-7",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/25-archives-backup.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/25-archives-backup.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/25-archives-backup.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/24-csv-json-xml.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/24-csv-json-xml.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/24-csv-json-xml.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/24-csv-json-xml.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/24-csv-json-xml.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/22-files-folders.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/22-files-folders.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/21-testing-pester.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/21-testing-pester.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/21-testing-pester.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/21-testing-pester.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/21-testing-pester.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/21-testing-pester.md:block-6",
+      "status": "passed",
+      "errors": []
+    },
+    {
       "name": "docs/cheatsheets/quick-reference.md:block-1",
       "status": "passed",
       "errors": []
@@ -290,342 +770,7 @@
       "errors": []
     },
     {
-      "name": "docs/chapters/17-advanced-functions.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/17-advanced-functions.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/13-operators.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/13-operators.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/13-operators.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/13-operators.md:block-4",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/15-scripts.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/15-scripts.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/04-terminal-editor.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/04-terminal-editor.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/05-basic-navigation.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/05-basic-navigation.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/05-basic-navigation.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/05-basic-navigation.md:block-4",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/01-introduction.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/01-introduction.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/01-introduction.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/12-collections.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/12-collections.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/12-collections.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/12-collections.md:block-4",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/12-collections.md:block-5",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/14-control-flow.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/14-control-flow.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/14-control-flow.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/14-control-flow.md:block-4",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/14-control-flow.md:block-5",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/06-help-system.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/06-help-system.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/06-help-system.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/08-objects.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/08-objects.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/08-objects.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/08-objects.md:block-4",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/19-error-handling.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/19-error-handling.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/19-error-handling.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/03-installation.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/03-installation.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/03-installation.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/03-installation.md:block-4",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/18-modules.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/18-modules.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/18-modules.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/11-variables-types.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/11-variables-types.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/11-variables-types.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/11-variables-types.md:block-4",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/20-debugging-logging.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/20-debugging-logging.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/16-functions.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/16-functions.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/16-functions.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/09-pipeline.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/09-pipeline.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/09-pipeline.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/07-commands-aliases.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/07-commands-aliases.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/07-commands-aliases.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/07-commands-aliases.md:block-4",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/10-filter-sort.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/10-filter-sort.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/10-filter-sort.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/10-filter-sort.md:block-4",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/10-filter-sort.md:block-5",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/10-filter-sort.md:block-6",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/02-powershell-versions.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/02-powershell-versions.md:block-2",
+      "name": "examples/10/Get-LearningReport.ps1",
       "status": "passed",
       "errors": []
     },
@@ -640,7 +785,7 @@
       "errors": []
     },
     {
-      "name": "examples/10/Get-LearningReport.ps1",
+      "name": "examples/25/Invoke-LearningBackup.ps1",
       "status": "passed",
       "errors": []
     },
@@ -650,7 +795,27 @@
       "errors": []
     },
     {
+      "name": "tests/LearningTotal.Tests.ps1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "tests/DataFiles.Tests.ps1",
+      "status": "passed",
+      "errors": []
+    },
+    {
       "name": "scripts/Test-Syntax.ps1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "scripts/Export-CommandMetadata.ps1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "scripts/Invoke-Checks.ps1",
       "status": "passed",
       "errors": []
     }

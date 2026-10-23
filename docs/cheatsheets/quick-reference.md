@@ -92,3 +92,22 @@ try {
 7. 保留實際失敗狀態，不以最後一個成功命令掩蓋。
 
 本版完整教學見[命令附錄](../appendices/cmdlet-tutorials.md)，查證來源見[來源清單](../appendices/sources.md)。
+
+## 第21–25章：測試與資料處理
+
+以下都是語法提示，路徑應由讀者明確指定；寫入、壓縮與刪除先在本章唯一暫存範圍練習。
+
+| 需求 | 命令或方法 | 重要限制 |
+|---|---|---|
+| 測試結果 | Invoke-Pester -PassThru | 檢查Result與TotalCount；不是只看彩色摘要 |
+| 靜態分析 | Invoke-ScriptAnalyzer | 規則診斷不能替代執行測試 |
+| 文字全文 | Get-Content -LiteralPath … -Raw -Encoding utf8 | Raw一次載入全文 |
+| 取代／附加 | Set-Content／Add-Content | 明確編碼，防止覆寫或混合編碼 |
+| 字面搜尋 | Select-String -SimpleMatch | Regex模式與固定字串要分開 |
+| 行內多次命中 | Select-String -AllMatches | 查看MatchInfo.Matches |
+| CSV交換 | Export-Csv／Import-Csv | 不先Format-Table；數字讀回仍需轉型 |
+| JSON序列化 | ConvertTo-Json -Depth 5 | 深度依結構選擇並重新讀回驗收 |
+| 單元素陣列 | ConvertFrom-Json -NoEnumerate | 保留陣列形狀 |
+| XML命名空間 | Select-Xml -Namespace | XPath前綴對應URI |
+| ZIP往返 | Compress-Archive／Expand-Archive | 隱藏檔略過，先還原到新位置 |
+| 完整性 | Get-FileHash -Algorithm SHA256 | 雜湊不是來源簽章或加密 |

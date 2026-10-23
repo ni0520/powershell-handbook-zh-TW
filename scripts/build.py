@@ -10,6 +10,7 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Pt
 from playwright.sync_api import sync_playwright
+from book_config import CHAPTER_COUNT, VERSION, STEM, TITLE, scope_text
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / 'dist'
@@ -39,7 +40,7 @@ def reference_docx():
     doc.styles['Normal'].font.size = Pt(11)
     doc.styles['Normal'].paragraph_format.space_after = Pt(7)
     section = doc.sections[0]
-    section.header.paragraphs[0].text = 'PowerShell 2026｜前 20 章初稿 v0.1'
+    section.header.paragraphs[0].text = f'PowerShell 2026｜前 {CHAPTER_COUNT} 章初稿 {VERSION}'
     footer = section.footer.paragraphs[0]
     footer.text = '頁 '
     field = OxmlElement('w:fldSimple')
@@ -87,12 +88,12 @@ def combine(files):
         chunks.append(text)
     chunks.append('''# 交付範圍與驗證說明 {#delivery-status}
 
-本版是前 20 章初稿，含 400 題與解答、10 個核心命令詳解、40 個術語、22 個參數、55 筆官方來源。第 21–40 章、500+ 指令索引及企業案例尚未完成，並非全書定稿。
+SCOPE_TEXT
 
-本機 7.6.8 / Debian 13 的代表性測試與語法紀錄保存在 progress。語法通過不代表每個程式碼區塊都已實際執行。Windows 5.1、Windows/macOS 桌面、企業模組與跨版本效能未實測；PSScriptAnalyzer、Pester 尚未完成可用性驗證，未以其名義宣稱通過。
+本機 7.6.8 / Debian 13 的代表性測試與語法紀錄保存在 progress。新增 Pester 5.7.1 實測與 PSScriptAnalyzer 1.25.0 可執行範例分析；語法通過不代表每個程式碼區塊都已實際執行。Windows 5.1、Windows/macOS 桌面、企業模組與跨版本效能未實測。Pester 為固定官方原始碼建置；PSScriptAnalyzer 簽章工具回報成功，但無法連線查驗撤銷狀態，限制保留在工具紀錄。
 
 GitHub 保存狀態以提交後回報與遠端 commit 核對為準；本文件產生時不預先宣稱已合併。
-''')
+'''.replace('SCOPE_TEXT', scope_text()))
     return '\n\n'.join(chunks)
 
 
@@ -136,16 +137,16 @@ def main():
     os.environ.setdefault('XDG_CONFIG_HOME','/workspace/handbook-tools/config')
     chapters=sorted((ROOT/'docs/chapters').glob('*.md'))
     if args.sample:
-        files=[chapters[0],chapters[9]]
+        files=[chapters[0], chapters[-2], chapters[-1]]
         stem='排版驗證樣本'
     else:
         files=[ROOT/'docs/README.md',*chapters]
-        files += [ROOT/'docs/appendices'/f'{x}.md' for x in ['cmdlet-tutorials','parameter-reference','glossary','master-index']]
+        files += [ROOT/'docs/appendices'/f'{x}.md' for x in ['cmdlet-tutorials','cmdlet-quick-index','parameter-reference','glossary','master-index']]
         files += [ROOT/'docs/cheatsheets/quick-reference.md',ROOT/'docs/appendices/sources.md']
-        stem='PowerShell_學習手冊_2026_前20章初稿'
+        stem=STEM
     md=DIST/f'{stem}.md'; md.write_text(combine(files))
     html=DIST/f'{stem}.html'
-    run('pandoc',str(md),'--standalone','--toc','--toc-depth=2','--embed-resources','--metadata','lang=zh-TW','--metadata','title=PowerShell 完整繁體中文版學習手冊（2026）｜前 20 章初稿 v0.1','--css','assets/book.css','-o',str(html))
+    run('pandoc',str(md),'--standalone','--toc','--toc-depth=2','--embed-resources','--metadata','lang=zh-TW','--metadata','title='+TITLE,'--css','assets/book.css','-o',str(html))
     if not args.sample:
         add_search(html)
         run('pandoc',str(md),'--standalone','--toc','--toc-depth=2','--metadata','lang=zh-TW','--reference-doc',str(reference_docx()),'-o',str(DIST/f'{stem}.docx'))
@@ -169,7 +170,7 @@ def main():
         quick_text=re.sub(r'\[([^\]]+)\]\(#[^)]+\)',r'\1（詳主手冊）',quick_text)
         quick.write_text(quick_text)
         quick_html=DIST/'PowerShell_常用指令速查表_2026.html'
-        run('pandoc',str(quick),'--standalone','--metadata','title=PowerShell 常用指令速查｜前 20 章','--metadata','lang=zh-TW','--embed-resources','--css','assets/book.css','-o',str(quick_html))
+        run('pandoc',str(quick),'--standalone','--metadata',f'title=PowerShell 常用指令速查｜前 {CHAPTER_COUNT} 章','--metadata','lang=zh-TW','--embed-resources','--css','assets/book.css','-o',str(quick_html))
         with sync_playwright() as p:
             browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True)
             page=browser.new_page();page.set_content(quick_html.read_text(),wait_until='networkidle')

@@ -4,6 +4,7 @@ import json
 import re
 import subprocess
 import tempfile
+from book_config import CHAPTER_COUNT
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -11,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def main():
     chapters = sorted((ROOT / 'docs/chapters').glob('*.md'))
     assert chapters, 'No chapters'
+    assert [int(p.name[:2]) for p in chapters] == list(range(1, CHAPTER_COUNT+1)), 'Scope/chapter numbering mismatch'
     for p in chapters:
         text = p.read_text(encoding='utf-8')
         for heading in ['學習目標', '練習題', '參考答案與解題思路', '速查表', '參考資料與延伸閱讀', '驗證狀態']:
@@ -27,6 +29,20 @@ def main():
         data = json.loads((ROOT / f'data/{name}.json').read_text())
         assert isinstance(data, list) and data, name
         assert len({x['id'] for x in data}) == len(data), name
+    entries = json.loads((ROOT/'data/cmdlet-index.json').read_text())
+    assert len({x['name'] for x in entries}) == len(entries), 'Duplicate command'
+    for entry in entries:
+        assert entry['entry_type'] in ('tutorial', 'quick-reference'), entry
+        assert (ROOT/entry['chapter']).exists(), entry['name']
+        path, anchor = entry['tutorial'].split('#')
+        contents = (ROOT/path).read_text()
+        assert f'<a id="{anchor}"></a>' in contents, entry['name']
+        if entry['entry_type'] == 'tutorial':
+            section = contents.split(f'<a id="{anchor}"></a>',1)[1].split('<a id=',1)[0]
+            for n in range(1,15):
+                assert re.search(rf'^### {n}\. ', section, re.M), (entry['name'],n)
+    metadata = json.loads((ROOT/'data/runtime-command-metadata.json').read_text(encoding='utf-8-sig'))
+    assert {x['Name'] for x in metadata} == {x['name'] for x in entries}, 'Runtime metadata out of date'
     cases = []
     # PROJECT_SPEC preserves user requirements verbatim; it is not authored teaching code.
     docs = list((ROOT/'docs').rglob('*.md'))

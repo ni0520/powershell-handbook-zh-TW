@@ -1,0 +1,33 @@
+{
+  "run_at_utc": "2026-10-23T22:44:10.806301+00:00",
+  "status": "passed",
+  "cases": [
+    {
+      "case": "passing",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "total": 1,
+      "pester_result": "Passed"
+    },
+    {
+      "case": "failing",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "total": 1,
+      "pester_result": "Failed"
+    },
+    {
+      "case": "empty",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "total": 0,
+      "pester_result": "Passed"
+    },
+    {
+      "case": "discovery-vs-run",
+      "actual_exit": 0,
+      "discovery_beforeall_executed": false,
+      "run_beforeall_executed": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+X.509 certificate chain validation will use the fallback certificate bundle at '/workspace/handbook-tools/dotnet/sdk/8.0.426/trustedroots/codesignctl.pem'.
+X.509 certificate chain validation will use the fallback certificate bundle at '/workspace/handbook-tools/dotnet/sdk/8.0.426/trustedroots/timestampctl.pem'.
+
+Verifying PSScriptAnalyzer.1.25.0
+/workspace/handbook-tools/PSScriptAnalyzer.1.25.0.nupkg
+Signature Hash Algorithm: SHA256
+
+Signature type: Author
+Verifying the author primary signature with certificate:
+  Subject Name: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+  SHA1 hash: F25C45D17C53D4E0D1DC9FB9DFD0731FCF904B77
+  SHA256 hash: 566A31882BE208BE4422F7CFD66ED09F5D4524A5994F50CCC8B05EC0528C1353
+  Issued by: CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O="DigiCert, Inc.", C=US
+  Valid from: 07/27/2023 00:00:00 to 10/17/2026 23:59:59
+Timestamp: 03/20/2026 18:45:11
+Verifying author primary signature's timestamp with timestamping service certificate:
+  Subject Name: CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O="DigiCert, Inc.", C=US
+  SHA1 hash: DD6230AC860A2D306BDA38B16879523007FB417E
+  SHA256 hash: 4AA03FA22CD75C84C55C938F828E676B9CAECAB33FE36D269AA334F146110A33
+  Issued by: CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1, O="DigiCert, Inc.", C=US
+  Valid from: 06/04/2025 00:00:00 to 09/03/2036 23:59:59
+
+Finished with 0 errors and 4 warnings.
+warn : NU3018: The author primary signature found a chain building issue: The revocation function was unable to check revocation because the revocation server could not be reached. For more information, visit https://aka.ms/certificateRevocationMode.
+warn : NU3018: The author primary signature found a chain building issue: RevocationStatusUnknown: unable to get certificate CRL
+warn : NU3028: The author primary signature's timestamp found a chain building issue: The revocation function was unable to check revocation because the revocation server could not be reached. For more information, visit https://aka.ms/certificateRevocationMode.
+warn : NU3028: The author primary signature's timestamp found a chain building issue: RevocationStatusUnknown: unable to get certificate CRL
+
+Successfully verified package 'PSScriptAnalyzer.1.25.0'.

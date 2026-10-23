@@ -10,10 +10,10 @@ import zipfile
 from docx import Document
 from pypdf import PdfReader
 from playwright.sync_api import sync_playwright
+from book_config import CHAPTER_COUNT, STEM
 
 ROOT=Path(__file__).resolve().parents[1]
 DIST=ROOT/'dist'
-STEM='PowerShell_學習手冊_2026_前20章初稿'
 
 
 def main():
@@ -40,7 +40,7 @@ def main():
         assert not audit['broken'],audit['broken']
         assert audit['scroll'] <= audit['width']+1,audit
         assert audit['language']=='zh-TW',audit
-        for term in ['管線','Get-ChildItem','物件']:
+        for term in ['管線','Get-ChildItem','物件','Pester','JSON','Compress-Archive','雜湊']:
             page.locator('#book-search').fill(term)
             assert page.locator('#search-results a').count()>0,term
         page.locator('#book-search').fill('不存在xyz123')
@@ -62,9 +62,9 @@ def main():
         assert '<w:hyperlink' in xml
     document=Document(docx)
     text='\n'.join(p.text for p in document.paragraphs)
-    for n in range(1,21):assert f'第 {n} 章' in text,n
+    for n in range(1,CHAPTER_COUNT+1):assert f'第 {n} 章' in text,n
     assert len(document.tables)>=20
-    report['checks'].append({'name':'DOCX ZIP/XML/reopen/20 chapters/tables/fonts/hyperlinks','status':'passed','tables':len(document.tables),'paragraphs':len(document.paragraphs)})
+    report['checks'].append({'name':f'DOCX ZIP/XML/reopen/{CHAPTER_COUNT} chapters/tables/fonts/hyperlinks','status':'passed','tables':len(document.tables),'paragraphs':len(document.paragraphs)})
     for filename in [f'{STEM}.pdf',f'{STEM}_手機版.pdf','PowerShell_常用指令速查表_2026.pdf']:
         path=DIST/filename; pdf=PdfReader(path)
         assert len(pdf.pages)>0
@@ -75,7 +75,7 @@ def main():
         assert 'PowerShell' in joined and expected_term in joined,filename
         assert not re.search('[\u2e80-\u2fff]',joined), 'Incorrect radical Unicode mapping: '+filename
         if filename.startswith(STEM):
-            for n in range(1,21):assert f'第 {n} 章' in joined,(filename,n)
+            for n in range(1,CHAPTER_COUNT+1):assert f'第 {n} 章' in joined,(filename,n)
         assert pdf.outline,filename
         fonts=subprocess.run(['pdffonts',str(path)],capture_output=True,text=True,check=True)
         assert not fonts.stderr,fonts.stderr
@@ -87,7 +87,7 @@ def main():
         else:assert 590<width<600,width
         report['checks'].append({'name':filename,'status':'passed','pages':len(pdf.pages),'width_pt':width,'extracted_characters':len(joined),'font_entries':len(rows)})
     for path in sorted(DIST.iterdir()):
-        if path.suffix in ('.md','.html','.docx','.pdf') and not path.name.startswith(('排版','reference')):
+        if path.suffix in ('.md','.html','.docx','.pdf') and (path.name.startswith(STEM) or path.name.startswith(('PowerShell_常用','PowerShell_參考'))):
             assert path.stat().st_size>0
             report['files'].append({'name':path.name,'bytes':path.stat().st_size,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
     (ROOT/'progress/artifact-results.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

@@ -6,4 +6,11 @@
 
 `validate.py` 對教材與腳本執行 Parser 語法檢查，不執行未知 Markdown 內容。`verify_artifacts.py` 檢查文件與瀏覽器行為。JSON 證據保存於 progress，重新執行會更新執行時間與結果。
 
-PSScriptAnalyzer 與 Pester 未執行。已取得 PSScriptAnalyzer 官方 nupkg，但此環境尚未具備已驗證的 NuGet 簽章檢查流程，因此沒有載入該下載模組；不關閉簽章或校驗來追求通過。
+
+新增 Pester 5.7.1：LearningTotal.Tests.ps1 與 DataFiles.Tests.ps1 共 37 項，使用 TestDrive 或自行建立的唯一暫存目錄。涵蓋型別、邊界、CSV 特殊字元、JSON 深度與形狀、XML 命名空間／DTD 拒絕、ZIP 還原與錯誤雜湊。
+
+Invoke-Checks.ps1 另用 PSScriptAnalyzer 1.25.0 對 examples 套用預設 Warning／Error 規則。工具來源、簽章警告與重建方法見 scripts/README.md；不把靜態分析範圍擴稱為全書。
+
+verify_runner.py 實際啟動子程序檢查正常／故意失敗／零測試的退出碼，並比較僅探索與真正執行的 BeforeAll 副作用。verify_document_examples.py 執行 19 個已檢視、可獨立運行的教材區塊；這是執行檢查，預期值斷言另在 Pester 記錄。
+
+全部證據保存於 progress/*.json。Windows 5.1、Windows／macOS、企業模組及壓力測試未執行。

@@ -380,7 +380,7 @@
     "usage": "第 3 章的觀念與案例",
     "related_commands": [],
     "chapter": "docs/chapters/03-installation.md",
-    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/install/PowerShell-Support-Lifecycle.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Character_Encoding.md",
     "version": "7.6 基準；差異見章節",
     "platform": "依章節標示",
     "verified_at": "2026-10-24"
@@ -388,12 +388,12 @@
   {
     "id": "term-bom",
     "english": "BOM",
-    "chinese": "位元組順序記號",
+    "chinese": "位元組順序標記",
     "description": "檔案開頭的 Unicode 編碼提示，可協助舊版辨識中文。",
     "usage": "第 3 章的觀念與案例",
     "related_commands": [],
     "chapter": "docs/chapters/03-installation.md",
-    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/install/PowerShell-Support-Lifecycle.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Character_Encoding.md",
     "version": "7.6 基準；差異見章節",
     "platform": "依章節標示",
     "verified_at": "2026-10-24"
@@ -549,6 +549,189 @@
     "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Debuggers.md",
     "version": "7.6 基準；差異見章節",
     "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-discovery",
+    "english": "Discovery",
+    "chinese": "探索階段",
+    "description": "Pester先建立測試樹的階段；直接放在Describe內的命令可能此時執行。",
+    "usage": "第 21 章的資料處理與驗證",
+    "related_commands": [
+      "Invoke-Pester"
+    ],
+    "chapter": "docs/chapters/21-testing-pester.md",
+    "official_source": "https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/usage/discovery-and-run.mdx",
+    "version": "7.6／Pester5基準；差異見章節",
+    "platform": "跨平台概念；實測僅Linux",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-assertion",
+    "english": "Assertion",
+    "chinese": "斷言",
+    "description": "比較實際與預期行為，失敗時留下可判斷的測試結果。",
+    "usage": "第 21 章的資料處理與驗證",
+    "related_commands": [
+      "Should"
+    ],
+    "chapter": "docs/chapters/21-testing-pester.md",
+    "official_source": "https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/quick-start.mdx",
+    "version": "7.6／Pester5基準；差異見章節",
+    "platform": "跨平台概念；實測僅Linux",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-testdrive",
+    "english": "TestDrive",
+    "chinese": "測試磁碟",
+    "description": "Pester提供的暫存檔案範圍，不是網路或權限沙箱。",
+    "usage": "第 21 章的資料處理與驗證",
+    "related_commands": [
+      "Invoke-Pester"
+    ],
+    "chapter": "docs/chapters/21-testing-pester.md",
+    "official_source": "https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/usage/testdrive.mdx",
+    "version": "7.6／Pester5基準；差異見章節",
+    "platform": "跨平台概念；實測僅Linux",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-regular-expression",
+    "english": "Regular Expression",
+    "chinese": "正規表示式",
+    "description": "用模式描述文字；PowerShell的match與split使用.NET Regex。",
+    "usage": "第 23 章的資料處理與驗證",
+    "related_commands": [
+      "Select-String"
+    ],
+    "chapter": "docs/chapters/23-text-regex.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Regular_Expressions.md",
+    "version": "7.6／Pester5基準；差異見章節",
+    "platform": "跨平台概念；實測僅Linux",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-capture-group",
+    "english": "Capture Group",
+    "chinese": "擷取群組",
+    "description": "在符合的文字中擷取子片段，可用具名群組提升可讀性。",
+    "usage": "第 23 章的資料處理與驗證",
+    "related_commands": [
+      "Select-String"
+    ],
+    "chapter": "docs/chapters/23-text-regex.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Regular_Expressions.md",
+    "version": "7.6／Pester5基準；差異見章節",
+    "platform": "跨平台概念；實測僅Linux",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-csv",
+    "english": "CSV",
+    "chinese": "逗號分隔值",
+    "description": "固定欄位表格交換格式；欄位中逗號、引號與換行需正確引用。",
+    "usage": "第 24 章的資料處理與驗證",
+    "related_commands": [
+      "Export-Csv",
+      "Import-Csv"
+    ],
+    "chapter": "docs/chapters/24-csv-json-xml.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Export-Csv.md",
+    "version": "7.6／Pester5基準；差異見章節",
+    "platform": "跨平台概念；實測僅Linux",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-json",
+    "english": "JSON",
+    "chinese": "JavaScript物件表示法",
+    "description": "以物件、陣列與純量表示資料；注意深度、陣列形狀與重複鍵。",
+    "usage": "第 24 章的資料處理與驗證",
+    "related_commands": [
+      "ConvertTo-Json",
+      "ConvertFrom-Json"
+    ],
+    "chapter": "docs/chapters/24-csv-json-xml.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-Json.md",
+    "version": "7.6／Pester5基準；差異見章節",
+    "platform": "跨平台概念；實測僅Linux",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-xml",
+    "english": "XML",
+    "chinese": "可延伸標記語言",
+    "description": "以元素、屬性及命名空間表達文件結構。",
+    "usage": "第 24 章的資料處理與驗證",
+    "related_commands": [
+      "Select-Xml"
+    ],
+    "chapter": "docs/chapters/24-csv-json-xml.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Select-Xml.md",
+    "version": "7.6／Pester5基準；差異見章節",
+    "platform": "跨平台概念；實測僅Linux",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-namespace",
+    "english": "Namespace",
+    "chinese": "命名空間",
+    "description": "XML以URI區分元素名稱範圍；XPath查詢須設定前綴對應。",
+    "usage": "第 24 章的資料處理與驗證",
+    "related_commands": [
+      "Select-Xml"
+    ],
+    "chapter": "docs/chapters/24-csv-json-xml.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Select-Xml.md",
+    "version": "7.6／Pester5基準；差異見章節",
+    "platform": "跨平台概念；實測僅Linux",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-archive",
+    "english": "Archive",
+    "chinese": "封存檔",
+    "description": "把多個項目放進容器，可能壓縮；不等同完整可還原備份。",
+    "usage": "第 25 章的資料處理與驗證",
+    "related_commands": [
+      "Compress-Archive",
+      "Expand-Archive"
+    ],
+    "chapter": "docs/chapters/25-archives-backup.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Archive/Compress-Archive.md",
+    "version": "7.6／Pester5基準；差異見章節",
+    "platform": "跨平台概念；實測僅Linux",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-hash",
+    "english": "Hash",
+    "chinese": "雜湊",
+    "description": "由內容計算摘要以核對完整性；不單獨證明發布者身分。",
+    "usage": "第 25 章的資料處理與驗證",
+    "related_commands": [
+      "Get-FileHash"
+    ],
+    "chapter": "docs/chapters/25-archives-backup.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-FileHash.md",
+    "version": "7.6／Pester5基準；差異見章節",
+    "platform": "跨平台概念；實測僅Linux",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-dtd",
+    "english": "DTD",
+    "chinese": "文件型別定義",
+    "description": "XML文件型別與實體宣告機制；不需要時明確禁止以縮小解析範圍。",
+    "usage": "第 24 章的資料處理與驗證",
+    "related_commands": [
+      "Select-Xml"
+    ],
+    "chapter": "docs/chapters/24-csv-json-xml.md",
+    "official_source": "https://github.com/dotnet/dotnet-api-docs/blob/4f16f542b89a2759c5fb8e569f91d010cc671a6f/xml/System.Xml/XmlReaderSettings.xml",
+    "version": "7.6／Pester5基準；差異見章節",
+    "platform": "跨平台概念；實測僅Linux",
     "verified_at": "2026-10-24"
   }
 ]

@@ -4,36 +4,41 @@
 
 | 檢查 | 結果 | 方法與證據 |
 |---|---|---|
-| 完整需求保存 | 通過 | PROJECT_SPEC.md 與附件逐位元組一致；SHA-256 2021d1ea8fbe2bcc2180db2a6e34c15a950b412ab306680289c040b58387357c |
-| PowerShell 安裝完整性 | 通過 | 官方 hashes.sha256 比對；tar.gz：59112e38ad83350e4f6dc0195953c66b5926792f300ca2e7691b8242e7a16e7f |
-| 安裝重複執行 | 通過 | bash scripts/setup.sh，多次核對同版工具與固定雜湊，保留既有原稿 |
-| 官方文件研究 | 通過（本版使用範圍） | data/sources.json，55 筆來源、固定 Git commit、日期與用途；非全部文件逐行審查 |
-| PowerShell 語法 | 通過 | python3 scripts/validate.py；130 個教材區塊／腳本，0 失敗；syntax-results.json |
-| 靜態分析 | 未執行 | PSScriptAnalyzer 官方 nupkg 已下載，但 NuGet 簽章驗證流程尚未準備，不載入未完成驗證的模組 |
-| 代表性功能 | 通過 | tests/Test-Examples.ps1；42 通過、0 失敗、0 跳過；test-results.json |
-| 預期錯誤路徑 | 通過 | 負數參數拒絕、PathNotFound 捕捉等斷言包含於上述 42 項；不是錯誤操作成功 |
-| Pester | 未執行 | 現有測試是自製斷言收集器，沒有冒稱 Pester |
-| 20 章／400 題解／JSON／內部檔案連結 | 通過 | validate.py；題目與答案數一致，穩定識別碼不重複 |
-| HTML 功能 | 通過 | 390px 與 1280px，無水平溢出、無重複 ID、無失效錨點、搜尋命令／中文術語成功、零 JavaScript 錯誤 |
-| Word | 通過（結構） | python-docx 重新開啟、ZIP/XML 完整、20 章、23 表格、字型樣式與超連結存在；桌面 Microsoft Word 視覺檢查未執行 |
-| A4 PDF | 通過 | 156 頁，A4 尺寸、中文擷取、無空白頁、書籤、字型嵌入與 Unicode 對應；代表性頁面視覺檢查 |
-| 手機 PDF | 通過 | 278 頁，105×185 mm 獨立尺寸、較大相對字級、單欄、同樣文件檢查 |
-| 速查 PDF | 通過 | 5 頁，文字、書籤、字型與內容檢查 |
-| Windows 5.1／macOS／桌面操作 | 未執行 | 沒有以 Linux 結果替代 |
-| 企業與雲端模組、跨版本效能 | 未執行 | 尚未進入對應章節與測試環境 |
-| 正式網站部署／GitHub Release | 不適用 | 本輪交付原稿與離線文件，未發布網站或 Release |
+| 完整需求保存 | 通過 | PROJECT_SPEC.md 保持附件原文；SHA-256 2021d1ea8fbe2bcc2180db2a6e34c15a950b412ab306680289c040b58387357c |
+| PowerShell 安裝完整性 | 通過 | 官方 hashes.sha256；tar.gz 59112e38ad83350e4f6dc0195953c66b5926792f300ca2e7691b8242e7a16e7f |
+| 基本安裝 | 通過 | v0.1 已多次執行 setup.sh；本輪沿用相同固定工具，未聲稱跨平台安裝 |
+| 測試工具安裝 | 通過（保留信任限制） | setup_test_tools.py 從固定來源建置並載入；tooling/setup-results.json |
+| PSScriptAnalyzer 簽章 | 通過但撤銷查詢未完成 | dotnet nuget verify --all 回傳0，Microsoft作者與時間戳成功；NU3018／NU3028保留，tooling/pssa-signature.txt |
+| Pester 原始碼來源 | 通過 | 固定5.7.1 commit dc45b7481fffc4f6c2ff1a74edebaad03ce1efcb、tar SHA-256、LockedRestore；非已簽章發行模組；tooling/pester-build.txt |
+| 技術來源研究 | 通過（使用範圍） | data/sources.json，85筆、固定commit、用途與發布者；不宣稱全文逐行審查 |
+| 語法解析 | 通過 | validate.py；163個教材區塊／腳本，0失敗；syntax-results.json |
+| 靜態分析 | 通過（examples） | PSScriptAnalyzer 1.25.0預設規則，Warning／Error無診斷；static-analysis-results.json；未套用全書片段 |
+| 原有代表性功能 | 通過 | Test-Examples.ps1自製斷言；42通過、0失敗；test-results.json |
+| Pester功能 | 通過 | 5.7.1，37通過、0失敗、0跳過；pester-results.json；含檔案／Regex／CSV／JSON／XML／ZIP |
+| 新增教材獨立區塊 | 通過 | verify_document_examples.py；19個已檢視區塊執行成功；document-execution-results.json；值斷言另見Pester |
+| 執行器退出碼 | 通過 | 真實Invoke-Checks.ps1：正常0、故意失敗1、零測試1；runner-results.json |
+| Discovery／Run | 通過 | 僅探索找出1項但不執行BeforeAll；實際執行後才有標記；runner-results.json |
+| 25章／500題解／索引 | 通過 | validate.py核對連續章數、題解、行內程式碼、JSON ID、命令教學14節、索引錨點、本機中繼資料及內部連結 |
+| HTML | 通過 | 390px與1280px無橫向溢出、無重複ID與失效錨點，舊新命令／Pester／JSON／繁中搜尋成功，零JS錯誤 |
+| Word | 通過（結構） | DOCX ZIP/XML、重新開啟、25章、30表格、3597段落、字型及超連結；桌面Word視覺驗收未執行 |
+| A4 PDF | 通過 | 216頁；尺寸、中文擷取、無空白頁、書籤、字型嵌入及Unicode對應 |
+| 手機 PDF | 通過 | 393頁；105×185mm獨立尺寸、相同內容與字型檢查 |
+| 速查 PDF | 通過 | 5頁；文字、書籤、字型與內容檢查 |
+| 排版樣本 | 通過 | 第24／25章代表性A4及手機樣本已視覺檢查；非所有頁面人工審閱 |
+| Windows5.1／Windows／macOS | 未執行 | Linux不替代其他平台結果；ACL／ADS／長路徑等未測 |
+| 企業模組／跨版本效能 | 未執行 | 尚無對應平台與帳戶驗證 |
+| Pester覆蓋率／壓力測試 | 未執行 | 未量測Coverage、Regex壓力、大檔或不受信任ZIP／XML處理 |
+| 正式網站／GitHub Release | 不適用 | 僅原稿與離線文件，不公開部署或發行 |
 
-功能結果不是全章每個範例的實測保證。教材中的故意錯誤區塊只做語法檢查，代表性錯誤另以安全斷言驗證。來源查證、語法、靜態分析、功能與排版分開記錄。
+故意錯誤被捕捉的案例通過，代表正確拒絕或傳播；不是錯誤操作成功。不同層的測試可能重疊，不以總和宣稱獨立功能覆蓋。語法、靜態分析與實際執行分開記錄。
 
-## 已診斷並修正的問題
+## 本輪修正與可重現性
 
-- 官方雜湊清單是 UTF-16，改用正確編碼讀取後比對，未跳過校驗。
-- 家目錄唯讀，使用工具支援的 XDG 快取／設定／資料路徑。
-- Chromium 禁止 file URL，改為直接排版已讀取的內嵌 HTML；不更改管理政策。
-- 中文標題產生過長 PDF 目的地名稱，改用短 ASCII 錨點；原稿使用 GitHub 可讀的 HTML 錨點。
-- 舊 CFF 字型的 ToUnicode 將部分字元映射為康熙部首，改用有授權且固定雜湊的 TrueType 子集；沒有靠正規化掩蓋錯字。
-- 速查 PDF 的測試曾錯用原文不存在的「管線」作驗收詞，改為檢查真實內容「速查」。
-- 速查 PDF 初次缺少書籤，啟用 tagged PDF 後重新產生並驗證。
-- 提交前發現兩題管線符號造成題解分隔錯誤，修正後新增行內程式碼成對檢查，重建所有交付格式並通過驗證。
+- .NET首次初始化需可寫入的使用者共享記憶體位置；依官方runtime行為設定XDG_RUNTIME_DIR，另設定XDG資料與DOTNET_CLI_HOME，不改HOME。
+- NuGet簽章工具回傳成功但撤銷查詢不可用，原始警告保留；沒有將線上信任限制隱藏或改成無條件通過。
+- 新增繁中備份腳本被靜態分析指出缺BOM，改存UTF-8 BOM後重驗通過；未關閉規則。
+- 測試確認原有總額範例使用整數單價；保留原始契約，不把小數金額當作既有功能。
+- 建置與驗證移除固定前20章命名，以data/book.json共享版本／章數；新命令速查頁納入搜尋與錨點驗證。
+- 沿用v0.1已修正的TrueType中文字型Unicode對應、短ASCII PDF錨點、直接內嵌HTML排版與速查書籤設定。
 
-詳細證據：[功能](test-results.json)、[語法](syntax-results.json)、[文件與 SHA-256](artifact-results.json)。檔案產生時的工作區保存、GitHub 提交／合併、環境發布及新任務還原是不同狀態；沒有把草稿設定保存視為已發布環境。
+證據：[語法](syntax-results.json)、[原有功能](test-results.json)、[Pester](pester-results.json)、[靜態分析](static-analysis-results.json)、[教材執行](document-execution-results.json)、[執行器](runner-results.json)、[文件與雜湊](artifact-results.json)。遠端保存以提交後GitHub核對為準，不以設定草稿或本機文件替代。

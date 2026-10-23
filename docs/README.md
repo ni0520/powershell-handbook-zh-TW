@@ -2,11 +2,11 @@
 
 # 閱讀目錄
 
-**2026 版 v0.1：前 20 章初稿，並非完整 40 章教材。**
+**2026 版 v0.2：前 25 章初稿，並非完整 40 章教材。**
 
 建立及更新：2026-10-24（Asia/Taipei）。實測基準：PowerShell 7.6.8 / Debian 13 x64。
 
-原創繁體中文教學、400 題練習與解答、10 個核心命令詳解、40 個術語、22 個參數。未完成範圍見進度紀錄；500+ 指令索引仍是目標。
+原創繁體中文教學、500 題練習與解答、30 個命令索引（15 個詳解、15 個速查）、52 個術語、32 個參數。未完成範圍見進度紀錄；500+ 指令索引仍是目標。
 
 ## 章節
 
@@ -31,9 +31,16 @@
 - [第 19 章：錯誤處理與可靠的失敗狀態](chapters/19-error-handling.md)
 - [第 20 章：偵錯、輸出串流與日誌](chapters/20-debugging-logging.md)
 
+- [第 21 章：程式碼測試與 Pester](chapters/21-testing-pester.md)
+- [第 22 章：檔案、資料夾與文字編碼](chapters/22-files-folders.md)
+- [第 23 章：文字處理與正規表示式](chapters/23-text-regex.md)
+- [第 24 章：CSV、JSON、XML 與資料交換](chapters/24-csv-json-xml.md)
+- [第 25 章：壓縮、備份與批次處理](chapters/25-archives-backup.md)
+
 ## 附錄與查詢
 
 - [核心命令詳解](appendices/cmdlet-tutorials.md)
+- [命令速查索引](appendices/cmdlet-quick-index.md)
 - [常用參數索引](appendices/parameter-reference.md)
 - [中英文術語表](appendices/glossary.md)
 - [總索引](appendices/master-index.md)
@@ -42,4 +49,4 @@
 
 ## 修訂紀錄
 
-v0.1 新增前二十章與共用資料，完成範圍以 [製作進度](../progress/STATUS.md) 與 [驗證紀錄](../progress/VALIDATION.md) 為準。Windows 5.1、桌面介面與企業模組尚未實測。
+v0.1 建立前二十章；v0.2 新增第 21–25 章、Pester 實測與來源驗證流程，完成範圍以 [製作進度](../progress/STATUS.md) 與 [驗證紀錄](../progress/VALIDATION.md) 為準。Windows 5.1、桌面介面與企業模組尚未實測。

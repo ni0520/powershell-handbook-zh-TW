@@ -1,0 +1,22 @@
+{
+  "dotnet": {
+    "version": "8.0.426",
+    "name": "dotnet-sdk-linux-x64.tar.gz",
+    "rid": "linux-x64",
+    "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/8.0.426/dotnet-sdk-8.0.426-linux-x64.tar.gz",
+    "hash": "8141d01bdc53f604aed3bb661b604707a64209f8a947cd81bf95b4f518951593d77864069191f54ea5e84362a409da6b0f69074bf893b283d7e0cf93e2bf20a8"
+  },
+  "pester": {
+    "version": "5.7.1",
+    "commit": "dc45b7481fffc4f6c2ff1a74edebaad03ce1efcb",
+    "url": "https://codeload.github.com/pester/Pester/tar.gz/dc45b7481fffc4f6c2ff1a74edebaad03ce1efcb",
+    "sha256": "b5245f94fcc1b1547428998f0ff0390672ef31564a93b51f7f7da80067be3ff4",
+    "trust": "官方 GitHub HTTPS 固定 commit 原始碼；本機建置，非已簽章的發行模組"
+  },
+  "psscriptanalyzer": {
+    "version": "1.25.0",
+    "url": "https://github.com/PowerShell/PSScriptAnalyzer/releases/download/1.25.0/PSScriptAnalyzer.1.25.0.nupkg",
+    "sha256": "14e634c828eb98efb9f40b2918ba90f139ed5eccdf663a2a747736d996995d60",
+    "trust": "Microsoft 作者簽章與時間戳驗證成功；撤銷伺服器無法連線，保留 NU3018/NU3028 警告"
+  }
+}

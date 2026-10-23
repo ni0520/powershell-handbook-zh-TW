@@ -1,0 +1,12 @@
+  Determining projects to restore...
+  Restored /workspace/handbook-tools/pester-build-69h6qm6r/Pester-dc45b7481fffc4f6c2ff1a74edebaad03ce1efcb/src/csharp/Pester/Pester.csproj (in 1.4 sec).
+  Restored /workspace/handbook-tools/pester-build-69h6qm6r/Pester-dc45b7481fffc4f6c2ff1a74edebaad03ce1efcb/src/csharp/PesterTests/PesterTests.csproj (in 1.57 sec).
+  Pester -> /workspace/handbook-tools/pester-build-69h6qm6r/Pester-dc45b7481fffc4f6c2ff1a74edebaad03ce1efcb/src/csharp/Pester/bin/Release/netstandard2.0/Pester.dll
+  Pester -> /workspace/handbook-tools/pester-build-69h6qm6r/Pester-dc45b7481fffc4f6c2ff1a74edebaad03ce1efcb/src/csharp/Pester/bin/Release/net452/Pester.dll
+  PesterTests -> /workspace/handbook-tools/pester-build-69h6qm6r/Pester-dc45b7481fffc4f6c2ff1a74edebaad03ce1efcb/src/csharp/PesterTests/bin/Release/net8.0/PesterTests.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.49

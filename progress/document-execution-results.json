@@ -1,0 +1,103 @@
+{
+  "run_at_utc": "2026-10-23T22:43:16.201016+00:00",
+  "kind": "execution smoke; value assertions recorded separately in Pester",
+  "passed": 19,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "22-files-folders.md:block-1",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "22-files-folders.md:block-2",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "23-text-regex.md:block-1",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "23-text-regex.md:block-2",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "23-text-regex.md:block-3",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "23-text-regex.md:block-4",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "23-text-regex.md:block-5",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "23-text-regex.md:block-6",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "23-text-regex.md:block-7",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "24-csv-json-xml.md:block-1",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "24-csv-json-xml.md:block-2",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "24-csv-json-xml.md:block-3",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "24-csv-json-xml.md:block-4",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "24-csv-json-xml.md:block-5",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "get-content",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "select-string",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "export-csv",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "convertfrom-json",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "compress-archive",
+      "status": "passed",
+      "exit_code": 0
+    }
+  ]
+}

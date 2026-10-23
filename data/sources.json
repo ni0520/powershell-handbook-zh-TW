@@ -808,5 +808,455 @@
     "purpose": "語言規則與原創範例設計",
     "sha256": "3f1ceef2b934942de7cfd09e005ffeae8d262841d7870373b414f84b3c6b0636",
     "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "new-item",
+    "title": "New-Item",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/New-Item.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      22
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "9a94e3c0f283067f021dd83c29943d5697e37a1d342f0267e183bde7269ea869",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/New-Item.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "get-item",
+    "title": "Get-Item",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Item.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      22
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "0c5121e0853a412fdf3cc5ec450be0b1cbe9134441dc3aa8246f65354cc1610e",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Get-Item.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "test-path",
+    "title": "Test-Path",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Test-Path.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      22
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "5e37d516c9be8132e9b727ffbc5c8a4d17086089d5610b056d45c80a933b0fc6",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Test-Path.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "join-path",
+    "title": "Join-Path",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Join-Path.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      22
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "0eea500d014839ccb8fae82059e915bc41ac4c74a6a4fdc21b5820bf811e1706",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Join-Path.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "copy-item",
+    "title": "Copy-Item",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Copy-Item.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      22
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "398b3ade978b55d76463fad8f6018d037ee4d340aa929dad99e09f91bb13baee",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Copy-Item.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "move-item",
+    "title": "Move-Item",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Move-Item.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      22
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "d6e34f6336b130fea6eb5d70a4b2a59cd6c01e8fca1ca643dc844164d87d53a3",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Move-Item.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "rename-item",
+    "title": "Rename-Item",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Rename-Item.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      22
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "085304d9399d12b3ba38fa5b5974a33bc6d6fe8f0147e96f7b591d7ae806bf65",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Rename-Item.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "remove-item",
+    "title": "Remove-Item",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Remove-Item.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      22
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "a26b3c89489ea3034b3449ea878c9f7aa1c594437c97c7fdf0c5f2fd86590fd6",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Remove-Item.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "get-content",
+    "title": "Get-Content",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Content.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      22
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "b4578600726721b2f44831c1e3e687069ab005638c4f52d43fd516485227a046",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Get-Content.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "set-content",
+    "title": "Set-Content",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Set-Content.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      22
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "b303a1680cadffe8cd2ff9ebad6006da63fd41c61308ca14f89e33af50c98258",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Set-Content.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "add-content",
+    "title": "Add-Content",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Add-Content.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      22
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "e85693660de5680c56429495938e9e454fbf9641231919818fe4d1ecf325b4ff",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Add-Content.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "select-string",
+    "title": "Select-String",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Select-String.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      23
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "31f88b5e595e2163fe5251238fe0c3716f0f2d0a72d1c0b603db85fdff448f0b",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Select-String.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "export-csv",
+    "title": "Export-Csv",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Export-Csv.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      24
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "c7d1706344485a6cb0863200c79367bdfca17cda71179b2b7f783fd3485a5d99",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Export-Csv.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "import-csv",
+    "title": "Import-Csv",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Import-Csv.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      24
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "a2540d195f5a527b73d1cdac22a9e9b575f401335cc6834838a84d7c1ed4348f",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Import-Csv.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "convertto-json",
+    "title": "ConvertTo-Json",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertTo-Json.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      24
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "bf6626b2a9c45706a4b0ee03b855c0ace2a9c47f969841cda6ad30c61f77e9d7",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/ConvertTo-Json.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "convertfrom-json",
+    "title": "ConvertFrom-Json",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-Json.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      24
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "3ce73c98568b6a465564af63c7b80c98914f0ff0e6307e8615fd66a7dc98ecb1",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-Json.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "select-xml",
+    "title": "Select-Xml",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Select-Xml.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      24
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "6f248ede1617e06673e4fcd072991b932d0f6f12a2d299258ba0e4a60e8610fe",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Select-Xml.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "compress-archive",
+    "title": "Compress-Archive",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Archive/Compress-Archive.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      25
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "dbe6e24e2eb4fc04ac0fa10162cb9dd12a13a4560789c363ee01a7d05525368b",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Archive/Compress-Archive.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "expand-archive",
+    "title": "Expand-Archive",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Archive/Expand-Archive.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      25
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "e0ea4c75b5591a63d1f57f1c00ca975f28279dfbfe5a9375a6d309c5db1fc2b3",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Archive/Expand-Archive.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "get-filehash",
+    "title": "Get-FileHash",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-FileHash.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      25
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "a23b53b9ef57a7d4ec871c6b4cd1b2901b1727c56077e670a6340566ec642797",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-FileHash.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "about-regular-expressions",
+    "title": "about_Regular_Expressions",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Regular_Expressions.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      23
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "c361684e692af77dd1095e04e355a69d8ec70d1ca8ff129bb4a30790157a748d",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Regular_Expressions.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "about-character-encoding",
+    "title": "about_Character_Encoding",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Character_Encoding.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      22
+    ],
+    "purpose": "第21–25章的參數、版本限制與原創範例查證",
+    "sha256": "b97366193e7cae866f87255ab979d5a88d4af566d3dee98979404a25be2bc9ab",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Character_Encoding.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "pester-quick-start",
+    "title": "Pester v5 quick-start",
+    "publisher": "Pester 專案維護者",
+    "url": "https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/quick-start.mdx",
+    "version": "Pester 5 文件；本版實測固定 5.7.1",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      21
+    ],
+    "purpose": "Discovery/Run、TestDrive、設定與退出碼查證",
+    "sha256": "696a5c232428bbe145f82093f21ee390caa64c7bced5c2a0e58541fbf9033f4e",
+    "local_reference": "Pester-Docs/versioned_docs/version-v5/quick-start.mdx",
+    "review_status": "章節使用部分已查讀"
+  },
+  {
+    "id": "pester-discovery-and-run",
+    "title": "Pester v5 usage/discovery-and-run",
+    "publisher": "Pester 專案維護者",
+    "url": "https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/usage/discovery-and-run.mdx",
+    "version": "Pester 5 文件；本版實測固定 5.7.1",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      21
+    ],
+    "purpose": "Discovery/Run、TestDrive、設定與退出碼查證",
+    "sha256": "184b5a1a2422bfcf0c7f22aca0c4e3472d42b6043e981bfc3240293dc2a6bc38",
+    "local_reference": "Pester-Docs/versioned_docs/version-v5/usage/discovery-and-run.mdx",
+    "review_status": "章節使用部分已查讀"
+  },
+  {
+    "id": "pester-testdrive",
+    "title": "Pester v5 usage/testdrive",
+    "publisher": "Pester 專案維護者",
+    "url": "https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/usage/testdrive.mdx",
+    "version": "Pester 5 文件；本版實測固定 5.7.1",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      21
+    ],
+    "purpose": "Discovery/Run、TestDrive、設定與退出碼查證",
+    "sha256": "441ef9a66f1bbfa2676a1758a22c2c935c47cb4ae4c973bc22ae47a2523e2f48",
+    "local_reference": "Pester-Docs/versioned_docs/version-v5/usage/testdrive.mdx",
+    "review_status": "章節使用部分已查讀"
+  },
+  {
+    "id": "pester-configuration",
+    "title": "Pester v5 usage/configuration",
+    "publisher": "Pester 專案維護者",
+    "url": "https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/usage/configuration.mdx",
+    "version": "Pester 5 文件；本版實測固定 5.7.1",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      21
+    ],
+    "purpose": "Discovery/Run、TestDrive、設定與退出碼查證",
+    "sha256": "f049a847c5165eeddfa739664c1151a568fa95cc1c5a9927c41402374a33c607",
+    "local_reference": "Pester-Docs/versioned_docs/version-v5/usage/configuration.mdx",
+    "review_status": "章節使用部分已查讀"
+  },
+  {
+    "id": "pester-Invoke-Pester",
+    "title": "Pester v5 commands/Invoke-Pester",
+    "publisher": "Pester 專案維護者",
+    "url": "https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/commands/Invoke-Pester.mdx",
+    "version": "Pester 5 文件；本版實測固定 5.7.1",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      21
+    ],
+    "purpose": "Discovery/Run、TestDrive、設定與退出碼查證",
+    "sha256": "8759584e54b6b0c2563efbfcc6456f94a23151358ef6b160fab87b637a6cae21",
+    "local_reference": "Pester-Docs/versioned_docs/version-v5/commands/Invoke-Pester.mdx",
+    "review_status": "章節使用部分已查讀"
+  },
+  {
+    "id": "psscriptanalyzer",
+    "title": "PSScriptAnalyzer README",
+    "publisher": "Microsoft / .NET",
+    "url": "https://github.com/PowerShell/PSScriptAnalyzer/blob/f05704df81b2aca17dc027ee39b3fce106d418fc/README.md",
+    "version": "PSScriptAnalyzer 1.25.0",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      21
+    ],
+    "purpose": "靜態分析規則／XML安全設定／Regex逾時查證",
+    "sha256": "113ea1d2fe4f0ce77aa116cf265a2de35f82f881a4e6bd32e35756e08f6786e5",
+    "local_reference": "api-excerpts/psscriptanalyzer.txt",
+    "review_status": "已擷取；使用段落查讀"
+  },
+  {
+    "id": "xml-reader-settings",
+    "title": "XmlReaderSettings",
+    "publisher": "Microsoft / .NET",
+    "url": "https://github.com/dotnet/dotnet-api-docs/blob/4f16f542b89a2759c5fb8e569f91d010cc671a6f/xml/System.Xml/XmlReaderSettings.xml",
+    "version": ".NET API／概念文件；本機 PowerShell 7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      24
+    ],
+    "purpose": "靜態分析規則／XML安全設定／Regex逾時查證",
+    "sha256": "ccdf6ba4e12e3bca11cc3855f010aa70c5669882b1a335d8f04bcf109b2678da",
+    "local_reference": "api-excerpts/xml-reader-settings.txt",
+    "review_status": "已擷取；使用段落查讀"
+  },
+  {
+    "id": "regex-practices",
+    "title": "Best practices for regular expressions",
+    "publisher": "Microsoft / .NET",
+    "url": "https://github.com/dotnet/docs/blob/22dffe78e3542278c89cf2c2724be8f8272001dd/docs/standard/base-types/best-practices-regex.md",
+    "version": ".NET API／概念文件；本機 PowerShell 7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      23
+    ],
+    "purpose": "靜態分析規則／XML安全設定／Regex逾時查證",
+    "sha256": "a9c0e4ff9dfd59860ce3b645014f7f8ffcd518b51e705371bafb1d94d664a501",
+    "local_reference": "api-excerpts/regex-practices.txt",
+    "review_status": "已擷取；使用段落查讀"
   }
 ]

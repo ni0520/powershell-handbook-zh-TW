@@ -334,5 +334,161 @@
     "version": "7.4+",
     "platform": "依命令與提供者",
     "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-raw",
+    "name": "-Raw",
+    "chinese": "全文／原始輸出",
+    "description": "在Get-Content表示單一全文字串；在Select-String表示輸出命中文字，不能跨命令類推。",
+    "kind": "specific",
+    "commands": [
+      "Get-Content",
+      "Select-String"
+    ],
+    "chapter": "docs/chapters/22-files-folders.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Content.md",
+    "version": "7.6基準；版本差異見描述與章節",
+    "platform": "依命令／提供者；Linux代表性驗證",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-encoding",
+    "name": "-Encoding",
+    "chinese": "字元編碼",
+    "description": "明確指定文字讀寫編碼；可用名稱與預設值依版本而異。",
+    "kind": "specific",
+    "commands": [
+      "Get-Content",
+      "Set-Content",
+      "Export-Csv"
+    ],
+    "chapter": "docs/chapters/22-files-folders.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Character_Encoding.md",
+    "version": "7.6基準；版本差異見描述與章節",
+    "platform": "依命令／提供者；Linux代表性驗證",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-simplematch",
+    "name": "-SimpleMatch",
+    "chinese": "字面比對",
+    "description": "讓Pattern作固定字串搜尋，不當成Regex。",
+    "kind": "specific",
+    "commands": [
+      "Select-String"
+    ],
+    "chapter": "docs/chapters/23-text-regex.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Select-String.md",
+    "version": "7.6基準；版本差異見描述與章節",
+    "platform": "依命令／提供者；Linux代表性驗證",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-allmatches",
+    "name": "-AllMatches",
+    "chinese": "全部命中",
+    "description": "把一行內所有Regex命中放在Matches，不增加命中行數。",
+    "kind": "specific",
+    "commands": [
+      "Select-String"
+    ],
+    "chapter": "docs/chapters/23-text-regex.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Select-String.md",
+    "version": "7.6基準；版本差異見描述與章節",
+    "platform": "依命令／提供者；Linux代表性驗證",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-delimiter",
+    "name": "-Delimiter",
+    "chinese": "分隔字元",
+    "description": "CSV匯入與匯出必須使用相同分隔規格。",
+    "kind": "specific",
+    "commands": [
+      "Export-Csv",
+      "Import-Csv"
+    ],
+    "chapter": "docs/chapters/24-csv-json-xml.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Export-Csv.md",
+    "version": "7.6基準；版本差異見描述與章節",
+    "platform": "依命令／提供者；Linux代表性驗證",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-depth",
+    "name": "-Depth",
+    "chinese": "巢狀深度",
+    "description": "ConvertTo-Json控制輸出序列化深度；ConvertFrom-Json限制可剖析深度，作用不同。",
+    "kind": "specific",
+    "commands": [
+      "ConvertTo-Json",
+      "ConvertFrom-Json"
+    ],
+    "chapter": "docs/chapters/24-csv-json-xml.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertTo-Json.md",
+    "version": "7.6基準；版本差異見描述與章節",
+    "platform": "依命令／提供者；Linux代表性驗證",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-ashashtable",
+    "name": "-AsHashtable",
+    "chinese": "轉為雜湊表",
+    "description": "JSON解析為字典；6.0加入，7.3起保留順序；同名重複鍵仍只留下最後值。",
+    "kind": "specific",
+    "commands": [
+      "ConvertFrom-Json"
+    ],
+    "chapter": "docs/chapters/24-csv-json-xml.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-Json.md",
+    "version": "7.6基準；版本差異見描述與章節",
+    "platform": "依命令／提供者；Linux代表性驗證",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-noenumerate",
+    "name": "-NoEnumerate",
+    "chinese": "不列舉陣列",
+    "description": "讓JSON陣列以單一物件傳出，保留單元素陣列往返形狀。",
+    "kind": "specific",
+    "commands": [
+      "ConvertFrom-Json"
+    ],
+    "chapter": "docs/chapters/24-csv-json-xml.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-Json.md",
+    "version": "7.6基準；版本差異見描述與章節",
+    "platform": "依命令／提供者；Linux代表性驗證",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-destinationpath",
+    "name": "-DestinationPath",
+    "chinese": "目的路徑",
+    "description": "Compress-Archive的ZIP輸出與Expand-Archive的還原資料夾，語意依命令。",
+    "kind": "specific",
+    "commands": [
+      "Compress-Archive",
+      "Expand-Archive"
+    ],
+    "chapter": "docs/chapters/25-archives-backup.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Archive/Compress-Archive.md",
+    "version": "7.6基準；版本差異見描述與章節",
+    "platform": "依命令／提供者；Linux代表性驗證",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-algorithm",
+    "name": "-Algorithm",
+    "chinese": "雜湊演算法",
+    "description": "Get-FileHash預設SHA256；不要把雜湊當成加密或來源簽章。",
+    "kind": "specific",
+    "commands": [
+      "Get-FileHash"
+    ],
+    "chapter": "docs/chapters/25-archives-backup.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-FileHash.md",
+    "version": "7.6基準；版本差異見描述與章節",
+    "platform": "依命令／提供者；Linux代表性驗證",
+    "verified_at": "2026-10-24"
   }
 ]

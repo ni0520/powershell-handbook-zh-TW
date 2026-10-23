@@ -1,5 +1,5 @@
 {
-  "run_at_utc": "2026-10-23T22:11:27.329817+00:00",
+  "run_at_utc": "2026-10-23T22:44:08.277147+00:00",
   "status": "passed",
   "checks": [
     {
@@ -14,25 +14,25 @@
       }
     },
     {
-      "name": "DOCX ZIP/XML/reopen/20 chapters/tables/fonts/hyperlinks",
+      "name": "DOCX ZIP/XML/reopen/25 chapters/tables/fonts/hyperlinks",
       "status": "passed",
-      "tables": 23,
-      "paragraphs": 2552
+      "tables": 30,
+      "paragraphs": 3597
     },
     {
-      "name": "PowerShell_學習手冊_2026_前20章初稿.pdf",
+      "name": "PowerShell_學習手冊_2026_前25章初稿.pdf",
       "status": "passed",
-      "pages": 156,
+      "pages": 216,
       "width_pt": 594.95996,
-      "extracted_characters": 99969,
+      "extracted_characters": 149330,
       "font_entries": 7
     },
     {
-      "name": "PowerShell_學習手冊_2026_前20章初稿_手機版.pdf",
+      "name": "PowerShell_學習手冊_2026_前25章初稿_手機版.pdf",
       "status": "passed",
-      "pages": 278,
+      "pages": 393,
       "width_pt": 298.07999,
-      "extracted_characters": 101020,
+      "extracted_characters": 150974,
       "font_entries": 7
     },
     {
@@ -40,65 +40,55 @@
       "status": "passed",
       "pages": 5,
       "width_pt": 594.95996,
-      "extracted_characters": 1829,
+      "extracted_characters": 2586,
       "font_entries": 4
     }
   ],
   "files": [
     {
       "name": "PowerShell_參考資料與來源_2026.md",
-      "bytes": 25232,
-      "sha256": "a14c9fe8a9b16abf593b263cbb40c513485e228bdb3d6ede05abef0eccd47b73"
+      "bytes": 34884,
+      "sha256": "bf878f575019eea499991b5b91f90b93148d96eabe0f8d1983f3b98d00d67e5b"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前20章初稿.docx",
-      "bytes": 131481,
-      "sha256": "35451745dba9a290241c8ce190b9a21bf8b2d1000e93ae847cd8c281e928a0be"
+      "name": "PowerShell_學習手冊_2026_前25章初稿.docx",
+      "bytes": 182989,
+      "sha256": "f0a835813b184c37ec80e4205ae58c0f4fb00f6d5be7e07bfd21d9198400242d"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前20章初稿.html",
-      "bytes": 1217918,
-      "sha256": "3f75b0115d11d3d3852e1f04f58bdfab3aad2659ae6130985a8c79ddad46b642"
+      "name": "PowerShell_學習手冊_2026_前25章初稿.html",
+      "bytes": 1465734,
+      "sha256": "5ed170e619f0c74c9c50747a00a567b4b9ea891614f8b038a5a70f129ae59177"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前20章初稿.md",
-      "bytes": 242151,
-      "sha256": "0565280afd44d52022516f34514523ff35fa4e3cc9ce02db828d6cd126c8b1a5"
+      "name": "PowerShell_學習手冊_2026_前25章初稿.md",
+      "bytes": 353011,
+      "sha256": "267d7b2f421bba271f0ea9f37cb42d6f9e86ae0ee8d1173a39e61fbac6fe6e1a"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前20章初稿.pdf",
-      "bytes": 3147127,
-      "sha256": "9fdfce0825c99ca333b645dba0076c0793c6a9f548082544a2960aa185d723dd"
+      "name": "PowerShell_學習手冊_2026_前25章初稿.pdf",
+      "bytes": 4575501,
+      "sha256": "eb4e24cb403f49e18ad65026c3a8b348c4bad7ce452d01da8aee6c6bf0a626ec"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前20章初稿_手機版.pdf",
-      "bytes": 3301625,
-      "sha256": "49161b55f5e31d0a009184d83be4ff724205dfafe2d69b1739e350da1a22c5dc"
+      "name": "PowerShell_學習手冊_2026_前25章初稿_手機版.pdf",
+      "bytes": 4805961,
+      "sha256": "a065d17206c79ae885d4f16ef0093cf3387514fb808e2654f16460ae606e79f1"
     },
     {
       "name": "PowerShell_常用指令速查表_2026.html",
-      "bytes": 813051,
-      "sha256": "9900f4fb5bc5fa5e279009d3613b38e699413bfc5a967703621451f89aa0969c"
+      "bytes": 854578,
+      "sha256": "5edbde11e2e77acf74582756ad150b63ae9c9b4228578f8f02d25aa2dbcf26f4"
     },
     {
       "name": "PowerShell_常用指令速查表_2026.md",
-      "bytes": 3509,
-      "sha256": "0c8f61f345e485fc5d03b9be2120a5e503cc55ee3b3c988e89c77c377194e7a5"
+      "bytes": 4952,
+      "sha256": "a0c66148f28562f42b5795868e7abd3724025374b9a4a316933afb547e94cf5c"
     },
     {
       "name": "PowerShell_常用指令速查表_2026.pdf",
-      "bytes": 147266,
-      "sha256": "e232285636b9fffe57ea7aaaf3f9f07d31ccc8ec03e1db6929231772f3542526"
-    },
-    {
-      "name": "PowerShell_教材製作報告_2026.md",
-      "bytes": 1961,
-      "sha256": "009b4e59bf4189f5fa95b97de0033bafabeb4c8edfa5ff075eca02877bec1f13"
-    },
-    {
-      "name": "README_交付.md",
-      "bytes": 354,
-      "sha256": "8a242639f2cea645f6cf2b0c43aca283cefe5abe8e069f9bc5a128701d7f3421"
+      "bytes": 182833,
+      "sha256": "76fd145a000f2529ca100e5fd01a521c79f482eca2bcf64e4700625a4e3e9bcd"
     }
   ]
 }
