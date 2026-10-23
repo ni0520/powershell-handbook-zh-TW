@@ -1,0 +1,812 @@
+[
+  {
+    "id": "overview",
+    "title": "What is PowerShell?",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/overview.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      1
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "4bd86b0b4b03780710206c8c1c83a14c032a1ed40423fb94100017e5dd3a46ba",
+    "local_reference": "reference/docs-conceptual/overview.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "getting-started",
+    "title": "Getting Started with PowerShell",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/learn/ps101/01-getting-started.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      1,
+      4,
+      5
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "89ff9427d95a32d8b0de5929e9800c4fcb6b27f1ee30dada48156996db949dfd",
+    "local_reference": "reference/docs-conceptual/learn/ps101/01-getting-started.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "lifecycle",
+    "title": "PowerShell Support Lifecycle",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/install/PowerShell-Support-Lifecycle.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      2,
+      3
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "5d02980f77a24ed5e15020843b1a42e5b81a6ef93a49186cb736c37d9fb8c902",
+    "local_reference": "reference/docs-conceptual/install/PowerShell-Support-Lifecycle.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "differences",
+    "title": "Differences between Windows PowerShell 5.1 and PowerShell 7.x",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/whats-new/differences-from-windows-powershell.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      2
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "31b02c63f19c265541b41c3a15c304ff4ddf9575236a515d8b3ed97fe5c10143",
+    "local_reference": "reference/docs-conceptual/whats-new/differences-from-windows-powershell.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "new-72",
+    "title": "What's New in PowerShell 7.2",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/whats-new/What-s-New-in-PowerShell-72.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      2
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "d1915c0f102d483d852ec83887db798af2a125b53c81435fbfe6cb73a600bd53",
+    "local_reference": "reference/docs-conceptual/whats-new/What-s-New-in-PowerShell-72.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "new-73",
+    "title": "What's New in PowerShell 7.3",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/whats-new/What-s-New-in-PowerShell-73.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      2
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "d846c815c75441971d2101b8e927009d9232fb647b94a6093d85cbc2b900fa03",
+    "local_reference": "reference/docs-conceptual/whats-new/What-s-New-in-PowerShell-73.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "new-74",
+    "title": "What's New in PowerShell 7.4",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/whats-new/What-s-New-in-PowerShell-74.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      2
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "569bc175eeee1b4d474b6b91e2e099e11c4d1fb9117727fdf366cd890c40fe05",
+    "local_reference": "reference/docs-conceptual/whats-new/What-s-New-in-PowerShell-74.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "new-75",
+    "title": "What's New in PowerShell 7.5",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/whats-new/What-s-New-in-PowerShell-75.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      2
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "55844d8fe3503248c31e9c1d308b5da96a9c605ed99e10cf1bf1759b521847dc",
+    "local_reference": "reference/docs-conceptual/whats-new/What-s-New-in-PowerShell-75.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "new-76",
+    "title": "What's New in PowerShell 7.6",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/whats-new/What-s-New-in-PowerShell-76.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      2
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "225fe376da3b0aa83d4e6652589308cd0e51a369e8dcfd532651e0cf51e4432b",
+    "local_reference": "reference/docs-conceptual/whats-new/What-s-New-in-PowerShell-76.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "install-windows",
+    "title": "Install PowerShell 7 on Windows",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/install/install-powershell-on-windows.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      3
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "cfa718dbb1cbd9ddde199548b49817fef771a8e8dce9e9fe06d57dcb05384d24",
+    "local_reference": "reference/docs-conceptual/install/install-powershell-on-windows.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "install-debian",
+    "title": "Install PowerShell 7 on Debian",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/install/install-debian.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      3
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "ff6f5392fc0739c489d283e9c3ba811d3e2a0c0a735467e43f2762798a6c7b04",
+    "local_reference": "reference/docs-conceptual/install/install-debian.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "install-macos",
+    "title": "Install PowerShell 7 on macOS",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/install/install-powershell-on-macos.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      3
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "5fac65ab33581571cb73a58da24b1a1dc493085755ebd95a229374012457ccd9",
+    "local_reference": "reference/docs-conceptual/install/install-powershell-on-macos.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "debian-support",
+    "title": "debian-support",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/includes/debian-support.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      2,
+      3
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "1ebede09b8d8e71d43eb6a85c29c58156adf1ee9cdeaa434a9c452e7dbcf3ba2",
+    "local_reference": "reference/includes/debian-support.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "vscode",
+    "title": "Using Visual Studio Code for PowerShell Development",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/dev-cross-plat/vscode/using-vscode.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      4
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "b4487948d577d4a0c7d09167773d9c7f64983989264d55f6c229afe2b1ed4dd8",
+    "local_reference": "reference/docs-conceptual/dev-cross-plat/vscode/using-vscode.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "about-profiles",
+    "title": "about_Profiles",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Profiles.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      4
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "b62d0fbef9a0447316e641f73609509ed24bc5b49283904a74a7e9e4e5fbc57c",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Profiles.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "about-character_encoding",
+    "title": "about_Character_Encoding",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Character_Encoding.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      3
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "b97366193e7cae866f87255ab979d5a88d4af566d3dee98979404a25be2bc9ab",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Character_Encoding.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "about-command_precedence",
+    "title": "about_Command_Precedence",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Command_Precedence.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      7
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "f484333a825180c967d746c6d3cd775175ca9fdd82757d8edc6ef96b70f1cdd1",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Command_Precedence.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "about-aliases",
+    "title": "about_Aliases",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Aliases.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      7
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "7c82c082ea8dbb8e42e5cf432b8b924129d97b6392b8ba0dab6d787b42f7ac17",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Aliases.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "about-objects",
+    "title": "about_Objects",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Objects.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      8
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "1b8f71a5fdc0c88334e9abb3dee6c6918cbd5eb152d2ac9aef0be02036eefb6f",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Objects.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "about-properties",
+    "title": "about_Properties",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Properties.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      8
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "2f8aa250186bae1b669a509116130f6681693be5588eeb5307f80d8ac6e014db",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Properties.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "about-methods",
+    "title": "about_Methods",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Methods.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      8
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "f0d5d22b71996bbc3378ceba4d16e021ca076f0c30bf07379ed41dfe7cb02167",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Methods.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "about-pipelines",
+    "title": "about_Pipelines",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Pipelines.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      9
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "96857ae0194ee9a167be598883b8da8148716111a04a25d1e91a1018bc6310b6",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Pipelines.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "about-parameter_binding",
+    "title": "about_Parameter_Binding",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Parameter_Binding.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      9
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "73e07b727c89c09df0a2b3e0c4c920913a051a91de7c989c3ed71579de933380",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Parameter_Binding.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "about-comparison_operators",
+    "title": "about_Comparison_Operators",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Comparison_Operators.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      10
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "25012839a115ae9afa08864be6bc5640bcb55a4c974db84d9c68641b2d87a0a2",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Comparison_Operators.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "about-commonparameters",
+    "title": "about_CommonParameters",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      6
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "3bc2b7c7c915a034ccd351c88b3d26a2f286ac9504861f96860473bcaf0fd9ae",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "about-execution_policies",
+    "title": "about_Execution_Policies",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Execution_Policies.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      3
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "3291cdb51b5e81624d6d9158b004c1499879f5e013bee95560a02ece6ac6302d",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Execution_Policies.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "get-command",
+    "title": "Get-Command",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-Command.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      7
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "5060c5030ff02640af0a20967450d6fc2dbb9e35ac05efbcb387ea235c6d26a9",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Get-Command.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "get-help",
+    "title": "Get-Help",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-Help.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      6
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "15d8a0b970d464e1c7a048b6de168513adca643c23e314816ff5941209e433ee",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Get-Help.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "get-member",
+    "title": "Get-Member",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Member.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      8
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "a1f4d7bddc9f68e76a06f342afab91bef5d179cfe1e7b43a2a11a0ca9a346e6b",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-Member.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "get-location",
+    "title": "Get-Location",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Location.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      5
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "bce5e6aa159708bd9485d1e5e95040062b58827c35c8566756385983d02151e6",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Get-Location.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "set-location",
+    "title": "Set-Location",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Set-Location.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      5
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "581fec3c0d8c585e4269b21a1885c152e6fbe03435267f8995b4d3c5d9606650",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Set-Location.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "get-childitem",
+    "title": "Get-ChildItem",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ChildItem.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      5
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "4a19f9e1d4ee335857843b7f7cf15d7ec810d9d240fd231e005b4194bb31f991",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Get-ChildItem.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "where-object",
+    "title": "Where-Object",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Where-Object.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      10
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "8cdd191abc5b3950e1d64cc7deac79df42142f5e226df8a0a22ccdd99029da12",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Where-Object.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "sort-object",
+    "title": "Sort-Object",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Sort-Object.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      10
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "6d134b5d45e8fc7e822abf7d940b28d9c1c6b55847c76a3708619ae72ef56b7a",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Sort-Object.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "select-object",
+    "title": "Select-Object",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Select-Object.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      9
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "4f0387e5529f026cd0ede50fe91b85db62a7f7c1cd18fde90cf75afd8191d215",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Select-Object.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "get-alias",
+    "title": "Get-Alias",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Alias.md",
+    "version": "PowerShell 7.6；歷史版本依原文",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      7
+    ],
+    "purpose": "技術事實、平台與版本查證",
+    "sha256": "7f29d9b9164341b2c905a9a6b40de3f40f5f9a5ac5b5b369001a13862abddcc8",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-Alias.md",
+    "review_status": "已擷取；章節使用部分人工查讀"
+  },
+  {
+    "id": "release-768",
+    "title": "PowerShell v7.6.8 release",
+    "publisher": "Microsoft / PowerShell",
+    "url": "https://github.com/PowerShell/PowerShell/releases/tag/v7.6.8",
+    "version": "7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      2,
+      3
+    ],
+    "purpose": "最新正式發行及安裝檔核對",
+    "review_status": "已查讀並下載核對 SHA-256"
+  },
+  {
+    "id": "about-variables",
+    "title": "about_Variables",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Variables.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      11
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "5f14402aa0b4b68dddddb033134711daee4bab0b833b805533e0467acbd9fdb3",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-type_conversion",
+    "title": "about_Type_Conversion",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Type_Conversion.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      11
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "1d73f77ecf93674a72da28b23f0a7440efbf9391e1f818a4190e713bd0cfe574",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-arrays",
+    "title": "about_Arrays",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Arrays.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      12
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "1d4107a3c4d2e85807c2cabb66941d6410ecec9a1517dbfc1c69459710b0d76a",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-hash_tables",
+    "title": "about_Hash_Tables",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Hash_Tables.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      12
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "d47f3ed4ef9bc1d033a23d708cff2734b3d4a053fe49f24bd50e67d273cfbe92",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-operators",
+    "title": "about_Operators",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Operators.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      13
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "991dd2ec2047b92db7845bb460295683bc6c07cdf252bf75e32f69c191dc4b40",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-if",
+    "title": "about_If",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_If.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      14
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "5ca3f3d6ac45d6a815f590180e32e9f454fcd42fd33508c04779aafabd52bb15",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-for",
+    "title": "about_For",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_For.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      14
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "4a05dbaf35962010d8d20b0ac2b693f5d1cd2304edd26104526a9580ac54e880",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-foreach",
+    "title": "about_Foreach",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Foreach.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      14
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "57ceb4cb312155f536a7973769073971b65f15b79a7199d6bb9d17472c9b50dc",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-scripts",
+    "title": "about_Scripts",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Scripts.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      15
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "3f1e71b9ca5d2a50d24c62f8e38849533c8eca951e64ef8ceac303a7b2075fb4",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-functions",
+    "title": "about_Functions",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Functions.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      16
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "069c2a5c9b1bf71a91f651a2cece9bacff77fb4855024f476dc5c8207089c372",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-functions_advanced",
+    "title": "about_Functions_Advanced",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Functions_Advanced.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      17
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "58b8f25575b114cd7cdbd8de89c73be1ce53b71f129511e162937c09ddf6ae8c",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-functions_advanced_parameters",
+    "title": "about_Functions_Advanced_Parameters",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Functions_Advanced_Parameters.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      17
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "d0017f80c65adce2e0e7fe89ac154e51768a746bfb53c696bd2842aa04bffbec",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-functions_cmdletbindingattribute",
+    "title": "about_Functions_CmdletBindingAttribute",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Functions_CmdletBindingAttribute.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      17
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "ab82aadfcdf9c978b6e5730fdaacd6fe691ed1ffe761f0aa1f3b31ba90e8d00d",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-modules",
+    "title": "about_Modules",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Modules.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      18
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "77ebc6773c4787926e73e8915e358f8e97e6e269e1e5a4b211d01e7ed8288f80",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-try_catch_finally",
+    "title": "about_Try_Catch_Finally",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Try_Catch_Finally.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      19
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "7c43f8b29303995ce2fb402830a64c3b7923fd134ca943b82005e4e9d446d059",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-throw",
+    "title": "about_Throw",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Throw.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      19
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "ca6b9ff20fb3e810081a8cae548f684eb1f8c58a3f2f9fc902f105dde8fbd34d",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-debuggers",
+    "title": "about_Debuggers",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Debuggers.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      20
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "f14191381f02b0a8f74d078eb3a535b7e01522b133485a759e675a4d26116b1b",
+    "review_status": "已查讀使用段落"
+  },
+  {
+    "id": "about-output_streams",
+    "title": "about_Output_Streams",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Output_Streams.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      20
+    ],
+    "purpose": "語言規則與原創範例設計",
+    "sha256": "3f1ceef2b934942de7cfd09e005ffeae8d262841d7870373b414f84b3c6b0636",
+    "review_status": "已查讀使用段落"
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "run_at_utc": "2026-10-23T22:11:27.329817+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "HTML anchors/search/390px+1280px/no-JS-errors",
+      "status": "passed",
+      "audit": {
+        "duplicate": [],
+        "broken": [],
+        "width": 390,
+        "scroll": 390,
+        "language": "zh-TW"
+      }
+    },
+    {
+      "name": "DOCX ZIP/XML/reopen/20 chapters/tables/fonts/hyperlinks",
+      "status": "passed",
+      "tables": 23,
+      "paragraphs": 2552
+    },
+    {
+      "name": "PowerShell_學習手冊_2026_前20章初稿.pdf",
+      "status": "passed",
+      "pages": 156,
+      "width_pt": 594.95996,
+      "extracted_characters": 99969,
+      "font_entries": 7
+    },
+    {
+      "name": "PowerShell_學習手冊_2026_前20章初稿_手機版.pdf",
+      "status": "passed",
+      "pages": 278,
+      "width_pt": 298.07999,
+      "extracted_characters": 101020,
+      "font_entries": 7
+    },
+    {
+      "name": "PowerShell_常用指令速查表_2026.pdf",
+      "status": "passed",
+      "pages": 5,
+      "width_pt": 594.95996,
+      "extracted_characters": 1829,
+      "font_entries": 4
+    }
+  ],
+  "files": [
+    {
+      "name": "PowerShell_參考資料與來源_2026.md",
+      "bytes": 25232,
+      "sha256": "a14c9fe8a9b16abf593b263cbb40c513485e228bdb3d6ede05abef0eccd47b73"
+    },
+    {
+      "name": "PowerShell_學習手冊_2026_前20章初稿.docx",
+      "bytes": 131481,
+      "sha256": "35451745dba9a290241c8ce190b9a21bf8b2d1000e93ae847cd8c281e928a0be"
+    },
+    {
+      "name": "PowerShell_學習手冊_2026_前20章初稿.html",
+      "bytes": 1217918,
+      "sha256": "3f75b0115d11d3d3852e1f04f58bdfab3aad2659ae6130985a8c79ddad46b642"
+    },
+    {
+      "name": "PowerShell_學習手冊_2026_前20章初稿.md",
+      "bytes": 242151,
+      "sha256": "0565280afd44d52022516f34514523ff35fa4e3cc9ce02db828d6cd126c8b1a5"
+    },
+    {
+      "name": "PowerShell_學習手冊_2026_前20章初稿.pdf",
+      "bytes": 3147127,
+      "sha256": "9fdfce0825c99ca333b645dba0076c0793c6a9f548082544a2960aa185d723dd"
+    },
+    {
+      "name": "PowerShell_學習手冊_2026_前20章初稿_手機版.pdf",
+      "bytes": 3301625,
+      "sha256": "49161b55f5e31d0a009184d83be4ff724205dfafe2d69b1739e350da1a22c5dc"
+    },
+    {
+      "name": "PowerShell_常用指令速查表_2026.html",
+      "bytes": 813051,
+      "sha256": "9900f4fb5bc5fa5e279009d3613b38e699413bfc5a967703621451f89aa0969c"
+    },
+    {
+      "name": "PowerShell_常用指令速查表_2026.md",
+      "bytes": 3509,
+      "sha256": "0c8f61f345e485fc5d03b9be2120a5e503cc55ee3b3c988e89c77c377194e7a5"
+    },
+    {
+      "name": "PowerShell_常用指令速查表_2026.pdf",
+      "bytes": 147266,
+      "sha256": "e232285636b9fffe57ea7aaaf3f9f07d31ccc8ec03e1db6929231772f3542526"
+    },
+    {
+      "name": "PowerShell_教材製作報告_2026.md",
+      "bytes": 1961,
+      "sha256": "009b4e59bf4189f5fa95b97de0033bafabeb4c8edfa5ff075eca02877bec1f13"
+    },
+    {
+      "name": "README_交付.md",
+      "bytes": 354,
+      "sha256": "8a242639f2cea645f6cf2b0c43aca283cefe5abe8e069f9bc5a128701d7f3421"
+    }
+  ]
+}

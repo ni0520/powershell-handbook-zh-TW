@@ -1,0 +1,178 @@
+{
+  "run_at_utc": "2026-10-23T21:50:22.6554980Z",
+  "powershell": "7.6.8",
+  "os": "Debian GNU/Linux 13 (trixie)",
+  "passed": 42,
+  "failed": 0,
+  "skipped": 0,
+  "tests": [
+    {
+      "name": "01-current-process",
+      "status": "passed"
+    },
+    {
+      "name": "02-baseline",
+      "status": "passed"
+    },
+    {
+      "name": "03-utf8",
+      "status": "passed"
+    },
+    {
+      "name": "04-profile-path",
+      "status": "passed"
+    },
+    {
+      "name": "05-location",
+      "status": "passed"
+    },
+    {
+      "name": "05-literal-brackets",
+      "status": "passed"
+    },
+    {
+      "name": "05-file-filter",
+      "status": "passed"
+    },
+    {
+      "name": "05-directory",
+      "status": "passed"
+    },
+    {
+      "name": "06-help-basic",
+      "status": "passed"
+    },
+    {
+      "name": "06-actual-syntax",
+      "status": "passed"
+    },
+    {
+      "name": "07-alias",
+      "status": "passed"
+    },
+    {
+      "name": "07-command-source",
+      "status": "passed"
+    },
+    {
+      "name": "08-note-property",
+      "status": "passed"
+    },
+    {
+      "name": "08-array-vs-elements",
+      "status": "passed"
+    },
+    {
+      "name": "09-select-property",
+      "status": "passed"
+    },
+    {
+      "name": "09-expand-property",
+      "status": "passed"
+    },
+    {
+      "name": "09-pipeline-byvalue",
+      "status": "passed"
+    },
+    {
+      "name": "09-pipeline-byproperty",
+      "status": "passed"
+    },
+    {
+      "name": "10-report-order-and-count",
+      "status": "passed"
+    },
+    {
+      "name": "10-boundary",
+      "status": "passed"
+    },
+    {
+      "name": "10-empty-input",
+      "status": "passed"
+    },
+    {
+      "name": "10-stable-ties",
+      "status": "passed"
+    },
+    {
+      "name": "11-string-vs-number",
+      "status": "passed"
+    },
+    {
+      "name": "11-nonempty-bool",
+      "status": "passed"
+    },
+    {
+      "name": "11-tryparse",
+      "status": "passed"
+    },
+    {
+      "name": "12-empty-array",
+      "status": "passed"
+    },
+    {
+      "name": "12-negative-index",
+      "status": "passed"
+    },
+    {
+      "name": "12-ordered-keys",
+      "status": "passed"
+    },
+    {
+      "name": "13-collection-comparison",
+      "status": "passed"
+    },
+    {
+      "name": "13-membership",
+      "status": "passed"
+    },
+    {
+      "name": "14-loop-control",
+      "status": "passed"
+    },
+    {
+      "name": "14-descending-range",
+      "status": "passed"
+    },
+    {
+      "name": "15-script-parameters",
+      "status": "passed"
+    },
+    {
+      "name": "15-reject-negative",
+      "status": "passed"
+    },
+    {
+      "name": "16-splatting",
+      "status": "passed"
+    },
+    {
+      "name": "17-whatif-no-change",
+      "status": "passed"
+    },
+    {
+      "name": "17-normal-inmemory-change",
+      "status": "passed"
+    },
+    {
+      "name": "18-module-exports",
+      "status": "passed"
+    },
+    {
+      "name": "19-erroraction-stop",
+      "status": "passed"
+    },
+    {
+      "name": "19-finally-executes",
+      "status": "passed"
+    },
+    {
+      "name": "20-verbose-not-data",
+      "status": "passed"
+    },
+    {
+      "name": "20-json-roundtrip",
+      "status": "passed"
+    }
+  ]
+}

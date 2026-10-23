@@ -1,0 +1,554 @@
+[
+  {
+    "id": "term-cmdlet",
+    "english": "Cmdlet",
+    "chinese": "PowerShell 命令",
+    "description": "參與 PowerShell 管線與參數機制的命令；不要把所有外部程式都叫 Cmdlet。",
+    "usage": "第 7 章的觀念與案例",
+    "related_commands": [
+      "Get-Command",
+      "Get-Alias"
+    ],
+    "chapter": "docs/chapters/07-commands-aliases.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Command_Precedence.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-pipeline",
+    "english": "Pipeline",
+    "chinese": "管線",
+    "description": "把前段成功輸出送到後段處理；接收參數必須支援該輸入。",
+    "usage": "第 9 章的觀念與案例",
+    "related_commands": [
+      "Select-Object"
+    ],
+    "chapter": "docs/chapters/09-pipeline.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Pipelines.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-object",
+    "english": "Object",
+    "chinese": "物件",
+    "description": "以型別、屬性與方法表達資料及可用操作。",
+    "usage": "第 8 章的觀念與案例",
+    "related_commands": [
+      "Get-Member"
+    ],
+    "chapter": "docs/chapters/08-objects.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Objects.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-property",
+    "english": "Property",
+    "chinese": "屬性",
+    "description": "物件的一項資料，例如 Name；畫面不一定顯示全部屬性。",
+    "usage": "第 8 章的觀念與案例",
+    "related_commands": [
+      "Get-Member"
+    ],
+    "chapter": "docs/chapters/08-objects.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Objects.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-method",
+    "english": "Method",
+    "chinese": "方法",
+    "description": "物件提供的操作，呼叫時可能有副作用。",
+    "usage": "第 8 章的觀念與案例",
+    "related_commands": [
+      "Get-Member"
+    ],
+    "chapter": "docs/chapters/08-objects.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Objects.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-parameter",
+    "english": "Parameter",
+    "chinese": "參數",
+    "description": "命令輸入介面的欄位，例如 LiteralPath。",
+    "usage": "第 6 章的觀念與案例",
+    "related_commands": [
+      "Get-Help"
+    ],
+    "chapter": "docs/chapters/06-help-system.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-argument",
+    "english": "Argument",
+    "chinese": "引數",
+    "description": "實際傳入參數的值，不等同參數名稱。",
+    "usage": "第 6 章的觀念與案例",
+    "related_commands": [
+      "Get-Help"
+    ],
+    "chapter": "docs/chapters/06-help-system.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-module",
+    "english": "Module",
+    "chinese": "模組",
+    "description": "封裝函式、Cmdlet、提供者及資源的可重用單位。",
+    "usage": "第 18 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/18-modules.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Modules.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-provider",
+    "english": "Provider",
+    "chinese": "提供者",
+    "description": "讓檔案、登錄等資料以一致巡覽方式呈現的機制。",
+    "usage": "第 5 章的觀念與案例",
+    "related_commands": [
+      "Get-Location",
+      "Set-Location",
+      "Get-ChildItem"
+    ],
+    "chapter": "docs/chapters/05-basic-navigation.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/learn/ps101/01-getting-started.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-alias",
+    "english": "Alias",
+    "chinese": "別名",
+    "description": "指向命令的名稱捷徑，不能直接附帶固定參數。",
+    "usage": "第 7 章的觀念與案例",
+    "related_commands": [
+      "Get-Command",
+      "Get-Alias"
+    ],
+    "chapter": "docs/chapters/07-commands-aliases.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Command_Precedence.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-script",
+    "english": "Script",
+    "chinese": "指令碼",
+    "description": "保存一或多個命令的文字檔，可重複執行與版本管理。",
+    "usage": "第 15 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/15-scripts.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Scripts.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-function",
+    "english": "Function",
+    "chinese": "函式",
+    "description": "具名字、輸入與輸出的可重用程式區塊。",
+    "usage": "第 16 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/16-functions.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Functions.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-variable",
+    "english": "Variable",
+    "chinese": "變數",
+    "description": "保存值的具名位置，以美元符號開頭。",
+    "usage": "第 11 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/11-variables-types.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Variables.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-array",
+    "english": "Array",
+    "chinese": "陣列",
+    "description": "按索引存放多項資料，索引由零開始。",
+    "usage": "第 12 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/12-collections.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Arrays.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-hashtable",
+    "english": "Hashtable",
+    "chinese": "雜湊表",
+    "description": "以鍵值對查找資料，一般不保證列舉順序。",
+    "usage": "第 12 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/12-collections.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Arrays.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-session",
+    "english": "Session",
+    "chinese": "工作階段",
+    "description": "一次執行脈絡，包含載入模組、變數與設定。",
+    "usage": "第 4 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/04-terminal-editor.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/learn/ps101/01-getting-started.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-profile",
+    "english": "Profile",
+    "chinese": "設定檔",
+    "description": "啟動時載入的 PowerShell 指令碼，依使用者與主控程式範圍區分。",
+    "usage": "第 4 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/04-terminal-editor.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/learn/ps101/01-getting-started.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-execution-policy",
+    "english": "Execution Policy",
+    "chinese": "執行原則",
+    "description": "協助避免意外執行指令碼的機制，不是完整安全邊界。",
+    "usage": "第 3 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/03-installation.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/install/PowerShell-Support-Lifecycle.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-error-handling",
+    "english": "Error Handling",
+    "chinese": "錯誤處理",
+    "description": "辨認與傳播失敗、清理資源，避免把失敗當成功。",
+    "usage": "第 19 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/19-error-handling.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Try_Catch_Finally.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-exception",
+    "english": "Exception",
+    "chinese": "例外",
+    "description": "描述異常執行狀態的物件，可由適當錯誤處理捕捉。",
+    "usage": "第 19 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/19-error-handling.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Try_Catch_Finally.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-debugging",
+    "english": "Debugging",
+    "chinese": "偵錯",
+    "description": "在可重現案例中觀察執行脈絡與資料以找出問題。",
+    "usage": "第 20 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/20-debugging-logging.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Debuggers.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-logging",
+    "english": "Logging",
+    "chinese": "記錄日誌",
+    "description": "留下可追蹤的事件與結果，需去除秘密與控制保存期限。",
+    "usage": "第 20 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/20-debugging-logging.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Debuggers.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-terminal",
+    "english": "Terminal",
+    "chinese": "終端機",
+    "description": "顯示文字並接收輸入的介面，不等同殼層版本。",
+    "usage": "第 4 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/04-terminal-editor.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/learn/ps101/01-getting-started.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-shell",
+    "english": "Shell",
+    "chinese": "命令殼層",
+    "description": "理解使用者命令並啟動執行的環境。",
+    "usage": "第 1 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/01-introduction.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/overview.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-type",
+    "english": "Type",
+    "chinese": "型別",
+    "description": "定義資料種類與可用操作的規則。",
+    "usage": "第 11 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/11-variables-types.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Variables.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-boolean",
+    "english": "Boolean",
+    "chinese": "布林值",
+    "description": "真或假的判斷值，與文字 True/False 不同。",
+    "usage": "第 11 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/11-variables-types.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Variables.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-string",
+    "english": "String",
+    "chinese": "字串",
+    "description": "文字資料；引號與編碼規則會影響使用方式。",
+    "usage": "第 11 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/11-variables-types.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Variables.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-encoding",
+    "english": "Encoding",
+    "chinese": "編碼",
+    "description": "文字與位元組之間的表示方式，與換行格式不同。",
+    "usage": "第 3 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/03-installation.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/install/PowerShell-Support-Lifecycle.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-bom",
+    "english": "BOM",
+    "chinese": "位元組順序記號",
+    "description": "檔案開頭的 Unicode 編碼提示，可協助舊版辨識中文。",
+    "usage": "第 3 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/03-installation.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/install/PowerShell-Support-Lifecycle.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-lts",
+    "english": "LTS",
+    "chinese": "長期維護版本",
+    "description": "有較長維護期限的發行系列，仍需更新安全修補。",
+    "usage": "第 2 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/02-powershell-versions.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/install/PowerShell-Support-Lifecycle.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-parameter-set",
+    "english": "Parameter Set",
+    "chinese": "參數組合",
+    "description": "定義哪些參數可一起呼叫及各自必要性。",
+    "usage": "第 6 章的觀念與案例",
+    "related_commands": [
+      "Get-Help"
+    ],
+    "chapter": "docs/chapters/06-help-system.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-switch-parameter",
+    "english": "Switch Parameter",
+    "chinese": "切換參數",
+    "description": "通常以旗標啟用的參數，不是額外傳入文字 True。",
+    "usage": "第 6 章的觀念與案例",
+    "related_commands": [
+      "Get-Help"
+    ],
+    "chapter": "docs/chapters/06-help-system.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-parameter-binding",
+    "english": "Parameter Binding",
+    "chinese": "參數繫結",
+    "description": "將命令列引數或管線資料配給接收參數的過程。",
+    "usage": "第 9 章的觀念與案例",
+    "related_commands": [
+      "Select-Object"
+    ],
+    "chapter": "docs/chapters/09-pipeline.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Pipelines.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-byvalue",
+    "english": "ByValue",
+    "chinese": "按值繫結",
+    "description": "依整個管線輸入物件的型別配給參數。",
+    "usage": "第 9 章的觀念與案例",
+    "related_commands": [
+      "Select-Object"
+    ],
+    "chapter": "docs/chapters/09-pipeline.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Pipelines.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-bypropertyname",
+    "english": "ByPropertyName",
+    "chinese": "按屬性名稱繫結",
+    "description": "依輸入物件屬性名稱配給參數，型別也要符合。",
+    "usage": "第 9 章的觀念與案例",
+    "related_commands": [
+      "Select-Object"
+    ],
+    "chapter": "docs/chapters/09-pipeline.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Pipelines.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-splatting",
+    "english": "Splatting",
+    "chinese": "參數展開",
+    "description": "用字典或陣列整理呼叫引數，減少長單行命令。",
+    "usage": "第 16 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/16-functions.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Functions.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-scope",
+    "english": "Scope",
+    "chinese": "作用域",
+    "description": "變數與函式可見及生效的範圍。",
+    "usage": "第 16 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/16-functions.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Functions.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-shouldprocess",
+    "english": "ShouldProcess",
+    "chinese": "變更前確認機制",
+    "description": "讓變更命令配合 WhatIf 與 Confirm，副作用須放在受保護分支。",
+    "usage": "第 17 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/17-advanced-functions.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Functions_Advanced.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-breakpoint",
+    "english": "Breakpoint",
+    "chinese": "中斷點",
+    "description": "讓偵錯器在指定行、變數或命令暫停以觀察狀態。",
+    "usage": "第 20 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/20-debugging-logging.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Debuggers.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-transcript",
+    "english": "Transcript",
+    "chinese": "工作階段逐字紀錄",
+    "description": "保存互動內容，可能含敏感資訊，分享前要檢查。",
+    "usage": "第 20 章的觀念與案例",
+    "related_commands": [],
+    "chapter": "docs/chapters/20-debugging-logging.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Debuggers.md",
+    "version": "7.6 基準；差異見章節",
+    "platform": "依章節標示",
+    "verified_at": "2026-10-24"
+  }
+]

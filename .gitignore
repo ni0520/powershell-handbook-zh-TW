@@ -1,0 +1,13 @@
+dist/
+.cache/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.pfx
+*.key
+assets/fonts/*.ttf

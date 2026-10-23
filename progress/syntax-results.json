@@ -1,0 +1,658 @@
+{
+  "run_at_utc": "2026-10-23T22:11:07.5397624Z",
+  "powershell": "7.6.8",
+  "passed": 130,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-6",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-7",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-8",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-9",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-10",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-11",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-12",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-13",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-14",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-15",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-16",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-17",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-18",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-19",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-20",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-21",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-22",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-23",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-24",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-25",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-26",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-27",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-28",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-29",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-30",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-31",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-32",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-33",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-34",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-35",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-36",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-37",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-38",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-39",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-40",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-41",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-42",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-43",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-44",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-45",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-46",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-47",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-48",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-49",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/appendices/cmdlet-tutorials.md:block-50",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/cheatsheets/quick-reference.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/cheatsheets/quick-reference.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/cheatsheets/quick-reference.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/cheatsheets/quick-reference.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/cheatsheets/quick-reference.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/cheatsheets/quick-reference.md:block-6",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/cheatsheets/quick-reference.md:block-7",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/17-advanced-functions.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/17-advanced-functions.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/13-operators.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/13-operators.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/13-operators.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/13-operators.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/15-scripts.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/15-scripts.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/04-terminal-editor.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/04-terminal-editor.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/05-basic-navigation.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/05-basic-navigation.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/05-basic-navigation.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/05-basic-navigation.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/01-introduction.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/01-introduction.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/01-introduction.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/12-collections.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/12-collections.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/12-collections.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/12-collections.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/12-collections.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/14-control-flow.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/14-control-flow.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/14-control-flow.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/14-control-flow.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/14-control-flow.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/06-help-system.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/06-help-system.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/06-help-system.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/08-objects.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/08-objects.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/08-objects.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/08-objects.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/19-error-handling.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/19-error-handling.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/19-error-handling.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/03-installation.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/03-installation.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/03-installation.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/03-installation.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/18-modules.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/18-modules.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/18-modules.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/11-variables-types.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/11-variables-types.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/11-variables-types.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/11-variables-types.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/20-debugging-logging.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/20-debugging-logging.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/16-functions.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/16-functions.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/16-functions.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/09-pipeline.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/09-pipeline.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/09-pipeline.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/07-commands-aliases.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/07-commands-aliases.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/07-commands-aliases.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/07-commands-aliases.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/10-filter-sort.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/10-filter-sort.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/10-filter-sort.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/10-filter-sort.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/10-filter-sort.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/10-filter-sort.md:block-6",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/02-powershell-versions.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/02-powershell-versions.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "examples/15/Get-LearningTotal.ps1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "examples/17/LearningFunctions.psm1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "examples/10/Get-LearningReport.ps1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "tests/Test-Examples.ps1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "scripts/Test-Syntax.ps1",
+      "status": "passed",
+      "errors": []
+    }
+  ]
+}

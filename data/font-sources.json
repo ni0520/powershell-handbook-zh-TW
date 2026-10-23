@@ -1,0 +1,13 @@
+[
+  {
+    "id": "noto-sans-tc",
+    "name": "Noto Sans TC variable TrueType",
+    "publisher": "Google Fonts / Noto",
+    "url": "https://github.com/google/fonts/blob/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/notosanstc/NotoSansTC%5Bwght%5D.ttf",
+    "sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+    "license": "SIL Open Font License 1.1",
+    "license_file": "assets/fonts/OFL.txt",
+    "accessed_at": "2026-10-24",
+    "usage": "HTML/PDF 繁中字型；依原稿文字製作子集並重新命名為 Handbook CJK；授權文字隨 HTML 內嵌"
+  }
+]

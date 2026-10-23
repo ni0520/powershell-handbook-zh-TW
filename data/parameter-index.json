@@ -1,0 +1,338 @@
+[
+  {
+    "id": "parameter-path",
+    "name": "-Path",
+    "chinese": "路徑",
+    "description": "一般路徑，是否接受萬用字元及必要性依命令與參數組。",
+    "kind": "specific",
+    "commands": [
+      "Get-ChildItem",
+      "Set-Location"
+    ],
+    "chapter": "docs/chapters/05-basic-navigation.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ChildItem.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-literalpath",
+    "name": "-LiteralPath",
+    "chinese": "字面路徑",
+    "description": "把方括號等字元當作實際名稱，不作路徑模式。",
+    "kind": "specific",
+    "commands": [
+      "Get-ChildItem",
+      "Set-Location"
+    ],
+    "chapter": "docs/chapters/05-basic-navigation.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ChildItem.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-name",
+    "name": "-Name",
+    "chinese": "名稱",
+    "description": "名稱的對象依命令而異，不可當成通用身分欄位。",
+    "kind": "specific",
+    "commands": [
+      "Get-Command",
+      "Get-Alias",
+      "Get-Help"
+    ],
+    "chapter": "docs/chapters/07-commands-aliases.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-Command.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-filter",
+    "name": "-Filter",
+    "chinese": "提供者篩選",
+    "description": "將篩選交給提供者；支援規則與效能依實作。",
+    "kind": "specific",
+    "commands": [
+      "Get-ChildItem"
+    ],
+    "chapter": "docs/chapters/05-basic-navigation.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ChildItem.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-include",
+    "name": "-Include",
+    "chinese": "包含模式",
+    "description": "包含符合名稱模式的項目，需留意路徑與遞迴脈絡。",
+    "kind": "specific",
+    "commands": [
+      "Get-ChildItem"
+    ],
+    "chapter": "docs/chapters/05-basic-navigation.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ChildItem.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-exclude",
+    "name": "-Exclude",
+    "chinese": "排除模式",
+    "description": "排除符合模式項目；不是全域存取控制。",
+    "kind": "specific",
+    "commands": [
+      "Get-ChildItem",
+      "Get-Alias"
+    ],
+    "chapter": "docs/chapters/05-basic-navigation.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ChildItem.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-recurse",
+    "name": "-Recurse",
+    "chinese": "遞迴",
+    "description": "走訪子容器，先限定資料範圍。",
+    "kind": "specific",
+    "commands": [
+      "Get-ChildItem"
+    ],
+    "chapter": "docs/chapters/05-basic-navigation.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ChildItem.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-force",
+    "name": "-Force",
+    "chinese": "強制相關選項",
+    "description": "語意依命令；不等於管理員權限或略過所有限制。",
+    "kind": "specific",
+    "commands": [
+      "Get-ChildItem",
+      "Get-Member"
+    ],
+    "chapter": "docs/chapters/05-basic-navigation.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-ChildItem.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-whatif",
+    "name": "-WhatIf",
+    "chinese": "模擬變更",
+    "description": "僅支援 ShouldProcess 的命令；不能保證所有前置作業零副作用。",
+    "kind": "should-process",
+    "commands": [
+      "Set-LearningValue"
+    ],
+    "chapter": "docs/chapters/17-advanced-functions.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Functions_CmdletBindingAttribute.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-confirm",
+    "name": "-Confirm",
+    "chinese": "確認變更",
+    "description": "控制變更提示，不是身分授權。",
+    "kind": "should-process",
+    "commands": [
+      "Set-LearningValue"
+    ],
+    "chapter": "docs/chapters/17-advanced-functions.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Functions_CmdletBindingAttribute.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-verbose",
+    "name": "-Verbose",
+    "chinese": "詳細診斷",
+    "description": "顯示詳細訊息，維持成功資料與診斷分流。",
+    "kind": "common",
+    "commands": [
+      "進階函式與 Cmdlet"
+    ],
+    "chapter": "docs/chapters/20-debugging-logging.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-debug",
+    "name": "-Debug",
+    "chinese": "偵錯訊息",
+    "description": "顯示偵錯內容，避免在訊息中輸出秘密。",
+    "kind": "common",
+    "commands": [
+      "進階函式與 Cmdlet"
+    ],
+    "chapter": "docs/chapters/20-debugging-logging.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-erroraction",
+    "name": "-ErrorAction",
+    "chinese": "錯誤處置",
+    "description": "控制錯誤行為；Stop 有助必要操作進入 catch。",
+    "kind": "common",
+    "commands": [
+      "進階函式與 Cmdlet"
+    ],
+    "chapter": "docs/chapters/19-error-handling.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-errorvariable",
+    "name": "-ErrorVariable",
+    "chinese": "錯誤收集變數",
+    "description": "把錯誤紀錄保留到指定變數以便後續處理。",
+    "kind": "common",
+    "commands": [
+      "進階函式與 Cmdlet"
+    ],
+    "chapter": "docs/chapters/19-error-handling.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-warningaction",
+    "name": "-WarningAction",
+    "chinese": "警告處置",
+    "description": "控制警告訊息行為，不等同錯誤處置。",
+    "kind": "common",
+    "commands": [
+      "進階函式與 Cmdlet"
+    ],
+    "chapter": "docs/chapters/20-debugging-logging.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-warningvariable",
+    "name": "-WarningVariable",
+    "chinese": "警告收集變數",
+    "description": "收集警告紀錄；不應把警告直接當失敗或成功。",
+    "kind": "common",
+    "commands": [
+      "進階函式與 Cmdlet"
+    ],
+    "chapter": "docs/chapters/20-debugging-logging.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-informationaction",
+    "name": "-InformationAction",
+    "chinese": "資訊處置",
+    "description": "控制資訊串流顯示與處理，依命令行為判讀。",
+    "kind": "common",
+    "commands": [
+      "進階函式與 Cmdlet"
+    ],
+    "chapter": "docs/chapters/20-debugging-logging.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-informationvariable",
+    "name": "-InformationVariable",
+    "chinese": "資訊收集變數",
+    "description": "保存資訊紀錄；分享前檢查敏感內容。",
+    "kind": "common",
+    "commands": [
+      "進階函式與 Cmdlet"
+    ],
+    "chapter": "docs/chapters/20-debugging-logging.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-outvariable",
+    "name": "-OutVariable",
+    "chinese": "輸出收集變數",
+    "description": "保存成功輸出，同時仍可流向後續管線。",
+    "kind": "common",
+    "commands": [
+      "進階函式與 Cmdlet"
+    ],
+    "chapter": "docs/chapters/09-pipeline.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-outbuffer",
+    "name": "-OutBuffer",
+    "chinese": "輸出緩衝",
+    "description": "控制管線傳送前保留的物件數，不是通用效能魔法。",
+    "kind": "common",
+    "commands": [
+      "進階函式與 Cmdlet"
+    ],
+    "chapter": "docs/chapters/09-pipeline.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-pipelinevariable",
+    "name": "-PipelineVariable",
+    "chinese": "管線變數",
+    "description": "讓後段引用當前處理脈絡中的值，需理解列舉與作用域。",
+    "kind": "common",
+    "commands": [
+      "進階函式與 Cmdlet"
+    ],
+    "chapter": "docs/chapters/09-pipeline.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "依命令與版本；以 7.6 文件為基準",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-progressaction",
+    "name": "-ProgressAction",
+    "chinese": "進度處置",
+    "description": "PowerShell 7.4 起，控制進度顯示行為。",
+    "kind": "common",
+    "commands": [
+      "進階函式與 Cmdlet"
+    ],
+    "chapter": "docs/chapters/20-debugging-logging.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md",
+    "version": "7.4+",
+    "platform": "依命令與提供者",
+    "verified_at": "2026-10-24"
+  }
+]
