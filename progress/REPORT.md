@@ -25,3 +25,7 @@ Hyper-V、Docker引擎、IIS、SQL、AD、Graph、Azure與Exchange未執行服�
 Pester固定官方原始碼建置；PSScriptAnalyzer作者／時間戳簽章驗證曾成功，NU3018／NU3028線上撤銷查詢限制仍保留，未停用TLS、簽章或雜湊。原有42斷言與執行器實作未改，沿用既有證據。方法與證據見progress/BATCH36_40.md、VALIDATION.md與tooling。
 
 依使用者持續授權保存並合併GitHub，遠端結果需推送後核對；本產出前報告不預先宣稱成功。大型文件在dist且可重建，未建立GitHub Release或部署網站。下一步逐筆補足至少400個索引、升級重要教學、擴充附錄與企業案例；停止後不宣稱仍在背景執行。
+
+## 實際遠端保存結果
+
+本輪內容已本機提交638c11a；收尾時GitHub回HTTP401，fetch與ls-remote因無法取得Username失敗，故本輪未成功推送。需恢復GitHub雲端認證後先核對遠端歷史再正常整合，禁止強推。最後成功核對的遠端為bf7cd86，不代表目前遠端仍相同。交付ZIP與原稿Git bundle可供下載保存，本機提交／合併不冒稱遠端成功。
