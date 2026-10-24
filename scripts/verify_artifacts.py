@@ -40,9 +40,10 @@ def main():
         assert not audit['broken'],audit['broken']
         assert audit['scroll'] <= audit['width']+1,audit
         assert audit['language']=='zh-TW',audit
-        for term in ['管線','Get-ChildItem','物件','Pester','JSON','Compress-Archive','雜湊']:
+        for term in ['管線','Get-ChildItem','物件','Pester','JSON','Compress-Archive','雜湊','Get-Runspace','Clear-Host','Ping']:
             page.locator('#book-search').fill(term)
             assert page.locator('#search-results a').count()>0,term
+        assert page.locator('#search-results a[href="#verb-ping"]').count()==1
         page.locator('#book-search').fill('不存在xyz123')
         assert page.locator('#search-results a').count()==0
         page.locator('#book-search').fill('Get-ChildItem')
@@ -69,7 +70,8 @@ def main():
         path=DIST/filename; pdf=PdfReader(path)
         assert len(pdf.pages)>0
         contents=[page.extract_text() for page in pdf.pages]
-        assert all(x.strip() for x in contents),'Blank PDF page: '+filename
+        blank_pages = [i+1 for i, text in enumerate(contents) if not text.strip()]
+        assert not blank_pages, f'Blank PDF pages in {filename}: {blank_pages}'
         joined='\n'.join(contents)
         expected_term='速查' if '速查表' in filename else '管線'
         assert 'PowerShell' in joined and expected_term in joined,filename

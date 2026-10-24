@@ -1,7 +1,7 @@
 {
-  "run_at_utc": "2026-10-24T11:58:35.2788828Z",
+  "run_at_utc": "2026-10-24T12:31:28.4424967Z",
   "powershell": "7.6.8",
-  "passed": 261,
+  "passed": 263,
   "failed": 0,
   "cases": [
     {
@@ -1095,26 +1095,6 @@
       "errors": []
     },
     {
-      "name": "docs/chapters/40-reference-appendices.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/40-reference-appendices.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/40-reference-appendices.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/40-reference-appendices.md:block-4",
-      "status": "passed",
-      "errors": []
-    },
-    {
       "name": "docs/chapters/36-infrastructure-services.md:block-1",
       "status": "passed",
       "errors": []
@@ -1195,6 +1175,26 @@
       "errors": []
     },
     {
+      "name": "docs/chapters/40-reference-appendices.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/40-reference-appendices.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/40-reference-appendices.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/40-reference-appendices.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
       "name": "docs/cheatsheets/quick-reference.md:block-1",
       "status": "passed",
       "errors": []
@@ -1260,6 +1260,11 @@
       "errors": []
     },
     {
+      "name": "tests/EnterpriseReport.Tests.ps1",
+      "status": "passed",
+      "errors": []
+    },
+    {
       "name": "tests/Jobs.Tests.ps1",
       "status": "passed",
       "errors": []
@@ -1285,7 +1290,7 @@
       "errors": []
     },
     {
-      "name": "tests/EnterpriseReport.Tests.ps1",
+      "name": "tests/ReferenceBehavior.Tests.ps1",
       "status": "passed",
       "errors": []
     },
@@ -1306,6 +1311,11 @@
     },
     {
       "name": "scripts/Test-Syntax.ps1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "scripts/Compare-VerbReference.ps1",
       "status": "passed",
       "errors": []
     }

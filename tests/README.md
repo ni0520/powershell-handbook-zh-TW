@@ -22,3 +22,5 @@ SystemManagement.Tests.ps1新增10個本機／合成資料通過案例，4個Win
 v0.4：SecurityCloud.Tests.ps1新增6項本機契約測試；整套Pester63案例（58通過／5跳過），教材允許清單44區塊。python3 tests/verify_rest_http.py啟動暫時回送HTTP測試並關閉，驗證5項契約，不含正式TLS／OAuth／企業整合。
 
 v0.5：新增EnterpriseReport.Tests.ps1共13項契約／量測測試；整套Pester76案例（71通過／5跳過），教材允許清單59區塊。test_build.py另驗證第40章後不產生反向剩餘章數範圍。產品服務範本未列入執行清單。
+
+v0.6：render_extended_reference.py從已審閱索引與approved-verbs.json產生增量附錄；Compare-VerbReference.ps1比對100項動詞與例子。validate.py核對150筆來源SHA／用途／平台，並分開記錄命令發現與功能驗證。ReferenceBehavior.Tests.ps1新增8項契約測試；Pester84案例（79通過／5跳過），教材允許清單59區塊。

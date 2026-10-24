@@ -1,11 +1,11 @@
 {
-  "run_at_utc": "2026-10-24T11:57:09.5791787Z",
+  "run_at_utc": "2026-10-24T12:24:26.4146680Z",
   "powershell": "7.6.8",
   "os": "Debian GNU/Linux 13 (trixie)",
   "pester": "5.7.1",
   "result": "Passed",
-  "total": 76,
-  "passed": 71,
+  "total": 84,
+  "passed": 79,
   "failed": 0,
   "skipped": 5,
   "tests": [
@@ -281,6 +281,46 @@
     },
     {
       "name": "第21章：訂單總額與邊界.拒絕負數單價",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "v0.6新增速查的代表性契約.Clear-Host的主機函式來源不捏造為文件模組",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "v0.6新增速查的代表性契約.安全隨機單一候選仍只回傳該候選",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "v0.6新增速查的代表性契約.文字鍵值資料保留值而不當程式執行",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "v0.6新增速查的代表性契約.Test-Json區分合法與破損JSON",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "v0.6新增速查的代表性契約.工作階段事件不等於Windows事件且只清理自己的事件",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "v0.6新增速查的代表性契約.自建提供者磁碟對應不刪除底層檔案",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "v0.6新增速查的代表性契約.Remove-Module移出工作階段而不卸載檔案套件",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "v0.6新增速查的代表性契約.設定嚴格模式只在隔離子範圍執行",
       "result": "Passed",
       "error": ""
     },

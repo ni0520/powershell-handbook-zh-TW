@@ -43,6 +43,28 @@ def main():
                 assert re.search(rf'^### {n}\. ', section, re.M), (entry['name'],n)
     metadata = json.loads((ROOT/'data/runtime-command-metadata.json').read_text(encoding='utf-8-sig'))
     assert {x['Name'] for x in metadata} == {x['name'] for x in entries}, 'Runtime metadata out of date'
+    # Newly reviewed additions must retain traceable source and scope records.
+    reviews = json.loads((ROOT/'data/command-review-v0.6.json').read_text())
+    sources = {row['url']: row for row in json.loads((ROOT/'data/sources.json').read_text())}
+    reviewed_entries = {row['name']: row for row in entries if row.get('review_record') == 'data/command-review-v0.6.json'}
+    assert len(reviews) == len({row['name'] for row in reviews})
+    assert {row['name'] for row in reviews} == set(reviewed_entries)
+    for review in reviews:
+        entry = reviewed_entries[review['name']]
+        assert review['source_url'] == entry['official_source']
+        assert re.fullmatch('[0-9a-f]{64}', review['source_sha256'])
+        assert review['source_sha256'] == sources[review['source_url']]['sha256']
+        assert review['description'] == entry['description']
+        assert review['module'] == entry['module']
+        assert review['platform'] == entry['platform']
+        assert review['review_scope']
+    verbs = json.loads((ROOT/'data/approved-verbs.json').read_text())
+    assert len(verbs) == len({row['verb'] for row in verbs})
+    for verb in verbs:
+        assert verb['chinese'] and verb['description'] and verb['memory']
+        assert verb['official_source'] in sources
+        for example in verb['examples']:
+            assert any(row['name'] == example and row['verb'] == verb['verb'] for row in entries)
     cases = []
     # PROJECT_SPEC preserves user requirements verbatim; it is not authored teaching code.
     docs = list((ROOT/'docs').rglob('*.md'))

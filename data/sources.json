@@ -1671,7 +1671,8 @@
     "version": "PowerShell 7.6",
     "accessed_at": "2026-10-24",
     "chapters": [
-      31
+      31,
+      39
     ],
     "purpose": "背景工作生命週期與平行處理",
     "sha256": "9c1e52b54c2003a6bd5f1bfc45953e10e3b0d1524b15b20f15b8da5cdd1b8838",
@@ -1732,7 +1733,8 @@
     "version": "PowerShell 7.6",
     "accessed_at": "2026-10-24",
     "chapters": [
-      32
+      32,
+      39
     ],
     "purpose": "本章使用的參數、平台與認證語意查證",
     "sha256": "783a066da646f074a6e7f941abe7c2e68ef20a96f4181fd6d2fb9709aa341628",
@@ -2668,5 +2670,2240 @@
     "sha256": "aa732aee79a75a42bf54c8a3ea33ad8303059f9653c956640c1a5b001a57a061",
     "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Get-Job.md",
     "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v06-get-history",
+    "title": "Get-History",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-History.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "ffb978032928b8c81ee9800904b66a2d28703ccc1f4b07d71b259f74349c069c",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Get-History.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-add-history",
+    "title": "Add-History",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Add-History.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "6d7ffbf805a68179c7ec5af09d465fd65444b6c7f131a58e6189afb2720d812d",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Add-History.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-clear-history",
+    "title": "Clear-History",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Clear-History.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "35a6a3c4c7faee766a41aa9ac316c27c445dfb2e41af70f9361b7a2ad9ba12b6",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Clear-History.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-invoke-history",
+    "title": "Invoke-History",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Invoke-History.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "e4662943bd72e9fb7eddaa9bd80e2cedd00c9375d95159b09f62fa104137fca2",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Invoke-History.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-clear-host",
+    "title": "Clear-Host",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Clear-Host.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "3f3ff65f2bb4dc4855e49fca2d8712bc524611bde5b7347586dfd2359d489492",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Clear-Host.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-experimentalfeature",
+    "title": "Get-ExperimentalFeature",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-ExperimentalFeature.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "5d2c6d54b2f65be36ee8ea4490cb89f7327e5083dff4b4d3a536d887b0eb5cc0",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Get-ExperimentalFeature.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-pshostprocessinfo",
+    "title": "Get-PSHostProcessInfo",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-PSHostProcessInfo.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "1065c8f0b597c4c5f22789cfb29c0892fcc26fa3734eb5d5d7ecc30f1279d926",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Get-PSHostProcessInfo.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-pssession",
+    "title": "Get-PSSession",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-PSSession.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "fa479bd02ac81eac3f1a2853e554df4c57d77114af1a0272400622beb47628bd",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Get-PSSession.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-pssession",
+    "title": "New-PSSession",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/New-PSSession.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "188959badf312eccdba2643a3895e915ff9f5776cf025acc8208e068efd965c3",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/New-PSSession.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-enter-pssession",
+    "title": "Enter-PSSession",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Enter-PSSession.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "c34e63c0a7e4c907fab7785eeab903df9ac2e4e2c41653dc7bd9c6b05e10541c",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Enter-PSSession.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-exit-pssession",
+    "title": "Exit-PSSession",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Exit-PSSession.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "d7e09cfa41480808d8dbcc7eddd86897ee822d0f4275c7066faaf51637493e25",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Exit-PSSession.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-remove-pssession",
+    "title": "Remove-PSSession",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Remove-PSSession.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "e25f7acb87fb4c59d788a91c16477846ff4e3eab72e8522af53b78b64e1c2a66",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Remove-PSSession.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-invoke-command",
+    "title": "Invoke-Command",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Invoke-Command.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "e4761d9d6b86d4e4c87c1c4c22ee6b17fa3bfe6b5283948fbebccda4b3b027a6",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Invoke-Command.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-pssessionoption",
+    "title": "New-PSSessionOption",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/New-PSSessionOption.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "235d33fe3ada51c66bb7b31593b7019ea6ded8d8e73db4805dc79df0c5924aac",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/New-PSSessionOption.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-module",
+    "title": "New-Module",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/New-Module.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "73b54ab6d8dddea2b35143807774f7ff989ea34e405c92a9d1fac66e47eedcce",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/New-Module.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-modulemanifest",
+    "title": "New-ModuleManifest",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/New-ModuleManifest.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "0c69e0967a52cde4a82324d6a8d5bcc01e1901879e6c017266f8214150204e75",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/New-ModuleManifest.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-test-modulemanifest",
+    "title": "Test-ModuleManifest",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Test-ModuleManifest.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "dd9a2eb1068613c0dd769b436b2d71c96cca24b38e335a0ab382a407e216b73d",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Test-ModuleManifest.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-export-modulemember",
+    "title": "Export-ModuleMember",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Export-ModuleMember.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "85809b1a5dd8a7595ce664bfd30d8314481c5cd0d11cba98482b18ec8d5b626d",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Export-ModuleMember.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-save-help",
+    "title": "Save-Help",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Save-Help.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "3cefd2bc2b7d5ec1c325b3ec0ce3c4cc3cbc51c8902d26bd7f27962b0e5924f9",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Save-Help.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-update-help",
+    "title": "Update-Help",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Update-Help.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "d824cebabde0e673a256bc021d849e82542a13631d36ed49654d1991c1baca55",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Update-Help.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-set-strictmode",
+    "title": "Set-StrictMode",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Set-StrictMode.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "19702d1b3288a166250aea1d3efab30af386d76c04d2beff55235d768e7cbc30",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Set-StrictMode.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-set-psdebug",
+    "title": "Set-PSDebug",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Set-PSDebug.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "d6af2d31c4c4f4dd08d642867a622ba2275405662e123fc8eb97ae0510b9cf77",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Set-PSDebug.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-stop-job",
+    "title": "Stop-Job",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Stop-Job.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "a66f8eb60f1cccf5fe0526583058a74670005044c5324cf1af1ad96c40809342",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Stop-Job.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-remove-job",
+    "title": "Remove-Job",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Remove-Job.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "9ab7b3a3f782e331ca43831b894ecbe2da140c9982072f3ed4444d6bf0578a2a",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Remove-Job.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-debug-job",
+    "title": "Debug-Job",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Debug-Job.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "456c6e10e299352810b878645135f53bfdbc99519794a90e2d32c453f7fd4c41",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Debug-Job.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-register-argumentcompleter",
+    "title": "Register-ArgumentCompleter",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Register-ArgumentCompleter.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "b87f1ff983a84fe0c32c9c70b32b382f574cb3f74fb1bb21a72d10198fb55da6",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Register-ArgumentCompleter.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-pssessionconfiguration",
+    "title": "Get-PSSessionConfiguration",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-PSSessionConfiguration.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "bf73fefe22046ce7fa54eb8a17e556aa1cc56913b975f7e621bba88182b4ef3e",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Get-PSSessionConfiguration.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-test-pssessionconfigurationfile",
+    "title": "Test-PSSessionConfigurationFile",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Test-PSSessionConfigurationFile.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "d0d6c7b942000fb95410d6f078bad8e318a007df3672e9296a8508a880e17942",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Test-PSSessionConfigurationFile.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-pssessionconfigurationfile",
+    "title": "New-PSSessionConfigurationFile",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/New-PSSessionConfigurationFile.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "614b8aa7599070ef40f04a4a42fd24436476dac196eaca063500949b48b49b19",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/New-PSSessionConfigurationFile.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-psrolecapabilityfile",
+    "title": "New-PSRoleCapabilityFile",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/New-PSRoleCapabilityFile.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "9cead835a62f1507683d70bedad33670b42427aa2629bdd21ab209fe485dd582",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/New-PSRoleCapabilityFile.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-error",
+    "title": "Get-Error",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Error.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "dd653914cb063c6a429836f94608457b576502dfcde6dd842c15c8aafe948767",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-Error.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-variable",
+    "title": "Get-Variable",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Variable.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "541c6f5ee9d146e1cefe71a5e2c6c79ef4c581f767023600ca139a4934f31b2f",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-Variable.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-variable",
+    "title": "New-Variable",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/New-Variable.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "c6cc20ee29d5abc84b4a7161bf57da02a7b5516d56f5dc289ca5c57a6ef56d36",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/New-Variable.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-set-variable",
+    "title": "Set-Variable",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Set-Variable.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "bbcb227dd232c208ceb4fce41e7cdf32f371bac1e43f2505d3a09f2d5112386c",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Set-Variable.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-clear-variable",
+    "title": "Clear-Variable",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Clear-Variable.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "2cfc0bbc5f2c04a1fc1909240b68d3fe61a07e4646b9388617ec05f4f7c02d46",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Clear-Variable.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-remove-variable",
+    "title": "Remove-Variable",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Remove-Variable.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "05c2248b038870250d6a819f33e7ef1f545de12a4c6098337270e6d44a77a3f5",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Remove-Variable.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-alias",
+    "title": "New-Alias",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/New-Alias.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "bcb12aa723e13a82a76de68ced61e6cc1dd10eae4e66a2ee6cc06baf6d38697c",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/New-Alias.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-set-alias",
+    "title": "Set-Alias",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Set-Alias.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "ed63a5d1b1a6234c1ea16698e304c9ade6e17c48dfe108f086b612fbd3531cb1",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Set-Alias.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-remove-alias",
+    "title": "Remove-Alias",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Remove-Alias.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "0e38cc1ec8f89a9c8a9af382cddc8a7e1457c9bcd3e0a867a7690b59aa1812df",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Remove-Alias.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-export-alias",
+    "title": "Export-Alias",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Export-Alias.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "dfa0c30145da08cbfbfda133639cef1e365cc01ceb48de9d1ce06a037f2e80f2",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Export-Alias.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-import-alias",
+    "title": "Import-Alias",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Import-Alias.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "d611cbd400f916fe8434cfd44bfe2d78a5f08bb90ca24aa7403f5de7a85febb9",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Import-Alias.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-formatdata",
+    "title": "Get-FormatData",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-FormatData.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "f390b86dec3d8d6db7d34ffd7d1b22a622aedf35284f2f5b3c9ebae62afee7c7",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-FormatData.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-export-formatdata",
+    "title": "Export-FormatData",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Export-FormatData.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "a68a3471a0ff867dfba3414fc62f593d4a512a09ae8ce9a2f67f06277cdd5878",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Export-FormatData.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-update-formatdata",
+    "title": "Update-FormatData",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Update-FormatData.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "1d6a34c8e46531bba8bd77298e0a608e3d9446870060083b29bb003f58801464",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Update-FormatData.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-typedata",
+    "title": "Get-TypeData",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-TypeData.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "d836ab055fb25541409700e1dc773d759a4215b10b835c22c8cc60ddafeecb2f",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-TypeData.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-update-typedata",
+    "title": "Update-TypeData",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Update-TypeData.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "dea87835d4415ce0bbb80fda7254757c06b0ff0bbef967b3f13eb496fbd88656",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Update-TypeData.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-remove-typedata",
+    "title": "Remove-TypeData",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Remove-TypeData.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "96729c552a0efff56f7a7fa5acef82df1e6628130d6fb3e629bc055548482c8d",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Remove-TypeData.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-object",
+    "title": "New-Object",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/New-Object.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "6daeeb011b03614062620965dd68fa9f9bf4be339d74f49e05bd5807fc68b0cc",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/New-Object.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-add-type",
+    "title": "Add-Type",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Add-Type.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "98dbadb4c4a35aabf94565bc25ce08592e916552cca4b34d13df5a6b8579224f",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Add-Type.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-guid",
+    "title": "New-Guid",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/New-Guid.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "863976ceee279ddc8f652dc0ed80ca82439bc75ce10f5850761902781d77e72b",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/New-Guid.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-temporaryfile",
+    "title": "New-TemporaryFile",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/New-TemporaryFile.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "8eb170fc8d18bc4f54a40005e0fd2ba2d6b1ea8fd174a59936cc817e83044fab",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/New-TemporaryFile.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-securerandom",
+    "title": "Get-SecureRandom",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-SecureRandom.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "b08d8fc2f909ccccf960d9593b0e27644c3fb7ff85ca0299c3000ba3e13415e1",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-SecureRandom.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-start-sleep",
+    "title": "Start-Sleep",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Start-Sleep.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "8015908d8cb531226e3fff52b6d0b94fad28009789dbba013a158d483e26e163",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Start-Sleep.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-uptime",
+    "title": "Get-Uptime",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Uptime.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "9cb0ac1e90e570100528d490978db4a1e6b51e76bab09f31b761237dd5aff1f0",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-Uptime.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-invoke-webrequest",
+    "title": "Invoke-WebRequest",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Invoke-WebRequest.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "7213dd5a42b9fb595fada0fb6d892de0831c2129a2aba35475cf8085b680c16d",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Invoke-WebRequest.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-invoke-expression",
+    "title": "Invoke-Expression",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Invoke-Expression.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "0b1b69399942143cf6ec07b7fcf8595bd87cc7e44a7b506155eb343857c84643",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Invoke-Expression.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-test-json",
+    "title": "Test-Json",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Test-Json.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "f6910c4e0fe779f926f37aaa30d593f24f2e4eabede99ecfb341f14f96d33a7f",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Test-Json.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-join-string",
+    "title": "Join-String",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Join-String.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "fb4aa149a11466dc66b91b9735432dc55569632953687e2a9ad2dd87d0ddb2fe",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Join-String.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-convertto-html",
+    "title": "ConvertTo-Html",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertTo-Html.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "efe47567a558cd288d040f9999331077c1acc04a4b8c8a042d3b17973e4c23ea",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/ConvertTo-Html.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-convertfrom-stringdata",
+    "title": "ConvertFrom-StringData",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-StringData.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "7f37c3769df8e675b149af00dc15285b582f157e8e1fc923790f446250ead3e9",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-StringData.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-convertfrom-markdown",
+    "title": "ConvertFrom-Markdown",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-Markdown.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "d08e1df0035f0c7e7b90c71e01bf079046cc85ba2f63e0cde43457d6ad34c099",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-Markdown.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-show-markdown",
+    "title": "Show-Markdown",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Show-Markdown.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "bf71feb3a8ee4fc2449054983411a3d089eb4e6724160de908cac5885b18c73c",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Show-Markdown.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-markdownoption",
+    "title": "Get-MarkdownOption",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-MarkdownOption.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "1082524457e896e2ee7734fbfaa46927c5aea760a800da840ceb6ec4097c1d67",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-MarkdownOption.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-set-markdownoption",
+    "title": "Set-MarkdownOption",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Set-MarkdownOption.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "26d1f780e62ee80bc3d23f1f26096828284030ca34acf25e37c7b59693d596ad",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Set-MarkdownOption.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-format-hex",
+    "title": "Format-Hex",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Format-Hex.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "d339ef3fea9f2d050bf9da370941bf37034e88a70e315b6a8a9bb22e3d068d40",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Format-Hex.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-format-custom",
+    "title": "Format-Custom",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Format-Custom.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "e98797c034fa00115c323b6346318b9f4192adc1714557b03007e2235c21a24b",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Format-Custom.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-write-host",
+    "title": "Write-Host",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Host.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "930ad6c004e10a452df9d234802971768060fe48e434e29c4d48aa6227ad9101",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Write-Host.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-write-progress",
+    "title": "Write-Progress",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Progress.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "82e0c730512c367c6130c00293ea809a3555d8cf52d0841dd0b54b11a4e73ada",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Write-Progress.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-import-powershelldatafile",
+    "title": "Import-PowerShellDataFile",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Import-PowerShellDataFile.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "651abe1a0543bd8e4fb0e5220d6830f6daa5ba60ec8be8ed856a76b1f269ec0d",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Import-PowerShellDataFile.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-import-localizeddata",
+    "title": "Import-LocalizedData",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Import-LocalizedData.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "e3cac04bcbd79a7fdc16770e8b8747261900d0454525a9f6ee6cbd91dad2f452",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Import-LocalizedData.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-event",
+    "title": "Get-Event",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Event.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "5835f52459b4974d0dc1c0870ded2bf3cf061ec8a3366bfcd95701eb7f19cc8a",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-Event.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-event",
+    "title": "New-Event",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/New-Event.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "e6208a15b00637cce919fecf50931739478636cc558c197454f52fc6377f5978",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/New-Event.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-remove-event",
+    "title": "Remove-Event",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Remove-Event.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "44c5ee9bfd1d8ab268287f9f0d9cb6c305753d86c50b37820c72f45dbf55bf61",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Remove-Event.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-wait-event",
+    "title": "Wait-Event",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Wait-Event.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "588678944f937849a3fe954d6f19918416323f5f473518900afb387e78f84e61",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Wait-Event.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-eventsubscriber",
+    "title": "Get-EventSubscriber",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-EventSubscriber.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "eefcf30ce947a95b674fa3063a69bb4834aad7d53657a0f7e6b8906328a547b1",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-EventSubscriber.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-register-engineevent",
+    "title": "Register-EngineEvent",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Register-EngineEvent.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "ef22bfacdf4ea01faf526c91ebedc926effcaa32b4d82f7500bcb55b2be461ec",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Register-EngineEvent.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-register-objectevent",
+    "title": "Register-ObjectEvent",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Register-ObjectEvent.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "15121be18833ce756bad288f4a00a81ee14a34134c8489078d0a7556a86ca809",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Register-ObjectEvent.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-unregister-event",
+    "title": "Unregister-Event",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Unregister-Event.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "6d33a2c75d166fa4f88ee0df99588309fa1161854cdad124a1fcbfedf6f27aec",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Unregister-Event.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-psbreakpoint",
+    "title": "Get-PSBreakpoint",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-PSBreakpoint.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "e18fccc2639f94eca5c621a057bce60022ea9cbccd2fbe794f7f2e6c23bcbc0a",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-PSBreakpoint.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-set-psbreakpoint",
+    "title": "Set-PSBreakpoint",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Set-PSBreakpoint.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "588f5e3abaab63949b827dde80984df93e08ec61a06053cf8c4f93baff1e2d4d",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Set-PSBreakpoint.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-enable-psbreakpoint",
+    "title": "Enable-PSBreakpoint",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Enable-PSBreakpoint.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "8e81cb85cf7ef8fea0fd08c15e8d23cb73702e6572bfd03f734dc3c814f94dd8",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Enable-PSBreakpoint.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-disable-psbreakpoint",
+    "title": "Disable-PSBreakpoint",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Disable-PSBreakpoint.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "889980012d01334c5449294bd30be8097b6931db6a222a5021852ae8777d69c1",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Disable-PSBreakpoint.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-remove-psbreakpoint",
+    "title": "Remove-PSBreakpoint",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Remove-PSBreakpoint.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "4aa3d150feb21abacbef57e64db0266778b0f558db5599e890ec2064b4e6477f",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Remove-PSBreakpoint.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-pscallstack",
+    "title": "Get-PSCallStack",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-PSCallStack.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "3a3c530e607eec498d840f7aafe5e88412bee3ea97db87d630377427ee4a4d00",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-PSCallStack.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-runspace",
+    "title": "Get-Runspace",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Runspace.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "651ffa9c8432e475a05522c8b3bfcba6ddb2224a903a42f4a1b9781d2c6b2979",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-Runspace.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-tracesource",
+    "title": "Get-TraceSource",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-TraceSource.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "cd39168c40232692820d834a9543ce7508662a4657b5c0211262b719eae7b682",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-TraceSource.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-trace-command",
+    "title": "Trace-Command",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Trace-Command.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "8bace27f20cff4ab1f0b2796d71f65b366884c523df9fbe2fe03cbcbd7740cc4",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Trace-Command.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-set-tracesource",
+    "title": "Set-TraceSource",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Set-TraceSource.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "fb7268585dcbf39f16bfe8299aea4aa9fc2c4341d098473aa8ca0f863aa86844",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Set-TraceSource.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-start-transcript",
+    "title": "Start-Transcript",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Host/Start-Transcript.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "e52f1d77b973bc117d27ae1159a72d2d30f42418d20e6f7066bbe85e4bb27cab",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Host/Start-Transcript.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-stop-transcript",
+    "title": "Stop-Transcript",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Host/Stop-Transcript.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "a0579b2b30b345770066bf186fdeafef29d2501068b09ff97d5b80f439fe7eeb",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Host/Stop-Transcript.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-convert-path",
+    "title": "Convert-Path",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Convert-Path.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "5f32d9f41d067aeb3f65a46aea5e049835a129e369e8718e390e087137d1edcd",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Convert-Path.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-psdrive",
+    "title": "New-PSDrive",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/New-PSDrive.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "0cca65dd2e71936d0acd861bd494a8ebdb0a3f2cc45997c043e274ebe943ac7a",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/New-PSDrive.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-remove-psdrive",
+    "title": "Remove-PSDrive",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Remove-PSDrive.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "7d04cac474769e87ffc4e1aa81c1d696fa3697e06e1d24c7f01df38eb0e77344",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Remove-PSDrive.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-timezone",
+    "title": "Get-TimeZone",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-TimeZone.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "9267ef129c8b6d526d4e154fec1e882f4638c9f0824a0668b1eceb56f19e3a9a",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Get-TimeZone.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-clipboard",
+    "title": "Get-Clipboard",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Clipboard.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "9668358eb438f0c875d38c2efe917f7d7f58c004c6d3beca4db5a8992c6858f6",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Get-Clipboard.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-set-clipboard",
+    "title": "Set-Clipboard",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Set-Clipboard.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "57caf94c72a677cf06a79a9289fc869117ce443cc53b0fd6c9439497ff6cb752",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Set-Clipboard.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-invoke-item",
+    "title": "Invoke-Item",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Invoke-Item.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "a262ee40d26349b44ea4b954838a5fd3f21ccb1c0b39f98e9d569b8b7ba4a975",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Invoke-Item.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-executionpolicy",
+    "title": "Get-ExecutionPolicy",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Get-ExecutionPolicy.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "20445181be240ca82383fe38b57aa77b0cb368a414da223bb3952ae4c342b3d7",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Security/Get-ExecutionPolicy.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-authenticodesignature",
+    "title": "Get-AuthenticodeSignature",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Get-AuthenticodeSignature.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "20fc6dd33e4a9abad9a37cde9749c82f63eb7d7ae04816f05bf9bd391d4bddc8",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Security/Get-AuthenticodeSignature.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-credential",
+    "title": "Get-Credential",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Get-Credential.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "9f31d0502e2481b8267151e94f6d284800d9d4f1a75b374f333a765d0b70e222",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Security/Get-Credential.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-convertfrom-securestring",
+    "title": "ConvertFrom-SecureString",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/ConvertFrom-SecureString.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "f6a7f4bc57ed2f541a05fa4661b973c6bc5eb1f1b5cd62fa39f59fddaf17c6de",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Security/ConvertFrom-SecureString.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-acl",
+    "title": "Get-Acl",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Get-Acl.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "cb2724db9b6e78d8cce29b9cbad1f6f91597d1dc8dd7616cec85d5cf8acfc486",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Security/Get-Acl.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-set-acl",
+    "title": "Set-Acl",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Set-Acl.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "f474aa22ee495927aafefbe1d4a304ea7bcb760fe08783d6f0cf06d753ab9a4a",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Security/Set-Acl.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-cmsmessage",
+    "title": "Get-CmsMessage",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Get-CmsMessage.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "78c0a9ed860992fc3e9e8073d4ab827aa1b885852b57021ef107fd7582829b07",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Security/Get-CmsMessage.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-protect-cmsmessage",
+    "title": "Protect-CmsMessage",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Protect-CmsMessage.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "55b13e02cbeda9b425090df27e58a28b82a890182fe45239da50b6017b0f04b8",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Security/Protect-CmsMessage.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-unprotect-cmsmessage",
+    "title": "Unprotect-CmsMessage",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Unprotect-CmsMessage.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "dfeb4ce7b6c9e1f2dde98b45be51e6137328da8dc33c6bf7400b1e62ba4b6c6e",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Security/Unprotect-CmsMessage.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-pfxcertificate",
+    "title": "Get-PfxCertificate",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Get-PfxCertificate.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "c43a0bc623e46056d1db0b588d8360c6a1c10bd41288fa751f6854a28d5fe870",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Security/Get-PfxCertificate.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-filecatalog",
+    "title": "New-FileCatalog",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/New-FileCatalog.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "379b095c3973e5f1798b9dd2c871dda9d9c83008056e47026e0231b78d36a990",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Security/New-FileCatalog.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-test-filecatalog",
+    "title": "Test-FileCatalog",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Test-FileCatalog.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "ed09613e2cb29c3fd8e86e310cb71cc1110f4e53fba4570beb352d5ca66dad68",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Security/Test-FileCatalog.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-cimsession",
+    "title": "Get-CimSession",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimSession.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "2cacaceb1ddf961b88f01abfba2dbc4bd697789ebefc7b9e4e4f88576de2e86b",
+    "local_reference": "reference/7.6/CimCmdlets/Get-CimSession.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-cimclass",
+    "title": "Get-CimClass",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimClass.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "56df1a01b65ad31c63d3c365b0ced7e1bed456ad0ed4f7c8ad1decbc20d4ff4f",
+    "local_reference": "reference/7.6/CimCmdlets/Get-CimClass.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-cimassociatedinstance",
+    "title": "Get-CimAssociatedInstance",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimAssociatedInstance.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "ce3ada7f79dd7b619b116604486b698cade44cb534b0a53dd11887e65fcb77eb",
+    "local_reference": "reference/7.6/CimCmdlets/Get-CimAssociatedInstance.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-invoke-cimmethod",
+    "title": "Invoke-CimMethod",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Invoke-CimMethod.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "1acd1b5cfa645fa91eb918c6f1bf34d5f347f967da3a89ded888e38441d877dd",
+    "local_reference": "reference/7.6/CimCmdlets/Invoke-CimMethod.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-ciminstance",
+    "title": "New-CimInstance",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/New-CimInstance.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "387e96755c9fc3f9364dd790829c4a23021a255f68930fa3c01de9af2fa37551",
+    "local_reference": "reference/7.6/CimCmdlets/New-CimInstance.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-set-ciminstance",
+    "title": "Set-CimInstance",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Set-CimInstance.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "edba8b7adbddc6bbb2e31c5400edcde624bfb2bbe3a843f9781e964bd4c35ace",
+    "local_reference": "reference/7.6/CimCmdlets/Set-CimInstance.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-remove-ciminstance",
+    "title": "Remove-CimInstance",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Remove-CimInstance.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "e2976124dd407489a2abe75a03a5a7b068e2658b206d998862bf59aee3396265",
+    "local_reference": "reference/7.6/CimCmdlets/Remove-CimInstance.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-register-cimindicationevent",
+    "title": "Register-CimIndicationEvent",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Register-CimIndicationEvent.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "a8a688de94e7a4610e3452e6782b5321db36889d54ee10aa7fa9bf98359545f0",
+    "local_reference": "reference/7.6/CimCmdlets/Register-CimIndicationEvent.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-counter",
+    "title": "Get-Counter",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Diagnostics/Get-Counter.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "f28a04b13dfc713fe9690c8bbe915689a9fd7094da8ffcfc476a7e3f1d69e2b1",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Diagnostics/Get-Counter.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-hotfix",
+    "title": "Get-HotFix",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-HotFix.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "e90b8bb557e1d232bc2b55a10a92eb29c6a37c2808761c23989c152d17e8141c",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Get-HotFix.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-start-service",
+    "title": "Start-Service",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Start-Service.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "14d2aa3b1021fd0d93c4232502d03be3993f4c6e73a0c496a20eae37815d93d5",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Start-Service.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-stop-service",
+    "title": "Stop-Service",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Stop-Service.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "9ff4f02f12e770a1dd53f6ce7b1e8077c00434ab0e1a98fc3676914dbf965925",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Stop-Service.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-set-service",
+    "title": "Set-Service",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Set-Service.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "9f623eed9fdd75bdb8e29e6cee2900f111c4d2d2dd62e74bc72a5ff05e6f9849",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Set-Service.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-suspend-service",
+    "title": "Suspend-Service",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Suspend-Service.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "94818bd75e6fd2b38fa25408982bfa5648578195129d4bddb1bc93d5866f2f9d",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Suspend-Service.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-resume-service",
+    "title": "Resume-Service",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Resume-Service.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "2b593a20ab20d9d64344db01afe21521a9ca97cf98d7f2742c0ec0e923e0a789",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Resume-Service.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-service",
+    "title": "New-Service",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/New-Service.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "9f93ded084596007c1381351fd06ffce95dc7a0f65d5b00baf4cb8c83a280d11",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/New-Service.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-remove-service",
+    "title": "Remove-Service",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Remove-Service.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "2fabe4574fc28183b1fc4515f56afa08c118f76108e5de8b94ae882d7a511c13",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Remove-Service.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-clear-item",
+    "title": "Clear-Item",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Clear-Item.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "a22f1d4be7be19e903a8717e23b74e2e97fe48e9e443294c07be36322cd1ff76",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Clear-Item.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-set-item",
+    "title": "Set-Item",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Set-Item.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "f0264371e149dc19b26f5e9f348c01ade42f185b1e250b27f3be0e108169ed4c",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Set-Item.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-clear-itemproperty",
+    "title": "Clear-ItemProperty",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Clear-ItemProperty.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "011e98acd5917ec1240facb5cebc7408843aa81e5817889d55cb4b94bbe4830f",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Clear-ItemProperty.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-copy-itemproperty",
+    "title": "Copy-ItemProperty",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Copy-ItemProperty.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "6a7510bdf28fd977089444d53ae668d7bdc46e552b1049ebc80378dbd5f23dc2",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Copy-ItemProperty.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-move-itemproperty",
+    "title": "Move-ItemProperty",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Move-ItemProperty.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "12e34a32ae137ce83e2bf38fcc3cdd25b110816718e071e93cafbd66109db9bc",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Move-ItemProperty.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-rename-itemproperty",
+    "title": "Rename-ItemProperty",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Rename-ItemProperty.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "daca82f796c3a452822789777c28634aa7d0a6c180c58c5da1ac71d3ef57f038",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Rename-ItemProperty.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-psreadlineoption",
+    "title": "Get-PSReadLineOption",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/PSReadLine/Get-PSReadLineOption.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "91157cd8a73fbb439d59bbbc7cc537f0effcb5196bc283820d30cef4978e056f",
+    "local_reference": "reference/7.6/PSReadLine/Get-PSReadLineOption.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-psreadlinekeyhandler",
+    "title": "Get-PSReadLineKeyHandler",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/PSReadLine/Get-PSReadLineKeyHandler.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "9ca2dc8eef87864ad9ae6452d2c600da332faddfa02c549accc9797b9bc3b8c2",
+    "local_reference": "reference/7.6/PSReadLine/Get-PSReadLineKeyHandler.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-set-psreadlineoption",
+    "title": "Set-PSReadLineOption",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/PSReadLine/Set-PSReadLineOption.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "168b8e52bdaa2513d20cc0958e07beea8131860e2d3b2039b3a5bd6cdc21b199",
+    "local_reference": "reference/7.6/PSReadLine/Set-PSReadLineOption.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-set-psreadlinekeyhandler",
+    "title": "Set-PSReadLineKeyHandler",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/PSReadLine/Set-PSReadLineKeyHandler.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "c45ea70b4c691d90fa9d0e623d75461b700ee72c77bb9c9b1c12c9e9de41b8b2",
+    "local_reference": "reference/7.6/PSReadLine/Set-PSReadLineKeyHandler.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-remove-psreadlinekeyhandler",
+    "title": "Remove-PSReadLineKeyHandler",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/PSReadLine/Remove-PSReadLineKeyHandler.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "d1b78fef530ffb63331f6a4108be082e53aef7d87e9ed1ff2ebafad3246b72ed",
+    "local_reference": "reference/7.6/PSReadLine/Remove-PSReadLineKeyHandler.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-test-wsman",
+    "title": "Test-WSMan",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.WSMan.Management/Test-WSMan.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "ad7075f0f7b112877e4c00f914d2704d3d9f3c270aacf49dab9cb0f5a675098b",
+    "local_reference": "reference/7.6/Microsoft.WSMan.Management/Test-WSMan.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-new-wsmansessionoption",
+    "title": "New-WSManSessionOption",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.WSMan.Management/New-WSManSessionOption.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "4bfe1685204a0daf45a361a4f2a73e8c3964213acb639965a19cf52d80e6afba",
+    "local_reference": "reference/7.6/Microsoft.WSMan.Management/New-WSManSessionOption.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-wsmaninstance",
+    "title": "Get-WSManInstance",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.WSMan.Management/Get-WSManInstance.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "80e47caa82cae92fbb9f8f9db64215fd8f8561c85a18e9ae36cf5d2fe77482a8",
+    "local_reference": "reference/7.6/Microsoft.WSMan.Management/Get-WSManInstance.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-connect-wsman",
+    "title": "Connect-WSMan",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.WSMan.Management/Connect-WSMan.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "339c6e625fae3dba0859ff5b5c8c9e35b650be6a431eec5a2ab77c372bf050ac",
+    "local_reference": "reference/7.6/Microsoft.WSMan.Management/Connect-WSMan.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-disconnect-wsman",
+    "title": "Disconnect-WSMan",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.WSMan.Management/Disconnect-WSMan.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "269b121121c58f65c73ab89813af574eeb8e8ac93119cce6eb0a2341d32e9acd",
+    "local_reference": "reference/7.6/Microsoft.WSMan.Management/Disconnect-WSMan.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-get-pssessioncapability",
+    "title": "Get-PSSessionCapability",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-PSSessionCapability.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "df38699fd44564f4e8277eeb612637661c4f255e55abd33b912a880f1ac1f08a",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Get-PSSessionCapability.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-enter-pshostprocess",
+    "title": "Enter-PSHostProcess",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Enter-PSHostProcess.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "18eb75231dff5513cdf3fc5481190d3a0a64c3c8b1e99d71de9c66a5cbe6b09f",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Enter-PSHostProcess.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-exit-pshostprocess",
+    "title": "Exit-PSHostProcess",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Exit-PSHostProcess.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "f2f8ece8912e691842040f0a6f2e5b0123d920f918aafbef89450db1e3283ddc",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Exit-PSHostProcess.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-debug-runspace",
+    "title": "Debug-Runspace",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Debug-Runspace.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "42025884892f062974d7fc942a1c4e514f1910323b7232d3126b3f4aa26eefe0",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Debug-Runspace.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-enable-runspacedebug",
+    "title": "Enable-RunspaceDebug",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Enable-RunspaceDebug.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "2c7adb64e31974198b052074831475a353a1ceb8750e457350263da59f62ae33",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Enable-RunspaceDebug.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-disable-runspacedebug",
+    "title": "Disable-RunspaceDebug",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Disable-RunspaceDebug.md",
+    "version": "PowerShell7.6固定文件快照；本機7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "索引用途與限制查證；非完整參數與功能驗證",
+    "sha256": "4d2f4d82b70c1c7cd569f3926b42f19bcf23439eabf4f36eef111eac9cfdfe09",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Disable-RunspaceDebug.md",
+    "review_status": "DESCRIPTION與本條限制相關段落；未宣稱全文、完整參數或功能實測"
+  },
+  {
+    "id": "v06-approved-verbs",
+    "title": "Approved verbs and reserved naming exceptions",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "version": "固定PowerShell文件快照；Get-Verb實測7.6.8",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      40
+    ],
+    "purpose": "動詞概念、易混淆名稱與Ping等保留例外",
+    "sha256": "2428138112d10d9884061668ef466a68b8027b7ee811696a0f77ca45858efca5",
+    "local_reference": "reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "review_status": "命名規範、對照表與保留動詞段落已查讀"
   }
 ]

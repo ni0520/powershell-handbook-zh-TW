@@ -6,13 +6,22 @@ $entries = Get-Content -LiteralPath (Join-Path $root 'data/cmdlet-index.json') -
 $metadata = foreach ($entry in $entries) {
     $command = Get-Command -Name $entry.name -ErrorAction SilentlyContinue
     if ($null -eq $command) {
-        [ordered]@{ Name=$entry.name; Module=$entry.module; Available=$false; Observation='Not available on this runtime; consult official source, no platform execution implied'; Syntax=$null; Parameters=@() }
+        [ordered]@{ Name=$entry.name; Module=$null; DocumentationModule=$entry.module; CommandType=$null; Available=$false; Observation='Not available on this runtime; consult official source, no platform execution implied'; Syntax=$null; Parameters=@() }
         continue
     }
-    if ($command.ModuleName -ne $entry.module) { throw "Unexpected module for $($entry.name)" }
+    # Clear-Host is a host-supplied function whose runtime ModuleName is empty.
+    # Record that observation instead of fabricating the documentation module.
+    $hostFunction = $entry.name -eq 'Clear-Host' -and
+        $command.CommandType -eq 'Function' -and [string]::IsNullOrEmpty($command.ModuleName)
+    if ($command.ModuleName -ne $entry.module -and -not $hostFunction) {
+        throw "Unexpected module for $($entry.name)"
+    }
     [ordered]@{
         Name = $command.Name
         Module = $command.ModuleName
+        DocumentationModule = $entry.module
+        CommandType = $command.CommandType.ToString()
+        Observation = $(if ($hostFunction) { 'Host function; empty runtime module is preserved, not proof of source identity' } else { 'Command discovery only; not a platform or service execution result' })
         Available = $true
         Syntax = (Get-Command -Name $entry.name -Syntax | Out-String).Trim()
         Parameters = @($command.Parameters.Values | ForEach-Object {

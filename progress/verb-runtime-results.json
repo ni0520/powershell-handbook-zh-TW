@@ -1,0 +1,412 @@
+{
+  "run_at_utc": "2026-10-24T12:31:17.3817481Z",
+  "powershell": "7.6.8",
+  "os": "Debian GNU/Linux 13 (trixie)",
+  "status": "passed",
+  "runtime_count": 100,
+  "reference_count": 100,
+  "source": "Get-Verb list observation; no product command execution implied",
+  "reserved_exception": "Ping: prefer Test for new command names",
+  "entries": [
+    {
+      "Verb": "Add",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Clear",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Close",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Copy",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Enter",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Exit",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Find",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Format",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Get",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Hide",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Join",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Lock",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Move",
+      "Group": "Common"
+    },
+    {
+      "Verb": "New",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Open",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Optimize",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Push",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Pop",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Redo",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Remove",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Rename",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Reset",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Resize",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Search",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Select",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Set",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Show",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Skip",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Split",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Step",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Switch",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Undo",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Unlock",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Watch",
+      "Group": "Common"
+    },
+    {
+      "Verb": "Connect",
+      "Group": "Communications"
+    },
+    {
+      "Verb": "Disconnect",
+      "Group": "Communications"
+    },
+    {
+      "Verb": "Read",
+      "Group": "Communications"
+    },
+    {
+      "Verb": "Receive",
+      "Group": "Communications"
+    },
+    {
+      "Verb": "Send",
+      "Group": "Communications"
+    },
+    {
+      "Verb": "Write",
+      "Group": "Communications"
+    },
+    {
+      "Verb": "Backup",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Checkpoint",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Compare",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Compress",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Convert",
+      "Group": "Data"
+    },
+    {
+      "Verb": "ConvertFrom",
+      "Group": "Data"
+    },
+    {
+      "Verb": "ConvertTo",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Dismount",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Edit",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Expand",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Export",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Group",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Import",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Initialize",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Limit",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Merge",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Mount",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Out",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Publish",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Restore",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Save",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Sync",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Unpublish",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Update",
+      "Group": "Data"
+    },
+    {
+      "Verb": "Debug",
+      "Group": "Diagnostic"
+    },
+    {
+      "Verb": "Measure",
+      "Group": "Diagnostic"
+    },
+    {
+      "Verb": "Ping",
+      "Group": "Diagnostic"
+    },
+    {
+      "Verb": "Repair",
+      "Group": "Diagnostic"
+    },
+    {
+      "Verb": "Resolve",
+      "Group": "Diagnostic"
+    },
+    {
+      "Verb": "Test",
+      "Group": "Diagnostic"
+    },
+    {
+      "Verb": "Trace",
+      "Group": "Diagnostic"
+    },
+    {
+      "Verb": "Approve",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Assert",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Build",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Complete",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Confirm",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Deny",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Deploy",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Disable",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Enable",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Install",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Invoke",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Register",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Request",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Restart",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Resume",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Start",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Stop",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Submit",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Suspend",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Uninstall",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Unregister",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Wait",
+      "Group": "Lifecycle"
+    },
+    {
+      "Verb": "Use",
+      "Group": "Other"
+    },
+    {
+      "Verb": "Block",
+      "Group": "Security"
+    },
+    {
+      "Verb": "Grant",
+      "Group": "Security"
+    },
+    {
+      "Verb": "Protect",
+      "Group": "Security"
+    },
+    {
+      "Verb": "Revoke",
+      "Group": "Security"
+    },
+    {
+      "Verb": "Unblock",
+      "Group": "Security"
+    },
+    {
+      "Verb": "Unprotect",
+      "Group": "Security"
+    }
+  ]
+}

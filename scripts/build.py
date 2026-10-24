@@ -111,10 +111,12 @@ def add_search(html_path):
         items.append({'title':x['name']+' '+x['zh_name'], 'text':x['description']+' '+x['module'], 'anchor':x['id']})
     for x in json.loads((ROOT/'data/glossary.json').read_text()):
         items.append({'title':x['english']+' '+x['chinese'], 'text':x['description'], 'anchor':x['id']})
+    for x in json.loads((ROOT/'data/approved-verbs.json').read_text()):
+        items.append({'title':x['verb']+' '+x['chinese'], 'text':x['description']+' '+x['memory'], 'anchor':'verb-'+x['verb'].lower()})
     for p in sorted((ROOT/'docs/chapters').glob('*.md')):
         title=re.search(r'^# (.+)$',p.read_text(),re.M)[1]
         items.append({'title':title.split(' {#')[0].lstrip('# '), 'text':title, 'anchor':'chapter-'+p.name[:2]})
-    panel='''<section class="book-tools" aria-label="書內索引搜尋"><label for="book-search">搜尋章節、指令與中英文術語</label><input id="book-search" type="search" placeholder="例如：管線、Get-ChildItem、錯誤" autocomplete="off"><p>查全文可使用瀏覽器「在網頁中尋找」。本檔可離線閱讀。</p><p id="search-status" role="status" aria-live="polite"></p><ul id="search-results"></ul></section>'''
+    panel='''<section class="book-tools" aria-label="書內索引搜尋"><label for="book-search">搜尋章節、指令、動詞與中英文術語</label><input id="book-search" type="search" placeholder="例如：管線、Get-ChildItem、Test" autocomplete="off"><p>查全文可使用瀏覽器「在網頁中尋找」。本檔可離線閱讀。</p><p id="search-status" role="status" aria-live="polite"></p><ul id="search-results"></ul></section>'''
     script='''<script>
 const bookIndex = INDEX;
 const input = document.getElementById('book-search');
@@ -145,11 +147,11 @@ def main():
     os.environ.setdefault('XDG_CONFIG_HOME','/workspace/handbook-tools/config')
     chapters=sorted((ROOT/'docs/chapters').glob('*.md'))
     if args.sample:
-        files=[chapters[0], chapters[-2], chapters[-1]]
+        files=[chapters[0], chapters[-2], chapters[-1], ROOT/'docs/appendices/approved-verbs.md']
         stem='排版驗證樣本'
     else:
         files=[ROOT/'docs/README.md',*chapters]
-        files += [ROOT/'docs/appendices'/f'{x}.md' for x in ['cmdlet-tutorials','cmdlet-quick-index','parameter-reference','glossary','master-index']]
+        files += [ROOT/'docs/appendices'/f'{x}.md' for x in ['cmdlet-tutorials','cmdlet-quick-index','parameter-reference','glossary','approved-verbs','master-index']]
         files += [ROOT/'docs/cheatsheets/quick-reference.md',ROOT/'docs/appendices/sources.md']
         stem=STEM
     md=DIST/f'{stem}.md'; md.write_text(combine(files))

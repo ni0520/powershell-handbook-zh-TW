@@ -1235,7 +1235,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Wait-Job.md)
 - 適用版本：PowerShell 7.6
 - 查閱日期：2026-10-24
-- 使用章節：31
+- 使用章節：31, 39
 - 用途：背景工作生命週期與平行處理
 
 <a id="source-jobs-foreach-object"></a>
@@ -1279,7 +1279,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/ConvertTo-SecureString.md)
 - 適用版本：PowerShell 7.6
 - 查閱日期：2026-10-24
-- 使用章節：32
+- 使用章節：32, 39
 - 用途：本章使用的參數、平台與認證語意查證
 
 <a id="source-v04-invoke-restmethod"></a>
@@ -1963,3 +1963,1642 @@
 - 查閱日期：2026-10-24
 - 使用章節：39
 - 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v06-get-history"></a>
+
+## Get-History
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-History.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-add-history"></a>
+
+## Add-History
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Add-History.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-clear-history"></a>
+
+## Clear-History
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Clear-History.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-invoke-history"></a>
+
+## Invoke-History
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Invoke-History.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-clear-host"></a>
+
+## Clear-Host
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Clear-Host.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-experimentalfeature"></a>
+
+## Get-ExperimentalFeature
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-ExperimentalFeature.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-pshostprocessinfo"></a>
+
+## Get-PSHostProcessInfo
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-PSHostProcessInfo.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-pssession"></a>
+
+## Get-PSSession
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-PSSession.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-pssession"></a>
+
+## New-PSSession
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/New-PSSession.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-enter-pssession"></a>
+
+## Enter-PSSession
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Enter-PSSession.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-exit-pssession"></a>
+
+## Exit-PSSession
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Exit-PSSession.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-remove-pssession"></a>
+
+## Remove-PSSession
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Remove-PSSession.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-invoke-command"></a>
+
+## Invoke-Command
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Invoke-Command.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-pssessionoption"></a>
+
+## New-PSSessionOption
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/New-PSSessionOption.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-module"></a>
+
+## New-Module
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/New-Module.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-modulemanifest"></a>
+
+## New-ModuleManifest
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/New-ModuleManifest.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-test-modulemanifest"></a>
+
+## Test-ModuleManifest
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Test-ModuleManifest.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-export-modulemember"></a>
+
+## Export-ModuleMember
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Export-ModuleMember.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-save-help"></a>
+
+## Save-Help
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Save-Help.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-update-help"></a>
+
+## Update-Help
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Update-Help.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-set-strictmode"></a>
+
+## Set-StrictMode
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Set-StrictMode.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-set-psdebug"></a>
+
+## Set-PSDebug
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Set-PSDebug.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-stop-job"></a>
+
+## Stop-Job
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Stop-Job.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-remove-job"></a>
+
+## Remove-Job
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Remove-Job.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-debug-job"></a>
+
+## Debug-Job
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Debug-Job.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-register-argumentcompleter"></a>
+
+## Register-ArgumentCompleter
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Register-ArgumentCompleter.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-pssessionconfiguration"></a>
+
+## Get-PSSessionConfiguration
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-PSSessionConfiguration.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-test-pssessionconfigurationfile"></a>
+
+## Test-PSSessionConfigurationFile
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Test-PSSessionConfigurationFile.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-pssessionconfigurationfile"></a>
+
+## New-PSSessionConfigurationFile
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/New-PSSessionConfigurationFile.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-psrolecapabilityfile"></a>
+
+## New-PSRoleCapabilityFile
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/New-PSRoleCapabilityFile.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-error"></a>
+
+## Get-Error
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Error.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-variable"></a>
+
+## Get-Variable
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Variable.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-variable"></a>
+
+## New-Variable
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/New-Variable.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-set-variable"></a>
+
+## Set-Variable
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Set-Variable.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-clear-variable"></a>
+
+## Clear-Variable
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Clear-Variable.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-remove-variable"></a>
+
+## Remove-Variable
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Remove-Variable.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-alias"></a>
+
+## New-Alias
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/New-Alias.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-set-alias"></a>
+
+## Set-Alias
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Set-Alias.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-remove-alias"></a>
+
+## Remove-Alias
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Remove-Alias.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-export-alias"></a>
+
+## Export-Alias
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Export-Alias.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-import-alias"></a>
+
+## Import-Alias
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Import-Alias.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-formatdata"></a>
+
+## Get-FormatData
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-FormatData.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-export-formatdata"></a>
+
+## Export-FormatData
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Export-FormatData.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-update-formatdata"></a>
+
+## Update-FormatData
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Update-FormatData.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-typedata"></a>
+
+## Get-TypeData
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-TypeData.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-update-typedata"></a>
+
+## Update-TypeData
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Update-TypeData.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-remove-typedata"></a>
+
+## Remove-TypeData
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Remove-TypeData.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-object"></a>
+
+## New-Object
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/New-Object.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-add-type"></a>
+
+## Add-Type
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Add-Type.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-guid"></a>
+
+## New-Guid
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/New-Guid.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-temporaryfile"></a>
+
+## New-TemporaryFile
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/New-TemporaryFile.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-securerandom"></a>
+
+## Get-SecureRandom
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-SecureRandom.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-start-sleep"></a>
+
+## Start-Sleep
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Start-Sleep.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-uptime"></a>
+
+## Get-Uptime
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Uptime.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-invoke-webrequest"></a>
+
+## Invoke-WebRequest
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Invoke-WebRequest.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-invoke-expression"></a>
+
+## Invoke-Expression
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Invoke-Expression.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-test-json"></a>
+
+## Test-Json
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Test-Json.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-join-string"></a>
+
+## Join-String
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Join-String.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-convertto-html"></a>
+
+## ConvertTo-Html
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertTo-Html.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-convertfrom-stringdata"></a>
+
+## ConvertFrom-StringData
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-StringData.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-convertfrom-markdown"></a>
+
+## ConvertFrom-Markdown
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-Markdown.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-show-markdown"></a>
+
+## Show-Markdown
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Show-Markdown.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-markdownoption"></a>
+
+## Get-MarkdownOption
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-MarkdownOption.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-set-markdownoption"></a>
+
+## Set-MarkdownOption
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Set-MarkdownOption.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-format-hex"></a>
+
+## Format-Hex
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Format-Hex.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-format-custom"></a>
+
+## Format-Custom
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Format-Custom.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-write-host"></a>
+
+## Write-Host
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Host.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-write-progress"></a>
+
+## Write-Progress
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Progress.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-import-powershelldatafile"></a>
+
+## Import-PowerShellDataFile
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Import-PowerShellDataFile.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-import-localizeddata"></a>
+
+## Import-LocalizedData
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Import-LocalizedData.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-event"></a>
+
+## Get-Event
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Event.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-event"></a>
+
+## New-Event
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/New-Event.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-remove-event"></a>
+
+## Remove-Event
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Remove-Event.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-wait-event"></a>
+
+## Wait-Event
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Wait-Event.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-eventsubscriber"></a>
+
+## Get-EventSubscriber
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-EventSubscriber.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-register-engineevent"></a>
+
+## Register-EngineEvent
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Register-EngineEvent.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-register-objectevent"></a>
+
+## Register-ObjectEvent
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Register-ObjectEvent.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-unregister-event"></a>
+
+## Unregister-Event
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Unregister-Event.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-psbreakpoint"></a>
+
+## Get-PSBreakpoint
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-PSBreakpoint.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-set-psbreakpoint"></a>
+
+## Set-PSBreakpoint
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Set-PSBreakpoint.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-enable-psbreakpoint"></a>
+
+## Enable-PSBreakpoint
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Enable-PSBreakpoint.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-disable-psbreakpoint"></a>
+
+## Disable-PSBreakpoint
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Disable-PSBreakpoint.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-remove-psbreakpoint"></a>
+
+## Remove-PSBreakpoint
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Remove-PSBreakpoint.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-pscallstack"></a>
+
+## Get-PSCallStack
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-PSCallStack.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-runspace"></a>
+
+## Get-Runspace
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Runspace.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-tracesource"></a>
+
+## Get-TraceSource
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-TraceSource.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-trace-command"></a>
+
+## Trace-Command
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Trace-Command.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-set-tracesource"></a>
+
+## Set-TraceSource
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Set-TraceSource.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-start-transcript"></a>
+
+## Start-Transcript
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Host/Start-Transcript.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-stop-transcript"></a>
+
+## Stop-Transcript
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Host/Stop-Transcript.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-convert-path"></a>
+
+## Convert-Path
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Convert-Path.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-psdrive"></a>
+
+## New-PSDrive
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/New-PSDrive.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-remove-psdrive"></a>
+
+## Remove-PSDrive
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Remove-PSDrive.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-timezone"></a>
+
+## Get-TimeZone
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-TimeZone.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-clipboard"></a>
+
+## Get-Clipboard
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-Clipboard.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-set-clipboard"></a>
+
+## Set-Clipboard
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Set-Clipboard.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-invoke-item"></a>
+
+## Invoke-Item
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Invoke-Item.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-executionpolicy"></a>
+
+## Get-ExecutionPolicy
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Get-ExecutionPolicy.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-authenticodesignature"></a>
+
+## Get-AuthenticodeSignature
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Get-AuthenticodeSignature.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-credential"></a>
+
+## Get-Credential
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Get-Credential.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-convertfrom-securestring"></a>
+
+## ConvertFrom-SecureString
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/ConvertFrom-SecureString.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-acl"></a>
+
+## Get-Acl
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Get-Acl.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-set-acl"></a>
+
+## Set-Acl
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Set-Acl.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-cmsmessage"></a>
+
+## Get-CmsMessage
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Get-CmsMessage.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-protect-cmsmessage"></a>
+
+## Protect-CmsMessage
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Protect-CmsMessage.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-unprotect-cmsmessage"></a>
+
+## Unprotect-CmsMessage
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Unprotect-CmsMessage.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-pfxcertificate"></a>
+
+## Get-PfxCertificate
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Get-PfxCertificate.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-filecatalog"></a>
+
+## New-FileCatalog
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/New-FileCatalog.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-test-filecatalog"></a>
+
+## Test-FileCatalog
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/Test-FileCatalog.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-cimsession"></a>
+
+## Get-CimSession
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimSession.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-cimclass"></a>
+
+## Get-CimClass
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimClass.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-cimassociatedinstance"></a>
+
+## Get-CimAssociatedInstance
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimAssociatedInstance.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-invoke-cimmethod"></a>
+
+## Invoke-CimMethod
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Invoke-CimMethod.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-ciminstance"></a>
+
+## New-CimInstance
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/New-CimInstance.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-set-ciminstance"></a>
+
+## Set-CimInstance
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Set-CimInstance.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-remove-ciminstance"></a>
+
+## Remove-CimInstance
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Remove-CimInstance.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-register-cimindicationevent"></a>
+
+## Register-CimIndicationEvent
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Register-CimIndicationEvent.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-counter"></a>
+
+## Get-Counter
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Diagnostics/Get-Counter.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-hotfix"></a>
+
+## Get-HotFix
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-HotFix.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-start-service"></a>
+
+## Start-Service
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Start-Service.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-stop-service"></a>
+
+## Stop-Service
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Stop-Service.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-set-service"></a>
+
+## Set-Service
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Set-Service.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-suspend-service"></a>
+
+## Suspend-Service
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Suspend-Service.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-resume-service"></a>
+
+## Resume-Service
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Resume-Service.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-service"></a>
+
+## New-Service
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/New-Service.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-remove-service"></a>
+
+## Remove-Service
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Remove-Service.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-clear-item"></a>
+
+## Clear-Item
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Clear-Item.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-set-item"></a>
+
+## Set-Item
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Set-Item.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-clear-itemproperty"></a>
+
+## Clear-ItemProperty
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Clear-ItemProperty.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-copy-itemproperty"></a>
+
+## Copy-ItemProperty
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Copy-ItemProperty.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-move-itemproperty"></a>
+
+## Move-ItemProperty
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Move-ItemProperty.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-rename-itemproperty"></a>
+
+## Rename-ItemProperty
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Rename-ItemProperty.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-psreadlineoption"></a>
+
+## Get-PSReadLineOption
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/PSReadLine/Get-PSReadLineOption.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-psreadlinekeyhandler"></a>
+
+## Get-PSReadLineKeyHandler
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/PSReadLine/Get-PSReadLineKeyHandler.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-set-psreadlineoption"></a>
+
+## Set-PSReadLineOption
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/PSReadLine/Set-PSReadLineOption.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-set-psreadlinekeyhandler"></a>
+
+## Set-PSReadLineKeyHandler
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/PSReadLine/Set-PSReadLineKeyHandler.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-remove-psreadlinekeyhandler"></a>
+
+## Remove-PSReadLineKeyHandler
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/PSReadLine/Remove-PSReadLineKeyHandler.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-test-wsman"></a>
+
+## Test-WSMan
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.WSMan.Management/Test-WSMan.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-new-wsmansessionoption"></a>
+
+## New-WSManSessionOption
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.WSMan.Management/New-WSManSessionOption.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-wsmaninstance"></a>
+
+## Get-WSManInstance
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.WSMan.Management/Get-WSManInstance.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-connect-wsman"></a>
+
+## Connect-WSMan
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.WSMan.Management/Connect-WSMan.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-disconnect-wsman"></a>
+
+## Disconnect-WSMan
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.WSMan.Management/Disconnect-WSMan.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-get-pssessioncapability"></a>
+
+## Get-PSSessionCapability
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-PSSessionCapability.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-enter-pshostprocess"></a>
+
+## Enter-PSHostProcess
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Enter-PSHostProcess.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-exit-pshostprocess"></a>
+
+## Exit-PSHostProcess
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Exit-PSHostProcess.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-debug-runspace"></a>
+
+## Debug-Runspace
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Debug-Runspace.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-enable-runspacedebug"></a>
+
+## Enable-RunspaceDebug
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Enable-RunspaceDebug.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-disable-runspacedebug"></a>
+
+## Disable-RunspaceDebug
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Disable-RunspaceDebug.md)
+- 適用版本：PowerShell7.6固定文件快照；本機7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：索引用途與限制查證；非完整參數與功能驗證
+
+<a id="source-v06-approved-verbs"></a>
+
+## Approved verbs and reserved naming exceptions
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md)
+- 適用版本：固定PowerShell文件快照；Get-Verb實測7.6.8
+- 查閱日期：2026-10-24
+- 使用章節：40
+- 用途：動詞概念、易混淆名稱與Ping等保留例外

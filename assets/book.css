@@ -37,6 +37,8 @@ blockquote { margin:1em 0; padding:1em; border-left:4px solid #b07824; backgroun
   html { scroll-behavior:auto; }
   body { max-width:none; margin:0; padding:0; background:white; font-size:10.5pt; line-height:1.65; }
   .book-tools { display:none; }
+  /* A long TOC must not spill its decorative bottom padding onto an empty page. */
+  #TOC { padding:0; background:none; border-radius:0; }
   h1 { break-before:page; font-size:23pt; }
   #title-block-header h1 { break-before:auto; }
   h2,h3 { break-after:avoid; }

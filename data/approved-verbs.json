@@ -1,402 +1,1595 @@
 [
   {
-    "Verb": "Add",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Clear",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Close",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Copy",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Enter",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Exit",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Find",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Format",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Get",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Hide",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Join",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Lock",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Move",
-    "Group": "Common"
-  },
-  {
-    "Verb": "New",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Open",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Optimize",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Push",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Pop",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Redo",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Remove",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Rename",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Reset",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Resize",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Search",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Select",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Set",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Show",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Skip",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Split",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Step",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Switch",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Undo",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Unlock",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Watch",
-    "Group": "Common"
-  },
-  {
-    "Verb": "Connect",
-    "Group": "Communications"
-  },
-  {
-    "Verb": "Disconnect",
-    "Group": "Communications"
-  },
-  {
-    "Verb": "Read",
-    "Group": "Communications"
-  },
-  {
-    "Verb": "Receive",
-    "Group": "Communications"
-  },
-  {
-    "Verb": "Send",
-    "Group": "Communications"
-  },
-  {
-    "Verb": "Write",
-    "Group": "Communications"
-  },
-  {
-    "Verb": "Backup",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Checkpoint",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Compare",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Compress",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Convert",
-    "Group": "Data"
-  },
-  {
-    "Verb": "ConvertFrom",
-    "Group": "Data"
-  },
-  {
-    "Verb": "ConvertTo",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Dismount",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Edit",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Expand",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Export",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Group",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Import",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Initialize",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Limit",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Merge",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Mount",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Out",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Publish",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Restore",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Save",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Sync",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Unpublish",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Update",
-    "Group": "Data"
-  },
-  {
-    "Verb": "Debug",
-    "Group": "Diagnostic"
-  },
-  {
-    "Verb": "Measure",
-    "Group": "Diagnostic"
-  },
-  {
-    "Verb": "Ping",
-    "Group": "Diagnostic"
-  },
-  {
-    "Verb": "Repair",
-    "Group": "Diagnostic"
-  },
-  {
-    "Verb": "Resolve",
-    "Group": "Diagnostic"
-  },
-  {
-    "Verb": "Test",
-    "Group": "Diagnostic"
-  },
-  {
-    "Verb": "Trace",
-    "Group": "Diagnostic"
-  },
-  {
-    "Verb": "Approve",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Assert",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Build",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Complete",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Confirm",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Deny",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Deploy",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Disable",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Enable",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Install",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Invoke",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Register",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Request",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Restart",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Resume",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Start",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Stop",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Submit",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Suspend",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Uninstall",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Unregister",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Wait",
-    "Group": "Lifecycle"
-  },
-  {
-    "Verb": "Use",
-    "Group": "Other"
-  },
-  {
-    "Verb": "Block",
-    "Group": "Security"
-  },
-  {
-    "Verb": "Grant",
-    "Group": "Security"
-  },
-  {
-    "Verb": "Protect",
-    "Group": "Security"
-  },
-  {
-    "Verb": "Revoke",
-    "Group": "Security"
-  },
-  {
-    "Verb": "Unblock",
-    "Group": "Security"
-  },
-  {
-    "Verb": "Unprotect",
-    "Group": "Security"
+    "verb": "Add",
+    "chinese": "加入",
+    "description": "把項目加入既有容器，與建立新資源的New不同。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Add-Content",
+      "Add-Member",
+      "Add-History"
+    ],
+    "confusable": [
+      "Remove",
+      "New"
+    ],
+    "memory": "往既有容器加一項；New才是做新的。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Clear",
+    "chinese": "清空",
+    "description": "移除內容但保留容器，與移除項目的Remove不同。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Clear-Content",
+      "Clear-History",
+      "Clear-Host"
+    ],
+    "confusable": [
+      "Remove"
+    ],
+    "memory": "清空內容，容器還在。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Close",
+    "chinese": "關閉",
+    "description": "使資源不可使用，通常與Open成對。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Open"
+    ],
+    "memory": "把門關起來，對照Open開門。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Copy",
+    "chinese": "複製",
+    "description": "建立另一份資源而保留來源，與Move不同。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Copy-Item",
+      "Copy-ItemProperty"
+    ],
+    "confusable": [],
+    "memory": "來源留著，再複製一份。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Enter",
+    "chinese": "進入",
+    "description": "進入特定情境或工作階段，與Exit成對。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Enter-PSSession",
+      "Enter-PSHostProcess"
+    ],
+    "confusable": [
+      "Exit"
+    ],
+    "memory": "走進情境，Exit再走出來。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Exit",
+    "chinese": "離開",
+    "description": "離開目前情境，不代表刪除底層資源。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Exit-PSSession",
+      "Exit-PSHostProcess"
+    ],
+    "confusable": [
+      "Enter"
+    ],
+    "memory": "離開房間，不是拆掉房間。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Find",
+    "chinese": "尋找物件",
+    "description": "尋找符合條件的物件，不與Search建立資源參照的命名語意混用。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Search"
+    ],
+    "memory": "找物件本身，不把口語Search直接套進命名。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Format",
+    "chinese": "格式化呈現",
+    "description": "安排物件顯示方式，不是一般資料投影。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Format-Table",
+      "Format-List",
+      "Format-Wide"
+    ],
+    "confusable": [],
+    "memory": "排版給人看，Select才選資料。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Get",
+    "chinese": "取得",
+    "description": "讀取資訊或取得資源物件，不直接等於讀取所有內部內容。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Get-Command",
+      "Get-Help",
+      "Get-Location"
+    ],
+    "confusable": [
+      "Read"
+    ],
+    "memory": "問現在有什麼，Set才改設定。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Hide",
+    "chinese": "隱藏",
+    "description": "讓資源不顯示，與Show成對；隱藏不等於權限保護。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Show"
+    ],
+    "memory": "藏起來而非刪掉，也不等於保密。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Join",
+    "chinese": "結合",
+    "description": "把部分組成一個整體，與Split成對。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Join-Path",
+      "Join-String"
+    ],
+    "confusable": [
+      "Split"
+    ],
+    "memory": "零件接起來，Split再拆開。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Lock",
+    "chinese": "鎖定",
+    "description": "限制資源變更或使用，與Unlock成對。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Unlock"
+    ],
+    "memory": "先鎖住，Unlock再解鎖。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Move",
+    "chinese": "搬移",
+    "description": "移動資源位置，與保留來源的Copy不同。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Move-Item",
+      "Move-ItemProperty"
+    ],
+    "confusable": [],
+    "memory": "帶走來源，Copy則留下來源。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "New",
+    "chinese": "建立",
+    "description": "建立新資源，與向既有容器加入項目的Add不同。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "New-Item",
+      "New-ItemProperty",
+      "New-CimSession"
+    ],
+    "confusable": [
+      "Set",
+      "Add"
+    ],
+    "memory": "做一個新的，Add是加進既有的。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Open",
+    "chinese": "開啟",
+    "description": "讓資源進入可用狀態，與Close成對。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Close"
+    ],
+    "memory": "打開可用，Close關閉。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Optimize",
+    "chinese": "最佳化",
+    "description": "調整資源以改善效率，仍需實際量測結果。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Measure"
+    ],
+    "memory": "目標是更有效率；要用Measure驗結果。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Push",
+    "chinese": "推入",
+    "description": "把項目加入堆疊頂端，與Pop成對。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Push-Location"
+    ],
+    "confusable": [
+      "Pop"
+    ],
+    "memory": "推上堆疊頂端，Pop從頂端拿走。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Pop",
+    "chinese": "彈出",
+    "description": "從堆疊頂端取出項目，與Push成對。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Pop-Location"
+    ],
+    "confusable": [
+      "Push"
+    ],
+    "memory": "從頂端彈出，不是任意挑一項。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Redo",
+    "chinese": "重做",
+    "description": "重新套用先前復原的動作，與Undo成對。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Undo"
+    ],
+    "memory": "把Undo復原的動作再做一次。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Remove",
+    "chinese": "移除",
+    "description": "從容器或情境移除資源，不等同只清內容的Clear。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Remove-Item",
+      "Remove-ItemProperty",
+      "Remove-CimSession"
+    ],
+    "confusable": [
+      "Add",
+      "Clear"
+    ],
+    "memory": "資源離開，Clear只清內容。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Rename",
+    "chinese": "重新命名",
+    "description": "改變資源名稱，不直接代表搬移內容。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Rename-Item",
+      "Rename-ItemProperty"
+    ],
+    "confusable": [],
+    "memory": "換名字，不先假設搬了位置。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Reset",
+    "chinese": "重設",
+    "description": "讓資源回到預先定義的狀態，不保證等同復原上一個動作。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "回到預設，不一定回到上一步。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Resize",
+    "chinese": "調整大小",
+    "description": "改變資源容量或尺寸，需確認資料與服務影響。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "改大小，先想容量與資料影響。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Search",
+    "chinese": "建立搜尋參照",
+    "description": "依官方命名指南指在容器中建立資源參照，不以一般口語搜尋取代Find。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Find"
+    ],
+    "memory": "官方命名重點在資源參照，與Find尋物區分。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Select",
+    "chinese": "選取",
+    "description": "從集合選出物件或屬性，不等同格式化呈現。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Select-Object",
+      "Select-String",
+      "Select-Xml"
+    ],
+    "confusable": [],
+    "memory": "挑物件或欄位，Format才安排畫面。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Set",
+    "chinese": "設定",
+    "description": "修改資源狀態或屬性，部分命令也可能建立不存在項目。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Set-Location",
+      "Set-Content",
+      "Set-ItemProperty"
+    ],
+    "confusable": [
+      "New"
+    ],
+    "memory": "改現有設定；命令仍可能建立不存在的項目。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Show",
+    "chinese": "顯示",
+    "description": "讓資源可見，與Hide成對；顯示不代表可修改。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Show-Markdown"
+    ],
+    "confusable": [
+      "Hide"
+    ],
+    "memory": "給人看見，Hide則藏起來。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Skip",
+    "chinese": "略過",
+    "description": "跳過序列中的項目或位置，不直接視為錯誤處理。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "跳過這一站，不代表已解決錯誤。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Split",
+    "chinese": "拆分",
+    "description": "把資源分成部分，與Join成對。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Split-Path"
+    ],
+    "confusable": [
+      "Join"
+    ],
+    "memory": "拆成部分，Join再接起來。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Step",
+    "chinese": "步進",
+    "description": "前進到序列中的下一點，常用於逐步處理情境。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "一次走一步，不是一口氣跑完。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Switch",
+    "chinese": "切換",
+    "description": "在兩種資源、狀態或責任間切換，不等於新建資源。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "在狀態間切換，不是新增一個。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Undo",
+    "chinese": "復原",
+    "description": "回到先前狀態，與Redo成對；是否可回滾仍看命令契約。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Redo"
+    ],
+    "memory": "撤回到先前狀態；能否回滾仍看實作。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Unlock",
+    "chinese": "解除鎖定",
+    "description": "釋放既有鎖定，與Lock成對；需適當權限。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Lock"
+    ],
+    "memory": "解開先前的Lock。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Watch",
+    "chinese": "監看",
+    "description": "持續觀察資源變化，不等同一次Get查詢。",
+    "group": "Common",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "持續看變化，Get通常只問一次。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Connect",
+    "chinese": "連接",
+    "description": "建立資源間連接，與Disconnect成對。",
+    "group": "Communications",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Connect-WSMan"
+    ],
+    "confusable": [
+      "Disconnect"
+    ],
+    "memory": "接上連線，Disconnect再斷開。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Disconnect",
+    "chinese": "中斷連接",
+    "description": "解除連接，不自動撤銷帳戶權限或刪除資源。",
+    "group": "Communications",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Disconnect-WSMan"
+    ],
+    "confusable": [
+      "Connect"
+    ],
+    "memory": "斷線不等於刪帳號或撤權。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Read",
+    "chinese": "讀取內容",
+    "description": "打開資源並取出內容，與Get取得資訊或存取物件區分。",
+    "group": "Communications",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Read-Host"
+    ],
+    "confusable": [
+      "Get"
+    ],
+    "memory": "往裡讀內容；Get可先拿到資源物件。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Receive",
+    "chinese": "接收",
+    "description": "取得由其他來源傳來的資料，是否消耗緩衝依命令而定。",
+    "group": "Communications",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Receive-Job"
+    ],
+    "confusable": [],
+    "memory": "領取送來的結果，工作本身要另查。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Send",
+    "chinese": "傳送",
+    "description": "把資料送到目的地，送出不保證對方業務處理成功。",
+    "group": "Communications",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "送出去，不保證對方辦完。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Write",
+    "chinese": "寫出",
+    "description": "將資料寫入目的地或串流，不限實體檔案。",
+    "group": "Communications",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Write-Output",
+      "Write-Error",
+      "Write-Warning"
+    ],
+    "confusable": [],
+    "memory": "寫到某個目的地，不只寫檔。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Backup",
+    "chinese": "備份",
+    "description": "建立可供還原的資源副本，需另驗收還原能力。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Restore",
+      "Checkpoint"
+    ],
+    "memory": "留一份可還原副本；別忘了驗Restore。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Checkpoint",
+    "chinese": "建立檢查點",
+    "description": "保存特定時點狀態，不直接取代完整備份。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Backup"
+    ],
+    "memory": "記住這一刻，不直接當完整備份。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Compare",
+    "chinese": "比較",
+    "description": "檢查兩組資源的差異，結果契約需明確定義。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Compare-Object"
+    ],
+    "confusable": [],
+    "memory": "左右比差異，先定義比較規則。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Compress",
+    "chinese": "壓縮",
+    "description": "以壓縮表示保存資料，與Expand成對。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Compress-Archive"
+    ],
+    "confusable": [
+      "Expand"
+    ],
+    "memory": "收緊成壓縮表示，Expand再展開。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Convert",
+    "chinese": "轉換",
+    "description": "同時描述來源與目的的轉換動作；具方向時考慮ConvertTo或ConvertFrom。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Convert-Path"
+    ],
+    "confusable": [],
+    "memory": "說清楚來源與目的，別只說變格式。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "ConvertFrom",
+    "chinese": "從格式轉入",
+    "description": "由指定來源格式轉成目前可處理的表示。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "ConvertFrom-Json",
+      "ConvertFrom-Csv",
+      "ConvertFrom-StringData"
+    ],
+    "confusable": [
+      "ConvertTo"
+    ],
+    "memory": "從某種格式讀進來。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "ConvertTo",
+    "chinese": "轉成格式",
+    "description": "將目前資料轉為指定目的格式。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "ConvertTo-Json",
+      "ConvertTo-Csv",
+      "ConvertTo-Xml"
+    ],
+    "confusable": [
+      "ConvertFrom"
+    ],
+    "memory": "轉成某種格式送出去。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Dismount",
+    "chinese": "卸載掛接",
+    "description": "解除資源掛接，不等於刪除資源，與Mount成對。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Mount"
+    ],
+    "memory": "解除掛接，不刪底層資料。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Edit",
+    "chinese": "編輯",
+    "description": "以編輯方式修改資源；不是單純查詢。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "進入修改情境，先確認影響。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Expand",
+    "chinese": "展開",
+    "description": "解開壓縮或擴充表示，與Compress成對。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Expand-Archive"
+    ],
+    "confusable": [
+      "Compress"
+    ],
+    "memory": "把壓縮表示展開，不代表內容可信。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Export",
+    "chinese": "匯出",
+    "description": "把資源保存或送到另一環境／格式，與Import成對。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Export-Csv",
+      "Export-Clixml",
+      "Export-ModuleMember"
+    ],
+    "confusable": [
+      "Import",
+      "Save"
+    ],
+    "memory": "帶出目前環境，Import再帶進來。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Group",
+    "chinese": "分組",
+    "description": "依條件將物件分群，分組物件不等於原始列。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Group-Object"
+    ],
+    "confusable": [],
+    "memory": "分群後看到的是群組，不是原始列。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Import",
+    "chinese": "匯入",
+    "description": "把外部資源帶入目前環境，可能涉及程式載入。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Import-Csv",
+      "Import-Clixml",
+      "Import-Module"
+    ],
+    "confusable": [
+      "Export"
+    ],
+    "memory": "帶進來，可能連程式都載入。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Initialize",
+    "chinese": "初始化",
+    "description": "準備資源的起始狀態，可能清除既有設定或資料。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "準備起始狀態，小心既有內容。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Limit",
+    "chinese": "限制",
+    "description": "設定資源或使用量的上限，不直接等同安全授權。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "設定上限，不是授予權限。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Merge",
+    "chinese": "合併",
+    "description": "把多個資源合成一個，需明確處理衝突與重複。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "多份合一份，先處理衝突。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Mount",
+    "chinese": "掛接",
+    "description": "使資源以可存取方式連入環境，與Dismount成對。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Dismount"
+    ],
+    "memory": "掛進來可存取，Dismount再卸載。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Out",
+    "chinese": "輸出到目的地",
+    "description": "將呈現或資料送到輸出端，不保證保留原始物件。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Out-String",
+      "Out-File",
+      "Out-Null"
+    ],
+    "confusable": [],
+    "memory": "送往輸出端，先想是否仍是物件。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Publish",
+    "chinese": "發布",
+    "description": "使資源可供其他人使用，與Unpublish成對；需發布授權。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Unpublish"
+    ],
+    "memory": "讓別人能用，先有發布授權。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Restore",
+    "chinese": "還原",
+    "description": "從備份或已保存狀態恢復資源，不同於重跑原始工作。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Backup"
+    ],
+    "memory": "從保存狀態回來，不是重新跑原工作。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Save",
+    "chinese": "保存",
+    "description": "將目前資源狀態持久保存，與匯出到另一表示的Export區分。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Save-Help"
+    ],
+    "confusable": [
+      "Export"
+    ],
+    "memory": "保存目前狀態，Export另談外部表示。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Sync",
+    "chinese": "同步",
+    "description": "讓兩端資源達到指定一致狀態，需定義衝突與方向。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "讓兩端一致，先定方向與衝突規則。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Unpublish",
+    "chinese": "取消發布",
+    "description": "使已發布資源不再對外提供，不等同刪除所有副本。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Publish"
+    ],
+    "memory": "停止提供，不保證收回所有副本。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Update",
+    "chinese": "更新",
+    "description": "把既有資源帶到較新狀態，與建立新資源的New不同。",
+    "group": "Data",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Update-Help",
+      "Update-FormatData",
+      "Update-TypeData"
+    ],
+    "confusable": [],
+    "memory": "更新已有資源，不只是建立新的。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Debug",
+    "chinese": "偵錯",
+    "description": "觀察與控制程式執行以定位問題，可能暫停工作。",
+    "group": "Diagnostic",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Debug-Job",
+      "Debug-Runspace"
+    ],
+    "confusable": [
+      "Trace"
+    ],
+    "memory": "停下來看問題，Trace留下過程。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Measure",
+    "chinese": "量測",
+    "description": "取得數量、耗時或其他觀察值，不代表已最佳化。",
+    "group": "Diagnostic",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Measure-Command",
+      "Measure-Object"
+    ],
+    "confusable": [
+      "Optimize"
+    ],
+    "memory": "先量再談Optimize，別只憑感覺。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Ping",
+    "chinese": "保留動詞",
+    "description": "Get-Verb可能列出，但官方不建議新命令使用；連線驗證使用Test命名。",
+    "group": "Diagnostic",
+    "naming_status": "reserved-prefer-Test",
+    "examples": [],
+    "confusable": [
+      "Test"
+    ],
+    "memory": "看見名字不代表建議使用；新命名用Test。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Repair",
+    "chinese": "修復",
+    "description": "把損壞資源恢復至可用狀態，仍可能修改系統。",
+    "group": "Diagnostic",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "修好資源，通常會改動狀態。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Resolve",
+    "chinese": "解析",
+    "description": "把表示轉為可用的資源或完整資訊，不是任意目標安全檢查。",
+    "group": "Diagnostic",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Resolve-DnsName",
+      "Resolve-Path"
+    ],
+    "confusable": [],
+    "memory": "把表示解成資源，不保證目標安全。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Test",
+    "chinese": "測試",
+    "description": "檢查條件或能力，結果範圍依命令契約，不保證完整健康。",
+    "group": "Diagnostic",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Test-Path",
+      "Test-Connection",
+      "Test-NetConnection"
+    ],
+    "confusable": [
+      "Ping"
+    ],
+    "memory": "驗某個條件，不自動代表全面健康。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Trace",
+    "chinese": "追蹤",
+    "description": "收集執行或通訊過程的資料，需管控敏感日誌。",
+    "group": "Diagnostic",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Trace-Command"
+    ],
+    "confusable": [
+      "Debug"
+    ],
+    "memory": "記過程，別把秘密一起留下。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Approve",
+    "chinese": "核准",
+    "description": "允許待處理動作進行，與Deny成對。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Deny"
+    ],
+    "memory": "批准可以做，Deny拒絕做。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Assert",
+    "chinese": "斷言",
+    "description": "明確要求條件成立，不成立時按契約回報失敗。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "要求條件成立，不成立就回報。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Build",
+    "chinese": "建置",
+    "description": "由輸入組成可用產物，需另驗證依賴與產物。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "把輸入組成產物，還要驗產物。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Complete",
+    "chinese": "完成",
+    "description": "將操作標記或推進到完成狀態，不只顯示進度。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "走到流程終點，不只把進度畫到滿。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Confirm",
+    "chinese": "確認",
+    "description": "明確確認條件或操作，與一般資料查詢不同。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "明確確認，不只是讀取資料。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Deny",
+    "chinese": "拒絕",
+    "description": "不允許待處理動作，與Approve成對。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Approve"
+    ],
+    "memory": "拒絕請求，與Approve核准相對。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Deploy",
+    "chinese": "部署",
+    "description": "把產物安置到目標環境，涉及授權與回復策略。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "把產物放到目標，先想回復方式。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Disable",
+    "chinese": "停用",
+    "description": "讓功能不可使用但保留其定義，與Enable成對。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Disable-PSBreakpoint",
+      "Disable-RunspaceDebug"
+    ],
+    "confusable": [
+      "Enable"
+    ],
+    "memory": "先不能用，定義通常還在。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Enable",
+    "chinese": "啟用",
+    "description": "讓既有功能可使用，與Disable成對。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Enable-PSBreakpoint",
+      "Enable-RunspaceDebug"
+    ],
+    "confusable": [
+      "Disable"
+    ],
+    "memory": "讓既有功能能用，不代表建立新功能。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Install",
+    "chinese": "安裝",
+    "description": "把軟體或資源加入環境，不等於載入目前工作階段。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Uninstall"
+    ],
+    "memory": "裝進環境，不只是Import到工作階段。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Invoke",
+    "chinese": "呼叫執行",
+    "description": "執行動作並等待結果的命名語意，與啟動非同步工作的Start區分。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Invoke-RestMethod",
+      "Invoke-History",
+      "Invoke-Command"
+    ],
+    "confusable": [
+      "Start"
+    ],
+    "memory": "呼叫動作並處理結果，不從名字猜每個命令的生命週期。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Register",
+    "chinese": "註冊",
+    "description": "在系統或工作階段登記資源、事件或能力，與Unregister成對。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Register-ArgumentCompleter",
+      "Register-EngineEvent",
+      "Register-ObjectEvent"
+    ],
+    "confusable": [
+      "Unregister"
+    ],
+    "memory": "先登記，Unregister再取消登記。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Request",
+    "chinese": "提出要求",
+    "description": "向其他來源要求資源或動作，不保證已被核准。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "提出要求，還不等於拿到核准。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Restart",
+    "chinese": "重新啟動",
+    "description": "先停止再開始資源，可能中斷服務。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Restart-Service"
+    ],
+    "confusable": [],
+    "memory": "停過再啟動，可能造成服務中斷。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Resume",
+    "chinese": "繼續",
+    "description": "從暫停處恢復，與Suspend成對，不等於重新開始。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Resume-Service"
+    ],
+    "confusable": [
+      "Suspend"
+    ],
+    "memory": "從暫停處繼續，不是從頭Start。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Start",
+    "chinese": "啟動",
+    "description": "開始程序或自主工作，不代表工作已完成。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Start-Process",
+      "Start-Job",
+      "Start-Sleep"
+    ],
+    "confusable": [
+      "Invoke",
+      "Stop"
+    ],
+    "memory": "開始跑，不等於已跑完。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Stop",
+    "chinese": "停止",
+    "description": "停止正在執行的資源，不自動回滾既有副作用。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Stop-Process",
+      "Stop-Job",
+      "Stop-Transcript"
+    ],
+    "confusable": [
+      "Start"
+    ],
+    "memory": "停止跑，不等於把副作用撤回。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Submit",
+    "chinese": "提交處理",
+    "description": "將資源送入後續工作流程，不代表後端已完成處理。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "交進流程，不等於後端辦完。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Suspend",
+    "chinese": "暫停",
+    "description": "保留可恢復狀態並停止進行，與Resume成對。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Suspend-Service"
+    ],
+    "confusable": [
+      "Resume"
+    ],
+    "memory": "暫停保留恢復點，Resume再繼續。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Uninstall",
+    "chinese": "解除安裝",
+    "description": "移除已安裝軟體或資源，不等同Remove-Module移出工作階段。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Install"
+    ],
+    "memory": "從環境解除安裝，不是只移出模組工作階段。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Unregister",
+    "chinese": "取消註冊",
+    "description": "移除登記資訊，不一定刪除底層資源或已產生資料。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Unregister-Event"
+    ],
+    "confusable": [
+      "Register"
+    ],
+    "memory": "取消登記，既有資料可能還在。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Wait",
+    "chinese": "等待",
+    "description": "等待條件或狀態，逾時及取消行為需看具體命令。",
+    "group": "Lifecycle",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Wait-Process",
+      "Wait-Job",
+      "Wait-Event"
+    ],
+    "confusable": [],
+    "memory": "等條件，逾時不一定會取消工作。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Use",
+    "chinese": "使用指定資源",
+    "description": "讓後續操作使用指定資源或情境，需明確管理作用範圍。",
+    "group": "Other",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [],
+    "memory": "選定後續使用資源，先看作用範圍。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Block",
+    "chinese": "封鎖",
+    "description": "阻止存取或進行，與Unblock成對；可能影響其他工作。",
+    "group": "Security",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Unblock"
+    ],
+    "memory": "先擋住，Unblock解除阻擋。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Grant",
+    "chinese": "授予",
+    "description": "賦予權限或存取能力，與Revoke成對。",
+    "group": "Security",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Revoke"
+    ],
+    "memory": "把權限交出去，Revoke再撤銷。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Protect",
+    "chinese": "保護",
+    "description": "以適當機制限制資源存取或內容暴露，與Unprotect成對。",
+    "group": "Security",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Protect-CmsMessage"
+    ],
+    "confusable": [
+      "Unprotect"
+    ],
+    "memory": "加上保護，仍需正確機制與金鑰。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Revoke",
+    "chinese": "撤銷",
+    "description": "移除先前授予的權限，不保證已取得副本被收回。",
+    "group": "Security",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Grant"
+    ],
+    "memory": "撤權不代表收回已拿走的資料。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Unblock",
+    "chinese": "解除封鎖",
+    "description": "移除既有阻擋，需先確認來源與安全政策。",
+    "group": "Security",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [],
+    "confusable": [
+      "Block"
+    ],
+    "memory": "解除既有阻擋，不先假設來源可信。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
+  },
+  {
+    "verb": "Unprotect",
+    "chinese": "解除保護",
+    "description": "在適當授權下還原可用內容，可能產生敏感明文。",
+    "group": "Security",
+    "naming_status": "listed-by-Get-Verb",
+    "examples": [
+      "Unprotect-CmsMessage"
+    ],
+    "confusable": [
+      "Protect"
+    ],
+    "memory": "解除保護後可能成為明文，小心輸出。",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/developer/cmdlet/approved-verbs-for-windows-powershell-commands.md",
+    "verified_at": "2026-10-24",
+    "runtime": "PowerShell7.6.8 / Debian13；清單觀察不代表對應命令已執行"
   }
 ]

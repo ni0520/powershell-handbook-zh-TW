@@ -16,7 +16,7 @@
 
 官方建議使用核准Verb-Noun形式命名。Get是取得、Set是設定、New是建立、Remove是移除、Add是加入既有集合、Clear是清除內容；Copy保留原始項目並複製，Move則搬移。Start／Stop控制執行，Restart重新啟動；Import／Export跨格式或儲存邊界，ConvertTo／ConvertFrom著重轉換方向。
 
-「Get＝問現在、Set＝改設定、New＝做新的、Remove＝拿掉」有助記憶，但不能由動詞推定所有副作用。Search、Read等名稱用字是否屬核准動詞應查實際清單；不要因教材舉例就認定每個英文詞都核准。
+「Get＝問現在、Set＝改設定、New＝做新的、Remove＝拿掉」有助記憶，但不能由動詞推定所有副作用。Search與Read都出現在本版Get-Verb清單，但Search在命名指南中指建立資源參照，不能只依口語搜尋理解。Ping也會列出，卻是官方保留例外，新命令優先用Test；ForEach、Sort、Tee、Where是既有保留用法，不任意仿造。完整100項中文功能、例子、混淆與記憶提示見[動詞字典](../appendices/approved-verbs.md)。
 
 ```powershell
 Get-Verb | Where-Object Verb -in 'Get','Set','New','Remove','Clear' |
@@ -166,7 +166,7 @@ Get-ChildItem配Where-Object篩選、Select-Object投影再Export-Csv；Get-Cont
 
 ## 尚需擴充的附錄深度
 
-本章建立24類核心參考，但完整Verb字典、Alias與模組跨版本矩陣、更多企業錯誤案例、參數與術語深度仍需擴充。第39章500+索引未達標；章節達40不等於專案定稿。後續應以實際資料、來源與功能驗證逐項補齊。
+本章建立24類核心參考，但動詞字典已補齊本版100項；Alias與模組跨版本矩陣、更多企業錯誤案例、參數與術語深度仍需擴充。第39章500+索引未達標；章節達40不等於專案定稿。後續應以實際資料、來源與功能驗證逐項補齊。
 
 ## 速查表
 
