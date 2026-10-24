@@ -1,36 +1,23 @@
-# PowerShell 教材製作報告 — v0.3
+# PowerShell 教材製作報告 — v0.3.1
 
-更新日期：2026-10-24（Asia/Taipei）。本版為前 30 章初稿，新增第 26–30 章；未完成全部 40 章。
+日期：2026-10-24（Asia/Taipei）。本輪接續完成第31章初稿，並非第31–35章整批完成。下一步接續32–35章，完整40章與500+命令索引仍未完成。
 
 ## 實際成果
 
-- 30 章，新增處理程序／服務、Windows Registry、事件記錄、網路診斷、WMI／CIM。
-- 600 題練習與 600 題解答，本輪新增 100 題解。
-- 命令索引 50 筆：20 筆有十四項教學結構，30 筆為速查摘要；完整參數組未全部實測。
-- 62 個術語、40 個參數、109 筆技術來源，另有字型來源與 SIL OFL 1.1 授權。
-- Markdown、離線搜尋 HTML、DOCX、273 頁 A4 PDF、502 頁手機 PDF、6 頁速查 PDF、來源與本報告。
-- 修正輸出轉換將程式碼註解誤加標題錨點的問題，加入原樣保留程式碼的回歸檢查並重新產生文件。
+31章原稿、620題練習與620題解答、113筆技術來源、62個術語與40個參數。命令索引維持50筆（20詳解／30速查）；第31章內嵌Start-Job十四項教學尚未另加入索引，不重複計數。新增背景工作生命週期、引數與接收、平行處理及排程設計檢查；排程設計沒有冒稱實際註冊成功。
 
-## 實際驗證
+整合Markdown、離線搜尋HTML、DOCX（31章、41表格、4775段落）、282頁A4 PDF、521頁手機PDF、6頁速查PDF及來源清單。速查內容仍以既有常用命令為主，第31章另有章內速查表。交付ZIP由package_delivery.py驗證CRC與各檔案SHA-256，不宣稱雜湊是發布者簽章。
 
-PowerShell 7.6.8 / Debian 13 x64：210 個教材區塊／腳本語法案例通過；Pester 52 項案例中 47 通過、0 失敗、5 跳過。新增的 10 項通過案例涵蓋本機程序、自己建立之子程序的 WhatIf 與終止、事件及 CIM 形狀的合成資料、IP 格式解析。合成資料結果不代表 Windows 事件或 CIM 查詢成功。
+## 驗證與限制
 
-28 個已檢視且可獨立執行的教材區塊通過執行檢查。PSScriptAnalyzer 1.25.0 對 examples 使用預設 Warning／Error 規則，無診斷；沒有對全書所有片段宣稱靜態分析通過。不同測試層有重疊，不相加宣稱獨立功能覆蓋。
+PowerShell7.6.8／Debian13：217語法案例通過；57項Pester中52通過、0失敗、5跳過；34個明確允許的教材區塊執行通過。新增5項Pester驗證引數、Keep、逾時與清理、非終止錯誤及平行排序；第31章6個原稿區塊另保存實際輸出。不同測試層重疊，不加總為獨立功能覆蓋。
 
-v0.2 已通過的 42 項自製斷言、正常／故意失敗／零測試退出碼 0／1／1、Pester Discovery／Run 行為檢查沿用；對應實作未改，本輪未重複執行。正式 Pester 通過數不包含故意失敗控制案例。
+examples範圍PSScriptAnalyzer預設Warning／Error規則通過；建置程式碼原樣保留回歸檢查通過。HTML搜尋／錨點／390px與1280px、DOCX重新開啟／結構、PDF字型／Unicode／書籤／無空白頁檢查通過。第31章代表性A4與手機頁經視覺檢查，未逐頁人工驗收，未用桌面Word檢查。
 
-HTML 搜尋／錨點／390px 與 1280px 寬度、DOCX 重新開啟與 30 章結構（38 表格、4627 段落）、PDF 中文字型／Unicode／書籤／無空白頁檢查通過。代表性 A4 與手機樣本經視覺檢查，未宣稱逐頁人工驗收；Word 未經桌面 Microsoft Word 逐頁視覺驗收。
+4項Windows與1項ICMP測試因環境能力不足跳過，未宣稱Windows服務／Registry／事件／CIM可用。Windows5.1、macOS、ThreadJob整合、正式排程、跨登出執行、企業帳戶／模組、大資料效能與Pester覆蓋率均未測。本輪沒有修改真實服務或註冊排程。
 
-## 平台與工具限制
+Pester5.7.1使用固定官方原始碼建置；.NET SDK依官方SHA-512核對。PSScriptAnalyzer1.25.0作者簽章及時間戳驗證成功，但線上撤銷查詢仍有NU3018／NU3028限制，未停用TLS或簽章檢查。沿用原有42斷言及執行器證據，未重複執行未改實作。詳見progress/CHAPTER31.md、VALIDATION.md與tooling。
 
-4 項 Windows 唯讀測試因缺少 Windows 而跳過；1 項 ICMP 測試因缺少系統 ping 而跳過。實際嘗試回送 ICMP 所得錯誤已保存於 progress/platform-capabilities.json。Registry、服務、事件記錄、CIM 與遠端連線沒有在本 Linux 環境完成實測。Wait-Process 的 Linux／macOS 限制依官方文件標示，本機子程序範例使用 Process.WaitForExit。
+## 保存
 
-.NET SDK 8.0.426 以官方 SHA-512 核對；Pester 5.7.1 從官方固定 commit 原始碼建置、鎖定依賴還原，不冒稱已簽章發行套件。PSScriptAnalyzer 1.25.0 以固定 SHA-256 與 NuGet 簽章工具驗證，Microsoft 作者與時間戳驗證成功；撤銷伺服器無法連線，保留 NU3018／NU3028 警告。未停用 TLS、簽章或撤銷檢查，紀錄見 progress/tooling。
-
-## 尚未完成與保存
-
-第 31–40 章、500+ Cmdlet 索引、完整企業案例、附錄擴充與深度審閱尚未完成。Windows 5.1、Windows／macOS、企業模組、跨版本效能、正式備份、大檔案及不受信任輸入壓力未實測；Pester 覆蓋率未量測。
-
-v0.2 已合併並核對 GitHub main 提交 1d07caeac21c6a5a857ffde5b7d3975debc5cbc6。v0.3 原稿、資料、測試與證據納入 Git；大型交付文件留在 dist 並可重建。依使用者持續授權提交合併，本版遠端結果於推送後另行核對回報，這份產出前報告不預先宣稱推送成功。未發布 GitHub Release 或網站。
-
-下一批為第 31–35 章；Windows 與企業環境的待驗證事項另行保留。詳細接續項目見 progress/NEXT_STEPS.md。
+原稿、資料、測試及證據納入Git；可重建的大型文件在dist。依使用者授權提交合併GitHub，遠端成功狀態需推送後核對，不由此產出前報告預先宣稱。未建立Release或部署網站。接續紀錄為progress/NEXT_STEPS.md。

@@ -28,3 +28,5 @@
 - `Test-PlatformCapabilities.ps1` 保存Windows命令、Registry提供者及一次回送ICMP的實際能力；缺少功能不記為成功。
 - `python3 tests/test_build.py` 驗證Markdown標題／連結轉換不修改程式碼註解與字串。
 - 本機命令中繼資料的Available只表示Get-Command找到命令，不保證提供者、平台或目標功能支援；Wait-Process另依官方Windows限制標示。
+
+第31章新增 Jobs.Tests.ps1：引數、Keep、等待逾時與清理、非終止錯誤及平行排序。完整Pester目前57案例（52通過、5平台能力跳過）；verify_document_examples.py新增第31章六個已審閱區塊，現共34個。第31章個別輸出另見progress/chapter31-execution-results.json。

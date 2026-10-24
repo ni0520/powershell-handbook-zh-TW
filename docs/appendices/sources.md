@@ -1204,3 +1204,58 @@
 - 查閱日期：2026-10-24
 - 使用章節：29
 - 用途：DNS、TCP與介面診斷參數；不假設為跨平台內建
+
+<a id="source-jobs-start-job"></a>
+
+## Start-Job
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Start-Job.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：31
+- 用途：背景工作生命週期與平行處理
+
+<a id="source-jobs-receive-job"></a>
+
+## Receive-Job
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Receive-Job.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：31
+- 用途：背景工作生命週期與平行處理
+
+<a id="source-jobs-wait-job"></a>
+
+## Wait-Job
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Wait-Job.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：31
+- 用途：背景工作生命週期與平行處理
+
+<a id="source-jobs-foreach-object"></a>
+
+## ForEach-Object
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/ForEach-Object.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：31
+- 用途：背景工作生命週期與平行處理
+
+<a id="source-jobs-about_jobs"></a>
+
+## about_Jobs
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Jobs.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：31
+- 用途：背景工作生命週期與平行處理

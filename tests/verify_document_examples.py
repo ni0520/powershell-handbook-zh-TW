@@ -12,7 +12,7 @@ import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 cases = []
-for number in (22, 23, 24):
+for number in (22, 23, 24, 31):
     path = next((ROOT/'docs/chapters').glob(f'{number}-*.md'))
     for index, code in enumerate(re.findall(r'```powershell\s*\n(.*?)```', path.read_text(), re.S), 1):
         cases.append((f'{path.name}:block-{index}', code))

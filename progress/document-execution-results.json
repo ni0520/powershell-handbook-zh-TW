@@ -1,7 +1,7 @@
 {
-  "run_at_utc": "2026-10-23T23:19:01.060792+00:00",
+  "run_at_utc": "2026-10-24T10:57:44.358861+00:00",
   "kind": "execution smoke; value assertions recorded separately in Pester",
-  "passed": 28,
+  "passed": 34,
   "failed": 0,
   "cases": [
     {
@@ -71,6 +71,36 @@
     },
     {
       "name": "24-csv-json-xml.md:block-5",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "31-jobs-parallel-scheduling.md:block-1",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "31-jobs-parallel-scheduling.md:block-2",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "31-jobs-parallel-scheduling.md:block-3",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "31-jobs-parallel-scheduling.md:block-4",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "31-jobs-parallel-scheduling.md:block-5",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "31-jobs-parallel-scheduling.md:block-6",
       "status": "passed",
       "exit_code": 0
     },

@@ -1618,5 +1618,80 @@
     "sha256": "b99311ce8f49fe83dfc1cf511afc5ed836c2cc59e65efb0e3dd524ff1c06fc90",
     "local_reference": "windows-powershell-docs/docset/winserver2025-ps/NetTCPIP/Get-NetIPConfiguration.md",
     "review_status": "使用段落查讀；命令在本Linux不可用"
+  },
+  {
+    "id": "jobs-start-job",
+    "title": "Start-Job",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Start-Job.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      31
+    ],
+    "purpose": "背景工作生命週期與平行處理",
+    "sha256": "fff881c6fafcd4304e5752f4aef9e036dac0534d66439d0b6a74e09251f168b3",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Start-Job.md",
+    "review_status": "章節使用部分人工查讀"
+  },
+  {
+    "id": "jobs-receive-job",
+    "title": "Receive-Job",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Receive-Job.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      31
+    ],
+    "purpose": "背景工作生命週期與平行處理",
+    "sha256": "6bba6ed91778dd22792aafce47aa17b8754517d6968a50a97a255a3e47c4c2cf",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Receive-Job.md",
+    "review_status": "章節使用部分人工查讀"
+  },
+  {
+    "id": "jobs-wait-job",
+    "title": "Wait-Job",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Wait-Job.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      31
+    ],
+    "purpose": "背景工作生命週期與平行處理",
+    "sha256": "9c1e52b54c2003a6bd5f1bfc45953e10e3b0d1524b15b20f15b8da5cdd1b8838",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Wait-Job.md",
+    "review_status": "章節使用部分人工查讀"
+  },
+  {
+    "id": "jobs-foreach-object",
+    "title": "ForEach-Object",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/ForEach-Object.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      31
+    ],
+    "purpose": "背景工作生命週期與平行處理",
+    "sha256": "d2c0c4b8642c2633545035aaa5648087f111eb5c29cbfcd4fbd6dad45777446f",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/ForEach-Object.md",
+    "review_status": "章節使用部分人工查讀"
+  },
+  {
+    "id": "jobs-about_jobs",
+    "title": "about_Jobs",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Jobs.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      31
+    ],
+    "purpose": "背景工作生命週期與平行處理",
+    "sha256": "f15b0f0e9a1cf0016da197b1488a3439dcee08176ed1521cb5b478b01e0751ec",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Jobs.md",
+    "review_status": "章節使用部分人工查讀"
   }
 ]

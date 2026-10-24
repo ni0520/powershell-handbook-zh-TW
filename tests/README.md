@@ -16,3 +16,5 @@ verify_runner.py 實際啟動子程序檢查正常／故意失敗／零測試的
 全部證據保存於 progress/*.json。Windows 5.1、Windows／macOS、企業模組及壓力測試未執行。
 
 SystemManagement.Tests.ps1新增10個本機／合成資料通過案例，4個Windows唯讀查詢與1個ICMP案例因能力缺少跳過。整體Pester為47通過、0失敗、5跳過，跳過不當通過。第27章Registry變更與第30章遠端連線沒有執行。test_build.py另防止匯出時把程式碼註解轉成章節錨點。
+
+第31章新增 Jobs.Tests.ps1：引數、Keep、等待逾時與清理、非終止錯誤及平行排序。完整Pester目前57案例（52通過、5平台能力跳過）；verify_document_examples.py新增第31章六個已審閱區塊，現共34個。第31章個別輸出另見progress/chapter31-execution-results.json。

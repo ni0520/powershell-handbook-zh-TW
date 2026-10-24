@@ -1,11 +1,11 @@
 {
-  "run_at_utc": "2026-10-23T23:14:56.3507566Z",
+  "run_at_utc": "2026-10-24T10:55:15.3417177Z",
   "powershell": "7.6.8",
   "os": "Debian GNU/Linux 13 (trixie)",
   "pester": "5.7.1",
   "result": "Passed",
-  "total": 52,
-  "passed": 47,
+  "total": 57,
+  "passed": 52,
   "failed": 0,
   "skipped": 5,
   "tests": [
@@ -161,6 +161,31 @@
     },
     {
       "name": "第25章：壓縮與還原驗收.被修改的還原檔不會通過雜湊核對",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第31章背景工作的生命週期.明確傳入引數並取得資料而不是Job物件",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第31章背景工作的生命週期.Keep可重讀而一般接收消耗彙總資料",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第31章背景工作的生命週期.等待逾時不自動終止工作且最後僅移除自己的工作",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第31章背景工作的生命週期.非終止錯誤不使Completed等同業務成功",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第31章背景工作的生命週期.平行結果以識別碼排序驗收",
       "result": "Passed",
       "error": ""
     },

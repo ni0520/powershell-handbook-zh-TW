@@ -1,0 +1,42 @@
+{
+  "run_at_utc": "2026-10-24T10:55:29.995222+00:00",
+  "scope": "docs/chapters/31-jobs-parallel-scheduling.md",
+  "results": [
+    {
+      "block": 1,
+      "exit_code": 0,
+      "stdout": "42\n",
+      "stderr": ""
+    },
+    {
+      "block": 2,
+      "exit_code": 0,
+      "stdout": "\nQuantity Total\n-------- -----\n       8    40\n\n",
+      "stderr": ""
+    },
+    {
+      "block": 3,
+      "exit_code": 0,
+      "stdout": "\nItem Square Status\n---- ------ ------\n   1      1 OK\n   2      4 OK\n   3      9 OK\n\n",
+      "stderr": ""
+    },
+    {
+      "block": 4,
+      "exit_code": 0,
+      "stdout": "PSRemotingJob\n42\n",
+      "stderr": ""
+    },
+    {
+      "block": 5,
+      "exit_code": 0,
+      "stdout": "\nFirst    Second   Remaining\n-----    ------   ---------\n繁中報表 繁中報表         0\n\n",
+      "stderr": ""
+    },
+    {
+      "block": 6,
+      "exit_code": 0,
+      "stdout": "\nItem Product\n---- -------\n   1       3\n   2       6\n   3       9\n   4      12\n\n",
+      "stderr": ""
+    }
+  ]
+}
