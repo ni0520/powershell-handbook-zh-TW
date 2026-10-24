@@ -1,5 +1,5 @@
 {
-  "run_at_utc": "2026-10-24T10:55:15.6612554Z",
+  "run_at_utc": "2026-10-24T11:34:18.2939276Z",
   "version": "1.25.0",
   "scope": "examples/**/*.ps1 and examples/**/*.psm1; default rules, Warning/Error",
   "status": "passed",

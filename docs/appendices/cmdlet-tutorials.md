@@ -1861,3 +1861,13 @@ Get＝取得；CIM＝通用資訊模型；Instance＝類別的實例。
 ### 14. 官方參考資料
 
 [Get-CimInstance](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimInstance.md) — Microsoft；查閱2026-10-24。文件查證、語法與平台實測分開記錄。
+
+## 第31–35章內的完整教學
+
+本附錄保留原有20項詳解；全書另有5項章內十四項教學，總計25項。
+
+- [Start-Job](../chapters/31-jobs-parallel-scheduling.md#start-job)
+- [Get-FileHash](../chapters/32-security.md#get-filehash)
+- [Invoke-RestMethod](../chapters/33-rest-api.md#invoke-restmethod)
+- [Get-ADUser](../chapters/34-ad-microsoft365.md#get-aduser)
+- [Get-AzResource](../chapters/35-azure-exchange.md#get-azresource)

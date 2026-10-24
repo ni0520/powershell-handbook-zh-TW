@@ -4,7 +4,7 @@
 
 [返回目錄](../README.md)
 
-本版30筆速查摘要，不計為十四項完整教學。各命令的用途、平台與版本分開記錄；Windows專用命令尚未實測。
+本版29筆僅速查條目（另保留已升級Get-FileHash摘要供交叉參照），不計為十四項完整教學。各命令的用途、平台與版本分開記錄；Windows專用命令尚未實測。
 
 <a id="new-item"></a>
 
@@ -174,7 +174,7 @@
 - [對應章節](../chapters/25-archives-backup.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Archive/Expand-Archive.md)，查閱2026-10-24。
 - 驗證範圍：官方使用段落與本機代表性行為；非所有參數組或平台已實測
 
-<a id="get-filehash"></a>
+<a id="get-filehash-summary"></a>
 
 ## Get-FileHash（計算檔案雜湊）
 
@@ -365,3 +365,23 @@ Windows TCP與路由診斷，明確指定ComputerName及Port。
 - 學習重要程度：4/5
 - [對應章節](../chapters/30-cim-remote-management.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Remove-CimSession.md)，查閱2026-10-24。
 - 驗證範圍：文件與語法查證；Windows功能未執行；Get-Process及自建子程序另有Linux實測，ICMP缺ping未完成
+
+## Start-Job（啟動背景工作）
+
+[十四項教學](../../docs/chapters/31-jobs-parallel-scheduling.md#start-job)；模組Microsoft.PowerShell.Core；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Start-Job.md)。企業操作未實測；本機驗證見章節。
+
+## Get-FileHash（取得檔案雜湊）
+
+[十四項教學](../../docs/chapters/32-security.md#get-filehash)；模組Microsoft.PowerShell.Utility；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-FileHash.md)。企業操作未實測；本機驗證見章節。
+
+## Invoke-RestMethod（呼叫REST方法）
+
+[十四項教學](../../docs/chapters/33-rest-api.md#invoke-restmethod)；模組Microsoft.PowerShell.Utility；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Invoke-RestMethod.md)。企業操作未實測；本機驗證見章節。
+
+## Get-ADUser（取得AD使用者）
+
+[十四項教學](../../docs/chapters/34-ad-microsoft365.md#get-aduser)；模組ActiveDirectory；[官方來源](https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/ActiveDirectory/Get-ADUser.md)。企業操作未實測；本機驗證見章節。
+
+## Get-AzResource（取得Azure資源）
+
+[十四項教學](../../docs/chapters/35-azure-exchange.md#get-azresource)；模組Az.Resources；[官方來源](https://github.com/Azure/azure-powershell/blob/d316163acc7852f89f81a4ca332dc82f65e13b68/src/Resources/Resources/help/Get-AzResource.md)。企業操作未實測；本機驗證見章節。

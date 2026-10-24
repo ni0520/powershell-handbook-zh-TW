@@ -1,7 +1,7 @@
 {
-  "run_at_utc": "2026-10-24T10:57:44.358861+00:00",
+  "run_at_utc": "2026-10-24T11:34:31.492232+00:00",
   "kind": "execution smoke; value assertions recorded separately in Pester",
-  "passed": 34,
+  "passed": 44,
   "failed": 0,
   "cases": [
     {
@@ -151,6 +151,56 @@
     },
     {
       "name": "30-cim-remote-management.md:block-5",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "32-security.md:block-1",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "32-security.md:block-2",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "32-security.md:block-3",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "33-rest-api.md:block-2",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "33-rest-api.md:block-3",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "33-rest-api.md:block-4",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "34-ad-microsoft365.md:block-4",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "34-ad-microsoft365.md:block-5",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "35-azure-exchange.md:block-4",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "35-azure-exchange.md:block-5",
       "status": "passed",
       "exit_code": 0
     },

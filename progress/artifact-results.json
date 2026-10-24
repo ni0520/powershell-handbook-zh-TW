@@ -1,5 +1,5 @@
 {
-  "run_at_utc": "2026-10-24T10:57:29.359125+00:00",
+  "run_at_utc": "2026-10-24T11:38:31.121519+00:00",
   "status": "passed",
   "checks": [
     {
@@ -14,25 +14,25 @@
       }
     },
     {
-      "name": "DOCX ZIP/XML/reopen/31 chapters/tables/fonts/hyperlinks",
+      "name": "DOCX ZIP/XML/reopen/35 chapters/tables/fonts/hyperlinks",
       "status": "passed",
-      "tables": 41,
-      "paragraphs": 4775
+      "tables": 50,
+      "paragraphs": 5295
     },
     {
-      "name": "PowerShell_學習手冊_2026_前31章初稿.pdf",
+      "name": "PowerShell_學習手冊_2026_前35章初稿.pdf",
       "status": "passed",
-      "pages": 282,
+      "pages": 313,
       "width_pt": 594.95996,
-      "extracted_characters": 200780,
+      "extracted_characters": 226035,
       "font_entries": 7
     },
     {
-      "name": "PowerShell_學習手冊_2026_前31章初稿_手機版.pdf",
+      "name": "PowerShell_學習手冊_2026_前35章初稿_手機版.pdf",
       "status": "passed",
-      "pages": 521,
+      "pages": 582,
       "width_pt": 298.07999,
-      "extracted_characters": 203068,
+      "extracted_characters": 228742,
       "font_entries": 7
     },
     {
@@ -40,55 +40,55 @@
       "status": "passed",
       "pages": 6,
       "width_pt": 594.95996,
-      "extracted_characters": 3067,
+      "extracted_characters": 3416,
       "font_entries": 4
     }
   ],
   "files": [
     {
       "name": "PowerShell_參考資料與來源_2026.md",
-      "bytes": 47348,
-      "sha256": "340a76a97ba8022b6680282cdde3b6748ab387df43778c59815b2ccce9bbf77f"
+      "bytes": 51703,
+      "sha256": "6a124fc4a2e47ea9ed23987cc2dfcf0419f889ebfc5a37ff3f135b01ff5d20ee"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前31章初稿.docx",
-      "bytes": 233891,
-      "sha256": "73269b324e724fb6c2c99a9672ad74492a14c144d8374a1a7390f4093ce4a7f5"
+      "name": "PowerShell_學習手冊_2026_前35章初稿.docx",
+      "bytes": 266200,
+      "sha256": "fe0060f4ad42fbbbae6f7eddeaef70e70547adf4c2194431a8996d37df76f3e3"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前31章初稿.html",
-      "bytes": 1720083,
-      "sha256": "d83348808662eff0269197fe2ae28ecb33523f7f90f79ef0e85288a3c731212e"
+      "name": "PowerShell_學習手冊_2026_前35章初稿.html",
+      "bytes": 1838509,
+      "sha256": "47898bc2b9db06e32678f347ba367fee4985b3a12582f00fc33d036a3e936674"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前31章初稿.md",
-      "bytes": 471973,
-      "sha256": "78248f2256d176d0561a43af123bc79b26ea3c67b39556ab770e6951da9d1c3f"
+      "name": "PowerShell_學習手冊_2026_前35章初稿.md",
+      "bytes": 529077,
+      "sha256": "e273dc85d82e4e6423641a4b148b7f1757720f39f2af5c87b58b0ba92e7c0193"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前31章初稿.pdf",
-      "bytes": 6015557,
-      "sha256": "9b7e2c9adb585b983cb24620acc4422a23bb796cc918b810abbe98c3769ac889"
+      "name": "PowerShell_學習手冊_2026_前35章初稿.pdf",
+      "bytes": 6668460,
+      "sha256": "b6530a7f01392a471fbbab12e5f3bba4924aa78ee5ba33e2b4f71a6409b421e8"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前31章初稿_手機版.pdf",
-      "bytes": 6325250,
-      "sha256": "b068be2d52743a845a87f6c96bfba20a02546c01d3d8a0880a429eaab4af35d7"
+      "name": "PowerShell_學習手冊_2026_前35章初稿_手機版.pdf",
+      "bytes": 7018697,
+      "sha256": "de7904c2a6fe52f543d7b72c8a242a29de69ea43f9d3769b9ece2df769fb00e4"
     },
     {
       "name": "PowerShell_常用指令速查表_2026.html",
-      "bytes": 899299,
-      "sha256": "30d785785c40813892f69d2857ff6131f681d18fbafc04e8e2fa64a764b23b54"
+      "bytes": 917814,
+      "sha256": "7d6d86f651dfdc13f6b7d1ad049392cf1ba5fb7ef51192c68d3b8f8a06214787"
     },
     {
       "name": "PowerShell_常用指令速查表_2026.md",
-      "bytes": 5845,
-      "sha256": "7e87669edb030e66d6ea1e38eca149254defefc4584650c3c5f1ac01a7a9b74f"
+      "bytes": 6544,
+      "sha256": "30a1ec47c666efa6d4b13bb070fb7c654799018efed3e17a957afbd57abc50b8"
     },
     {
       "name": "PowerShell_常用指令速查表_2026.pdf",
-      "bytes": 203062,
-      "sha256": "5975cdc9273cbb676fa79ece732dd2d3b7bb2034512ce36a04a9ca13ffcfab9a"
+      "bytes": 218504,
+      "sha256": "7d680c2e5778ce7f5c7d02b0839b06469b234d6bece078a4e6420f9fb12b6767"
     }
   ]
 }

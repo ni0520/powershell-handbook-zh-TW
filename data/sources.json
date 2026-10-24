@@ -386,7 +386,8 @@
     "version": "PowerShell 7.6；歷史版本依原文",
     "accessed_at": "2026-10-24",
     "chapters": [
-      3
+      3,
+      32
     ],
     "purpose": "技術事實、平台與版本查證",
     "sha256": "3291cdb51b5e81624d6d9158b004c1499879f5e013bee95560a02ece6ac6302d",
@@ -1027,7 +1028,8 @@
     "version": "PowerShell 7.6",
     "accessed_at": "2026-10-24",
     "chapters": [
-      24
+      24,
+      33
     ],
     "purpose": "第21–25章的參數、版本限制與原創範例查證",
     "sha256": "bf6626b2a9c45706a4b0ee03b855c0ace2a9c47f969841cda6ad30c61f77e9d7",
@@ -1042,7 +1044,8 @@
     "version": "PowerShell 7.6",
     "accessed_at": "2026-10-24",
     "chapters": [
-      24
+      24,
+      33
     ],
     "purpose": "第21–25章的參數、版本限制與原創範例查證",
     "sha256": "3ce73c98568b6a465564af63c7b80c98914f0ff0e6307e8615fd66a7dc98ecb1",
@@ -1102,7 +1105,8 @@
     "version": "PowerShell 7.6",
     "accessed_at": "2026-10-24",
     "chapters": [
-      25
+      25,
+      32
     ],
     "purpose": "第21–25章的參數、版本限制與原創範例查證",
     "sha256": "a23b53b9ef57a7d4ec871c6b4cd1b2901b1727c56077e670a6340566ec642797",
@@ -1693,5 +1697,155 @@
     "sha256": "f15b0f0e9a1cf0016da197b1488a3439dcee08176ed1521cb5b478b01e0751ec",
     "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Jobs.md",
     "review_status": "章節使用部分人工查讀"
+  },
+  {
+    "id": "v04-about_language_modes",
+    "title": "about_Language_Modes",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Language_Modes.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      32
+    ],
+    "purpose": "本章使用的參數、平台與認證語意查證",
+    "sha256": "aa3e1347e0234459bcad8cdc2fd08da00c5ae06391d4e8d6c9073831c8927061",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Language_Modes.md",
+    "review_status": "已查讀教材使用部分；企業環境未執行"
+  },
+  {
+    "id": "v04-convertto-securestring",
+    "title": "ConvertTo-SecureString",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/ConvertTo-SecureString.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      32
+    ],
+    "purpose": "本章使用的參數、平台與認證語意查證",
+    "sha256": "783a066da646f074a6e7f941abe7c2e68ef20a96f4181fd6d2fb9709aa341628",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Security/ConvertTo-SecureString.md",
+    "review_status": "已查讀教材使用部分；企業環境未執行"
+  },
+  {
+    "id": "v04-invoke-restmethod",
+    "title": "Invoke-RestMethod",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Invoke-RestMethod.md",
+    "version": "PowerShell 7.6",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      33
+    ],
+    "purpose": "本章使用的參數、平台與認證語意查證",
+    "sha256": "dfc179f7cdb9259b1b894775350b15345e52193106fd20a8226efde3739b583c",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Invoke-RestMethod.md",
+    "review_status": "已查讀教材使用部分；企業環境未執行"
+  },
+  {
+    "id": "v04-get-aduser",
+    "title": "Get-ADUser",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/ActiveDirectory/Get-ADUser.md",
+    "version": "固定文件快照；實際企業模組版本未安裝驗證",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      34
+    ],
+    "purpose": "本章使用的參數、平台與認證語意查證",
+    "sha256": "76c06e3a8711f7554c85d7ddbf98e2034961b367e29d161bd4b552f7c6d1b629",
+    "local_reference": "docset/winserver2025-ps/ActiveDirectory/Get-ADUser.md",
+    "review_status": "已查讀教材使用部分；企業環境未執行"
+  },
+  {
+    "id": "v04-connect-azaccount",
+    "title": "Connect-AzAccount",
+    "publisher": "Microsoft",
+    "url": "https://github.com/Azure/azure-powershell/blob/d316163acc7852f89f81a4ca332dc82f65e13b68/src/Accounts/Accounts/help/Connect-AzAccount.md",
+    "version": "固定文件快照；實際企業模組版本未安裝驗證",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      35
+    ],
+    "purpose": "本章使用的參數、平台與認證語意查證",
+    "sha256": "d8da47ea81218b256315c64237f2f220bcaf4f1dd4b91ad00e9b318166f18f9f",
+    "local_reference": "src/Accounts/Accounts/help/Connect-AzAccount.md",
+    "review_status": "已查讀教材使用部分；企業環境未執行"
+  },
+  {
+    "id": "v04-get-azresource",
+    "title": "Get-AzResource",
+    "publisher": "Microsoft",
+    "url": "https://github.com/Azure/azure-powershell/blob/d316163acc7852f89f81a4ca332dc82f65e13b68/src/Resources/Resources/help/Get-AzResource.md",
+    "version": "固定文件快照；實際企業模組版本未安裝驗證",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      35
+    ],
+    "purpose": "本章使用的參數、平台與認證語意查證",
+    "sha256": "5ff4942cdf8c7597b306b15c2da070f9390014b305ef3bed1d50b9aa93f380db",
+    "local_reference": "src/Resources/Resources/help/Get-AzResource.md",
+    "review_status": "已查讀教材使用部分；企業環境未執行"
+  },
+  {
+    "id": "v04-connect-exchangeonline",
+    "title": "Connect-ExchangeOnline",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/office-docs-powershell/blob/76520496eb2c92838db597bea9cdd8b6d21e36b0/exchange/exchange-ps/ExchangePowerShell/Connect-ExchangeOnline.md",
+    "version": "固定文件快照；實際企業模組版本未安裝驗證",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      35
+    ],
+    "purpose": "本章使用的參數、平台與認證語意查證",
+    "sha256": "c133e1ac7b905e2359dc706afb4c12ff1bec772a8ddbad85b91e1a206b66d5a5",
+    "local_reference": "exchange/exchange-ps/ExchangePowerShell/Connect-ExchangeOnline.md",
+    "review_status": "已查讀教材使用部分；企業環境未執行"
+  },
+  {
+    "id": "v04-get-exomailbox",
+    "title": "Get-EXOMailbox",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/office-docs-powershell/blob/76520496eb2c92838db597bea9cdd8b6d21e36b0/exchange/exchange-ps/ExchangePowerShell/Get-EXOMailbox.md",
+    "version": "固定文件快照；實際企業模組版本未安裝驗證",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      35
+    ],
+    "purpose": "本章使用的參數、平台與認證語意查證",
+    "sha256": "5c172911dcc7930e930bb97df878ac656b9b9019fafe815b5e3cd71914271170",
+    "local_reference": "exchange/exchange-ps/ExchangePowerShell/Get-EXOMailbox.md",
+    "review_status": "已查讀教材使用部分；企業環境未執行"
+  },
+  {
+    "id": "v04-connect-mggraph",
+    "title": "Connect-MgGraph",
+    "publisher": "Microsoft",
+    "url": "https://github.com/microsoftgraph/msgraph-sdk-powershell/blob/f85309cb3f770a1583ddc3bd7522f14d23e4a7d0/src/Authentication/docs/Connect-MgGraph.md",
+    "version": "固定文件快照；實際企業模組版本未安裝驗證",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      34
+    ],
+    "purpose": "本章使用的參數、平台與認證語意查證",
+    "sha256": "f7b03e92d40ba55c176f593a711ea5ab391b4541961e87f5e0ff864875fb314f",
+    "local_reference": "src/Authentication/docs/Connect-MgGraph.md",
+    "review_status": "已查讀教材使用部分；企業環境未執行"
+  },
+  {
+    "id": "v04-authentication",
+    "title": "authentication",
+    "publisher": "Microsoft",
+    "url": "https://github.com/microsoftgraph/msgraph-sdk-powershell/blob/f85309cb3f770a1583ddc3bd7522f14d23e4a7d0/docs/authentication.md",
+    "version": "固定文件快照；實際企業模組版本未安裝驗證",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      34
+    ],
+    "purpose": "本章使用的參數、平台與認證語意查證",
+    "sha256": "7a9bb28c8a1316f0e56df48cb744d36c8cd8ce9262c7577dfbc3ea65ed3ac74a",
+    "local_reference": "docs/authentication.md",
+    "review_status": "已查讀教材使用部分；企業環境未執行"
   }
 ]

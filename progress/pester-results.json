@@ -1,11 +1,11 @@
 {
-  "run_at_utc": "2026-10-24T10:55:15.3417177Z",
+  "run_at_utc": "2026-10-24T11:34:18.0144723Z",
   "powershell": "7.6.8",
   "os": "Debian GNU/Linux 13 (trixie)",
   "pester": "5.7.1",
   "result": "Passed",
-  "total": 57,
-  "passed": 52,
+  "total": 63,
+  "passed": 58,
   "failed": 0,
   "skipped": 5,
   "tests": [
@@ -216,6 +216,36 @@
     },
     {
       "name": "第21章：訂單總額與邊界.拒絕負數單價",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第32至35章有限資料契約；不代表企業整合.檔案內容變更會使SHA256不符且精確處理中括號",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第32至35章有限資料契約；不代表企業整合.查詢值編碼避免&分割參數",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第32至35章有限資料契約；不代表企業整合.JSON零值不同於null",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第32至35章有限資料契約；不代表企業整合.繁中與布林JSON往返保留型別",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第32至35章有限資料契約；不代表企業整合.AD形狀合成資料只選啟用帳號",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第32至35章有限資料契約；不代表企業整合.同名資源必須以完整Id區分",
       "result": "Passed",
       "error": ""
     },

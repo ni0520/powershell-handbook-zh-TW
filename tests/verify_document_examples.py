@@ -22,7 +22,7 @@ for anchor in ('get-content', 'select-string', 'export-csv', 'convertfrom-json',
     blocks = re.findall(r'```powershell\s*\n(.*?)```', section, re.S)
     assert len(blocks) == 1, anchor
     cases.append((anchor, blocks[0]))
-for number, selected in ((26, (1,2)), (28, (3,)), (29, (1,)), (30, (5,))):
+for number, selected in ((26, (1,2)), (28, (3,)), (29, (1,)), (30, (5,)), (32, (1,2,3)), (33, (2,3,4)), (34, (4,5)), (35, (4,5))):
     path = next((ROOT/'docs/chapters').glob(f'{number}-*.md'))
     blocks = re.findall(r'```powershell\s*\n(.*?)```', path.read_text(), re.S)
     for index in selected:

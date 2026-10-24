@@ -2,11 +2,11 @@
 
 # 閱讀目錄
 
-**2026 版 v0.3.1：前 31 章初稿，並非完整 40 章教材。**
+**2026 版 v0.4：前 35 章初稿，並非完整 40 章教材。**
 
 建立及更新：2026-10-24（Asia/Taipei）。實測基準：PowerShell 7.6.8 / Debian 13 x64。
 
-原創繁體中文教學、620 題練習與解答、50 個命令索引（20 個詳解、30 個速查）、62 個術語、40 個參數。未完成範圍見進度紀錄；500+ 指令索引仍是目標。
+原創繁體中文教學、700 題練習與解答、54 個命令索引（25 個詳解、29 個速查）、62 個術語、40 個參數。未完成範圍見進度紀錄；500+ 指令索引仍是目標。
 
 ## 章節
 
@@ -44,6 +44,11 @@
 - [第 30 章：WMI、CIM 與遠端管理](chapters/30-cim-remote-management.md)
 
 - [第 31 章：背景工作、平行處理與排程](chapters/31-jobs-parallel-scheduling.md)
+
+- [第32章：PowerShell安全性](chapters/32-security.md)
+- [第33章：REST API與網路服務](chapters/33-rest-api.md)
+- [第34章：Active Directory與Microsoft 365](chapters/34-ad-microsoft365.md)
+- [第35章：Azure、Exchange與雲端管理](chapters/35-azure-exchange.md)
 
 ## 附錄與查詢
 

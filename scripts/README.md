@@ -30,3 +30,5 @@
 - 本機命令中繼資料的Available只表示Get-Command找到命令，不保證提供者、平台或目標功能支援；Wait-Process另依官方Windows限制標示。
 
 第31章新增 Jobs.Tests.ps1：引數、Keep、等待逾時與清理、非終止錯誤及平行排序。完整Pester目前57案例（52通過、5平台能力跳過）；verify_document_examples.py新增第31章六個已審閱區塊，現共34個。第31章個別輸出另見progress/chapter31-execution-results.json。
+
+v0.4：SecurityCloud.Tests.ps1新增6項本機契約測試；整套Pester63案例（58通過／5跳過），教材允許清單44區塊。python3 tests/verify_rest_http.py啟動暫時回送HTTP測試並關閉，驗證5項契約，不含正式TLS／OAuth／企業整合。

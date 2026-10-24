@@ -4,7 +4,7 @@
 
 [返回目錄](../README.md)
 
-本版50個命令索引：20個十四項教學、30個速查。500+仍是未完成目標；索引不代表全部平台已測。
+本版54個命令索引：25個十四項教學、29個速查。500+仍是未完成目標；索引不代表全部平台已測。
 
 ## 依英文名稱
 
@@ -21,7 +21,7 @@
 - [Get-Command（取得命令）](cmdlet-tutorials.md#get-command)：找出可用命令、種類與來源；適合不確定模組或參數的時候。
 - [Get-ComputerInfo（取得Windows系統資訊）](cmdlet-quick-index.md#get-computerinfo)：整合系統資訊，使用Property選擇必要欄位。
 - [Get-Content（讀取內容）](cmdlet-tutorials.md#get-content)：按行或以 Raw 讀取文字，明確指定編碼並考慮記憶體。
-- [Get-FileHash（計算檔案雜湊）](cmdlet-quick-index.md#get-filehash)：以SHA256等演算法核對位元組內容，不單獨證明來源身分。
+- [Get-FileHash（計算檔案雜湊）](../chapters/32-security.md#get-filehash)：以SHA256等演算法核對位元組內容，不單獨證明來源身分。
 - [Get-Help（取得說明）](cmdlet-tutorials.md#get-help)：閱讀命令參數與概念，排查參數組合及管線支援。
 - [Get-Item（取得項目）](cmdlet-quick-index.md#get-item)：讀取精確檔案或資料夾的中繼資料，不列出全部子項目。
 - [Get-ItemProperty（取得項目屬性）](cmdlet-tutorials.md#get-itemproperty)：在Registry情境讀機碼的值；與列出子機碼不同。
@@ -85,7 +85,7 @@
 
 - [Compress-Archive（建立ZIP封存）](cmdlet-tutorials.md#compress-archive)
 - [Expand-Archive（展開ZIP封存）](cmdlet-quick-index.md#expand-archive)
-- [Get-FileHash（計算檔案雜湊）](cmdlet-quick-index.md#get-filehash)
+- [Get-FileHash（計算檔案雜湊）](../chapters/32-security.md#get-filehash)
 
 ### 文字搜尋
 
@@ -214,7 +214,7 @@
 - [ConvertTo-Json（轉為JSON）](cmdlet-quick-index.md#convertto-json)
 - [ConvertFrom-Json（解析JSON）](cmdlet-tutorials.md#convertfrom-json)
 - [Select-Xml（查詢XML）](cmdlet-quick-index.md#select-xml)
-- [Get-FileHash（計算檔案雜湊）](cmdlet-quick-index.md#get-filehash)
+- [Get-FileHash（計算檔案雜湊）](../chapters/32-security.md#get-filehash)
 
 ### NetTCPIP
 
@@ -260,7 +260,7 @@
 - [Get-Member（取得物件成員）](cmdlet-tutorials.md#get-member)
 - [Get-Item（取得項目）](cmdlet-quick-index.md#get-item)
 - [Get-Content（讀取內容）](cmdlet-tutorials.md#get-content)
-- [Get-FileHash（計算檔案雜湊）](cmdlet-quick-index.md#get-filehash)
+- [Get-FileHash（計算檔案雜湊）](../chapters/32-security.md#get-filehash)
 - [Get-Process（取得處理程序）](cmdlet-tutorials.md#get-process)
 - [Get-Service（取得Windows服務）](cmdlet-quick-index.md#get-service)
 - [Get-ItemProperty（取得項目屬性）](cmdlet-tutorials.md#get-itemproperty)
@@ -351,3 +351,23 @@
 - [來源](sources.md)
 
 核准動詞原始資料存於data/approved-verbs.json；完整繁中動詞字典待編。
+
+## Start-Job（啟動背景工作）
+
+[十四項教學](../../docs/chapters/31-jobs-parallel-scheduling.md#start-job)；模組Microsoft.PowerShell.Core；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Start-Job.md)。企業操作未實測；本機驗證見章節。
+
+## Get-FileHash（取得檔案雜湊）
+
+[十四項教學](../../docs/chapters/32-security.md#get-filehash)；模組Microsoft.PowerShell.Utility；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-FileHash.md)。企業操作未實測；本機驗證見章節。
+
+## Invoke-RestMethod（呼叫REST方法）
+
+[十四項教學](../../docs/chapters/33-rest-api.md#invoke-restmethod)；模組Microsoft.PowerShell.Utility；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Invoke-RestMethod.md)。企業操作未實測；本機驗證見章節。
+
+## Get-ADUser（取得AD使用者）
+
+[十四項教學](../../docs/chapters/34-ad-microsoft365.md#get-aduser)；模組ActiveDirectory；[官方來源](https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/ActiveDirectory/Get-ADUser.md)。企業操作未實測；本機驗證見章節。
+
+## Get-AzResource（取得Azure資源）
+
+[十四項教學](../../docs/chapters/35-azure-exchange.md#get-azresource)；模組Az.Resources；[官方來源](https://github.com/Azure/azure-powershell/blob/d316163acc7852f89f81a4ca332dc82f65e13b68/src/Resources/Resources/help/Get-AzResource.md)。企業操作未實測；本機驗證見章節。

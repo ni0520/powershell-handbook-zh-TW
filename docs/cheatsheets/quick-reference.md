@@ -127,3 +127,16 @@ try {
 | CIM清理 | Remove-CimSession | 用finally移除已建立連線 |
 
 本版Windows命令僅完成文件與語法查證；不宣稱功能實測通過。
+
+## 第31–35章：自動化、安全與雲端
+
+| 需求 | 方法 | 限制 |
+|---|---|---|
+| 背景工作 | Start-Job／Wait-Job／Receive-Job | 等待逾時不會取消工作 |
+| 平行 | ForEach-Object -Parallel | 7.0起支援；先排序驗收 |
+| 完整性 | Get-FileHash -LiteralPath | 摘要不證明來源身分 |
+| API | Invoke-RestMethod | 狀態、結構與業務分層驗收 |
+| 地端帳號 | Get-ADUser | Windows與核准網域；未實測 |
+| 雲端身分 | Connect-MgGraph | 租戶與權限另驗證；未實測 |
+| Azure盤點 | Get-AzResource | 核對Tenant／Subscription；未實測 |
+| Exchange | Get-EXOMailbox | 防止Identity擴大範圍；未實測 |

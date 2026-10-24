@@ -9347,222 +9347,6 @@
     ]
   },
   {
-    "Name": "Get-FileHash",
-    "Module": "Microsoft.PowerShell.Utility",
-    "Available": true,
-    "Syntax": "Get-FileHash [-Path] <string[]> [[-Algorithm] <string>] [<CommonParameters>]\n\nGet-FileHash [-LiteralPath] <string[]> [[-Algorithm] <string>] [<CommonParameters>]\n\nGet-FileHash [-InputStream] <Stream> [[-Algorithm] <string>] [<CommonParameters>]",
-    "Parameters": [
-      {
-        "Name": "Path",
-        "Type": "System.String[]",
-        "Sets": [
-          {
-            "Name": "Path",
-            "Mandatory": true,
-            "Position": 0,
-            "ByValue": true,
-            "ByProperty": true
-          }
-        ]
-      },
-      {
-        "Name": "LiteralPath",
-        "Type": "System.String[]",
-        "Sets": [
-          {
-            "Name": "LiteralPath",
-            "Mandatory": true,
-            "Position": 0,
-            "ByValue": false,
-            "ByProperty": true
-          }
-        ]
-      },
-      {
-        "Name": "InputStream",
-        "Type": "System.IO.Stream",
-        "Sets": [
-          {
-            "Name": "StreamParameterSet",
-            "Mandatory": true,
-            "Position": 0,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      },
-      {
-        "Name": "Algorithm",
-        "Type": "System.String",
-        "Sets": [
-          {
-            "Name": "__AllParameterSets",
-            "Mandatory": false,
-            "Position": 1,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      },
-      {
-        "Name": "Verbose",
-        "Type": "System.Management.Automation.SwitchParameter",
-        "Sets": [
-          {
-            "Name": "__AllParameterSets",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      },
-      {
-        "Name": "Debug",
-        "Type": "System.Management.Automation.SwitchParameter",
-        "Sets": [
-          {
-            "Name": "__AllParameterSets",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      },
-      {
-        "Name": "ErrorAction",
-        "Type": "System.Management.Automation.ActionPreference",
-        "Sets": [
-          {
-            "Name": "__AllParameterSets",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      },
-      {
-        "Name": "WarningAction",
-        "Type": "System.Management.Automation.ActionPreference",
-        "Sets": [
-          {
-            "Name": "__AllParameterSets",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      },
-      {
-        "Name": "InformationAction",
-        "Type": "System.Management.Automation.ActionPreference",
-        "Sets": [
-          {
-            "Name": "__AllParameterSets",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      },
-      {
-        "Name": "ProgressAction",
-        "Type": "System.Management.Automation.ActionPreference",
-        "Sets": [
-          {
-            "Name": "__AllParameterSets",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      },
-      {
-        "Name": "ErrorVariable",
-        "Type": "System.String",
-        "Sets": [
-          {
-            "Name": "__AllParameterSets",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      },
-      {
-        "Name": "WarningVariable",
-        "Type": "System.String",
-        "Sets": [
-          {
-            "Name": "__AllParameterSets",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      },
-      {
-        "Name": "InformationVariable",
-        "Type": "System.String",
-        "Sets": [
-          {
-            "Name": "__AllParameterSets",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      },
-      {
-        "Name": "OutVariable",
-        "Type": "System.String",
-        "Sets": [
-          {
-            "Name": "__AllParameterSets",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      },
-      {
-        "Name": "OutBuffer",
-        "Type": "System.Int32",
-        "Sets": [
-          {
-            "Name": "__AllParameterSets",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      },
-      {
-        "Name": "PipelineVariable",
-        "Type": "System.String",
-        "Sets": [
-          {
-            "Name": "__AllParameterSets",
-            "Mandatory": false,
-            "Position": -2147483648,
-            "ByValue": false,
-            "ByProperty": false
-          }
-        ]
-      }
-    ]
-  },
-  {
     "Name": "Get-Process",
     "Module": "Microsoft.PowerShell.Management",
     "Available": true,
@@ -12882,6 +12666,1539 @@
   {
     "Name": "Remove-CimSession",
     "Module": "CimCmdlets",
+    "Available": false,
+    "Observation": "Not available on this runtime; consult official source, no platform execution implied",
+    "Syntax": null,
+    "Parameters": []
+  },
+  {
+    "Name": "Start-Job",
+    "Module": "Microsoft.PowerShell.Core",
+    "Available": true,
+    "Syntax": "Start-Job [-ScriptBlock] <scriptblock> [[-InitializationScript] <scriptblock>] [-Name <string>] [-Credential <pscredential>] [-Authentication <AuthenticationMechanism>] [-WorkingDirectory <string>] [-RunAs32] [-PSVersion <version>] [-InputObject <psobject>] [-ArgumentList <Object[]>] [<CommonParameters>]\n\nStart-Job [-DefinitionName] <string> [[-DefinitionPath] <string>] [[-Type] <string>] [-WorkingDirectory <string>] [<CommonParameters>]\n\nStart-Job [-FilePath] <string> [[-InitializationScript] <scriptblock>] [-Name <string>] [-Credential <pscredential>] [-Authentication <AuthenticationMechanism>] [-WorkingDirectory <string>] [-RunAs32] [-PSVersion <version>] [-InputObject <psobject>] [-ArgumentList <Object[]>] [<CommonParameters>]\n\nStart-Job [[-InitializationScript] <scriptblock>] -LiteralPath <string> [-Name <string>] [-Credential <pscredential>] [-Authentication <AuthenticationMechanism>] [-WorkingDirectory <string>] [-RunAs32] [-PSVersion <version>] [-InputObject <psobject>] [-ArgumentList <Object[]>] [<CommonParameters>]\n\nStart-Job [-WorkingDirectory <string>] [-ConnectingTimeout <int>] [-Options <hashtable>] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "DefinitionName",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "DefinitionName",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "DefinitionPath",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "DefinitionName",
+            "Mandatory": false,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "DefinitionName",
+            "Mandatory": false,
+            "Position": 2,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "FilePathComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          },
+          {
+            "Name": "ComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          },
+          {
+            "Name": "LiteralFilePathComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "ScriptBlock",
+        "Type": "System.Management.Automation.ScriptBlock",
+        "Sets": [
+          {
+            "Name": "ComputerName",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Credential",
+        "Type": "System.Management.Automation.PSCredential",
+        "Sets": [
+          {
+            "Name": "FilePathComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "ComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "LiteralFilePathComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "FilePath",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "FilePathComputerName",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "LiteralFilePathComputerName",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Authentication",
+        "Type": "System.Management.Automation.Runspaces.AuthenticationMechanism",
+        "Sets": [
+          {
+            "Name": "FilePathComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "ComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "LiteralFilePathComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InitializationScript",
+        "Type": "System.Management.Automation.ScriptBlock",
+        "Sets": [
+          {
+            "Name": "FilePathComputerName",
+            "Mandatory": false,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "ComputerName",
+            "Mandatory": false,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "LiteralFilePathComputerName",
+            "Mandatory": false,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WorkingDirectory",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "RunAs32",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "FilePathComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "ComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "LiteralFilePathComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PSVersion",
+        "Type": "System.Version",
+        "Sets": [
+          {
+            "Name": "FilePathComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "ComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "LiteralFilePathComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InputObject",
+        "Type": "System.Management.Automation.PSObject",
+        "Sets": [
+          {
+            "Name": "FilePathComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": true,
+            "ByProperty": false
+          },
+          {
+            "Name": "ComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": true,
+            "ByProperty": false
+          },
+          {
+            "Name": "LiteralFilePathComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": true,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ArgumentList",
+        "Type": "System.Object[]",
+        "Sets": [
+          {
+            "Name": "FilePathComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "ComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "LiteralFilePathComputerName",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ConnectingTimeout",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "SSHHost",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Options",
+        "Type": "System.Collections.Hashtable",
+        "Sets": [
+          {
+            "Name": "SSHHost",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Get-FileHash",
+    "Module": "Microsoft.PowerShell.Utility",
+    "Available": true,
+    "Syntax": "Get-FileHash [-Path] <string[]> [[-Algorithm] <string>] [<CommonParameters>]\n\nGet-FileHash [-LiteralPath] <string[]> [[-Algorithm] <string>] [<CommonParameters>]\n\nGet-FileHash [-InputStream] <Stream> [[-Algorithm] <string>] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "Path",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "Path",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": true,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "LiteralPath",
+        "Type": "System.String[]",
+        "Sets": [
+          {
+            "Name": "LiteralPath",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": true
+          }
+        ]
+      },
+      {
+        "Name": "InputStream",
+        "Type": "System.IO.Stream",
+        "Sets": [
+          {
+            "Name": "StreamParameterSet",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Algorithm",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": 1,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Invoke-RestMethod",
+    "Module": "Microsoft.PowerShell.Utility",
+    "Available": true,
+    "Syntax": "Invoke-RestMethod [-Uri] <uri> [-FollowRelLink] [-MaximumFollowRelLink <int>] [-ResponseHeadersVariable <string>] [-StatusCodeVariable <string>] [-UseBasicParsing] [-HttpVersion <version>] [-WebSession <WebRequestSession>] [-SessionVariable <string>] [-AllowUnencryptedAuthentication] [-Authentication <WebAuthenticationType>] [-Credential <pscredential>] [-UseDefaultCredentials] [-CertificateThumbprint <string>] [-Certificate <X509Certificate>] [-SkipCertificateCheck] [-SslProtocol <WebSslProtocol>] [-Token <securestring>] [-UserAgent <string>] [-DisableKeepAlive] [-ConnectionTimeoutSeconds <int>] [-OperationTimeoutSeconds <int>] [-Headers <IDictionary>] [-SkipHeaderValidation] [-AllowInsecureRedirect] [-MaximumRedirection <int>] [-MaximumRetryCount <int>] [-PreserveAuthorizationOnRedirect] [-RetryIntervalSec <int>] [-Method <WebRequestMethod>] [-PreserveHttpMethodOnRedirect] [-UnixSocket <UnixDomainSocketEndPoint>] [-Proxy <uri>] [-ProxyCredential <pscredential>] [-ProxyUseDefaultCredentials] [-Body <Object>] [-Form <IDictionary>] [-ContentType <string>] [-TransferEncoding <string>] [-InFile <string>] [-OutFile <string>] [-PassThru] [-Resume] [-SkipHttpErrorCheck] [<CommonParameters>]\n\nInvoke-RestMethod [-Uri] <uri> -NoProxy [-FollowRelLink] [-MaximumFollowRelLink <int>] [-ResponseHeadersVariable <string>] [-StatusCodeVariable <string>] [-UseBasicParsing] [-HttpVersion <version>] [-WebSession <WebRequestSession>] [-SessionVariable <string>] [-AllowUnencryptedAuthentication] [-Authentication <WebAuthenticationType>] [-Credential <pscredential>] [-UseDefaultCredentials] [-CertificateThumbprint <string>] [-Certificate <X509Certificate>] [-SkipCertificateCheck] [-SslProtocol <WebSslProtocol>] [-Token <securestring>] [-UserAgent <string>] [-DisableKeepAlive] [-ConnectionTimeoutSeconds <int>] [-OperationTimeoutSeconds <int>] [-Headers <IDictionary>] [-SkipHeaderValidation] [-AllowInsecureRedirect] [-MaximumRedirection <int>] [-MaximumRetryCount <int>] [-PreserveAuthorizationOnRedirect] [-RetryIntervalSec <int>] [-Method <WebRequestMethod>] [-PreserveHttpMethodOnRedirect] [-UnixSocket <UnixDomainSocketEndPoint>] [-Body <Object>] [-Form <IDictionary>] [-ContentType <string>] [-TransferEncoding <string>] [-InFile <string>] [-OutFile <string>] [-PassThru] [-Resume] [-SkipHttpErrorCheck] [<CommonParameters>]\n\nInvoke-RestMethod [-Uri] <uri> -CustomMethod <string> [-FollowRelLink] [-MaximumFollowRelLink <int>] [-ResponseHeadersVariable <string>] [-StatusCodeVariable <string>] [-UseBasicParsing] [-HttpVersion <version>] [-WebSession <WebRequestSession>] [-SessionVariable <string>] [-AllowUnencryptedAuthentication] [-Authentication <WebAuthenticationType>] [-Credential <pscredential>] [-UseDefaultCredentials] [-CertificateThumbprint <string>] [-Certificate <X509Certificate>] [-SkipCertificateCheck] [-SslProtocol <WebSslProtocol>] [-Token <securestring>] [-UserAgent <string>] [-DisableKeepAlive] [-ConnectionTimeoutSeconds <int>] [-OperationTimeoutSeconds <int>] [-Headers <IDictionary>] [-SkipHeaderValidation] [-AllowInsecureRedirect] [-MaximumRedirection <int>] [-MaximumRetryCount <int>] [-PreserveAuthorizationOnRedirect] [-RetryIntervalSec <int>] [-PreserveHttpMethodOnRedirect] [-UnixSocket <UnixDomainSocketEndPoint>] [-Proxy <uri>] [-ProxyCredential <pscredential>] [-ProxyUseDefaultCredentials] [-Body <Object>] [-Form <IDictionary>] [-ContentType <string>] [-TransferEncoding <string>] [-InFile <string>] [-OutFile <string>] [-PassThru] [-Resume] [-SkipHttpErrorCheck] [<CommonParameters>]\n\nInvoke-RestMethod [-Uri] <uri> -CustomMethod <string> -NoProxy [-FollowRelLink] [-MaximumFollowRelLink <int>] [-ResponseHeadersVariable <string>] [-StatusCodeVariable <string>] [-UseBasicParsing] [-HttpVersion <version>] [-WebSession <WebRequestSession>] [-SessionVariable <string>] [-AllowUnencryptedAuthentication] [-Authentication <WebAuthenticationType>] [-Credential <pscredential>] [-UseDefaultCredentials] [-CertificateThumbprint <string>] [-Certificate <X509Certificate>] [-SkipCertificateCheck] [-SslProtocol <WebSslProtocol>] [-Token <securestring>] [-UserAgent <string>] [-DisableKeepAlive] [-ConnectionTimeoutSeconds <int>] [-OperationTimeoutSeconds <int>] [-Headers <IDictionary>] [-SkipHeaderValidation] [-AllowInsecureRedirect] [-MaximumRedirection <int>] [-MaximumRetryCount <int>] [-PreserveAuthorizationOnRedirect] [-RetryIntervalSec <int>] [-PreserveHttpMethodOnRedirect] [-UnixSocket <UnixDomainSocketEndPoint>] [-Body <Object>] [-Form <IDictionary>] [-ContentType <string>] [-TransferEncoding <string>] [-InFile <string>] [-OutFile <string>] [-PassThru] [-Resume] [-SkipHttpErrorCheck] [<CommonParameters>]",
+    "Parameters": [
+      {
+        "Name": "FollowRelLink",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "MaximumFollowRelLink",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ResponseHeadersVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "StatusCodeVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "UseBasicParsing",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Uri",
+        "Type": "System.Uri",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": true,
+            "Position": 0,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "HttpVersion",
+        "Type": "System.Version",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WebSession",
+        "Type": "Microsoft.PowerShell.Commands.WebRequestSession",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "SessionVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "AllowUnencryptedAuthentication",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Authentication",
+        "Type": "Microsoft.PowerShell.Commands.WebAuthenticationType",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Credential",
+        "Type": "System.Management.Automation.PSCredential",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "UseDefaultCredentials",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "CertificateThumbprint",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Certificate",
+        "Type": "System.Security.Cryptography.X509Certificates.X509Certificate",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "SkipCertificateCheck",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "SslProtocol",
+        "Type": "Microsoft.PowerShell.Commands.WebSslProtocol",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Token",
+        "Type": "System.Security.SecureString",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "UserAgent",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "DisableKeepAlive",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ConnectionTimeoutSeconds",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OperationTimeoutSeconds",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Headers",
+        "Type": "System.Collections.IDictionary",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "SkipHeaderValidation",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "AllowInsecureRedirect",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "MaximumRedirection",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "MaximumRetryCount",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PreserveAuthorizationOnRedirect",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "RetryIntervalSec",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Method",
+        "Type": "Microsoft.PowerShell.Commands.WebRequestMethod",
+        "Sets": [
+          {
+            "Name": "StandardMethod",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "StandardMethodNoProxy",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "CustomMethod",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "CustomMethod",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "CustomMethodNoProxy",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PreserveHttpMethodOnRedirect",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "UnixSocket",
+        "Type": "System.Net.Sockets.UnixDomainSocketEndPoint",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "NoProxy",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "CustomMethodNoProxy",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "StandardMethodNoProxy",
+            "Mandatory": true,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Proxy",
+        "Type": "System.Uri",
+        "Sets": [
+          {
+            "Name": "StandardMethod",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "CustomMethod",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProxyCredential",
+        "Type": "System.Management.Automation.PSCredential",
+        "Sets": [
+          {
+            "Name": "StandardMethod",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "CustomMethod",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProxyUseDefaultCredentials",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "StandardMethod",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          },
+          {
+            "Name": "CustomMethod",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Body",
+        "Type": "System.Object",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": true,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Form",
+        "Type": "System.Collections.IDictionary",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "TransferEncoding",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InFile",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutFile",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PassThru",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Resume",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "SkipHttpErrorCheck",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Verbose",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "Debug",
+        "Type": "System.Management.Automation.SwitchParameter",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ProgressAction",
+        "Type": "System.Management.Automation.ActionPreference",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "ErrorVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "WarningVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "InformationVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "OutBuffer",
+        "Type": "System.Int32",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      },
+      {
+        "Name": "PipelineVariable",
+        "Type": "System.String",
+        "Sets": [
+          {
+            "Name": "__AllParameterSets",
+            "Mandatory": false,
+            "Position": -2147483648,
+            "ByValue": false,
+            "ByProperty": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Get-ADUser",
+    "Module": "ActiveDirectory",
+    "Available": false,
+    "Observation": "Not available on this runtime; consult official source, no platform execution implied",
+    "Syntax": null,
+    "Parameters": []
+  },
+  {
+    "Name": "Get-AzResource",
+    "Module": "Az.Resources",
     "Available": false,
     "Observation": "Not available on this runtime; consult official source, no platform execution implied",
     "Syntax": null,

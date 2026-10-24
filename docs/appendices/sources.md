@@ -289,7 +289,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Execution_Policies.md)
 - 適用版本：PowerShell 7.6；歷史版本依原文
 - 查閱日期：2026-10-24
-- 使用章節：3
+- 使用章節：3, 32
 - 用途：技術事實、平台與版本查證
 
 <a id="source-get-command"></a>
@@ -773,7 +773,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertTo-Json.md)
 - 適用版本：PowerShell 7.6
 - 查閱日期：2026-10-24
-- 使用章節：24
+- 使用章節：24, 33
 - 用途：第21–25章的參數、版本限制與原創範例查證
 
 <a id="source-convertfrom-json"></a>
@@ -784,7 +784,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-Json.md)
 - 適用版本：PowerShell 7.6
 - 查閱日期：2026-10-24
-- 使用章節：24
+- 使用章節：24, 33
 - 用途：第21–25章的參數、版本限制與原創範例查證
 
 <a id="source-select-xml"></a>
@@ -828,7 +828,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-FileHash.md)
 - 適用版本：PowerShell 7.6
 - 查閱日期：2026-10-24
-- 使用章節：25
+- 使用章節：25, 32
 - 用途：第21–25章的參數、版本限制與原創範例查證
 
 <a id="source-about-regular-expressions"></a>
@@ -1259,3 +1259,113 @@
 - 查閱日期：2026-10-24
 - 使用章節：31
 - 用途：背景工作生命週期與平行處理
+
+<a id="source-v04-about_language_modes"></a>
+
+## about_Language_Modes
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Language_Modes.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：32
+- 用途：本章使用的參數、平台與認證語意查證
+
+<a id="source-v04-convertto-securestring"></a>
+
+## ConvertTo-SecureString
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Security/ConvertTo-SecureString.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：32
+- 用途：本章使用的參數、平台與認證語意查證
+
+<a id="source-v04-invoke-restmethod"></a>
+
+## Invoke-RestMethod
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Invoke-RestMethod.md)
+- 適用版本：PowerShell 7.6
+- 查閱日期：2026-10-24
+- 使用章節：33
+- 用途：本章使用的參數、平台與認證語意查證
+
+<a id="source-v04-get-aduser"></a>
+
+## Get-ADUser
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/ActiveDirectory/Get-ADUser.md)
+- 適用版本：固定文件快照；實際企業模組版本未安裝驗證
+- 查閱日期：2026-10-24
+- 使用章節：34
+- 用途：本章使用的參數、平台與認證語意查證
+
+<a id="source-v04-connect-azaccount"></a>
+
+## Connect-AzAccount
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/Azure/azure-powershell/blob/d316163acc7852f89f81a4ca332dc82f65e13b68/src/Accounts/Accounts/help/Connect-AzAccount.md)
+- 適用版本：固定文件快照；實際企業模組版本未安裝驗證
+- 查閱日期：2026-10-24
+- 使用章節：35
+- 用途：本章使用的參數、平台與認證語意查證
+
+<a id="source-v04-get-azresource"></a>
+
+## Get-AzResource
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/Azure/azure-powershell/blob/d316163acc7852f89f81a4ca332dc82f65e13b68/src/Resources/Resources/help/Get-AzResource.md)
+- 適用版本：固定文件快照；實際企業模組版本未安裝驗證
+- 查閱日期：2026-10-24
+- 使用章節：35
+- 用途：本章使用的參數、平台與認證語意查證
+
+<a id="source-v04-connect-exchangeonline"></a>
+
+## Connect-ExchangeOnline
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/office-docs-powershell/blob/76520496eb2c92838db597bea9cdd8b6d21e36b0/exchange/exchange-ps/ExchangePowerShell/Connect-ExchangeOnline.md)
+- 適用版本：固定文件快照；實際企業模組版本未安裝驗證
+- 查閱日期：2026-10-24
+- 使用章節：35
+- 用途：本章使用的參數、平台與認證語意查證
+
+<a id="source-v04-get-exomailbox"></a>
+
+## Get-EXOMailbox
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/office-docs-powershell/blob/76520496eb2c92838db597bea9cdd8b6d21e36b0/exchange/exchange-ps/ExchangePowerShell/Get-EXOMailbox.md)
+- 適用版本：固定文件快照；實際企業模組版本未安裝驗證
+- 查閱日期：2026-10-24
+- 使用章節：35
+- 用途：本章使用的參數、平台與認證語意查證
+
+<a id="source-v04-connect-mggraph"></a>
+
+## Connect-MgGraph
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/microsoftgraph/msgraph-sdk-powershell/blob/f85309cb3f770a1583ddc3bd7522f14d23e4a7d0/src/Authentication/docs/Connect-MgGraph.md)
+- 適用版本：固定文件快照；實際企業模組版本未安裝驗證
+- 查閱日期：2026-10-24
+- 使用章節：34
+- 用途：本章使用的參數、平台與認證語意查證
+
+<a id="source-v04-authentication"></a>
+
+## authentication
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/microsoftgraph/msgraph-sdk-powershell/blob/f85309cb3f770a1583ddc3bd7522f14d23e4a7d0/docs/authentication.md)
+- 適用版本：固定文件快照；實際企業模組版本未安裝驗證
+- 查閱日期：2026-10-24
+- 使用章節：34
+- 用途：本章使用的參數、平台與認證語意查證
