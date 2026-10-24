@@ -46,6 +46,14 @@
 
 情境：第 21 章的資料處理與驗證。相關命令：Should。[對應章節](../../docs/chapters/21-testing-pester.md)；[官方來源](https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/quick-start.mdx)。
 
+<a id="term-v05-automatic-variable"></a>
+
+## Automatic variable（自動變數）
+
+由PowerShell維護的工作階段與執行資訊。
+
+情境：第40章。相關命令：Get-Command。[對應章節](../../docs/chapters/40-reference-appendices.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Automatic_Variables.md)。
+
 <a id="term-bom"></a>
 
 ## BOM（位元組順序標記）
@@ -117,6 +125,22 @@
 參與 PowerShell 管線與參數機制的命令；不要把所有外部程式都叫 Cmdlet。
 
 情境：第 7 章的觀念與案例。相關命令：Get-Command, Get-Alias。[對應章節](../../docs/chapters/07-commands-aliases.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Command_Precedence.md)。
+
+<a id="term-v05-commandtype"></a>
+
+## CommandType（命令類型）
+
+區分Cmdlet、函式、別名與原生程式等來源。
+
+情境：第39章。相關命令：Get-Command。[對應章節](../../docs/chapters/39-command-index.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-Command.md)。
+
+<a id="term-v05-container"></a>
+
+## Container（容器）
+
+由容器引擎管理的隔離工作負載，與虛擬機管理邊界不同。
+
+情境：第36章。相關命令：Get-VM。[對應章節](../../docs/chapters/36-infrastructure-services.md)；[官方來源](https://github.com/docker/cli/blob/6d274590f2f63276a54da8adf475a455d21c1fdd/docs/reference/commandline/ps.md)。
 
 <a id="term-dns"></a>
 
@@ -222,6 +246,14 @@ Pester先建立測試樹的階段；直接放在Describe內的命令可能此時
 
 情境：第29章系統管理。相關命令：Test-Connection。[對應章節](../../docs/chapters/29-network-diagnostics.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Test-Connection.md)。
 
+<a id="term-v05-invariantculture"></a>
+
+## InvariantCulture（不變文化）
+
+使用固定文化規則處理交換資料，仍需明確的業務契約。
+
+情境：第38章。相關命令：Import-Csv。[對應章節](../../docs/chapters/38-enterprise-report.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Import-Csv.md)。
+
 <a id="term-json"></a>
 
 ## JSON（JavaScript物件表示法）
@@ -278,6 +310,14 @@ XML以URI區分元素名稱範圍；XPath查詢須設定前綴對應。
 
 情境：第 8 章的觀念與案例。相關命令：Get-Member。[對應章節](../../docs/chapters/08-objects.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Objects.md)。
 
+<a id="term-v05-ordinal-comparison"></a>
+
+## Ordinal comparison（序數比較）
+
+依字元序數比較，本例Id區分大小寫。
+
+情境：第38章。相關命令：Import-Csv。[對應章節](../../docs/chapters/38-enterprise-report.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Comparison_Operators.md)。
+
 <a id="term-pid"></a>
 
 ## PID（處理程序識別碼）
@@ -310,6 +350,14 @@ XML以URI區分元素名稱範圍；XPath查詢須設定前綴對應。
 
 情境：第 6 章的觀念與案例。相關命令：Get-Help。[對應章節](../../docs/chapters/06-help-system.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md)。
 
+<a id="term-v05-partial-success"></a>
+
+## Partial success（部分成功）
+
+只有部分輸入完成，不能直接標記全批成功。
+
+情境：第38章。相關命令：Import-Csv。[對應章節](../../docs/chapters/38-enterprise-report.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Try_Catch_Finally.md)。
+
 <a id="term-pipeline"></a>
 
 ## Pipeline（管線）
@@ -317,6 +365,14 @@ XML以URI區分元素名稱範圍；XPath查詢須設定前綴對應。
 把前段成功輸出送到後段處理；接收參數必須支援該輸入。
 
 情境：第 9 章的觀念與案例。相關命令：Select-Object。[對應章節](../../docs/chapters/09-pipeline.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Pipelines.md)。
+
+<a id="term-v05-preference-variable"></a>
+
+## Preference variable（偏好設定變數）
+
+影響PowerShell處理行為，不是業務驗收資料。
+
+情境：第40章。相關命令：Get-Command。[對應章節](../../docs/chapters/40-reference-appendices.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Preference_Variables.md)。
 
 <a id="term-process"></a>
 
@@ -381,6 +437,14 @@ Windows階層式設定資料；機碼形成路徑，值為機碼屬性。
 保存一或多個命令的文字檔，可重複執行與版本管理。
 
 情境：第 15 章的觀念與案例。相關命令：。[對應章節](../../docs/chapters/15-scripts.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Scripts.md)。
+
+<a id="term-v05-serialization"></a>
+
+## Serialization（序列化）
+
+將物件表示為可保存或傳遞的格式，不保證恢復原始方法。
+
+情境：第39章。相關命令：Get-Command。[對應章節](../../docs/chapters/39-command-index.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Export-Clixml.md)。
 
 <a id="term-service"></a>
 
@@ -454,6 +518,14 @@ Pester提供的暫存檔案範圍，不是網路或權限沙箱。
 
 情境：第 21 章的資料處理與驗證。相關命令：Invoke-Pester。[對應章節](../../docs/chapters/21-testing-pester.md)；[官方來源](https://github.com/pester/docs/blob/a9e301d136ae6d9c9275d07a183bae55f06fe2c3/versioned_docs/version-v5/usage/testdrive.mdx)。
 
+<a id="term-v05-timespan"></a>
+
+## TimeSpan（時間間隔）
+
+表示經過時間；TotalMilliseconds與Milliseconds分量不同。
+
+情境：第37章。相關命令：Measure-Command。[對應章節](../../docs/chapters/37-performance-design.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Measure-Command.md)。
+
 <a id="term-transcript"></a>
 
 ## Transcript（工作階段逐字紀錄）
@@ -469,6 +541,14 @@ Pester提供的暫存檔案範圍，不是網路或權限沙箱。
 定義資料種類與可用操作的規則。
 
 情境：第 11 章的觀念與案例。相關命令：。[對應章節](../../docs/chapters/11-variables-types.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Variables.md)。
+
+<a id="term-v05-vm"></a>
+
+## VM（虛擬機）
+
+具獨立客體環境的虛擬機器；開機不代表應用服務健康。
+
+情境：第36章。相關命令：Get-VM。[對應章節](../../docs/chapters/36-infrastructure-services.md)；[官方來源](https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/Hyper-V/Get-VM.md)。
 
 <a id="term-variable"></a>
 
@@ -493,6 +573,22 @@ Windows管理基礎設施，提供類別與實例查詢。
 指定遠端ComputerName時CIM工作階段預設使用的協定。
 
 情境：第30章系統管理。相關命令：New-CimSession。[對應章節](../../docs/chapters/30-cim-remote-management.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/New-CimSession.md)。
+
+<a id="term-v05-wall-clock-time"></a>
+
+## Wall-clock time（實際經過時間）
+
+區塊從開始到結束經過的時間，不等同CPU累計時間。
+
+情境：第37章。相關命令：Measure-Command。[對應章節](../../docs/chapters/37-performance-design.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Measure-Command.md)。
+
+<a id="term-v05-warm-up"></a>
+
+## Warm-up（暖機）
+
+在正式量測前以一致方式執行工作，避免混比冷啟動。
+
+情境：第37章。相關命令：Measure-Command。[對應章節](../../docs/chapters/37-performance-design.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/dev-cross-plat/performance/script-authoring-considerations.md)。
 
 <a id="term-xml"></a>
 

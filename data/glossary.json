@@ -883,5 +883,185 @@
     "version": "7.6或Windows Server2025文件；差異見章節",
     "platform": "依命令及提供者；Windows功能未實測",
     "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-v05-vm",
+    "english": "VM",
+    "chinese": "虛擬機",
+    "description": "具獨立客體環境的虛擬機器；開機不代表應用服務健康。",
+    "usage": "第36章",
+    "related_commands": [
+      "Get-VM"
+    ],
+    "chapter": "docs/chapters/36-infrastructure-services.md",
+    "official_source": "https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/Hyper-V/Get-VM.md",
+    "version": "依引用固定文件快照",
+    "platform": "依命令與服務；企業操作未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-v05-container",
+    "english": "Container",
+    "chinese": "容器",
+    "description": "由容器引擎管理的隔離工作負載，與虛擬機管理邊界不同。",
+    "usage": "第36章",
+    "related_commands": [
+      "Get-VM"
+    ],
+    "chapter": "docs/chapters/36-infrastructure-services.md",
+    "official_source": "https://github.com/docker/cli/blob/6d274590f2f63276a54da8adf475a455d21c1fdd/docs/reference/commandline/ps.md",
+    "version": "依引用固定文件快照",
+    "platform": "依命令與服務；企業操作未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-v05-timespan",
+    "english": "TimeSpan",
+    "chinese": "時間間隔",
+    "description": "表示經過時間；TotalMilliseconds與Milliseconds分量不同。",
+    "usage": "第37章",
+    "related_commands": [
+      "Measure-Command"
+    ],
+    "chapter": "docs/chapters/37-performance-design.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Measure-Command.md",
+    "version": "依引用固定文件快照",
+    "platform": "依命令與服務；企業操作未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-v05-wall-clock-time",
+    "english": "Wall-clock time",
+    "chinese": "實際經過時間",
+    "description": "區塊從開始到結束經過的時間，不等同CPU累計時間。",
+    "usage": "第37章",
+    "related_commands": [
+      "Measure-Command"
+    ],
+    "chapter": "docs/chapters/37-performance-design.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Measure-Command.md",
+    "version": "依引用固定文件快照",
+    "platform": "依命令與服務；企業操作未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-v05-warm-up",
+    "english": "Warm-up",
+    "chinese": "暖機",
+    "description": "在正式量測前以一致方式執行工作，避免混比冷啟動。",
+    "usage": "第37章",
+    "related_commands": [
+      "Measure-Command"
+    ],
+    "chapter": "docs/chapters/37-performance-design.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/dev-cross-plat/performance/script-authoring-considerations.md",
+    "version": "依引用固定文件快照",
+    "platform": "依命令與服務；企業操作未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-v05-invariantculture",
+    "english": "InvariantCulture",
+    "chinese": "不變文化",
+    "description": "使用固定文化規則處理交換資料，仍需明確的業務契約。",
+    "usage": "第38章",
+    "related_commands": [
+      "Import-Csv"
+    ],
+    "chapter": "docs/chapters/38-enterprise-report.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Import-Csv.md",
+    "version": "依引用固定文件快照",
+    "platform": "依命令與服務；企業操作未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-v05-ordinal-comparison",
+    "english": "Ordinal comparison",
+    "chinese": "序數比較",
+    "description": "依字元序數比較，本例Id區分大小寫。",
+    "usage": "第38章",
+    "related_commands": [
+      "Import-Csv"
+    ],
+    "chapter": "docs/chapters/38-enterprise-report.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Comparison_Operators.md",
+    "version": "依引用固定文件快照",
+    "platform": "依命令與服務；企業操作未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-v05-partial-success",
+    "english": "Partial success",
+    "chinese": "部分成功",
+    "description": "只有部分輸入完成，不能直接標記全批成功。",
+    "usage": "第38章",
+    "related_commands": [
+      "Import-Csv"
+    ],
+    "chapter": "docs/chapters/38-enterprise-report.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Try_Catch_Finally.md",
+    "version": "依引用固定文件快照",
+    "platform": "依命令與服務；企業操作未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-v05-serialization",
+    "english": "Serialization",
+    "chinese": "序列化",
+    "description": "將物件表示為可保存或傳遞的格式，不保證恢復原始方法。",
+    "usage": "第39章",
+    "related_commands": [
+      "Get-Command"
+    ],
+    "chapter": "docs/chapters/39-command-index.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Export-Clixml.md",
+    "version": "依引用固定文件快照",
+    "platform": "依命令與服務；企業操作未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-v05-commandtype",
+    "english": "CommandType",
+    "chinese": "命令類型",
+    "description": "區分Cmdlet、函式、別名與原生程式等來源。",
+    "usage": "第39章",
+    "related_commands": [
+      "Get-Command"
+    ],
+    "chapter": "docs/chapters/39-command-index.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-Command.md",
+    "version": "依引用固定文件快照",
+    "platform": "依命令與服務；企業操作未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-v05-automatic-variable",
+    "english": "Automatic variable",
+    "chinese": "自動變數",
+    "description": "由PowerShell維護的工作階段與執行資訊。",
+    "usage": "第40章",
+    "related_commands": [
+      "Get-Command"
+    ],
+    "chapter": "docs/chapters/40-reference-appendices.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Automatic_Variables.md",
+    "version": "依引用固定文件快照",
+    "platform": "依命令與服務；企業操作未實測",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "term-v05-preference-variable",
+    "english": "Preference variable",
+    "chinese": "偏好設定變數",
+    "description": "影響PowerShell處理行為，不是業務驗收資料。",
+    "usage": "第40章",
+    "related_commands": [
+      "Get-Command"
+    ],
+    "chapter": "docs/chapters/40-reference-appendices.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Preference_Variables.md",
+    "version": "依引用固定文件快照",
+    "platform": "依命令與服務；企業操作未實測",
+    "verified_at": "2026-10-24"
   }
 ]

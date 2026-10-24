@@ -1,7 +1,7 @@
 {
-  "run_at_utc": "2026-10-24T11:34:31.492232+00:00",
+  "run_at_utc": "2026-10-24T11:57:26.855410+00:00",
   "kind": "execution smoke; value assertions recorded separately in Pester",
-  "passed": 44,
+  "passed": 59,
   "failed": 0,
   "cases": [
     {
@@ -105,6 +105,71 @@
       "exit_code": 0
     },
     {
+      "name": "37-performance-design.md:block-1",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "37-performance-design.md:block-2",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "37-performance-design.md:block-3",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "37-performance-design.md:block-4",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "37-performance-design.md:block-5",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "38-enterprise-report.md:block-1",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "39-command-index.md:block-1",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "39-command-index.md:block-2",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "39-command-index.md:block-3",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "40-reference-appendices.md:block-1",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "40-reference-appendices.md:block-2",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "40-reference-appendices.md:block-3",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "40-reference-appendices.md:block-4",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
       "name": "get-content",
       "status": "passed",
       "exit_code": 0
@@ -201,6 +266,16 @@
     },
     {
       "name": "35-azure-exchange.md:block-5",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "36-infrastructure-services.md:block-4",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "36-infrastructure-services.md:block-5",
       "status": "passed",
       "exit_code": 0
     },

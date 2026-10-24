@@ -201,7 +201,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Aliases.md)
 - 適用版本：PowerShell 7.6；歷史版本依原文
 - 查閱日期：2026-10-24
-- 使用章節：7
+- 使用章節：7, 40
 - 用途：技術事實、平台與版本查證
 
 <a id="source-about-objects"></a>
@@ -267,7 +267,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Comparison_Operators.md)
 - 適用版本：PowerShell 7.6；歷史版本依原文
 - 查閱日期：2026-10-24
-- 使用章節：10
+- 使用章節：10, 40
 - 用途：技術事實、平台與版本查證
 
 <a id="source-about-commonparameters"></a>
@@ -278,7 +278,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_CommonParameters.md)
 - 適用版本：PowerShell 7.6；歷史版本依原文
 - 查閱日期：2026-10-24
-- 使用章節：6
+- 使用章節：6, 40
 - 用途：技術事實、平台與版本查證
 
 <a id="source-about-execution_policies"></a>
@@ -300,7 +300,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-Command.md)
 - 適用版本：PowerShell 7.6；歷史版本依原文
 - 查閱日期：2026-10-24
-- 使用章節：7
+- 使用章節：7, 39
 - 用途：技術事實、平台與版本查證
 
 <a id="source-get-help"></a>
@@ -311,7 +311,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-Help.md)
 - 適用版本：PowerShell 7.6；歷史版本依原文
 - 查閱日期：2026-10-24
-- 使用章節：6
+- 使用章節：6, 39
 - 用途：技術事實、平台與版本查證
 
 <a id="source-get-member"></a>
@@ -564,7 +564,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Modules.md)
 - 適用版本：PowerShell 7.6
 - 查閱日期：2026-10-24
-- 使用章節：18
+- 使用章節：18, 40
 - 用途：語言規則與原創範例設計
 
 <a id="source-about-try_catch_finally"></a>
@@ -575,7 +575,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Try_Catch_Finally.md)
 - 適用版本：PowerShell 7.6
 - 查閱日期：2026-10-24
-- 使用章節：19
+- 使用章節：19, 38
 - 用途：語言規則與原創範例設計
 
 <a id="source-about-throw"></a>
@@ -751,7 +751,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Export-Csv.md)
 - 適用版本：PowerShell 7.6
 - 查閱日期：2026-10-24
-- 使用章節：24
+- 使用章節：24, 38
 - 用途：第21–25章的參數、版本限制與原創範例查證
 
 <a id="source-import-csv"></a>
@@ -762,7 +762,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Import-Csv.md)
 - 適用版本：PowerShell 7.6
 - 查閱日期：2026-10-24
-- 使用章節：24
+- 使用章節：24, 38
 - 用途：第21–25章的參數、版本限制與原創範例查證
 
 <a id="source-convertto-json"></a>
@@ -1224,7 +1224,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Receive-Job.md)
 - 適用版本：PowerShell 7.6
 - 查閱日期：2026-10-24
-- 使用章節：31
+- 使用章節：31, 39
 - 用途：背景工作生命週期與平行處理
 
 <a id="source-jobs-wait-job"></a>
@@ -1246,7 +1246,7 @@
 - [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/ForEach-Object.md)
 - 適用版本：PowerShell 7.6
 - 查閱日期：2026-10-24
-- 使用章節：31
+- 使用章節：31, 39
 - 用途：背景工作生命週期與平行處理
 
 <a id="source-jobs-about_jobs"></a>
@@ -1369,3 +1369,597 @@
 - 查閱日期：2026-10-24
 - 使用章節：34
 - 用途：本章使用的參數、平台與認證語意查證
+
+<a id="source-v05-get-vm"></a>
+
+## Get-VM
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/Hyper-V/Get-VM.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：36
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-get-website"></a>
+
+## Get-Website
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/WebAdministration/Get-Website.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：36
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-docker-ps"></a>
+
+## docker-ps
+
+- 發布者：Docker
+- [原始網址](https://github.com/docker/cli/blob/6d274590f2f63276a54da8adf475a455d21c1fdd/docs/reference/commandline/ps.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：36
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-sql-module-readme"></a>
+
+## sql-module-readme
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/microsoft/SQLServerPSModule/blob/d36674326183187610f85719554e6a7f630b2db6/README.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：36
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-measure-command"></a>
+
+## Measure-Command
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Measure-Command.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：37
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-script-authoring-considerations"></a>
+
+## script-authoring-considerations
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/dev-cross-plat/performance/script-authoring-considerations.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：37
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-about_providers"></a>
+
+## about_Providers
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Providers.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：40
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-about_automatic_variables"></a>
+
+## about_Automatic_Variables
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Automatic_Variables.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：40
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-about_preference_variables"></a>
+
+## about_Preference_Variables
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Preference_Variables.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：40
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-about_quoting_rules"></a>
+
+## about_Quoting_Rules
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Quoting_Rules.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：40
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-about_special_characters"></a>
+
+## about_Special_Characters
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Special_Characters.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：40
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-about_scopes"></a>
+
+## about_Scopes
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Scopes.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：40
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-clear-content"></a>
+
+## Clear-Content
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Clear-Content.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-get-date"></a>
+
+## Get-Date
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Date.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-new-timespan"></a>
+
+## New-TimeSpan
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/New-TimeSpan.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-get-random"></a>
+
+## Get-Random
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Random.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-get-unique"></a>
+
+## Get-Unique
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Unique.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-group-object"></a>
+
+## Group-Object
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Group-Object.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-measure-object"></a>
+
+## Measure-Object
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Measure-Object.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-compare-object"></a>
+
+## Compare-Object
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Compare-Object.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-add-member"></a>
+
+## Add-Member
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Add-Member.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-tee-object"></a>
+
+## Tee-Object
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Tee-Object.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-write-output"></a>
+
+## Write-Output
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Output.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-write-error"></a>
+
+## Write-Error
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Error.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-write-warning"></a>
+
+## Write-Warning
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Warning.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-write-verbose"></a>
+
+## Write-Verbose
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Verbose.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-write-debug"></a>
+
+## Write-Debug
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Debug.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-write-information"></a>
+
+## Write-Information
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Information.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-out-string"></a>
+
+## Out-String
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Out-String.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-out-file"></a>
+
+## Out-File
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Out-File.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-out-null"></a>
+
+## Out-Null
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Out-Null.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-format-table"></a>
+
+## Format-Table
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Format-Table.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-format-list"></a>
+
+## Format-List
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Format-List.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-format-wide"></a>
+
+## Format-Wide
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Format-Wide.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-convertto-csv"></a>
+
+## ConvertTo-Csv
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertTo-Csv.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-convertfrom-csv"></a>
+
+## ConvertFrom-Csv
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-Csv.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-export-clixml"></a>
+
+## Export-Clixml
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Export-Clixml.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-import-clixml"></a>
+
+## Import-Clixml
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Import-Clixml.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-convertto-xml"></a>
+
+## ConvertTo-Xml
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertTo-Xml.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-get-culture"></a>
+
+## Get-Culture
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Culture.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-get-uiculture"></a>
+
+## Get-UICulture
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-UICulture.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-get-verb"></a>
+
+## Get-Verb
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Verb.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-get-host"></a>
+
+## Get-Host
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Host.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-read-host"></a>
+
+## Read-Host
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Read-Host.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-get-psdrive"></a>
+
+## Get-PSDrive
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-PSDrive.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-get-psprovider"></a>
+
+## Get-PSProvider
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-PSProvider.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-push-location"></a>
+
+## Push-Location
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Push-Location.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-pop-location"></a>
+
+## Pop-Location
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Pop-Location.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-resolve-path"></a>
+
+## Resolve-Path
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Resolve-Path.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-split-path"></a>
+
+## Split-Path
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Split-Path.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-get-module"></a>
+
+## Get-Module
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-Module.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-import-module"></a>
+
+## Import-Module
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Import-Module.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-remove-module"></a>
+
+## Remove-Module
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Remove-Module.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證
+
+<a id="source-v05-get-job"></a>
+
+## Get-Job
+
+- 發布者：Microsoft
+- [原始網址](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-Job.md)
+- 適用版本：固定快照；PowerShell文件7.6；產品支援另見章節
+- 查閱日期：2026-10-24
+- 使用章節：39
+- 用途：本章使用的語意、參數與限制查證

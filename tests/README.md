@@ -20,3 +20,5 @@ SystemManagement.Tests.ps1新增10個本機／合成資料通過案例，4個Win
 第31章新增 Jobs.Tests.ps1：引數、Keep、等待逾時與清理、非終止錯誤及平行排序。完整Pester目前57案例（52通過、5平台能力跳過）；verify_document_examples.py新增第31章六個已審閱區塊，現共34個。第31章個別輸出另見progress/chapter31-execution-results.json。
 
 v0.4：SecurityCloud.Tests.ps1新增6項本機契約測試；整套Pester63案例（58通過／5跳過），教材允許清單44區塊。python3 tests/verify_rest_http.py啟動暫時回送HTTP測試並關閉，驗證5項契約，不含正式TLS／OAuth／企業整合。
+
+v0.5：新增EnterpriseReport.Tests.ps1共13項契約／量測測試；整套Pester76案例（71通過／5跳過），教材允許清單59區塊。test_build.py另驗證第40章後不產生反向剩餘章數範圍。產品服務範本未列入執行清單。

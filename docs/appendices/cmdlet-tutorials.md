@@ -1871,3 +1871,12 @@ Get＝取得；CIM＝通用資訊模型；Instance＝類別的實例。
 - [Invoke-RestMethod](../chapters/33-rest-api.md#invoke-restmethod)
 - [Get-ADUser](../chapters/34-ad-microsoft365.md#get-aduser)
 - [Get-AzResource](../chapters/35-azure-exchange.md#get-azresource)
+
+## 第36–37章完整教學
+
+全書現在27項十四節教學，另有73項僅速查。
+
+- [Get-VM](../chapters/36-infrastructure-services.md#get-vm)
+- [Measure-Command](../chapters/37-performance-design.md#measure-command)
+
+第38章Get-LearningCsvReport是教材函式，未計入官方索引。

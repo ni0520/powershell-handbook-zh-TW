@@ -1,7 +1,7 @@
 {
-  "run_at_utc": "2026-10-24T11:37:36.4107927Z",
+  "run_at_utc": "2026-10-24T11:58:35.2788828Z",
   "powershell": "7.6.8",
-  "passed": 239,
+  "passed": 261,
   "failed": 0,
   "cases": [
     {
@@ -990,71 +990,6 @@
       "errors": []
     },
     {
-      "name": "docs/chapters/35-azure-exchange.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/35-azure-exchange.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/35-azure-exchange.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/35-azure-exchange.md:block-4",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/35-azure-exchange.md:block-5",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/35-azure-exchange.md:block-6",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/35-azure-exchange.md:block-7",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/34-ad-microsoft365.md:block-1",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/34-ad-microsoft365.md:block-2",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/34-ad-microsoft365.md:block-3",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/34-ad-microsoft365.md:block-4",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/34-ad-microsoft365.md:block-5",
-      "status": "passed",
-      "errors": []
-    },
-    {
-      "name": "docs/chapters/34-ad-microsoft365.md:block-6",
-      "status": "passed",
-      "errors": []
-    },
-    {
       "name": "docs/chapters/32-security.md:block-1",
       "status": "passed",
       "errors": []
@@ -1091,6 +1026,171 @@
     },
     {
       "name": "docs/chapters/33-rest-api.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/34-ad-microsoft365.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/34-ad-microsoft365.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/34-ad-microsoft365.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/34-ad-microsoft365.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/34-ad-microsoft365.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/34-ad-microsoft365.md:block-6",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/35-azure-exchange.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/35-azure-exchange.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/35-azure-exchange.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/35-azure-exchange.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/35-azure-exchange.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/35-azure-exchange.md:block-6",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/35-azure-exchange.md:block-7",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/40-reference-appendices.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/40-reference-appendices.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/40-reference-appendices.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/40-reference-appendices.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/36-infrastructure-services.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/36-infrastructure-services.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/36-infrastructure-services.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/36-infrastructure-services.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/36-infrastructure-services.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/36-infrastructure-services.md:block-6",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/36-infrastructure-services.md:block-7",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/37-performance-design.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/37-performance-design.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/37-performance-design.md:block-3",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/37-performance-design.md:block-4",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/37-performance-design.md:block-5",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/38-enterprise-report.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/39-command-index.md:block-1",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/39-command-index.md:block-2",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "name": "docs/chapters/39-command-index.md:block-3",
       "status": "passed",
       "errors": []
     },
@@ -1150,6 +1250,11 @@
       "errors": []
     },
     {
+      "name": "examples/38-enterprise-report/Get-LearningCsvReport.ps1",
+      "status": "passed",
+      "errors": []
+    },
+    {
       "name": "tests/DataFiles.Tests.ps1",
       "status": "passed",
       "errors": []
@@ -1165,6 +1270,11 @@
       "errors": []
     },
     {
+      "name": "tests/SecurityCloud.Tests.ps1",
+      "status": "passed",
+      "errors": []
+    },
+    {
       "name": "tests/SystemManagement.Tests.ps1",
       "status": "passed",
       "errors": []
@@ -1175,7 +1285,7 @@
       "errors": []
     },
     {
-      "name": "tests/SecurityCloud.Tests.ps1",
+      "name": "tests/EnterpriseReport.Tests.ps1",
       "status": "passed",
       "errors": []
     },

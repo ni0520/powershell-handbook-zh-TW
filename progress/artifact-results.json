@@ -1,5 +1,5 @@
 {
-  "run_at_utc": "2026-10-24T11:38:31.121519+00:00",
+  "run_at_utc": "2026-10-24T12:02:35.102879+00:00",
   "status": "passed",
   "checks": [
     {
@@ -14,81 +14,81 @@
       }
     },
     {
-      "name": "DOCX ZIP/XML/reopen/35 chapters/tables/fonts/hyperlinks",
+      "name": "DOCX ZIP/XML/reopen/40 chapters/tables/fonts/hyperlinks",
       "status": "passed",
-      "tables": 50,
-      "paragraphs": 5295
+      "tables": 64,
+      "paragraphs": 6433
     },
     {
-      "name": "PowerShell_學習手冊_2026_前35章初稿.pdf",
+      "name": "PowerShell_學習手冊_2026_前40章初稿.pdf",
       "status": "passed",
-      "pages": 313,
+      "pages": 375,
       "width_pt": 594.95996,
-      "extracted_characters": 226035,
+      "extracted_characters": 271870,
       "font_entries": 7
     },
     {
-      "name": "PowerShell_學習手冊_2026_前35章初稿_手機版.pdf",
+      "name": "PowerShell_學習手冊_2026_前40章初稿_手機版.pdf",
       "status": "passed",
-      "pages": 582,
+      "pages": 703,
       "width_pt": 298.07999,
-      "extracted_characters": 228742,
+      "extracted_characters": 275297,
       "font_entries": 7
     },
     {
       "name": "PowerShell_常用指令速查表_2026.pdf",
       "status": "passed",
-      "pages": 6,
+      "pages": 7,
       "width_pt": 594.95996,
-      "extracted_characters": 3416,
+      "extracted_characters": 3699,
       "font_entries": 4
     }
   ],
   "files": [
     {
       "name": "PowerShell_參考資料與來源_2026.md",
-      "bytes": 51703,
-      "sha256": "6a124fc4a2e47ea9ed23987cc2dfcf0419f889ebfc5a37ff3f135b01ff5d20ee"
+      "bytes": 75357,
+      "sha256": "56c4e75132c1632f5afa2ec5c802ec70ee8e606ab9af0a78173f534f62b3b92e"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前35章初稿.docx",
-      "bytes": 266200,
-      "sha256": "fe0060f4ad42fbbbae6f7eddeaef70e70547adf4c2194431a8996d37df76f3e3"
+      "name": "PowerShell_學習手冊_2026_前40章初稿.docx",
+      "bytes": 317473,
+      "sha256": "467ca0bb78d57543064c967d682cb4d8dd46ab3ba4c54152abc58538dd8aee25"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前35章初稿.html",
-      "bytes": 1838509,
-      "sha256": "47898bc2b9db06e32678f347ba367fee4985b3a12582f00fc33d036a3e936674"
+      "name": "PowerShell_學習手冊_2026_前40章初稿.html",
+      "bytes": 2065373,
+      "sha256": "34c73749b4437414cd5a93bc1266e2e978ea023d84ef40aab5692bbeb972c84e"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前35章初稿.md",
-      "bytes": 529077,
-      "sha256": "e273dc85d82e4e6423641a4b148b7f1757720f39f2af5c87b58b0ba92e7c0193"
+      "name": "PowerShell_學習手冊_2026_前40章初稿.md",
+      "bytes": 650134,
+      "sha256": "93bba02fed197c967dca8e8b5beb9393efba18fce34d43097e2c6edc7576d8c0"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前35章初稿.pdf",
-      "bytes": 6668460,
-      "sha256": "b6530a7f01392a471fbbab12e5f3bba4924aa78ee5ba33e2b4f71a6409b421e8"
+      "name": "PowerShell_學習手冊_2026_前40章初稿.pdf",
+      "bytes": 8010584,
+      "sha256": "67c3ddf46c3472d164bb30bd80f91d10b031c601185732e9d879681aae113fd6"
     },
     {
-      "name": "PowerShell_學習手冊_2026_前35章初稿_手機版.pdf",
-      "bytes": 7018697,
-      "sha256": "de7904c2a6fe52f543d7b72c8a242a29de69ea43f9d3769b9ece2df769fb00e4"
+      "name": "PowerShell_學習手冊_2026_前40章初稿_手機版.pdf",
+      "bytes": 8444291,
+      "sha256": "6d1def15d815554014dda8610becd46995101cb913beb0c40fde60f9a6af21f1"
     },
     {
       "name": "PowerShell_常用指令速查表_2026.html",
-      "bytes": 917814,
-      "sha256": "7d6d86f651dfdc13f6b7d1ad049392cf1ba5fb7ef51192c68d3b8f8a06214787"
+      "bytes": 946822,
+      "sha256": "d590847ce187483b0afd658dbef39787d81b8d28f986e42c7c0d1ad80ed38df5"
     },
     {
       "name": "PowerShell_常用指令速查表_2026.md",
-      "bytes": 6544,
-      "sha256": "30a1ec47c666efa6d4b13bb070fb7c654799018efed3e17a957afbd57abc50b8"
+      "bytes": 7159,
+      "sha256": "08fcfc34befce5e556a0fcd548ccf0171115e880af60cf7b5c6837622abb33a2"
     },
     {
       "name": "PowerShell_常用指令速查表_2026.pdf",
-      "bytes": 218504,
-      "sha256": "7d680c2e5778ce7f5c7d02b0839b06469b234d6bece078a4e6420f9fb12b6767"
+      "bytes": 234210,
+      "sha256": "e645ce84221fd0bb1f01e648add546d1a980a41e24b122a161432661ad23fa83"
     }
   ]
 }

@@ -15,7 +15,9 @@ def scope_text():
     tutorial_count = sum(entry['entry_type'] == 'tutorial' for entry in entries)
     counts = {name: len(json.loads((ROOT / f'data/{name}.json').read_text()))
               for name in ('glossary', 'parameter-index', 'sources')}
+    remaining = (f'第 {CHAPTER_COUNT+1}–{BOOK["planned_chapters"]} 章、'
+                 if CHAPTER_COUNT < BOOK['planned_chapters'] else '')
     return (f'本版是前 {CHAPTER_COUNT} 章初稿，含 {CHAPTER_COUNT * 20} 題與解答、'
             f'{len(entries)} 個命令索引（{tutorial_count} 個十四項教學、{len(entries)-tutorial_count} 個速查）、'
             f'{counts["glossary"]} 個術語、{counts["parameter-index"]} 個參數、{counts["sources"]} 筆技術來源。'
-            f'第 {CHAPTER_COUNT+1}–{BOOK["planned_chapters"]} 章、500+ 指令索引及企業案例尚未完成，並非全書定稿。')
+            f'{remaining}500+ 指令索引、附錄深度與企業驗證尚未完成，並非全書定稿。')

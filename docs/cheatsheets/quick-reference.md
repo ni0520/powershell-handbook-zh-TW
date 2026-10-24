@@ -140,3 +140,15 @@ try {
 | 雲端身分 | Connect-MgGraph | 租戶與權限另驗證；未實測 |
 | Azure盤點 | Get-AzResource | 核對Tenant／Subscription；未實測 |
 | Exchange | Get-EXOMailbox | 防止Identity擴大範圍；未實測 |
+
+## 第36–40章：服務、量測與報表
+
+| 需求 | 方法 | 限制 |
+|---|---|---|
+| 虛擬機 | Hyper-V的Get-VM | 先驗模組與主機；本環境未執行 |
+| 容器 | docker container ls | 原生程式；核對context與退出碼 |
+| 網站 | Get-Website | 設定狀態不等於HTTP健康 |
+| 耗時 | Measure-Command | 真正執行區塊；用TotalMilliseconds |
+| 報表案例 | Get-LearningCsvReport | 教材函式；先驗全批再輸出 |
+| 索引 | Get-Command與本版JSON | 100命令不等於500+達標 |
+| 附錄 | Verb／Alias／Provider | 實際環境與版本另驗證 |

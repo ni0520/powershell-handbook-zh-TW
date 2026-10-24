@@ -610,5 +610,125 @@
     "version": "本版7.6文件；依命令參數組",
     "platform": "依命令；Windows專用功能未實測",
     "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-v05-expression",
+    "name": "-Expression",
+    "chinese": "量測區塊",
+    "description": "Measure-Command會實際執行區塊，需限制副作用。",
+    "kind": "specific",
+    "commands": [
+      "Measure-Command"
+    ],
+    "chapter": "docs/chapters/37-performance-design.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Measure-Command.md",
+    "version": "依命令及引用快照",
+    "platform": "依命令與服務",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-v05-keep",
+    "name": "-Keep",
+    "chinese": "保留接收資料",
+    "description": "Receive-Job保留彙總串流，便於再次接收。",
+    "kind": "specific",
+    "commands": [
+      "Receive-Job"
+    ],
+    "chapter": "docs/chapters/39-command-index.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Receive-Job.md",
+    "version": "依命令及引用快照",
+    "platform": "依命令與服務",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-v05-timeout",
+    "name": "-Timeout",
+    "chinese": "等待逾時",
+    "description": "Wait-Job等待秒數上限；逾時不自動停止工作。",
+    "kind": "specific",
+    "commands": [
+      "Wait-Job"
+    ],
+    "chapter": "docs/chapters/39-command-index.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Wait-Job.md",
+    "version": "依命令及引用快照",
+    "platform": "依命令與服務",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-v05-computername",
+    "name": "-ComputerName",
+    "chinese": "目標主機",
+    "description": "不同命令有不同遠端機制與預設；Get-VM未指定時為本機。",
+    "kind": "specific",
+    "commands": [
+      "Get-VM"
+    ],
+    "chapter": "docs/chapters/36-infrastructure-services.md",
+    "official_source": "https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/Hyper-V/Get-VM.md",
+    "version": "依命令及引用快照",
+    "platform": "依命令與服務",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-v05-resourcegroupname",
+    "name": "-ResourceGroupName",
+    "chinese": "資源群組名稱",
+    "description": "限定Azure資源查詢；驗證萬用字元與目前情境。",
+    "kind": "specific",
+    "commands": [
+      "Get-AzResource"
+    ],
+    "chapter": "docs/chapters/35-azure-exchange.md",
+    "official_source": "https://github.com/Azure/azure-powershell/blob/d316163acc7852f89f81a4ca332dc82f65e13b68/src/Resources/Resources/help/Get-AzResource.md",
+    "version": "依命令及引用快照",
+    "platform": "依命令與服務",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-v05-method",
+    "name": "-Method",
+    "chinese": "HTTP方法",
+    "description": "選擇GET／POST等方法；實際副作用依服務契約。",
+    "kind": "specific",
+    "commands": [
+      "Invoke-RestMethod"
+    ],
+    "chapter": "docs/chapters/33-rest-api.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Invoke-RestMethod.md",
+    "version": "依命令及引用快照",
+    "platform": "依命令與服務",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-v05-contenttype",
+    "name": "-ContentType",
+    "chinese": "內容型別",
+    "description": "宣告HTTP本文型別，不會替任意本文自動修正格式。",
+    "kind": "specific",
+    "commands": [
+      "Invoke-RestMethod"
+    ],
+    "chapter": "docs/chapters/33-rest-api.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Invoke-RestMethod.md",
+    "version": "依命令及引用快照",
+    "platform": "依命令與服務",
+    "verified_at": "2026-10-24"
+  },
+  {
+    "id": "parameter-v05-statuscodevariable",
+    "name": "-StatusCodeVariable",
+    "chinese": "狀態碼變數",
+    "description": "保存HTTP狀態碼，仍須驗收本文與業務狀態。",
+    "kind": "specific",
+    "commands": [
+      "Invoke-RestMethod"
+    ],
+    "chapter": "docs/chapters/33-rest-api.md",
+    "official_source": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Invoke-RestMethod.md",
+    "version": "依命令及引用快照",
+    "platform": "依命令與服務",
+    "verified_at": "2026-10-24"
   }
 ]

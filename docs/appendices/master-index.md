@@ -4,7 +4,7 @@
 
 [返回目錄](../README.md)
 
-本版54個命令索引：25個十四項教學、29個速查。500+仍是未完成目標；索引不代表全部平台已測。
+本版100個命令索引：27個十四項教學、73個速查。500+仍是未完成目標；索引不代表全部平台已測。
 
 ## 依英文名稱
 
@@ -371,3 +371,52 @@
 ## Get-AzResource（取得Azure資源）
 
 [十四項教學](../../docs/chapters/35-azure-exchange.md#get-azresource)；模組Az.Resources；[官方來源](https://github.com/Azure/azure-powershell/blob/d316163acc7852f89f81a4ca332dc82f65e13b68/src/Resources/Resources/help/Get-AzResource.md)。企業操作未實測；本機驗證見章節。
+
+## 第36–40章索引增量
+
+- [Get-VM（取得Hyper-V虛擬機）](../../docs/chapters/36-infrastructure-services.md#get-vm)：查詢核准Hyper-V主機的虛擬機，保留主機與VMId。
+- [Measure-Command（量測命令時間）](../../docs/chapters/37-performance-design.md#measure-command)：執行區塊並量測時間；真實執行且不代表完整效能剖析。
+- [Clear-Content（清空內容）](../../docs/appendices/cmdlet-quick-index.md#clear-content)：保留檔案項目但清除內容；可能破壞資料，先備份並確認提供者。
+- [Get-Date（取得日期）](../../docs/appendices/cmdlet-quick-index.md#get-date)：產生日期時間或格式字串；區分本機時間、UTC與固定格式。
+- [New-TimeSpan（建立時間間隔）](../../docs/appendices/cmdlet-quick-index.md#new-timespan)：由起迄時間或分量建立TimeSpan；總量與分量不同。
+- [Get-Random（取得隨機值）](../../docs/appendices/cmdlet-quick-index.md#get-random)：抽樣或產生隨機數；不把一般隨機抽樣當秘密產生方案。
+- [Get-Unique（取得相鄰唯一值）](../../docs/appendices/cmdlet-quick-index.md#get-unique)：從已排序清單移除相鄰重複；先理解排序與比較規則。
+- [Group-Object（物件分組）](../../docs/appendices/cmdlet-quick-index.md#group-object)：依屬性分組並取得數量；分組結果不是原始資料列。
+- [Measure-Object（物件統計）](../../docs/appendices/cmdlet-quick-index.md#measure-object)：計算數量與數值摘要；缺值與型別需先驗證。
+- [Compare-Object（比較物件）](../../docs/appendices/cmdlet-quick-index.md#compare-object)：比較兩組資料的差異；順序與型別契約需額外驗收。
+- [ForEach-Object（逐一處理物件）](../../docs/appendices/cmdlet-quick-index.md#foreach-object)：依管線項目執行區塊；Parallel參數組需要PowerShell7。
+- [Add-Member（加入物件成員）](../../docs/appendices/cmdlet-quick-index.md#add-member)：向物件加入延伸屬性等成員；不等於修改遠端管理實體。
+- [Tee-Object（分流物件）](../../docs/appendices/cmdlet-quick-index.md#tee-object)：保存到檔案或變數並繼續輸出；檔案內容與編碼需確認。
+- [Write-Output（輸出成功資料）](../../docs/appendices/cmdlet-quick-index.md#write-output)：將物件寫入成功串流；不要混入操作日誌。
+- [Write-Error（輸出錯誤）](../../docs/appendices/cmdlet-quick-index.md#write-error)：寫入錯誤串流；預設非終止行為需與ErrorAction一起理解。
+- [Write-Warning（輸出警告）](../../docs/appendices/cmdlet-quick-index.md#write-warning)：寫入警告串流；警告不自動等於程序失敗。
+- [Write-Verbose（輸出詳細訊息）](../../docs/appendices/cmdlet-quick-index.md#write-verbose)：寫入詳細串流；由Verbose設定控制可見性，勿包含秘密。
+- [Write-Debug（輸出偵錯訊息）](../../docs/appendices/cmdlet-quick-index.md#write-debug)：寫入偵錯串流；依Debug設定可能改變互動行為。
+- [Write-Information（輸出資訊訊息）](../../docs/appendices/cmdlet-quick-index.md#write-information)：寫入資訊串流並可附標籤；避免把資訊當業務結果。
+- [Out-String（轉成顯示字串）](../../docs/appendices/cmdlet-quick-index.md#out-string)：將格式化結果轉成文字；不保留原始物件結構。
+- [Out-File（輸出文字檔）](../../docs/appendices/cmdlet-quick-index.md#out-file)：將格式化文字寫到檔案；檢查覆寫、編碼與Width。
+- [Out-Null（捨棄成功輸出）](../../docs/appendices/cmdlet-quick-index.md#out-null)：捨棄成功串流物件；不代表錯誤已處理。
+- [Format-Table（表格顯示）](../../docs/appendices/cmdlet-quick-index.md#format-table)：產生表格格式指令；不放在CSV資料匯出的前面。
+- [Format-List（清單顯示）](../../docs/appendices/cmdlet-quick-index.md#format-list)：以清單格式顯示屬性；不是資料投影的替代品。
+- [Format-Wide（寬欄顯示）](../../docs/appendices/cmdlet-quick-index.md#format-wide)：以寬欄顯示選定屬性；適用畫面閱讀而非資料交換。
+- [ConvertTo-Csv（轉換CSV文字）](../../docs/appendices/cmdlet-quick-index.md#convertto-csv)：將物件轉為CSV字串；與Export-Csv直接寫檔不同。
+- [ConvertFrom-Csv（解析CSV文字）](../../docs/appendices/cmdlet-quick-index.md#convertfrom-csv)：將CSV字串轉成物件；欄位值仍需按契約轉型。
+- [Export-Clixml（匯出CLI XML）](../../docs/appendices/cmdlet-quick-index.md#export-clixml)：以CLI XML格式序列化物件；憑證加密限Windows，非Windows不以此保護秘密。
+- [Import-Clixml（匯入CLI XML）](../../docs/appendices/cmdlet-quick-index.md#import-clixml)：重建序列化資料；複雜型別不保證保有原始方法。
+- [ConvertTo-Xml（轉成XML表示）](../../docs/appendices/cmdlet-quick-index.md#convertto-xml)：建立物件的XML表示；不等同任意業務XML結構。
+- [Get-Culture（取得文化設定）](../../docs/appendices/cmdlet-quick-index.md#get-culture)：讀取目前文化資訊；數值與日期解析需明確契約。
+- [Get-UICulture（取得介面文化）](../../docs/appendices/cmdlet-quick-index.md#get-uiculture)：讀取介面語言文化；與資料格式文化分開理解。
+- [Get-Verb（取得核准動詞）](../../docs/appendices/cmdlet-quick-index.md#get-verb)：列出核准PowerShell動詞；名稱中的其他字不一定核准。
+- [Get-Host（取得主機資訊）](../../docs/appendices/cmdlet-quick-index.md#get-host)：讀取PowerShell主機資訊；主機版本不等於所有模組版本。
+- [Read-Host（讀取互動輸入）](../../docs/appendices/cmdlet-quick-index.md#read-host)：從終端機讀取文字或安全字串；不適合直接放入無人值守排程。
+- [Get-PSDrive（取得磁碟對應）](../../docs/appendices/cmdlet-quick-index.md#get-psdrive)：列出目前工作階段的提供者磁碟；不限實體磁碟。
+- [Get-PSProvider（取得提供者）](../../docs/appendices/cmdlet-quick-index.md#get-psprovider)：列出提供者能力；命令存在不代表Registry提供者存在。
+- [Push-Location（推入位置堆疊）](../../docs/appendices/cmdlet-quick-index.md#push-location)：保存目前位置並切換；搭配Pop-Location與finally恢復。
+- [Pop-Location（彈出位置堆疊）](../../docs/appendices/cmdlet-quick-index.md#pop-location)：回到先前保存的位置；確認使用的堆疊與作用範圍。
+- [Resolve-Path（解析存在路徑）](../../docs/appendices/cmdlet-quick-index.md#resolve-path)：將存在的提供者路徑解析為完整形式；不是任意目標的安全驗證器。
+- [Split-Path（拆分路徑）](../../docs/appendices/cmdlet-quick-index.md#split-path)：取得父路徑、葉節點等部分；不等於驗證檔案存在。
+- [Get-Module（取得模組資訊）](../../docs/appendices/cmdlet-quick-index.md#get-module)：區分已載入與ListAvailable可用模組；不等於命令已測。
+- [Import-Module（匯入模組）](../../docs/appendices/cmdlet-quick-index.md#import-module)：把模組命令載入工作階段；可能執行模組初始化程式。
+- [Remove-Module（移除已載入模組）](../../docs/appendices/cmdlet-quick-index.md#remove-module)：從工作階段移除模組；不卸載磁碟上的套件。
+- [Get-Job（取得工作）](../../docs/appendices/cmdlet-quick-index.md#get-job)：查詢目前工作階段背景工作；不代表全系統排程。
+- [Receive-Job（接收工作結果）](../../docs/appendices/cmdlet-quick-index.md#receive-job)：接收彙總串流；需要重讀時使用Keep或先存變數。

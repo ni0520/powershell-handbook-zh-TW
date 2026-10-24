@@ -1,11 +1,11 @@
 {
-  "run_at_utc": "2026-10-24T11:34:18.0144723Z",
+  "run_at_utc": "2026-10-24T11:57:09.5791787Z",
   "powershell": "7.6.8",
   "os": "Debian GNU/Linux 13 (trixie)",
   "pester": "5.7.1",
   "result": "Passed",
-  "total": 63,
-  "passed": 58,
+  "total": 76,
+  "passed": 71,
   "failed": 0,
   "skipped": 5,
   "tests": [
@@ -161,6 +161,71 @@
     },
     {
       "name": "第25章：壓縮與還原驗收.被修改的還原檔不會通過雜湊核對",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第38章完整報表契約.decimal金額正確且來源內容不變",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第38章完整報表契約.門檻可以產生合法零筆",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第38章完整報表契約.相同輸入重跑結果相同且沒有格式物件",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第38章完整報表契約.只有標頭的輸入拒絕",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第38章完整報表契約.缺欄位拒絕",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第38章完整報表契約.負數數量拒絕",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第38章完整報表契約.小數數量拒絕而非自動四捨五入",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第38章完整報表契約.金額公式字串拒絕",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第38章完整報表契約.重複Id拒絕",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第38章完整報表契約.後段錯誤不洩出前段部分成功資料",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第38章完整報表契約.非本機小數文化仍依不變文化解析",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第37章量測結果不是速度承諾.總毫秒與分量不同",
+      "result": "Passed",
+      "error": ""
+    },
+    {
+      "name": "第37章量測結果不是速度承諾.量測前先驗證計算結果",
       "result": "Passed",
       "error": ""
     },

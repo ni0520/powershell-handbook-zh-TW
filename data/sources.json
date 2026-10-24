@@ -266,7 +266,8 @@
     "version": "PowerShell 7.6；歷史版本依原文",
     "accessed_at": "2026-10-24",
     "chapters": [
-      7
+      7,
+      40
     ],
     "purpose": "技術事實、平台與版本查證",
     "sha256": "7c82c082ea8dbb8e42e5cf432b8b924129d97b6392b8ba0dab6d787b42f7ac17",
@@ -356,7 +357,8 @@
     "version": "PowerShell 7.6；歷史版本依原文",
     "accessed_at": "2026-10-24",
     "chapters": [
-      10
+      10,
+      40
     ],
     "purpose": "技術事實、平台與版本查證",
     "sha256": "25012839a115ae9afa08864be6bc5640bcb55a4c974db84d9c68641b2d87a0a2",
@@ -371,7 +373,8 @@
     "version": "PowerShell 7.6；歷史版本依原文",
     "accessed_at": "2026-10-24",
     "chapters": [
-      6
+      6,
+      40
     ],
     "purpose": "技術事實、平台與版本查證",
     "sha256": "3bc2b7c7c915a034ccd351c88b3d26a2f286ac9504861f96860473bcaf0fd9ae",
@@ -402,7 +405,8 @@
     "version": "PowerShell 7.6；歷史版本依原文",
     "accessed_at": "2026-10-24",
     "chapters": [
-      7
+      7,
+      39
     ],
     "purpose": "技術事實、平台與版本查證",
     "sha256": "5060c5030ff02640af0a20967450d6fc2dbb9e35ac05efbcb387ea235c6d26a9",
@@ -417,7 +421,8 @@
     "version": "PowerShell 7.6；歷史版本依原文",
     "accessed_at": "2026-10-24",
     "chapters": [
-      6
+      6,
+      39
     ],
     "purpose": "技術事實、平台與版本查證",
     "sha256": "15d8a0b970d464e1c7a048b6de168513adca643c23e314816ff5941209e433ee",
@@ -748,7 +753,8 @@
     "version": "PowerShell 7.6",
     "accessed_at": "2026-10-24",
     "chapters": [
-      18
+      18,
+      40
     ],
     "purpose": "語言規則與原創範例設計",
     "sha256": "77ebc6773c4787926e73e8915e358f8e97e6e269e1e5a4b211d01e7ed8288f80",
@@ -762,7 +768,8 @@
     "version": "PowerShell 7.6",
     "accessed_at": "2026-10-24",
     "chapters": [
-      19
+      19,
+      38
     ],
     "purpose": "語言規則與原創範例設計",
     "sha256": "7c43f8b29303995ce2fb402830a64c3b7923fd134ca943b82005e4e9d446d059",
@@ -998,7 +1005,8 @@
     "version": "PowerShell 7.6",
     "accessed_at": "2026-10-24",
     "chapters": [
-      24
+      24,
+      38
     ],
     "purpose": "第21–25章的參數、版本限制與原創範例查證",
     "sha256": "c7d1706344485a6cb0863200c79367bdfca17cda71179b2b7f783fd3485a5d99",
@@ -1013,7 +1021,8 @@
     "version": "PowerShell 7.6",
     "accessed_at": "2026-10-24",
     "chapters": [
-      24
+      24,
+      38
     ],
     "purpose": "第21–25章的參數、版本限制與原創範例查證",
     "sha256": "a2540d195f5a527b73d1cdac22a9e9b575f401335cc6834838a84d7c1ed4348f",
@@ -1646,7 +1655,8 @@
     "version": "PowerShell 7.6",
     "accessed_at": "2026-10-24",
     "chapters": [
-      31
+      31,
+      39
     ],
     "purpose": "背景工作生命週期與平行處理",
     "sha256": "6bba6ed91778dd22792aafce47aa17b8754517d6968a50a97a255a3e47c4c2cf",
@@ -1676,7 +1686,8 @@
     "version": "PowerShell 7.6",
     "accessed_at": "2026-10-24",
     "chapters": [
-      31
+      31,
+      39
     ],
     "purpose": "背景工作生命週期與平行處理",
     "sha256": "d2c0c4b8642c2633545035aaa5648087f111eb5c29cbfcd4fbd6dad45777446f",
@@ -1847,5 +1858,815 @@
     "sha256": "7a9bb28c8a1316f0e56df48cb744d36c8cd8ce9262c7577dfbc3ea65ed3ac74a",
     "local_reference": "docs/authentication.md",
     "review_status": "已查讀教材使用部分；企業環境未執行"
+  },
+  {
+    "id": "v05-get-vm",
+    "title": "Get-VM",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/Hyper-V/Get-VM.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      36
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "6b84497ec48f1132e8d4aef85b7397548d7a363a6af932f4d398d5862d71a9a1",
+    "local_reference": "docset/winserver2025-ps/Hyper-V/Get-VM.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-get-website",
+    "title": "Get-Website",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/WebAdministration/Get-Website.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      36
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "92a85300a5139939b281bb96c34a1bc048cedc13e6632218b2dff7d70cffd225",
+    "local_reference": "docset/winserver2025-ps/WebAdministration/Get-Website.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-docker-ps",
+    "title": "docker-ps",
+    "publisher": "Docker",
+    "url": "https://github.com/docker/cli/blob/6d274590f2f63276a54da8adf475a455d21c1fdd/docs/reference/commandline/ps.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      36
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "3d8e4d75dd657f685657c12f867b85e2043a0c3b92c553e384c823bd5b18398e",
+    "local_reference": "docs/reference/commandline/ps.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-sql-module-readme",
+    "title": "sql-module-readme",
+    "publisher": "Microsoft",
+    "url": "https://github.com/microsoft/SQLServerPSModule/blob/d36674326183187610f85719554e6a7f630b2db6/README.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      36
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "22535adeee339ff56305a8ce7dba77c092231a8d28e3a2ebd1b7d5afe5ba8f55",
+    "local_reference": "README.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-measure-command",
+    "title": "Measure-Command",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Measure-Command.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      37
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "aba0fd6b8dcd1fc1bbbd7c8f80842632c07f1067e917a7c5fbdb1230c801af80",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Measure-Command.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-script-authoring-considerations",
+    "title": "script-authoring-considerations",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/docs-conceptual/dev-cross-plat/performance/script-authoring-considerations.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      37
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "4f982230c48701dd93d27423088672149e8153282bb732650413224ae23cd5b0",
+    "local_reference": "reference/docs-conceptual/dev-cross-plat/performance/script-authoring-considerations.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-about_providers",
+    "title": "about_Providers",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Providers.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      40
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "35ee4a3e4c719ca49a4deeab4b8323347dc5ef99b3ca6a33bc75379861c08278",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Providers.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-about_automatic_variables",
+    "title": "about_Automatic_Variables",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Automatic_Variables.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      40
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "bb4d54c7cf42f66cf84684109b3f5d550bcff3faf48d04b586d8b421da19c712",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Automatic_Variables.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-about_preference_variables",
+    "title": "about_Preference_Variables",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Preference_Variables.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      40
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "a3cabed7045addf84f5a053701f93e50107ac12d877db6a3dc00f8c67f514d72",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Preference_Variables.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-about_quoting_rules",
+    "title": "about_Quoting_Rules",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Quoting_Rules.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      40
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "ad3d717992272d60bd01ef99f5fc8da74ed41b7a221677fa35815ad21dce0cca",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Quoting_Rules.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-about_special_characters",
+    "title": "about_Special_Characters",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Special_Characters.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      40
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "9c1b4e9e96e202ee20ab17d2cb43e5abd2846e531bbf76febf6b02331bc8dacc",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Special_Characters.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-about_scopes",
+    "title": "about_Scopes",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/About/about_Scopes.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      40
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "c40bfdcd6ff82a490f6aad2ea3d1b7ac752056f5e68c3e684202727e85ab1eda",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/About/about_Scopes.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-clear-content",
+    "title": "Clear-Content",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Clear-Content.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "253aa2911d3c926b235a61f4e8e05d3bef42c4b179a4b03174a745c5781fe9b9",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Clear-Content.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-get-date",
+    "title": "Get-Date",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Date.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "63e9e6c3eb8b02a8e35b1a1c719b6c44c98803ad6f4ad07f5fdd6e86947cad9f",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-Date.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-new-timespan",
+    "title": "New-TimeSpan",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/New-TimeSpan.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "0f0baafabffbabaf40f825098792be30be84aba7cb115f68152eac95f962929d",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/New-TimeSpan.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-get-random",
+    "title": "Get-Random",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Random.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "49e9bfb0cbf37578316537906c60e97e96be4da9368607928d1bcb4cb0942e32",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-Random.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-get-unique",
+    "title": "Get-Unique",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Unique.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "6425c3faa87a5011284424d57492cc10a84a398ca331561abb2d9a704fe2a092",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-Unique.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-group-object",
+    "title": "Group-Object",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Group-Object.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "6e2dccd547d93e203ab75895ea0070bf05ffbc3b5b072de305112904426f88e9",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Group-Object.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-measure-object",
+    "title": "Measure-Object",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Measure-Object.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "1038a67c9401b75980857949a75bae8987d29147cb87051a9079721f1c30c86c",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Measure-Object.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-compare-object",
+    "title": "Compare-Object",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Compare-Object.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "f0f9caddadb904e7b7fe17d98388327675559c53308fcb35b7513293ddff5c10",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Compare-Object.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-add-member",
+    "title": "Add-Member",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Add-Member.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "1e00659461b829df49355b470b3416fe2539cfd01a783dd60b78924c7a5aa155",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Add-Member.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-tee-object",
+    "title": "Tee-Object",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Tee-Object.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "2583130ce896c572f45aa633211018713a2fbd32651b6567d453dd8c00e21ed9",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Tee-Object.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-write-output",
+    "title": "Write-Output",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Output.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "ee4045616051602a86d636268f014438c1c1246f837170a5a423bacb107aabbd",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Write-Output.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-write-error",
+    "title": "Write-Error",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Error.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "38b51579e6a3beaa8aef24e115bba64a8af5ec87fe1f17e818cb577f1687baa6",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Write-Error.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-write-warning",
+    "title": "Write-Warning",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Warning.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "829def35e4295de1fceb0046517876f498c6d857964b044013b78d86be7043d0",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Write-Warning.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-write-verbose",
+    "title": "Write-Verbose",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Verbose.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "224eb7eb32cfd9857a82937254879b3f6a4ae62753e002b98d4b38d2a318aa03",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Write-Verbose.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-write-debug",
+    "title": "Write-Debug",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Debug.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "bfa44e4b49ebc5650f30faee62dce86cf956140a55a6dc680f23931571b168e0",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Write-Debug.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-write-information",
+    "title": "Write-Information",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Write-Information.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "7c60968a4a8d05790c79c2a664064b975b20472b3aa14322697ce31167ab9122",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Write-Information.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-out-string",
+    "title": "Out-String",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Out-String.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "4052972874b044c9ffc27000ddcb1230c7cf4a7acbffde1d3d13279359f11e9a",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Out-String.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-out-file",
+    "title": "Out-File",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Out-File.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "d2977107c77ab905b3b19892d23002533f693c6fdb8098e41b63f92e7e614cb5",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Out-File.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-out-null",
+    "title": "Out-Null",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Out-Null.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "1f8fd4caaaa242331bbe9c8a054ffd6e49db5b67efb3f3c2d8b49e79adc6d933",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Out-Null.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-format-table",
+    "title": "Format-Table",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Format-Table.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "5c9624591cac66c1354b1d27eb4898b69e8a4167687ce254d8674892ff3f5d47",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Format-Table.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-format-list",
+    "title": "Format-List",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Format-List.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "1851d0063f17e6b322de37c34586c97edb563d59487f0f96ee1c32f016e371c0",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Format-List.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-format-wide",
+    "title": "Format-Wide",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Format-Wide.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "526a63e363ad4da5e19d70357f0b7ff981e3de61f5946aae78e94f14429f72d1",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Format-Wide.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-convertto-csv",
+    "title": "ConvertTo-Csv",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertTo-Csv.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "c59b072ed284749b8added3d8d79f57f2608efc3698a445a3c2510b627c10819",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/ConvertTo-Csv.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-convertfrom-csv",
+    "title": "ConvertFrom-Csv",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-Csv.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "deccc029b6b1f5f14a54db8d9c5c8b487d134532b18a46f2d093f1082a8ca02d",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/ConvertFrom-Csv.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-export-clixml",
+    "title": "Export-Clixml",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Export-Clixml.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "db6fb1cf63dcc0454d51fa738b730329e52eca4385fe372593b05250cb61788b",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Export-Clixml.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-import-clixml",
+    "title": "Import-Clixml",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Import-Clixml.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "10f2c75f6a5e46e167d7391e065e41b1184477d7b393dfeeecb88d7e30bfbc84",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Import-Clixml.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-convertto-xml",
+    "title": "ConvertTo-Xml",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/ConvertTo-Xml.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "7803f3c5310024ca055a0e5d46013d941c26ac03f82c161ffa08a0fcac0391d1",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/ConvertTo-Xml.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-get-culture",
+    "title": "Get-Culture",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Culture.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "c29d5a04d5825369cfa8c9f0272a080b08654213d0ac61a5ae3f55fa6d4c9718",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-Culture.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-get-uiculture",
+    "title": "Get-UICulture",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-UICulture.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "fefc45345aa01726e85eb02a0b914a0b9636b5bf395eeea808ada410304f86a5",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-UICulture.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-get-verb",
+    "title": "Get-Verb",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Verb.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "b551d4e2e44b3d784f69c7512e155fe0c0543d75a50295537200347586109f62",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-Verb.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-get-host",
+    "title": "Get-Host",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Get-Host.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "6e754805b64158e158cb3d2c9204b52ce5f1a263bfcfc30d699178ad55fafded",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Get-Host.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-read-host",
+    "title": "Read-Host",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Read-Host.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "c213269b0564293986440f7c703c51f184bbd0e006766568816206c8e7252e3d",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Utility/Read-Host.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-get-psdrive",
+    "title": "Get-PSDrive",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-PSDrive.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "8b03606759e84fa900efcddad5d8c9936ddb88349523c9a44ecdc346a270eeb4",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Get-PSDrive.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-get-psprovider",
+    "title": "Get-PSProvider",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Get-PSProvider.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "8c2417189473916574ef38fd3799aefce80e6d0cd9feca2d515d0eef541ad351",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Get-PSProvider.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-push-location",
+    "title": "Push-Location",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Push-Location.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "a7118942da62875b123cbf6ae207eb67e0c827812832c7d5445e587bda4a3e5a",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Push-Location.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-pop-location",
+    "title": "Pop-Location",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Pop-Location.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "15fc0f0ac53e57b6b57dd25a965a7845e1b831210e06f0c77b538f241d402e10",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Pop-Location.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-resolve-path",
+    "title": "Resolve-Path",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Resolve-Path.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "170fa57e44c4eada586baf54e5ce835370c60c7d218189dd86427abf72da3517",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Resolve-Path.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-split-path",
+    "title": "Split-Path",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Management/Split-Path.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "4238d0214ecef62cc8c6957d62cde4e6d85a5ee7a2bee49bced1592bfa1ca6ac",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Management/Split-Path.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-get-module",
+    "title": "Get-Module",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-Module.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "a1a02fd099596e40cc63cdf279a77c4135abdea8736c8e559ff4175a30f8b481",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Get-Module.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-import-module",
+    "title": "Import-Module",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Import-Module.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "57d7fdf66e45288bb1b4b8746ace89c20f76aa10a1de946858da5fa085a63429",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Import-Module.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-remove-module",
+    "title": "Remove-Module",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Remove-Module.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "ef3081c42ba021ead6adc97bbb7644009e1e0667584daa9b7804ff9e1a349bd1",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Remove-Module.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
+  },
+  {
+    "id": "v05-get-job",
+    "title": "Get-Job",
+    "publisher": "Microsoft",
+    "url": "https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Get-Job.md",
+    "version": "固定快照；PowerShell文件7.6；產品支援另見章節",
+    "accessed_at": "2026-10-24",
+    "chapters": [
+      39
+    ],
+    "purpose": "本章使用的語意、參數與限制查證",
+    "sha256": "aa732aee79a75a42bf54c8a3ea33ad8303059f9653c956640c1a5b001a57a061",
+    "local_reference": "reference/7.6/Microsoft.PowerShell.Core/Get-Job.md",
+    "review_status": "已查讀教材使用段落；非全文／全平台驗證"
   }
 ]

@@ -2,11 +2,11 @@
 
 # 閱讀目錄
 
-**2026 版 v0.4：前 35 章初稿，並非完整 40 章教材。**
+**2026 版 v0.5：40 章初稿，500+索引與附錄擴充未完成，並非全書定稿。**
 
 建立及更新：2026-10-24（Asia/Taipei）。實測基準：PowerShell 7.6.8 / Debian 13 x64。
 
-原創繁體中文教學、700 題練習與解答、54 個命令索引（25 個詳解、29 個速查）、62 個術語、40 個參數。未完成範圍見進度紀錄；500+ 指令索引仍是目標。
+原創繁體中文教學、800 題練習與解答、100 個命令索引（27 個詳解、73 個速查）、74 個術語、48 個參數。未完成範圍見進度紀錄；500+ 指令索引仍是目標。
 
 ## 章節
 
@@ -49,6 +49,12 @@
 - [第33章：REST API與網路服務](chapters/33-rest-api.md)
 - [第34章：Active Directory與Microsoft 365](chapters/34-ad-microsoft365.md)
 - [第35章：Azure、Exchange與雲端管理](chapters/35-azure-exchange.md)
+
+- [第36章：Hyper-V、Docker、IIS與SQL Server](chapters/36-infrastructure-services.md)
+- [第37章：效能量測與程式碼設計](chapters/37-performance-design.md)
+- [第38章：企業CSV報表案例](chapters/38-enterprise-report.md)
+- [第39章：命令索引與500+擴充進度](chapters/39-command-index.md)
+- [第40章：術語、參數、版本與附錄](chapters/40-reference-appendices.md)
 
 ## 附錄與查詢
 

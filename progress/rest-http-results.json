@@ -1,5 +1,5 @@
 {
-  "run_at_utc": "2026-10-24T11:34:42.388653+00:00",
+  "run_at_utc": "2026-10-24T11:58:35.795831+00:00",
   "scope": "ephemeral loopback HTTP only; no TLS/OAuth/enterprise validation",
   "exit_code": 0,
   "stdout": "[\n  \"GET status 200\",\n  \"GET required id and zero count\",\n  \"GET UTF-8\",\n  \"404 is failure, not empty success\",\n  \"POST UTF-8 JSON and boolean roundtrip\"\n]\n",

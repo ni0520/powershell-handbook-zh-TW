@@ -325,3 +325,67 @@
 類型：命令專屬參數。例如Win32_OperatingSystem；類別與命名空間依目標提供者。
 
 適用：Get-CimInstance。版本：本版7.6文件；依命令參數組。[對應章節](../../docs/chapters/30-cim-remote-management.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/CimCmdlets/Get-CimInstance.md)，查閱 2026-10-24。
+
+<a id="parameter-v05-expression"></a>
+
+## -Expression（量測區塊）
+
+類型：命令專屬參數。Measure-Command會實際執行區塊，需限制副作用。
+
+適用：Measure-Command。版本：依命令及引用快照。[對應章節](../../docs/chapters/37-performance-design.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Measure-Command.md)，查閱 2026-10-24。
+
+<a id="parameter-v05-keep"></a>
+
+## -Keep（保留接收資料）
+
+類型：命令專屬參數。Receive-Job保留彙總串流，便於再次接收。
+
+適用：Receive-Job。版本：依命令及引用快照。[對應章節](../../docs/chapters/39-command-index.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Receive-Job.md)，查閱 2026-10-24。
+
+<a id="parameter-v05-timeout"></a>
+
+## -Timeout（等待逾時）
+
+類型：命令專屬參數。Wait-Job等待秒數上限；逾時不自動停止工作。
+
+適用：Wait-Job。版本：依命令及引用快照。[對應章節](../../docs/chapters/39-command-index.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Core/Wait-Job.md)，查閱 2026-10-24。
+
+<a id="parameter-v05-computername"></a>
+
+## -ComputerName（目標主機）
+
+類型：命令專屬參數。不同命令有不同遠端機制與預設；Get-VM未指定時為本機。
+
+適用：Get-VM。版本：依命令及引用快照。[對應章節](../../docs/chapters/36-infrastructure-services.md)；[官方來源](https://github.com/MicrosoftDocs/windows-powershell-docs/blob/b7645dd8c687139b28e845119da30ec670526507/docset/winserver2025-ps/Hyper-V/Get-VM.md)，查閱 2026-10-24。
+
+<a id="parameter-v05-resourcegroupname"></a>
+
+## -ResourceGroupName（資源群組名稱）
+
+類型：命令專屬參數。限定Azure資源查詢；驗證萬用字元與目前情境。
+
+適用：Get-AzResource。版本：依命令及引用快照。[對應章節](../../docs/chapters/35-azure-exchange.md)；[官方來源](https://github.com/Azure/azure-powershell/blob/d316163acc7852f89f81a4ca332dc82f65e13b68/src/Resources/Resources/help/Get-AzResource.md)，查閱 2026-10-24。
+
+<a id="parameter-v05-method"></a>
+
+## -Method（HTTP方法）
+
+類型：命令專屬參數。選擇GET／POST等方法；實際副作用依服務契約。
+
+適用：Invoke-RestMethod。版本：依命令及引用快照。[對應章節](../../docs/chapters/33-rest-api.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Invoke-RestMethod.md)，查閱 2026-10-24。
+
+<a id="parameter-v05-contenttype"></a>
+
+## -ContentType（內容型別）
+
+類型：命令專屬參數。宣告HTTP本文型別，不會替任意本文自動修正格式。
+
+適用：Invoke-RestMethod。版本：依命令及引用快照。[對應章節](../../docs/chapters/33-rest-api.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Invoke-RestMethod.md)，查閱 2026-10-24。
+
+<a id="parameter-v05-statuscodevariable"></a>
+
+## -StatusCodeVariable（狀態碼變數）
+
+類型：命令專屬參數。保存HTTP狀態碼，仍須驗收本文與業務狀態。
+
+適用：Invoke-RestMethod。版本：依命令及引用快照。[對應章節](../../docs/chapters/33-rest-api.md)；[官方來源](https://github.com/MicrosoftDocs/PowerShell-Docs/blob/a3de8f22552170e70852470d46cd52cd9ca471ec/reference/7.6/Microsoft.PowerShell.Utility/Invoke-RestMethod.md)，查閱 2026-10-24。
